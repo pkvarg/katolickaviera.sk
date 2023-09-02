@@ -5,6 +5,8 @@ export default {
     extend: {},
     colors: {
       title: '#d39f69',
+      black: '#222320',
+      white: '#e6e6e6',
     },
   },
   plugins: [],
