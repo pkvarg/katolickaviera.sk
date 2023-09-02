@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --title: #d39f69;
+}
+
+body {
+  font-family: 'Lora', serif;
+  overflow-x: hidden;
+}
+
+.hero-bg {
+  background-image: linear-gradient(to bottom, #f8f8f8, #10100f44),
+    url('https://images.pexels.com/photos/1173794/pexels-photo-1173794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  height: 100vh;
+}
