@@ -18,7 +18,7 @@ const Footer = () => {
             <a href='/papezsky-urad'>Pápežský úrad</a>
           </li>
           <li>
-            <a href='/knazsky-urad'>Kňažský úrad</a>
+            <a href='/knazsky-urad'>Kňazský úrad</a>
           </li>
           <li>
             <a href='/klastorny-zivot'>Kláštorný život</a>
