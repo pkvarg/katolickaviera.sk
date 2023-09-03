@@ -44,7 +44,7 @@ const Footer = () => {
             cestazivota.sk
           </a> */}
         </div>
-        <div className='flex flex-col  items-center'>
+        <div className='flex flex-col items-center justify-center'>
           <a href='https://cestazivota.sk' target='_blank'>
             cestazivota.sk
           </a>

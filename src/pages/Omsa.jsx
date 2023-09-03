@@ -813,6 +813,356 @@ const Omsa = () => {
           </p>
         </div>
       </section>
+      {/* table lg */}
+      <section className='bg-black text-white hidden lg:flex justify-center px-4 gap-8 pb-16'>
+        <div className='w-[50%] border flex flex-col items-center mx-4'>
+          <h2 className='font-semibold  text-center text-[25px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
+          <div className='text-[25px] flex flex-col gap-4 mt-8 mx-4'>
+            <p>
+              § 1384 Pán sa na nás obracia s naliehavou výzvou, aby sme ho
+              prijímali vo sviatosti Eucharistie: „Veru, veru, hovorím vám: Ak
+              nebudete jesť telo Syna človeka a piť jeho krv, nebudete mať v
+              sebe život“ (Jn 6,53) .
+            </p>
+
+            <p>
+              {' '}
+              § 1382 Omša je súčasne a neoddeliteľne obetnou pamiatkou, v ktorej
+              pretrváva obeta kríža, a posvätnou hostinou účasti (communio) na
+              Pánovom tele a jeho krvi. Ale slávenie eucharistickej obety je
+              celé zamerané na dôverné zjednotenie veriacich s Kristom
+              prostredníctvom svätého prijímania (communio). Prijímať znamená
+              prijať samého Krista, ktorý sa obetoval za nás.
+            </p>
+
+            <p>
+              {' '}
+              § 1405 a my lámeme „jeden chlieb, ktorý je liekom nesmrteľnosti a
+              protijedom, aby sme nezomreli, ale navždy žili v Ježišovi
+              Kristovi“.
+            </p>
+            <p>
+              {' '}
+              § 1392 Čo spôsobuje hmotný pokrm v našom telesnom živote, to
+              obdivuhodným spôsobom uskutočňuje sväté prijímanie v našom
+              duchovnom živote.
+            </p>
+            <p>
+              {' '}
+              § 1402 Ó svätá hostina, pri ktorej prijímame Krista: slávi sa
+              pamiatka jeho umučenia, duša sa napĺňa milosťou a dostávame
+              závdavok budúcej slávy.
+            </p>
+            <p>
+              {' '}
+              § 1393 Preto nás Eucharistia nemôže zjednotiť s Kristom bez toho,
+              aby nás zároveň neočistila od hriechov, ktoré sme spáchali, a
+              neuchránila pred budúcimi hriechmi.
+            </p>
+            <p>
+              {' '}
+              § 1395 Eucharistia nás tou istou láskou, ktorú v nás zapaľuje,
+              chráni pred budúcimi smrteľnými hriechmi.
+            </p>
+          </div>
+        </div>
+        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
+          <h2 className='font-semibold  text-center text-[25px] mt-4'>
+            Biblia hovorí:
+          </h2>
+          <div className='mx-4 text-[25px] text-justify flex flex-col gap-4 mt-8'>
+            <p>
+              Ján 6:52-66
+              <span className='italic'>
+                {' '}
+                I hádali sa Židia medzi sebou: Ako nám tento môže dať jesť svoje
+                telo? Riekol im Ježiš: Veru, veru, hovorím vám: Ak nejete telo
+                Syna človeka a nepijete Jeho krv, nemáte života v sebe. Kto je
+                moje telo a pije moju krv, má večný život, a ja ho vzkriesim v
+                posledný deň. Lebo moje telo je pravý pokrm a moja krv je pravý
+                nápoj. Kto je moje telo a pije moju krv, zostáva vo mne a ja v
+                ňom. Ako mňa poslal živý Otec a ja žijem skrze Otca, aj ten, kto
+                mňa je, bude žiť skrze mňa. To je ten chlieb, ktorý zostúpil z
+                neba, nie aký jedli otcovia, a umreli. Kto je tento chlieb, bude
+                žiť naveky. Toto povedal, keď vyučoval v synagóge v Kafarnaume.
+                Vtedy mnohí z Jeho učeníkov, ktorí to počuli, povedali: Tvrdá je
+                táto reč, kto ju môže počúvať? Keďže Ježiš vedel sám od seba, že
+                Jeho učeníci reptajú na to, povedal im: Toto vás pohoršuje? A
+                čo, keď uvidíte Syna človeka, ako vystupuje tam, kde bol
+                predtým?
+                <span className='font-bold'>
+                  Duch je, ktorý obživuje, telo nič neosoží. Reči, ktoré som vám
+                  hovoril, sú duch a život.
+                </span>
+                Ale medzi vami sú niektorí, čo neveria. Ježiš totiž od počiatku
+                vedel, ktorí sú neveriaci a kto Ho zradí. I riekol: Preto som
+                vám hovoril, že nikto nemôže prísť ku mne, len ak by mu to dal
+                Otec. Odvtedy mnohí z Jeho učeníkov odišli a nechodili viac s
+                Ním..
+              </span>
+            </p>
+            <p>
+              Ján 6:63
+              <span className='italic'>
+                {' '}
+                Duch je, ktorý obživuje, telo nič neosoží. Reči, ktoré som vám
+                hovoril, sú duch a život.
+              </span>
+            </p>
+            <p>
+              Levitikus 17:11
+              <span className='italic'>
+                {' '}
+                Keďže život tela je v krvi, dal som vám ju na oltár na vykonanie
+                obradu zmierenia za vaše životy, lebo krv mocou života spôsobuje
+                zmierenie. Preto som povedal Izraelcom: Nech nikto z vás neje
+                krv; ani cudzinec, ktorý sa zdržuje medzi vami, nesmie jesť krv.
+              </span>
+            </p>
+            <p>
+              Genesis 9:4
+              <span className='italic'>
+                {' '}
+                Len mäso s krvou, jeho dušou, nesmiete jesť.
+              </span>
+            </p>
+            <p>
+              Prvý Jánov 1:7
+              <span className='italic'>
+                {' '}
+                Ale ak chodíme vo svetle, ako On je vo svetle, máme spoločenstvo
+                medzi sebou a krv Ježiša, Jeho Syna, nás očisťuje od každého
+                hriechu.
+              </span>
+            </p>
+          </div>
+        </div>
+      </section>
+      {/* table mobile only */}
+      <section className='bg-black text-white flex flex-col lg:hidden  gap-8 pb-8'>
+        <div className='flex flex-col items-center justify-center mx-4'>
+          <h2 className='font-semibold text-center text-[25px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
+          <p className='text-[25px] text-center mt-4'>
+            § 1384 Pán sa na nás obracia s naliehavou výzvou, aby sme ho
+            prijímali vo sviatosti Eucharistie: „Veru, veru, hovorím vám: Ak
+            nebudete jesť telo Syna človeka a piť jeho krv, nebudete mať v sebe
+            život“ (Jn 6,53) .
+          </p>
+          <p className='text-[25px] text-center mt-4'>
+            § 1382 Omša je súčasne a neoddeliteľne obetnou pamiatkou, v ktorej
+            pretrváva obeta kríža, a posvätnou hostinou účasti (communio) na
+            Pánovom tele a jeho krvi. Ale slávenie eucharistickej obety je celé
+            zamerané na dôverné zjednotenie veriacich s Kristom prostredníctvom
+            svätého prijímania (communio). Prijímať znamená prijať samého
+            Krista, ktorý sa obetoval za nás.
+          </p>
+          <h2 className='font-semibold  text-center text-[25px] mt-4'>
+            Biblia hovorí:
+          </h2>
+          <p className='text-[25px] text-center mt-4'>
+            Ján 6:52-66
+            <span className='italic'>
+              {' '}
+              I hádali sa Židia medzi sebou: Ako nám tento môže dať jesť svoje
+              telo? Riekol im Ježiš: Veru, veru, hovorím vám: Ak nejete telo
+              Syna človeka a nepijete Jeho krv, nemáte života v sebe. Kto je
+              moje telo a pije moju krv, má večný život, a ja ho vzkriesim v
+              posledný deň. Lebo moje telo je pravý pokrm a moja krv je pravý
+              nápoj. Kto je moje telo a pije moju krv, zostáva vo mne a ja v
+              ňom. Ako mňa poslal živý Otec a ja žijem skrze Otca, aj ten, kto
+              mňa je, bude žiť skrze mňa. To je ten chlieb, ktorý zostúpil z
+              neba, nie aký jedli otcovia, a umreli. Kto je tento chlieb, bude
+              žiť naveky. Toto povedal, keď vyučoval v synagóge v Kafarnaume.
+              Vtedy mnohí z Jeho učeníkov, ktorí to počuli, povedali: Tvrdá je
+              táto reč, kto ju môže počúvať? Keďže Ježiš vedel sám od seba, že
+              Jeho učeníci reptajú na to, povedal im: Toto vás pohoršuje? A čo,
+              keď uvidíte Syna človeka, ako vystupuje tam, kde bol predtým?
+              <span className='font-bold'>
+                Duch je, ktorý obživuje, telo nič neosoží. Reči, ktoré som vám
+                hovoril, sú duch a život.
+              </span>
+              Ale medzi vami sú niektorí, čo neveria. Ježiš totiž od počiatku
+              vedel, ktorí sú neveriaci a kto Ho zradí. I riekol: Preto som vám
+              hovoril, že nikto nemôže prísť ku mne, len ak by mu to dal Otec.
+              Odvtedy mnohí z Jeho učeníkov odišli a nechodili viac s Ním.
+            </span>
+          </p>
+          <h2 className='font-semibold text-center text-[25px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
+          <p className='text-[25px] text-center mt-4'>
+            § 1405 a my lámeme „jeden chlieb, ktorý je liekom nesmrteľnosti a
+            protijedom, aby sme nezomreli, ale navždy žili v Ježišovi Kristovi“.
+          </p>
+          <h2 className='font-semibold  text-center text-[25px] mt-4'>
+            Biblia hovorí:
+          </h2>
+          <p className='text-[25px] text-center mt-4'>
+            Ján 6:63
+            <span className='italic'>
+              {' '}
+              Duch je, ktorý obživuje, telo nič neosoží. Reči, ktoré som vám
+              hovoril, sú duch a život.
+            </span>
+          </p>
+          <h2 className='font-semibold text-center text-[25px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
+          <p className='text-[25px] text-center mt-4'>
+            § 1392 Čo spôsobuje hmotný pokrm v našom telesnom živote, to
+            obdivuhodným spôsobom uskutočňuje sväté prijímanie v našom duchovnom
+            živote.
+          </p>
+          <h2 className='font-semibold text-center text-[25px] mt-4'>
+            Biblia hovorí:
+          </h2>
+          <p className='text-[25px] text-center mt-4'>
+            {' '}
+            Levitikus 17:11
+            <span className='italic'>
+              {' '}
+              Levitikus 17:11 Keďže život tela je v krvi, dal som vám ju na
+              oltár na vykonanie obradu zmierenia za vaše životy, lebo krv mocou
+              života spôsobuje zmierenie. Preto som povedal Izraelcom: Nech
+              nikto z vás neje krv; ani cudzinec, ktorý sa zdržuje medzi vami,
+              nesmie jesť krv.{' '}
+            </span>
+          </p>
+          <p className='text-[25px] text-center mt-4'>
+            {' '}
+            Genesis 9:4
+            <span className='italic'>
+              {' '}
+              Len mäso s krvou, jeho dušou, nesmiete jesť.{' '}
+            </span>
+          </p>
+          <h2 className='font-semibold text-center text-[25px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
+          <p className='text-[25px] text-center mt-4'>
+            § 1402 Ó svätá hostina, pri ktorej prijímame Krista: slávi sa
+            pamiatka jeho umučenia, duša sa napĺňa milosťou a dostávame závdavok
+            budúcej slávy.
+          </p>
+          <p className='text-[25px] text-center mt-4'>
+            § 1393 Preto nás Eucharistia nemôže zjednotiť s Kristom bez toho,
+            aby nás zároveň neočistila od hriechov, ktoré sme spáchali, a
+            neuchránila pred budúcimi hriechmi.
+          </p>
+          <p className='text-[25px] text-center mt-4'>
+            § 1395 Eucharistia nás tou istou láskou, ktorú v nás zapaľuje,
+            chráni pred budúcimi smrteľnými hriechmi.
+          </p>
+          <h2 className='font-semibold text-center text-[25px] mt-4'>
+            Biblia hovorí:
+          </h2>
+          <p className='text-[25px] text-center mt-4'>
+            Prvý Jánov 1:7
+            <span className='italic'>
+              {' '}
+              Ale ak chodíme vo svetle, ako On je vo svetle, máme spoločenstvo
+              medzi sebou a krv Ježiša, Jeho Syna, nás očisťuje od každého
+              hriechu.
+            </span>
+          </p>
+        </div>
+      </section>
+      {/* lg and mob OK */}
+      <section className='bg-black text-white'>
+        <div className='text-justify text-[25px] flex flex-col gap-2 pt-4 mx-8 pb-16'>
+          <p>
+            <span className='italic'>
+              {' '}
+              Na počiatku bolo Slovo a Slovo bolo u Boha a Boh bol to Slovo.
+            </span>
+            <span className='text-[15px]'> Ján 1:1 </span>
+            <span className='italic'>
+              A to Slovo stalo sa telom, prebývalo medzi nami.
+            </span>
+            <span className='text-[15px]'> Ján 1:14 </span>
+            Biblia nám tu ukazuje vzťah medzi písaným Slovom a samotným Ježišom
+            Kristom. Základom je riadny výklad Písma Svätého. Skrz celé Písma
+            sväté nachádzame, že Pán hovoril v podobenstvách.{' '}
+            <span className='italic'>
+              Ja som prišiel, aby mali život, a to v hojnej miere!
+            </span>
+            <span className='text-[15px]'> Ján 10:10 </span>
+            <span className='italic'>
+              {' '}
+              Reči, ktoré som vám hovoril, sú duch a život.
+            </span>
+            <span className='text-[15px]'> Ján 6:63 </span>
+            Tieto podobenstvá boli obrazným jazykom, ktorý pravdu o Kristovi mal
+            urobiť viac rozoznateľnú. Ježiš vedel, že podobenstvo by bolo ťažko
+            zrozumiteľné bez výkladu, ale dal vždy výklad tomu, koho sa to
+            týkalo.
+          </p>
+          <p>
+            Vo vyššie uvedenom texte Písma (Ján 6:52-66) židovský ľud, ktorému
+            bola reč adresovaná, tomu podobenstvu neporozumel. Hádali sa medzi
+            sebou a povedali, "Ako nám tento môže dať jesť svoje telo?“ Židovský
+            ľud Ho videl a počul, ale napriek tomu v Neho neveril. Niečo z ich
+            neviery možno pochádzalo z ich porozumenia Zákonu (Starému Zákonu),
+            v ktorom jedenie mäsa a pitie krvi bolo zakázané. Dokonca aj dnes
+            vieme, že Ježiš nemohol myslieť doslovné jedenie a pitie mäsa a
+            krvi, pretože to by bolo v rozpore s tým, čo povedal Boh vo svojom
+            Slove.
+          </p>
+          <p></p>
+          <p></p>
+          <p></p>
+        </div>
+      </section>
+      {/* white lg and mob OK */}
+      <section className=''>
+        <div className='text-justify text-[25px] flex flex-col gap-2 pt-16 mx-8 pb-16'>
+          <p>
+            Rímskokatolícka cirkev, práve tak ako židovský ľud, neporozumela
+            Kristovej správe. Vykladá ju ako telesné jedenie Kristovho tela.
+            Chybne čítané slová Ježiša sa stali podporou doktríny o
+            transsubstanciácii (prepodstatnení). Táto doktrína popiera základnú
+            požiadavku potrebnú pre spasenie a to výhradne veriť v Pána Ježiša.
+            <span className='italic'>
+              A chlieb, ktorý ja dám, je moje telo, ktoré vydám za život sveta.
+            </span>
+            <span className='text-15px'> Ján 6:51 </span>
+            Kristus tu uvádza, že sám by svoje dobrovoľné utrpenie, svoje telo,
+            ponúkol ako obeť. Dal nám svoje telo ako obeť zmierenia "pre život
+            sveta" a to je pre večný život!
+          </p>
+          <p>
+            Podľa vyššie uvedených pasáží, jedenie "mäsa" a pitie "krvi" Syna
+            človeka znamená prijatie Vykupiteľa a Jeho obete. Kristus Ježiš
+            ponúka všetky výhody spásy: odpustenie hriechov, prijatie Boha a
+            prijatie ako synov, ktorí dostanú Ducha Svätého ako sľub dedičstva
+            večného života. Jedenie Jeho tela a pitie Jeho krvi znamená byť
+            identifikovaný s Ním skrze vieru. Nezabudni, že
+            <span className='italic'>
+              Duch je, ktorý obživuje, telo nič neosoží. Reči, ktoré som vám
+              hovoril, sú duch a život.
+            </span>
+            <span className='text-15px'> Ján 6:63 </span>
+          </p>
+          <p>
+            Na ktorom chlebe sa podieľate? Bude zotrvávať vaša večná duša na
+            osobe a ponuke Pána Ježiša Krista za vaše hriechy alebo budete jesť
+            Eucharistiu v nádeji na získanie večného života? Rímskokatolícka
+            cirkev tvrdí, že Božia moc efektívne prúdi z prvku spoločenstva sama
+            aj pre seba. Ježiš Kristus sám učí veriť v Jeho osobu -
+            <span className='italic'>
+              Skutkom Božím je veriť v Toho, ktorého On poslal.
+            </span>
+            <span className='text-15px'> Ján 6:29 </span>
+            Veriť v Neho, ktorého Otec poslal je našou povinnosťou, avšak je to
+            "prácou Boha", ktorý dáva jasne najavo, že viera je možná skrze
+            milosť Božiu.
+          </p>
+        </div>
+      </section>
     </>
   )
 }
