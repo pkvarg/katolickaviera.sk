@@ -6,9 +6,22 @@ const Home = () => {
     <>
       <main className='hero-bg'>
         <Header />
+        <div className='mt-[41%]'>
+          <h1 className='text-[#ffd700] text-[30px] text-center lg:text-[35px]'>
+            Raz sa každý z nás bude zodpovedať pred Bohom sám za seba
+          </h1>
+          <h2 className='text-[#ffffff] text-[25px] text-center'>
+            Kto hovorí:{' '}
+            <span className='italic'>
+              Poznám Ho, ale nezachováva Jeho prikázania, je klamár a niet v ňom
+              pravdy.
+            </span>
+            <span className='text-[20px]'> Prvý Jánov 2:4</span>
+          </h2>
+        </div>
       </main>
       <section className='bg-black text-center px-8 pt-8 pb-16'>
-        <h1 className='text-title  text-[30px] lg:text-[45px]  py-8 '>
+        {/* <h1 className='text-title  text-[30px] lg:text-[45px]  py-8 '>
           Raz sa každý z nás bude zodpovedať pred Bohom sám za seba
         </h1>
         <h2 className='text-white text-[25px]'>
@@ -18,7 +31,7 @@ const Home = () => {
             pravdy.
           </span>
           <span className='text-[15px]'> Prvý Jánov 2:4</span>
-        </h2>
+        </h2> */}
         <h1 className='text-title  text-[27.5px] lg:text-[35px] pt-4 pb-2'>
           Modlíš sa k svätcom?
         </h1>
@@ -130,10 +143,10 @@ const Home = () => {
         </h1>
         <h2 className='text-black text-[25px]'>
           <span className='italic'>
-            Ja dosvedčujem každému, kto počuje prorocké slová tejto knihy: Ak k
-            nim niekto pridá, tomu Boh pridá pliagy opísané v tejto knihe.
+            Každá reč Božia je prečistená. Nepridávaj nič k Jeho slovám, aby ťa
+            nestrestal a neoznačil za klamára.
           </span>
-          <span className='text-[15px]'> Zjavenie Jána 22:18</span>
+          <span className='text-[15px]'> Príslovia 30:5-6</span>
           <span className='italic'>
             {' '}
             Nefalšujeme slovo Božie, ale zjavujeme pravdu, a tak sa odporúčame

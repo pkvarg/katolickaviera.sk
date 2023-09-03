@@ -41,7 +41,8 @@ const Omsa = () => {
         </div>
         <div className='omsa-pic flex lg:hidden w-[100%] h-[60vh] mt-16'></div>
       </header>
-      <section className='flex flex-col items-center mt-8 mx-8 pb-16'>
+      {/* eucharistia */}
+      <section className='flex flex-col items-center mt-16 mx-8 pb-16'>
         <h1 className='text-title text-[35px] m-8'>Eucharistia</h1>
         <p className='text-[25px] text-justify'>
           V katechizme katolíckej cirkvi je uvádzané, že skutočné telo, krv a
@@ -281,10 +282,10 @@ const Omsa = () => {
           </p>
         </div>
       </section>
-      {/* black lg and mob OK */}
+      {/* idolatria black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[25px] flex flex-col gap-2 mt-4 mx-8'>
-          <h2 className='text-title text-center text-[27.5px] my-8'>
+        <div className='text-justify text-[25px] flex flex-col gap-2 mt-16 mx-8'>
+          <h2 className='text-title text-center text-[35px] my-16'>
             Uctievanie hostie (Idolatria)
           </h2>
           <p>
@@ -508,7 +509,7 @@ const Omsa = () => {
         </div>
       </section>
       {/* obetovanie omse */}
-      <section className='flex flex-col mt-8 mx-8 pt-16 pb-4'>
+      <section className='flex flex-col mt-8 mx-8 pb-4'>
         <h1 className='text-title text-center text-[35px] my-8'>
           Obetovanie omše
         </h1>
@@ -528,7 +529,7 @@ const Omsa = () => {
         </p>
       </section>
       {/* table lg */}
-      <section className='hidden lg:flex justify-center mx-4 gap-8 pb-16'>
+      <section className='hidden lg:flex justify-center mx-4 gap-8 pt-8 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
           <h2 className='font-semibold  text-center text-[25px] mt-4'>
             Katechizmus hovorí:

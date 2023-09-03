@@ -39,15 +39,16 @@ const Footer = () => {
       </section>
       <section className='mx-4 text-white text-[20px] pb-8'>
         <div className='flex flex-row gap-2 justify-center'>
-          <p>&copy; {Date().substring(11, 15)}</p>
+          {/* <p>&copy; {Date().substring(11, 15)}</p> */}
           {/* <a href='https://cestazivota.sk' target='_blank'>
             cestazivota.sk
           </a> */}
         </div>
-        <div className='flex flex-col items-center justify-center'>
+        <div className='flex flex-row gap-2 items-center justify-center'>
           <a href='https://cestazivota.sk' target='_blank'>
             cestazivota.sk
           </a>
+          <p>|</p>
           <a href='https://sk.bereanbeacon.org' target='_blank'>
             sk.bereanbeacon.org
           </a>
