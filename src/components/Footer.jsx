@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className='bg-black'>
       <section className='mx-4 pt-8 pb-4'>
-        <ul className='text-title text-[25px] flex flex-col lg:flex-row justify-center gap-4'>
+        <ul className='text-title text-[25px] flex flex-col lg:flex-row justify-center items-center gap-4'>
           <li>
             <a href='/omsa'>Omša</a>
           </li>
@@ -40,23 +40,22 @@ const Footer = () => {
       <section className='mx-4 text-white text-[20px] pb-8'>
         <div className='flex flex-row gap-2 justify-center'>
           <p>&copy; {Date().substring(11, 15)}</p>
-          <a href='https://cestazivota.sk' target='_blank'>
+          {/* <a href='https://cestazivota.sk' target='_blank'>
             cestazivota.sk
-          </a>
+          </a> */}
         </div>
-        <div className='flex flex-row gap-2 justify-center'>
-          <p>Užitočné linky:</p>
+        <div className='flex flex-col  items-center'>
           <a href='https://cestazivota.sk' target='_blank'>
             cestazivota.sk
           </a>
           <a href='https://sk.bereanbeacon.org' target='_blank'>
             sk.bereanbeacon.org
           </a>
-          <a href='https://svedkovia.sk' target='_blank'>
+          {/* <a href='https://svedkovia.sk' target='_blank'>
             svedkovia.sk
-          </a>
+          </a> */}
         </div>
-        <div className='flex justify-center'>
+        <div className='flex justify-center mt-2'>
           <a href='https://pictusweb.sk'>
             &#60;&#47;&#62; PICTUSWEB development
           </a>

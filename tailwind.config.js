@@ -7,6 +7,8 @@ export default {
       title: '#d39f69',
       black: '#222320',
       white: '#e6e6e6',
+      mobmenu: '#ffffff7b',
+      transparent: 'rgba(0, 0, 0, 0)',
     },
   },
   plugins: [],

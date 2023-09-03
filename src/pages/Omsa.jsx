@@ -1,14 +1,13 @@
 import React from 'react'
+import Header from '../components/Header'
 
 const Omsa = () => {
   return (
     <>
-      <header className='text-black flex flex-row mx-8'>
-        <img
-          className='w-[35%]'
-          src='https://images.pexels.com/photos/13422648/pexels-photo-13422648.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
-        />
-        <div className='flex flex-col align-center mx-16 mt-8'>
+      <Header />
+      <header className='text-black flex flex-col lg:flex-row mx-8'>
+        <div className='omsa-pic hidden lg:flex w-[50%]'></div>
+        <div className='flex flex-col align-center mx-4 lg:mx-16 mt-8'>
           <h1 className='text-title text-[35px]'>Omša</h1>
           <div className='text-justify text-[22.5px] flex flex-col gap-2 mt-16'>
             <p>
@@ -40,6 +39,7 @@ const Omsa = () => {
             </p>
           </div>
         </div>
+        <div className='omsa-pic flex lg:hidden w-[100%] h-[60vh] mt-16'></div>
       </header>
       <section className='flex flex-col items-center mt-8 mx-8'>
         <h1 className='text-title text-[35px] m-8'>Eucharistia</h1>
@@ -51,8 +51,8 @@ const Omsa = () => {
           na tento svet.
         </p>
       </section>
-      <section className='flex justify-center mx-16 mt-8 gap-8 pb-16'>
-        <div className='w-[50%] border flex flex-col items-center'>
+      <section className='hidden lg:flex justify-center mx-4 mt-8 gap-8 pb-16'>
+        <div className='w-[50%] border flex flex-col items-center mx-4'>
           <h2 className='font-semibold text-[25px] mt-4'>
             Katechizmus hovorí:
           </h2>
@@ -71,7 +71,7 @@ const Omsa = () => {
             </p>
           </div>
         </div>
-        <div className='w-[50%] border flex flex-col items-center'>
+        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
           <h2 className='font-semibold text-[25px] mt-4'>Biblia hovorí:</h2>
           <div className='mx-4 text-[25px] text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
@@ -96,6 +96,51 @@ const Omsa = () => {
               </span>
             </p>
           </div>
+        </div>
+      </section>
+      {/* mobile only */}
+      <section className='flex flex-col lg:hidden mt-8 gap-8 pb-8'>
+        <div className='flex flex-col items-center justify-center mx-4'>
+          <h2 className='font-semibold text-[25px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
+          <p className='text-[25px] text-center mt-4'>
+            § 1357 chlieb a víno, ktoré sa Kristovými slovami a mocou Ducha
+            Svätého stali Kristovým telom a krvou; takto sa Kristus stáva
+            skutočne a tajomne prítomným.
+          </p>
+          <h2 className='font-semibold text-[25px] mt-4'>Biblia hovorí:</h2>
+          <p className='text-[25px] text-center mt-4'>
+            Židom 10:10-14
+            <span className='italic'>
+              {' '}
+              Podľa tejto vôle sme posvätení tým, že Ježiš Kristus raz navždy
+              obetoval svoje telo. A potom, každý kňaz tam stojí každý deň, koná
+              bohoslužbu, znovu a znovu prináša tie isté obete, ktoré nikdy
+              nemôžu zahladiť hriechy. On však priniesol iba jednu obeť za
+              hriechy, posadil sa navždy po pravici Božej a teraz už čaká, kým
+              Mu Jeho nepriatelia nebudú položení za podnož. Lebo jedinou obeťou
+              navždy zdokonalil tých, čo sa dajú posvätiť.
+            </span>
+          </p>
+          <h2 className='font-semibold text-[25px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
+          <p className='text-[25px] text-center mt-4'>
+            {' '}
+            § 1357 chlieb a víno, ktoré sa Kristovými slovami a mocou Ducha
+            Svätého stali Kristovým telom a krvou; takto sa Kristus stáva
+            skutočne a tajomne prítomným.
+          </p>
+          <h2 className='font-semibold text-[25px] mt-4'>Biblia hovorí:</h2>
+          <p className='text-[25px] text-center mt-4'>
+            Matúš 24:27
+            <span className='italic'>
+              {' '}
+              Lebo ako blesk vychádza od východu a svieti po západ, tak bude
+              príchod Syna človeka.{' '}
+            </span>
+          </p>
         </div>
       </section>
     </>

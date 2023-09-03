@@ -1,11 +1,14 @@
 import React from 'react'
+import Header from '../components/Header'
 
 const Home = () => {
   return (
     <>
-      <main className='hero-bg'></main>
+      <main className='hero-bg'>
+        <Header />
+      </main>
       <section className='bg-black text-center px-8 pt-8 pb-16'>
-        <h1 className='text-title text-[45px]  py-8 '>
+        <h1 className='text-title  text-[30px] lg:text-[45px]  py-8 '>
           Raz sa každý z nás bude zodpovedať pred Bohom sám za seba
         </h1>
         <h2 className='text-white text-[25px]'>
@@ -16,7 +19,7 @@ const Home = () => {
           </span>
           <span className='text-[15px]'> Prvý Jánov 2:4</span>
         </h2>
-        <h1 className='text-title text-[35px] pt-4 pb-2'>
+        <h1 className='text-title  text-[27.5px] lg:text-[35px] pt-4 pb-2'>
           Modlíš sa k svätcom?
         </h1>
         <h2 className='text-white text-[25px]'>
@@ -27,7 +30,7 @@ const Home = () => {
           </span>
           <span className='text-[15px]'> Levitikus 20:6</span>
         </h2>
-        <h1 className='text-title text-[35px] py-2'>
+        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
           Pokľakuješ pred sochami a obrazmi?
         </h1>
         <h2 className='text-white text-[25px]'>
@@ -42,7 +45,9 @@ const Home = () => {
           <span className='italic'> Jeden je totiž Boh.</span>
           <span className='text-[15px]'> Prvý Timotejovi 2:5</span>
         </h2>
-        <h1 className='text-title text-[35px] py-2'>Modlíš sa k Márii?</h1>
+        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
+          Modlíš sa k Márii?
+        </h1>
         <h2 className='text-white text-[25px]'>
           <span className='italic'>
             Pánovi, svojmu Bohu, budeš sa klaňať a len Jemu budeš slúžiť.
@@ -60,7 +65,7 @@ const Home = () => {
           </span>
           <span className='text-[15px]'> Prvý Timotejovi 2:5</span>
         </h2>
-        <h1 className='text-title text-[35px] py-2'>
+        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
           Čo znamená, keď sa modlíš k niekomu inému ako k Bohu?
         </h1>
         <h2 className='text-white text-[25px]'>
@@ -80,7 +85,9 @@ const Home = () => {
       </section>
 
       <section className='bg-white text-center px-8 pt-16'>
-        <h1 className='text-title text-[35px] py-2'>Bola Mária bezhriešna?</h1>
+        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
+          Bola Mária bezhriešna?
+        </h1>
         <h2 className='text-black text-[25px]'>
           <span className='italic'>
             Preto ako skrze jedného človeka (Adama) hriech prišiel na svet a
@@ -89,7 +96,9 @@ const Home = () => {
           </span>
           <span className='text-[15px]'> Rimanom 5:12</span>
         </h2>
-        <h1 className='text-title text-[35px] py-2'>Vnímaš ju ako pannu?</h1>
+        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
+          Vnímaš ju ako pannu?
+        </h1>
         <h2 className='text-black text-[25px]'>
           <span className='italic'>
             Keď ešte hovoril k zástupom, ajhľa, Jeho matka a bratia stáli vonku
@@ -98,7 +107,7 @@ const Home = () => {
           <span className='text-[15px]'> Matúš 12:46</span>
         </h2>
 
-        <h1 className='text-title text-[35px] py-2'>
+        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
           Je Božie Slovo dostačujúce pre spasenie hriešnika?
         </h1>
         <h2 className='text-black text-[25px]'>
@@ -116,7 +125,7 @@ const Home = () => {
           <span className='text-[15px]'> Zjavenie Jána 6:9</span>
         </h2>
 
-        <h1 className='text-title text-[35px] py-2'>
+        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
           Veríš v nanebovzatie Márie, keď nie je potvrdené Božím Slovom?
         </h1>
         <h2 className='text-black text-[25px]'>
@@ -133,7 +142,7 @@ const Home = () => {
           <span className='text-[15px]'> Druhý Korinťanom 4:2</span>
         </h2>
 
-        <h1 className='text-title text-[35px] py-2'>
+        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
           Študuj Božie Slovo denne a nespoliehaj sa slepo na cirkevné tradície!
         </h1>
         <h2 className='text-black text-[25px]'>
@@ -147,7 +156,7 @@ const Home = () => {
           <span className='italic'>
             {' '}
             Ak vy zostanete v mojom slove, ste naozaj moji učeníci. A poznáte
-            pravdu a pravda vás vyslobodí. Ján 8:31-32
+            pravdu a pravda vás vyslobodí.
           </span>
           <span className='text-[15px]'> Ján 8:31-32 </span>
         </h2>

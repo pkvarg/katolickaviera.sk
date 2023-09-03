@@ -14,7 +14,7 @@ body {
 
 .hero-bg {
   background-image: linear-gradient(to bottom, #f8f8f8, #10100f44),
-    url('https://images.pexels.com/photos/1173794/pexels-photo-1173794.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+    url('/home.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -28,4 +28,13 @@ ul li a {
 
 ul li a:hover {
   text-decoration: underline;
+}
+
+.omsa-pic {
+  background-image: linear-gradient(to top, #f5f5f268, #f8f8f8c8, #ffffff),
+    url('/omsa.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
 }
