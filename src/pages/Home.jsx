@@ -4,13 +4,14 @@ import Header from '../components/Header'
 const Home = () => {
   return (
     <>
-      <main className='hero-bg'>
+      <main className='hero-bg relative'>
         <Header />
-        <div className='mt-[41%]'>
-          <h1 className='text-[#ffd700] text-[30px] text-center lg:text-[35px]'>
+        {/* hidden on mob */}
+        <div className='hidden lg:block absolute bottom-0 left-[50%]'>
+          <h1 className='text-[#ffd700] text-[30px] text-center lg:text-[30px] -translate-x-[50%] leading-8'>
             Raz sa každý z nás bude zodpovedať pred Bohom sám za seba
           </h1>
-          <h2 className='text-[#ffffff] text-[25px] text-center'>
+          <h2 className='text-[#ffffff] text-[20px] text-center -translate-x-[50%]'>
             Kto hovorí:{' '}
             <span className='italic'>
               Poznám Ho, ale nezachováva Jeho prikázania, je klamár a niet v ňom
@@ -20,22 +21,26 @@ const Home = () => {
           </h2>
         </div>
       </main>
-      <section className='bg-black text-center px-8 pt-8 pb-16'>
-        {/* <h1 className='text-title  text-[30px] lg:text-[45px]  py-8 '>
-          Raz sa každý z nás bude zodpovedať pred Bohom sám za seba
-        </h1>
-        <h2 className='text-white text-[25px]'>
-          Kto hovorí:{' '}
-          <span className='italic'>
-            Poznám Ho, ale nezachováva Jeho prikázania, je klamár a niet v ňom
-            pravdy.
-          </span>
-          <span className='text-[15px]'> Prvý Jánov 2:4</span>
-        </h2> */}
-        <h1 className='text-title  text-[27.5px] lg:text-[35px] pt-4 pb-2'>
+      <section className='bg-black px-8 pt-8 pb-16'>
+        {/* hidden on lg */}
+        <div className='lg:hidden text-center'>
+          <h1 className='text-title  text-[30px] lg:text-[45px]  pt-8 '>
+            Raz sa každý z nás bude zodpovedať pred Bohom sám za seba
+          </h1>
+          <h2 className='text-white text-[25px]'>
+            Kto hovorí:{' '}
+            <span className='italic'>
+              Poznám Ho, ale nezachováva Jeho prikázania, je klamár a niet v ňom
+              pravdy.
+            </span>
+            <span className='text-[15px]'> Prvý Jánov 2:4</span>
+          </h2>
+        </div>
+        {/* INTRO */}
+        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4'>
           Modlíš sa k svätcom?
         </h1>
-        <h2 className='text-white text-[25px]'>
+        <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
             Ak sa niekto obráti k duchom mŕtvych a k jasnovidcom a smilne sa im
             zapredá, ja sám obrátim svoju tvár proti tej osobe a odstránim ju z
@@ -43,10 +48,10 @@ const Home = () => {
           </span>
           <span className='text-[15px]'> Levitikus 20:6</span>
         </h2>
-        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
+        <h1 className='text-title text-center text-[25px]  lg:text-[30px] pt-8'>
           Pokľakuješ pred sochami a obrazmi?
         </h1>
-        <h2 className='text-white text-[25px]'>
+        <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
             Neurobíš si vyrezávanú modlu ani podobu ničoho, čo je na nebi hore,
             čo je na zemi dolu, alebo čo je vo vode pod zemou! Nebudeš sa im
@@ -58,10 +63,10 @@ const Home = () => {
           <span className='italic'> Jeden je totiž Boh.</span>
           <span className='text-[15px]'> Prvý Timotejovi 2:5</span>
         </h2>
-        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
+        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Modlíš sa k Márii?
         </h1>
-        <h2 className='text-white text-[25px]'>
+        <h2 className='text-white text-[25px] text-justify lg:text-left'>
           <span className='italic'>
             Pánovi, svojmu Bohu, budeš sa klaňať a len Jemu budeš slúžiť.
           </span>
@@ -78,10 +83,10 @@ const Home = () => {
           </span>
           <span className='text-[15px]'> Prvý Timotejovi 2:5</span>
         </h2>
-        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
+        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Čo znamená, keď sa modlíš k niekomu inému ako k Bohu?
         </h1>
-        <h2 className='text-white text-[25px]'>
+        <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
             Ale čo (pohania) obetujú, to obetujú démonom, a nie Bohu. A ja
             nechcem, aby ste boli spoločníkmi démonov. Nemôžete piť z kalicha
@@ -97,11 +102,11 @@ const Home = () => {
         </h2>
       </section>
 
-      <section className='bg-white text-center px-8 pt-16'>
-        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
+      <section className='bg-white  px-8 pt-8'>
+        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4'>
           Bola Mária bezhriešna?
         </h1>
-        <h2 className='text-black text-[25px]'>
+        <h2 className='text-black text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
             Preto ako skrze jedného človeka (Adama) hriech prišiel na svet a
             skrze hriech smrť - tak smrť prišla na všetkých ľudí, pretože všetci
@@ -109,10 +114,10 @@ const Home = () => {
           </span>
           <span className='text-[15px]'> Rimanom 5:12</span>
         </h2>
-        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
+        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Vnímaš ju ako pannu?
         </h1>
-        <h2 className='text-black text-[25px]'>
+        <h2 className='text-black text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
             Keď ešte hovoril k zástupom, ajhľa, Jeho matka a bratia stáli vonku
             a žiadali si hovoriť s Ním.
@@ -120,10 +125,10 @@ const Home = () => {
           <span className='text-[15px]'> Matúš 12:46</span>
         </h2>
 
-        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
+        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Je Božie Slovo dostačujúce pre spasenie hriešnika?
         </h1>
-        <h2 className='text-black text-[25px]'>
+        <h2 className='text-black text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
             I riekol Pán v noci vo videní Pavlovi: Neboj sa, len hovor a nemlč.
             I zostal tam rok a šesť mesiacov a vyučoval medzi nimi slovu
@@ -138,10 +143,10 @@ const Home = () => {
           <span className='text-[15px]'> Zjavenie Jána 6:9</span>
         </h2>
 
-        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
+        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Veríš v nanebovzatie Márie, keď nie je potvrdené Božím Slovom?
         </h1>
-        <h2 className='text-black text-[25px]'>
+        <h2 className='text-black text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
             Každá reč Božia je prečistená. Nepridávaj nič k Jeho slovám, aby ťa
             nestrestal a neoznačil za klamára.
@@ -155,10 +160,10 @@ const Home = () => {
           <span className='text-[15px]'> Druhý Korinťanom 4:2</span>
         </h2>
 
-        <h1 className='text-title text-[27.5px] lg:text-[35px] py-2'>
+        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Študuj Božie Slovo denne a nespoliehaj sa slepo na cirkevné tradície!
         </h1>
-        <h2 className='text-black text-[25px]'>
+        <h2 className='text-black text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
             Darmo ma však uctievajú, keď ľudským príkazom učia ako učeniam
             (Božím). Opustili ste prikázanie Božie a pridŕžate sa podania
@@ -173,7 +178,7 @@ const Home = () => {
           </span>
           <span className='text-[15px]'> Ján 8:31-32 </span>
         </h2>
-        <h2 className='text-[25px] py-8'>
+        <h2 className='text-[22.5px] py-10 text-justify lg:text-left'>
           Prajem ti, aby si spoznal pravdu, bol oslobodený od tradícií a tak si
           sa raz mohol čistý postaviť pred Boha ako Jeho verný služobník.
         </h2>

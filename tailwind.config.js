@@ -8,6 +8,7 @@ export default {
       black: '#222320',
       white: '#e6e6e6',
       mobmenu: '#ffffff7b',
+      fwhite: '#ffffff',
       transparent: 'rgba(0, 0, 0, 0)',
     },
   },

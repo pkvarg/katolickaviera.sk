@@ -5,7 +5,7 @@ const Header = () => {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <header className='bg-mobmenu lg:bg-transparent'>
+    <header className='bg-transparent'>
       <nav className='w-full text-white nav-font'>
         <div className='justify-between px-4 mx-auto md:items-center md:flex md:px-8'>
           <div>
