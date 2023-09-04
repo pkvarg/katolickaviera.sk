@@ -23,7 +23,7 @@ const Home = () => {
       </main>
       <section className='bg-black px-8 pt-8 pb-16'>
         {/* hidden on lg */}
-        <div className='lg:hidden text-center'>
+        {/* <div className='lg:hidden text-center'>
           <h1 className='text-title  text-[30px] lg:text-[45px]  pt-8 '>
             Raz sa každý z nás bude zodpovedať pred Bohom sám za seba
           </h1>
@@ -35,7 +35,7 @@ const Home = () => {
             </span>
             <span className='text-[15px]'> Prvý Jánov 2:4</span>
           </h2>
-        </div>
+        </div> */}
         {/* INTRO */}
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4'>
           Nespoliehaj sa na cirkevné tradície, ale sám poď do Božieho Slova!

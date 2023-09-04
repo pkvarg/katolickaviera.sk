@@ -560,8 +560,8 @@ const Spoved = () => {
           </p>
         </div>
       </section>
-      {/* pokanie outro white lg and mob OK */}
 
+      {/* pokanie outro white lg and mob OK */}
       <section>
         <div className='text-justify text-[22.5px] flex flex-col gap-2 py-8 mx-8 lg:mx-16'>
           <p>
@@ -585,11 +585,6 @@ const Spoved = () => {
           </p>
         </div>
       </section>
-
-      <span className='italic'></span>
-      <span className='italic'></span>
-      <span className='text-[15px]'></span>
-      <span className='text-[15px]'></span>
     </>
   )
 }
