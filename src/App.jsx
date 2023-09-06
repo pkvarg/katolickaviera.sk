@@ -4,6 +4,7 @@ import Omsa from './pages/Omsa'
 import Spoved from './pages/Spoved'
 import Manzelstvo from './pages/Manzelstvo'
 import PapezskyUrad from './pages/PapezskyUrad'
+import KnazskyUrad from './pages/KnazskyUrad'
 import ScrollToTop from './components/ScrollToTop'
 import Footer from './components/Footer'
 
@@ -17,6 +18,7 @@ function App() {
           <Route path='/spoved' element={<Spoved />} />
           <Route path='/manzelstvo' element={<Manzelstvo />} />
           <Route path='/papezsky-urad' element={<PapezskyUrad />} />
+          <Route path='/knazsky-urad' element={<KnazskyUrad />} />
         </Routes>
         <ScrollToTop />
       </BrowserRouter>
