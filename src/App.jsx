@@ -5,6 +5,7 @@ import Spoved from './pages/Spoved'
 import Manzelstvo from './pages/Manzelstvo'
 import PapezskyUrad from './pages/PapezskyUrad'
 import KnazskyUrad from './pages/KnazskyUrad'
+import KlastornyZivot from './pages/Klastorny-zivot'
 import ScrollToTop from './components/ScrollToTop'
 import Footer from './components/Footer'
 
@@ -19,6 +20,7 @@ function App() {
           <Route path='/manzelstvo' element={<Manzelstvo />} />
           <Route path='/papezsky-urad' element={<PapezskyUrad />} />
           <Route path='/knazsky-urad' element={<KnazskyUrad />} />
+          <Route path='/klastorny-zivot' element={<KlastornyZivot />} />
         </Routes>
         <ScrollToTop />
       </BrowserRouter>
