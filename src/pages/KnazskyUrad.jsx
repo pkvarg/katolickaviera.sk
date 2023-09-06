@@ -350,7 +350,7 @@ const KnazskyUrad = () => {
           <h2 className='font-semibold  text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='ml-4  flex flex-col gap-4 mt-8'>
+          <div className='mx-4  flex flex-col gap-4 mt-8'>
             <p>
               § 1579 Všetci vysvätení služobníci Latinskej cirkvi, okrem
               trvalých diakonov, sa normálne vyberajú spomedzi veriacich mužov,

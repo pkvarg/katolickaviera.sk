@@ -58,7 +58,7 @@ const Omsa = () => {
           <h2 className='font-semibold text-center text-[22.5px] mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='ml-4 text-[22.5px] font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-[22.5px] font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 1357 chlieb a víno, ktoré sa Kristovými slovami a mocou Ducha
               Svätého stali Kristovým telom a krvou; takto sa Kristus stáva
@@ -308,7 +308,7 @@ const Omsa = () => {
           <h2 className='font-semibold  text-center text-[22.5px] mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='ml-4 text-[22.5px]  flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-[22.5px]  flex flex-col gap-4 mt-8'>
             <p>
               § 1378 V omšovej liturgii vyjadrujeme svoju vieru v skutočnú
               Kristovu prítomnosť pod spôsobmi chleba a vína okrem iného aj

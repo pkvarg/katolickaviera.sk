@@ -370,7 +370,7 @@ const PapezskyUrad = () => {
           <h2 className='font-semibold  text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='ml-4  flex flex-col gap-4 mt-8'>
+          <div className='mx-4  flex flex-col gap-4 mt-8'>
             <p>
               § 891 Túto „neomylnosť má na základe svojho úradu rímsky pápež,
               hlava kolégia biskupov, keď ako najvyšší pastier a učiteľ všetkých

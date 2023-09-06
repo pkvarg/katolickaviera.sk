@@ -353,7 +353,7 @@ const KlastornyZivot = () => {
           <h2 className='font-semibold  text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='ml-4  flex flex-col gap-4 mt-8'>
+          <div className='mx-4  flex flex-col gap-4 mt-8'>
             <p>
               § 923 Keď panny „vyslovia sväté predsavzatie zbližša nasledovať
               Krista, diecézny biskup ich podľa schváleného liturgického obradu
