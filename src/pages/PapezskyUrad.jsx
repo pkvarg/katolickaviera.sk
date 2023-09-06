@@ -121,10 +121,10 @@ const PapezskyUrad = () => {
       {/* nasledovnik table lg */}
       <section className='hidden lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
         <div className='w-[50%] text-[22.5px] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='ml-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 936 Pán urobil z Petra viditeľný základ svojej Cirkvi a odovzdal
               mu od nej kľúče. Biskup rímskej cirkvi, Petrov nástupca, je „hlava
@@ -470,27 +470,71 @@ const PapezskyUrad = () => {
           </div>
         </div>
       </section>
-      {/* neomyslnost... black table mobile only */}
+      {/* neomylnost black table mobile only */}
       <section className='bg-black text-[22.5px] text-white flex flex-col lg:hidden  gap-8 py-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-8'>
-            § 1629 Po preskúmaní prípadu kompetentným cirkevným súdom vyhlásiť
-            „nulitu manželstva“, to značí vyhlásiť, že manželstvo nikdy
-            nejestvovalo. V tomto prípade sa zmluvné strany môžu zosobášiť, ale
-            sú povinné plniť prirodzené záväzky vyplývajúce z predchádzajúceho
-            spojenia.
+            § 891 Túto „neomylnosť má na základe svojho úradu rímsky pápež,
+            hlava kolégia biskupov, keď ako najvyšší pastier a učiteľ všetkých
+            veriacich v Krista, ktorý posilňuje svojich bratov vo viere,
+            definitívnym aktom [spôsobom] vyhlasuje učenie [týkajúce sa] viery
+            alebo mravov… Táto neomylnosť má taký rozsah, aký je rozsah pokladu
+            Božieho zjavenia.
           </p>
 
           <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
-            Matúš 19:6
+          <p className='text-center mt-4'>
+            Exodus 20:2-3
             <span className='italic'>
               {' '}
-              Takže už nie sú dve telá, ale jedno. Čo teda Boh spojil, človek
-              nerozlučuj!
+              Ja som Hospodin, tvoj Boh. Nebudeš mať iných bohov okrem mňa!
+            </span>
+          </p>
+          <p className='text-center '>
+            Marek 7:8-9,13
+            <span className='italic'>
+              {' '}
+              Opustili ste prikázanie Božie a pridŕžate sa podania ľudského.
+              Potom im povedal: Pekne-krásne rušíte prikázanie Božie, aby ste
+              zachovávali svoje podanie. Takto rušíte slovo Božie svojím
+              podaním, ktoré ďalej podávate; a mnoho tomu podobné robíte.
+            </span>
+          </p>
+          <p className='text-center '>
+            Izaiáš 8:20
+            <span className='italic'>
+              {' '}
+              Naozaj, nebude úsvitu pre slovo, ktoré hovorím.
+            </span>
+          </p>
+          <h2 className='font-semibold text-center  mt-4'>
+            Katechizmus hovorí:
+          </h2>
+          <p className=' text-center mt-4'>
+            § 890 Pastorálnym poslaním Učiteľského úradu je teda bdieť nad tým,
+            aby Boží ľud zotrvával v pravde, ktorá oslobodzuje. Aby duchovní
+            pastieri mohli vykonávať toto poslanie, Kristus ich obdaroval
+            charizmou neomylnosti vo veciach viery a mravov.
+          </p>
+
+          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
+          <p className='text-center mt-4'>
+            Ján 8:31
+            <span className='italic'>
+              {' '}
+              I riekol Ježiš Židom, ktorí uverili: Ak vy zostanete v mojom
+              slove, ste naozaj moji učeníci.
+            </span>
+          </p>
+          <p className='text-center'>
+            Matúš 22:29
+            <span className='italic'>
+              {' '}
+              Odpovedal im Ježiš: Blúdite, pretože nepoznáte Písmo ani moc
+              Božiu.
             </span>
           </p>
 
@@ -498,134 +542,167 @@ const PapezskyUrad = () => {
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-4'>
-            § 1650 Ak sa rozvedení zosobášili civilne, nachádzajú sa v situácii,
-            ktorá objektívne porušuje Boží zákon. Preto nemôžu pristupovať k
-            prijímaniu Eucharistie, kým táto situácia trvá.
-          </p>
-
-          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
-            Prvý Korintským 11:28
-            <span className='italic'>
-              {' '}
-              Skúmaj sa teda, človeče, a tak jedz z chleba a pi z kalicha.
-            </span>
-          </p>
-
-          <h2 className='font-semibold text-center  mt-4'>
-            Katechizmus hovorí:
-          </h2>
-          <p className=' text-center mt-4'>
-            § 1129 Cirkev tvrdí, že sviatosti Novej zmluvy sú pre veriacich
-            nevyhnutne potrebné na spásu.
+            § 2051 Neomylnosť Učiteľského úradu duchovných pastierov sa vzťahuje
+            na všetky prvky učenia vrátane morálneho učenia, bez ktorých nemožno
+            zachovať a vykladať spasiteľné pravdy viery alebo podľa nich žiť.
           </p>
           <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
-            {' '}
-            Efezským 2:8-9
+          <p className='text-center mt-4'>
+            Rimanom 3:23
             <span className='italic'>
               {' '}
-              Lebo milosťou ste spasení skrze vieru. A to nie sami zo seba; je
-              to dar Boží; nie zo skutkov, aby sa nikto nechválil.
+              <span className='font-bold'>Všetci totiž zhrešili </span>a nemajú
+              slávy Božej.
+            </span>
+          </p>
+          <p className='text-center mt-4'>
+            Ján 17:17
+            <span className='italic'>
+              {' '}
+              Posväť ich v pravde -
+              <span className='font-bold'>Tvoje slovo </span>
+              je pravda.
+            </span>
+          </p>
+          <p className='text-center mt-4'>
+            Prvý Petrov 1:24-25
+            <span className='italic'>
+              {' '}
+              Lebo všetko telo je ako tráva, všetka jeho sláva ako kvet trávy:
+              uschla tráva, opršal kvet, ale
+              <span className='font-bold'>slovo Pánovo </span>
+              zostáva naveky. A
+              <span className='font-bold'>toto je to slovo, </span>
+              ktoré sa vám zvestovalo ako evanjelium.
             </span>
           </p>
         </div>
       </section>
 
-      {/* manzelstvo black lg and mob OK */}
+      {/* neomylnost black lg and mob OK */}
       <section className='bg-black text-white'>
         <div className='text-justify text-[22.5px] flex flex-col gap-2 pb-16 mx-8 lg:mx-16'>
           <p>
-            Pán Ježiš Kristus oznámil štyri pravidlá týkajúce sa rozvodu v
-            Biblii. Dve z týchto uvažovaných tvrdení sú proti rozvodu a dve
-            ďalšie rozvod robia prijateľným a právo oženiť sa je na strane
-            nevinného (viac v sekcii Rozvod). Rímskokatolícka cirkev dôrazne
-            tvrdí, že rozvod je nezákonný pre manželstvo, ktoré bolo uzavreté
-            legálne a kde boli manželia pokrstení do katolíckej cirkvi. Avšak,
-            keď preštudujeme cirkevné zákony týkajúce sa zrušenia, uvidíme, že
-            celé anulovanie manželského zväzku prechádza technicky-gymnastickými
-            kúskami za účelom dosiahnutie cirkevného zrušenia.
+            Pápežské vyhlásenie "neomylnosti učiteľskej autority" je v podstate
+            vyhlásenie o božstve. Len Pán Boh je bez chyby
+            <span className='italic'>
+              {' '}
+              u ktorého nieto premeny ani zatienenia (pre) odvrátenie sa.
+            </span>
+            <span className='text-[15px]'> Jakub 1:17 </span>
+            Vatikánska doktrína stavia na obdiv tvrdenie, že pápež je "Svätý
+            Otec". Nie je viac prekvapivej a viditeľnej arogancie pápežstva, než
+            toto desivé tvrdenie, že je neomylný. Biblia hovorí:
+            <span className='italic'>
+              {' '}
+              Však som ja Boh, a nie človek, Svätý uprostred teba.
+            </span>
+            <span className='text-[15px]'> Ozeáš 11:9 </span>
           </p>
           <p className='pt-8'>
-            Zrušenie manželstva schválené cirkvou je v skutočnosti formou
-            identickou s rozvodom. Katolícka cirkev v poskytovaní zrušenia
-            deklaruje, že manželstvo nikdy neexistovalo! A tak sa tiež stáva, čo
-            je absurdnou situáciou, že veriaci, ktorý bol niekoľko rokov v
-            manželstve a má deti, je uznaný v očiach cirkvi, akoby nebol nikdy
-            ženatý. Toto je dosahované cez technické manipulácie a vytvorené
-            podmienky, ktoré sú uvedené v zákone o zrušení zväzku manželstva.
-            Napríklad podstatnou časťou a dôvodom pre cirkevné zrušenie sobáša
-            je to, čo sa nazýva "prekážka rušiaca platnosť manželstva". Je to
-            akákoľvek prekážka vážna natoľko, aby sa manželstvo mohlo zrušiť
-            automaticky. Takou prekážkou by mohol byť ako nesúhlas spoločnosti k
-            sobášu, tak nedostatok "formy sobáša" znamenajúci sobáš, ktorý nebol
-            vykonaný pred kňazom a dvoma svedkami. Tak rímska cirkev vyvinula
-            názvoslovie, ktoré predbehne pokrytectvo. Rím vyhlasuje túto bizarnú
-            moc, pretože vidí sobáše ako sviatosti. Je to z toho dôvodu, aby
-            bola zachovaná moc cirkvi vytvoriť či zrušiť manželstvo podľa svojej
-            vôle a účelov, nie na báze toho, čo vyhlasuje Biblia.
+            Pápež keď ustanovil seba ako najvyššieho, poprel absolútnu autoritu
+            Boha! Prekvapivo v tomto tvrdení o božských atribútoch Boha, pápež
+            naplnil to, čo je prorokované v Biblii, že tento človek ustanovil
+            seba v strede Božieho ľudu a vyhlásil sa za Svätého Otca.
+            <span className='italic'>
+              {' '}
+              Ktorý sa bude protiviť a povyšovať nado všetko, čo sa volá Boh,
+              alebo je predmetom zbožného uctievania, takže sa posadí do Božieho
+              chrámu
+              <span className='font-bold'> a bude sa vydávať za Boha.</span>
+            </span>
+            <span className='text-[15px]'> Druhý Tesalonickým 2:4 </span>
           </p>
           <p className='pt-8'>
-            Je možné vytvoriť manželstvo príkazom Ríma? V Písme je manželstvo
-            upravené podľa vôle a zámeru Boha. Pán Ježiš povedal: Preto opustí
-            človek otca i matku a pripojí sa k manželke, i budú dvaja jedno
-            telo. Matúš 19:5 Toto samotné je a stáva sa platným pred Bohom.
+            Pre kresťanov je Biblia objektívnym základom, na ktorom s nádejou
+            zotrvávajú. Viera založená na tejto bezpečnej autorite je
+            očakávanie, že Pán Boh vykoná všetko, čo sľúbil nám všetkým, ktorí
+            sme v Kristovi.
+            <span className='italic'>
+              {' '}
+              A my sme uverili a poznali, že Ty si (Kristus), ten Svätý Boží.{' '}
+            </span>
+            <span className='text-[15px]'> Ján 6:69 </span>
+            Kvôli tomuto trvalému spojeniu medzi Písmom svätým a pravdivou
+            vierou, musí byť Božie Slovo študované s ohľadom na jeho plnú
+            pravdivosť. Pripomeňme si tie prekrásne slová apoštola Pavla:
+            <span className='italic'>
+              {' '}
+              Neraduje sa z neprávosti, ale teší sa s pravdou.
+            </span>
+            <span className='text-[15px]'> Prvý Korintským 13:6 </span>
           </p>
         </div>
       </section>
 
-      {/* manzelstvo zivot v odluceni white lg and mob OK */}
+      {/* Námestník Krista white lg and mob OK */}
       <section>
         <div className='text-justify text-[22.5px] flex flex-col gap-2 py-8 mx-8 lg:mx-16'>
           <h2 className='text-title text-center text-[30px] mt-4 mb-8'>
-            Život v odlúčení (separácii){' '}
+            Námestník Krista{' '}
           </h2>
 
           <p>
-            Mnoho krajín je v súčasnosti ovplyvnených rímskokatolíckou cirkvou a
-            veľkým radom nasledovníkov žije oddelene od svojich manželov.
-            Odlúčenie je cirkvou podporované natoľko, že veriaci sa môže zákonne
-            zúčastňovať eucharistického prijímania. Avšak toto nie je
-            podporované Bibliou, rovnako tiež život v manželstve, ktorý je
-            poškodzovaný manželskou neverou. Rímskokatolícke náboženstvo
-            podporuje jarmo zákonov, ktoré možno ťažko uniesť. Jedine milosť
-            Ježiša Krista môže oslobodiť od týchto pút zúfalstva. Pán Ježiš
-            Kristus apeluje:
+            Pojem "Kristov námestník" pochádza z latinského slova "vicarius"
+            znamenajúci náhradu. V online verzii malého katolíckeho slovníka
+            Johna A. Hardona, S.J. definuje námestníka Krista ako: "Pápež,
+            viditeľná hlava cirkvi na zemi,
+            <span className='font-bold'> v zastúpení a namiesto Krista. </span>
+            Má najvyššiu cirkevnú autoritu v katolíckej cirkvi..."
+          </p>
+          <p>
+            Avšak v Písmach úplne zreteľne vidíme, že Pán poslal svojho Svätého
+            Ducha, aby Ho nahradil. Ako nás Pán Ježiš Kristus opustil, dal nám,
+            ako zasľúbil, najvyššiu, plnú a univerzálnu starostlivosť o dušu v
+            božskej osobe Ducha Svätého. Ježiš Kristus bol na zemi Majstrom,
+            Pánom a Sprievodcom pre veriacich. Pred svojou smrťou sľúbil, že
+            pošle Ducha Svätého, ktorý s nimi zostane navždy.
             <span className='italic'>
               {' '}
-              Poďte ku mne všetci, ktorí sa namáhate a ste preťažení; ja vám dám
-              odpočinutie! Vezmite na seba moje jarmo a učte sa odo mňa, lebo
-              som krotký a pokorný v srdci, a nájdete si odpočinutie duše.
+              Ja vám však pravdu hovorím: Vám prospeje, aby som odišiel; lebo ak
+              neodídem, Radca nepríde k vám; ale keď odídem, pošlem Ho k vám.
             </span>
-            <span className='text-[15px]'> Matúš 11:28-29 </span>
+            <span className='text-[15px]'> Ján 16:7 </span>
+            <span className='italic'>
+              {' '}
+              Ale Radca, ten Duch Svätý, ktorého pošle Otec v mojom mene.
+            </span>
+            <span className='text-[15px]'> Ján 14:26 </span>
           </p>
         </div>
       </section>
 
-      {/* zivot v odluceni table lg */}
+      {/* Námestník Krista table lg */}
       <section className='hidden lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
         <div className='w-[50%] text-[22.5px] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='ml-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
             <p>
-              § 2383 Odluka manželov, pri ktorej však pretrváva manželský
-              zväzok, môže byť oprávnená v niektorých prípadoch predvídaných
-              kánonickým právom.
+              § 882 Pápež, rímsky biskup a nástupca svätého Petra, „je stálym a
+              viditeľným princípom a základom jednoty biskupov, ako aj množstva
+              veriacich“. „Lebo rímsky pápež má na základe svojho úradu
+              Kristovho zástupcu a pastiera celej Cirkvi plnú, najvyššiu a
+              univerzálnu moc nad Cirkvou, ktorú môže vždy slobodne vykonávať.“
             </p>
 
             <p>
               {' '}
-              § 1649 Sú však situácie, v ktorých sa manželské spolužitie stáva z
-              najrozličnejších dôvodov prakticky nemožným. V takýchto prípadoch
-              Cirkev pripúšťa fyzickú rozluku manželov a koniec spolužitia. Pred
-              Bohom však manželia neprestávajú byť manželom a manželkou; nemôžu
-              uzavrieť nový zväzok. V takejto ťažkej situácii najlepším riešením
-              by bolo zmierenie, ak je to možné. Kresťanské spoločenstvo je
-              povolané pomáhať týmto osobám, aby kresťansky prežívali svoju
-              situáciu verní svojmu manželskému zväzku, ktorý ostáva
-              nerozlučiteľný.
+              § 936 Pán urobil z
+              <span className='font-bold'> Petra viditeľný základ </span>
+              svojej Cirkvi a odovzdal mu od nej kľúče. Biskup rímskej cirkvi,
+              Petrov nástupca, je „hlava kolégia biskupov, Kristov zástupca a
+              pastier celej Cirkvi tu na zemi“.
+            </p>
+            <p>
+              {' '}
+              § 2034 Rímsky pápež a biskupi ako „autentickí, čiže Kristovou
+              autoritou obdarení učitelia,… hlásajú sebe zverenému ľudu vieru,
+              ktorú treba veriť a aplikovať v morálnom správaní.“ Riadny a
+              všeobecný učiteľský úrad rímskeho pápeža a biskupov, ktorí sú s
+              ním v spoločenstve, učí veriacich pravdu, ktorú treba veriť,
+              lásku, ktorú treba praktizovať, a blaženosť, v ktorú treba dúfať.
             </p>
           </div>
         </div>
@@ -633,77 +710,171 @@ const PapezskyUrad = () => {
           <h2 className='font-semibold  text-center mt-4'>Biblia hovorí:</h2>
           <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
-              Prvý Korintským 7:10-14
+              Kolosenským 1:18
               <span className='italic'>
                 {' '}
-                Manželom však prikazujem - vlastne nie ja, ale Pán: nech žena
-                neodchádza od muža - a ak by aj odišla, nech ostane nevydatá,
-                alebo nech sa zmieri s mužom. A muž nech neprepúšťa ženu!
-                Ostatným hovorím ja, nie Pán: ak niektorý brat má neveriacu ženu
-                a ona chce žiť s ním, nech ju neprepúšťa. A ak niektorá žena má
-                neveriaceho muža a on chce žiť s ňou, nech neopúšťa muža. Lebo
-                neveriaci muž sa posväcuje v žene a neveriaca žena posväcuje sa
-                v bratovi; veď ináč vaše deti boli by nečisté, a predsa sú
-                sväté.
+                <span className='font-bold'>
+                  On (Kristus) je hlavou tela, cirkvi,{' '}
+                </span>
+                On počiatok, prvorodený z mŕtvych, aby Jeho bolo prvenstvo vo
+                všetkom.
+              </span>
+            </p>
+            <p>
+              Prvý Korintským 3:11
+              <span className='italic'>
+                {' '}
+                Lebo
+                <span className='font-bold'>
+                  {' '}
+                  nik nemôže položiť iný základ{' '}
+                </span>
+                okrem toho, čo je položený, a tým je Ježiš Kristus.
+              </span>
+            </p>
+            <p>
+              Efezským 5:23
+              <span className='italic'>
+                {' '}
+                Lebo muž je hlavou ženy, ako aj Kristus je hlavou cirkvi. On je
+                Spasiteľom tela.
+              </span>
+            </p>
+            <p>
+              Ján 14:26
+              <span className='italic'>
+                {' '}
+                Ale Radca, ten Duch Svätý, ktorého pošle Otec v mojom mene, Ten
+                vás naučí všetkému a pripomenie vám všetko, čo som vám hovoril.
+              </span>
+            </p>
+
+            <p>
+              Ján 16:14
+              <span className='italic'>
+                {' '}
+                On mňa oslávi, lebo z môjho vezme a bude zvestovať vám
+              </span>
+            </p>
+            <p>
+              Ján 17:17
+              <span className='italic'>
+                {' '}
+                Posväť ich v pravde - Tvoje slovo je pravda.
               </span>
             </p>
           </div>
         </div>
       </section>
-      {/* zivot v odluceni table mobile only */}
+      {/* Námestník Krista  table mobile only */}
       <section className='flex flex-col text-[22.5px] lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
-            § 2383 Odluka manželov, pri ktorej však pretrváva manželský zväzok,
-            môže byť oprávnená v niektorých prípadoch predvídaných kánonickým
-            právom.
-          </p>
-          <p className=' text-center mt-4'>
-            § 1649 Sú však situácie, v ktorých sa manželské spolužitie stáva z
-            najrozličnejších dôvodov prakticky nemožným. V takýchto prípadoch
-            Cirkev pripúšťa fyzickú rozluku manželov a koniec spolužitia. Pred
-            Bohom však manželia neprestávajú byť manželom a manželkou; nemôžu
-            uzavrieť nový zväzok. V takejto ťažkej situácii najlepším riešením
-            by bolo zmierenie, ak je to možné. Kresťanské spoločenstvo je
-            povolané pomáhať týmto osobám, aby kresťansky prežívali svoju
-            situáciu verní svojmu manželskému zväzku, ktorý ostáva
-            nerozlučiteľný.
+            § 882 Pápež, rímsky biskup a nástupca svätého Petra, „je stálym a
+            viditeľným princípom a základom jednoty biskupov, ako aj množstva
+            veriacich“. „Lebo rímsky pápež má na základe svojho úradu Kristovho
+            zástupcu a pastiera celej Cirkvi plnú, najvyššiu a univerzálnu moc
+            nad Cirkvou, ktorú môže vždy slobodne vykonávať.“
           </p>
           <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
-            Prvý Korintským 7:10-14
+            Kolosenským 1:18
             <span className='italic'>
               {' '}
-              Manželom však prikazujem - vlastne nie ja, ale Pán: nech žena
-              neodchádza od muža - a ak by aj odišla, nech ostane nevydatá,
-              alebo nech sa zmieri s mužom. A muž nech neprepúšťa ženu! Ostatným
-              hovorím ja, nie Pán: ak niektorý brat má neveriacu ženu a ona chce
-              žiť s ním, nech ju neprepúšťa. A ak niektorá žena má neveriaceho
-              muža a on chce žiť s ňou, nech neopúšťa muža. Lebo neveriaci muž
-              sa posväcuje v žene a neveriaca žena posväcuje sa v bratovi; veď
-              ináč vaše deti boli by nečisté, a predsa sú sväté.
+              <span className='font-bold'>
+                On (Kristus) je hlavou tela, cirkvi,{' '}
+              </span>
+              On počiatok, prvorodený z mŕtvych, aby Jeho bolo prvenstvo vo
+              všetkom.
+            </span>
+          </p>
+
+          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <p className=' text-center mt-4'>
+            § 936 Pán urobil z
+            <span className='font-bold'> Petra viditeľný základ </span>
+            svojej Cirkvi a odovzdal mu od nej kľúče. Biskup rímskej cirkvi,
+            Petrov nástupca, je „hlava kolégia biskupov, Kristov zástupca a
+            pastier celej Cirkvi tu na zemi“.
+          </p>
+          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <p className=' text-center mt-4'>
+            Prvý Korintským 3:11
+            <span className='italic'>
+              {' '}
+              Lebo
+              <span className='font-bold'> nik nemôže položiť iný základ </span>
+              okrem toho, čo je položený, a tým je Ježiš Kristus.
+            </span>
+          </p>
+          <p className=' text-center mt-4'>
+            Efezským 5:23
+            <span className='italic'>
+              {' '}
+              Lebo muž je hlavou ženy, ako aj Kristus je hlavou cirkvi. On je
+              Spasiteľom tela.
+            </span>
+          </p>
+
+          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <p className=' text-center mt-4'>
+            § 2034 Rímsky pápež a biskupi ako „autentickí, čiže Kristovou
+            autoritou obdarení učitelia,… hlásajú sebe zverenému ľudu vieru,
+            ktorú treba veriť a aplikovať v morálnom správaní.“ Riadny a
+            všeobecný učiteľský úrad rímskeho pápeža a biskupov, ktorí sú s ním
+            v spoločenstve, učí veriacich pravdu, ktorú treba veriť, lásku,
+            ktorú treba praktizovať, a blaženosť, v ktorú treba dúfať.
+          </p>
+          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <p className=' text-center mt-4'>
+            Ján 14:26
+            <span className='italic'>
+              {' '}
+              Ale Radca, ten Duch Svätý, ktorého pošle Otec v mojom mene, Ten
+              vás naučí všetkému a pripomenie vám všetko, čo som vám hovoril.
+            </span>
+          </p>
+
+          <p className=' text-center mt-4'>
+            Ján 16:14
+            <span className='italic'>
+              {' '}
+              On mňa oslávi, lebo z môjho vezme a bude zvestovať vám
+            </span>
+          </p>
+          <p className=' text-center mt-4'>
+            Ján 17:17
+            <span className='italic'>
+              {' '}
+              Posväť ich v pravde - Tvoje slovo je pravda.
             </span>
           </p>
         </div>
       </section>
-      {/* zivot v odluceni outro white lg and mob OK */}
+      {/* Námestník Krista outro white lg and mob OK */}
       <section>
         <div className='text-justify text-[22.5px] flex flex-col gap-2 py-8 mx-8 lg:mx-16'>
           <p>
-            Čo sa týka manželstva rímskokatolícka cirkev odmieta biblickú
-            autoritu. Jedine sám Boh je ten, kto je autorom manželstva a má
-            schopnosť toto riadiť. Nebiblické zákony cirkvi zväzujú takto
-            každého veriaceho. Rím ide tak ďaleko, že spája manželský stav spolu
-            so spasením veriaceho (viď. Rozvod a Zrušenie sobáša). Tento
-            pokrytecký systém pokračuje v nakladaní bremien na Boží ľud. Biblia
-            zreteľne špecifikuje, že kresťan nemá hľadať oddelenie od manžela.
-            Božie Slovo je napísané tak, že podnecuje zúčastnené strany
-            manželstva, aby si navzájom odpustili. Avšak, žiadna ľudská autorita
-            nemôže zaviazať manželstvo ako nerozlučiteľné, keď manžel, ktorý
-            opustil druhého, neverí v Slovo Božie. Prosím pamätaj, že tvoj
-            manželský stav nemôže akokoľvek zabrániť a ovplyvniť milosť Božiu
-            pracujúcu v tvojom živote.
+            Duch Svätý, ako Námestník Krista, je najvyšší sľub a kľúč vzťahu
+            každého pravého veriaceho k Pánovi Ježišovi Kristovi. Táto nádherná
+            Osoba nikdy nezanikne, On sám zostáva ako pravý Námestník (Zástupca)
+            Krista. Ak máme vzťah a spoločenstvo s Bohom a Ježišom Kristom a
+            boli sme znovuzrodení do večného života, zostávame v Duchu Svätom.
+            <span className='italic'>
+              {' '}
+              Lebo kráľovstvo Božie nie je jedenie a pitie, ale spravodlivosť,
+              pokoj a radosť v Duchu Svätom.
+            </span>
+            <span className='text-[15px]'> Rimanom 14:17 </span>
+          </p>
+          <p>
+            Pán neprišiel ustanoviť svetové cirkevné impérium vlády, ale prišiel
+            priniesť skutočnú prítomnosť vo svojom pravom Námestníkovi, Duchu
+            Svätom. V rímskom katolicizme je sláva dokonalého a bezchybného Boha
+            zamenená na slávu chybujúceho človeka. V stávke je tak sláva Pána
+            Ježiša Krista a záchrana duší, ako aj funkcia Ducha Svätého, ako
+            pravého Zástupcu Krista.
           </p>
         </div>
       </section>

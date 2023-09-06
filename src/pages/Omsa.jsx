@@ -7,7 +7,7 @@ const Omsa = () => {
       <Header />
       <header className='text-black flex flex-col lg:flex-row mx-8'>
         <div className='omsa-pic hidden lg:flex w-[50%]'></div>
-        <div className='flex flex-col align-center mx-4 lg:mx-16 mt-8'>
+        <div className='flex flex-col align-center lg:mx-16 mt-8'>
           <h1 className='text-title text-[35px]'>Omša</h1>
           <div className='text-justify text-[22.5px] flex flex-col gap-2 mt-16'>
             <p>

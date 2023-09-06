@@ -579,7 +579,7 @@ const Spoved = () => {
             <span className='italic'>
               {' '}
               Ale Boh dokazuje svoju lásku k nám tým, že Kristus umrel za nás,
-              keď sme boli ešte hriešni. zákona.{' '}
+              keď sme boli ešte hriešni.{' '}
             </span>
             <span className='text-[15px]'> Rimanom 5:8</span>
           </p>
