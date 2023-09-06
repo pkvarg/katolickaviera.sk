@@ -5,7 +5,21 @@ const Home = () => {
   return (
     <>
       <main className='hero-bg relative'>
-        <Header />
+        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-2'>
+          Nespoliehaj sa na cirkevné tradície, ale sám poď do Božieho Slova!
+        </h1>
+        <div className='text-[#000000] flex flex-col items-center mt-[30%] lg:mt-[10%]'>
+          <span className='italic text-center'>
+            Ak vy zostanete v mojom slove, ste naozaj moji učeníci.
+          </span>
+          <span className='italic'>
+            A poznáte pravdu a pravda vás vyslobodí.
+          </span>
+
+          <span className='text-[15px]'> Ján 8:31-32</span>
+        </div>
+
+        {/* <Header /> */}
         {/* hidden on mob */}
         {/* <div className='hidden lg:block absolute bottom-0 left-[50%]'>
           <h1 className='text-[#ffd700] text-[30px] text-center lg:text-[30px] -translate-x-[50%] leading-8'>
@@ -37,16 +51,16 @@ const Home = () => {
           </h2>
         </div> */}
         {/* INTRO */}
-        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4'>
+        {/* <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4'>
           Nespoliehaj sa na cirkevné tradície, ale sám poď do Božieho Slova!
-        </h1>
-        <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
+        </h1> */}
+        {/* <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
             Ak vy zostanete v mojom slove, ste naozaj moji učeníci. A poznáte
             pravdu a pravda vás vyslobodí.
           </span>
           <span className='text-[15px]'> Ján 8:31-32</span>
-        </h2>
+        </h2> */}
 
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4'>
           Ako sa Božie Slovo pozerá na prihováranie človeka k svätcom?
