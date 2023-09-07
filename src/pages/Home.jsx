@@ -76,24 +76,6 @@ const Home = () => {
           Mojžišovým zákonom. (viac v sekcii <a href='/biblia'>Biblia </a> )
         </h2>
 
-        <h1 className='text-title text-center text-[25px]  lg:text-[30px] pt-8'>
-          Ako uvažuje Božie Slovo o to o čom bližšie nepojednáva ako napr. o
-          nanebovzatí Márie?
-        </h1>
-        <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
-          <span className='italic'>
-            Každá reč Božia je prečistená. Nepridávaj nič k Jeho slovám, aby ťa
-            nestrestal a neoznačil za klamára.
-          </span>
-          <span className='text-[15px]'> Príslovia 30:5-6</span>
-          <span className='italic'>
-            {' '}
-            Nefalšujeme slovo Božie, ale zjavujeme pravdu, a tak sa odporúčame
-            každému ľudskému svedomiu pred Bohom.{' '}
-          </span>
-          <span className='text-[15px]'> Druhý Korinťanom 4:2</span>
-        </h2>
-
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Kam zaraďuje Božie Slovo modlitby veriaceho k niekomu inému ako k
           Bohu?
@@ -134,6 +116,23 @@ const Home = () => {
             a žiadali si hovoriť s Ním.
           </span>
           <span className='text-[15px]'> Matúš 12:46</span>
+        </h2>
+
+        <h1 className='text-title text-center text-[25px]  lg:text-[30px] pt-8'>
+          Bola Mária nanebovzatá ak to Božie Slovo neuvádza?
+        </h1>
+        <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
+          <span className='italic'>
+            Každá reč Božia je prečistená. Nepridávaj nič k Jeho slovám, aby ťa
+            nestrestal a neoznačil za klamára.
+          </span>
+          <span className='text-[15px]'> Príslovia 30:5-6</span>
+          <span className='italic'>
+            {' '}
+            Nefalšujeme slovo Božie, ale zjavujeme pravdu, a tak sa odporúčame
+            každému ľudskému svedomiu pred Bohom.{' '}
+          </span>
+          <span className='text-[15px]'> Druhý Korinťanom 4:2</span>
         </h2>
       </section>
 
