@@ -16,7 +16,7 @@ const Home = () => {
             A poznáte pravdu a pravda vás vyslobodí.
           </span>
 
-          <span className='text-[15px]'> Ján 8:31-32</span>
+          <span className='text-[12.5px]'> Ján 8:31-32</span>
         </div>
 
         {/* <Header /> */}
@@ -71,7 +71,7 @@ const Home = () => {
             zapredá, ja sám obrátim svoju tvár proti tej osobe a odstránim ju z
             jej ľudu.
           </span>
-          <span className='text-[15px]'> Levitikus 20:6</span>
+          <span className='text-[15px]'> Levitikus 20:6 </span>
           Umožňuje to apokryfná kniha Makabejských, ktorá je v rozpore s
           Mojžišovým zákonom. (viac v sekcii <a href='/biblia'>Biblia </a> )
         </h2>
@@ -216,12 +216,11 @@ const Home = () => {
           Raz sa každý z nás bude zodpovedať pred Bohom sám za seba
         </h1>
         <h2 className='text-black text-[22.5px] text-justify lg:text-left'>
-          Kto hovorí:{' '}
           <span className='italic'>
-            Poznám Ho, ale nezachováva Jeho prikázania, je klamár a niet v ňom
-            pravdy.
+            Kto hovorí: Poznám Ho, ale nezachováva Jeho prikázania, je klamár a
+            niet v ňom pravdy.
           </span>
-          <span className='text-[20px]'> Prvý Jánov 2:4</span>
+          <span className='text-[15px]'> Prvý Jánov 2:4</span>
         </h2>
 
         <h2 className='text-[22.5px] py-10 text-justify lg:text-left'>

@@ -79,8 +79,8 @@ const KnazskyUrad = () => {
       </section>
       {/*    Iný Kristus  table lg */}
       <section className='hidden lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-center mt-4'>
+        <div className='w-[50%] text-[20px] border flex flex-col items-center mx-4 pb-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
@@ -113,8 +113,10 @@ const KnazskyUrad = () => {
             </p>
           </div>
         </div>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold  text-center mt-4'>Biblia hovorí:</h2>
+        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+            Biblia hovorí:
+          </h2>
           <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Židom 7:24-26
@@ -176,10 +178,12 @@ const KnazskyUrad = () => {
         </div>
       </section>
       {/*  Iný Kristus  table mobile only */}
-      <section className='flex flex-col text-[22.5px] lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px] lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
+          <p className='text-center mt-4'>
             § 1548 Lebo on (služobník) vďaka kňazskej vysviacke, ktorú prijal,
             je pripodobnený Veľkňazovi a má moc konať mocou a v osobe samého
             Krista [virtute ac persona ipsius Christi].“ „Kristus je prameňom
@@ -193,7 +197,7 @@ const KnazskyUrad = () => {
             svätého Ignáca Antiochijského biskup je typos tou Patros, akoby živý
             obraz Boha Otca.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Židom 7:24-26
             <span className='italic'>
@@ -224,7 +228,9 @@ const KnazskyUrad = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
 
           <p className=' text-center mt-4'>
             § 1551 Sviatosť posvätného stavu udeľuje „posvätnú moc“, ktorá je v
@@ -233,7 +239,7 @@ const KnazskyUrad = () => {
             služobníkom všetkých. „Pán teda právom povedal, že starostlivosť o
             [jeho] stádo je dôkazom lásky k nemu.“
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Matúš 7:15-16
             <span className='italic'>
@@ -243,14 +249,16 @@ const KnazskyUrad = () => {
               oberajú z tŕnia hrozno alebo z bodľačia figy?{' '}
             </span>
           </p>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 1563 Udeľuje sa tou osobitnou sviatosťou, ktorou sú kňazi
             pomazaním Ducha Svätého označení osobitným charakterom [znakom], a
             sú natoľko pripodobnení Kristovi Kňazovi, že môžu konať v osobe
             Krista Hlavy.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Matúš 24:4-5
             <span className='italic'>
@@ -345,9 +353,9 @@ const KnazskyUrad = () => {
         </div>
       </section>
       {/* Celibát black table lg */}
-      <section className='hidden text-[22.5px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[20px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold  text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4  flex flex-col gap-4 mt-8'>
@@ -371,8 +379,10 @@ const KnazskyUrad = () => {
             </p>
           </div>
         </div>
-        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
+        <div className='w-[50%] text-[20px]  border flex flex-col items-center pb-4 mx-4'>
+          <h2 className='font-semibold text-center text-[22.5px]   mt-4'>
+            Biblia hovorí:
+          </h2>
           <div className='mx-4  text-justify flex flex-col gap-4 mt-8'>
             <p>
               Prvý Timotejovi 3:2-5
@@ -400,9 +410,9 @@ const KnazskyUrad = () => {
         </div>
       </section>
       {/* Celibat black table mobile only */}
-      <section className='bg-black text-[22.5px] text-white flex flex-col lg:hidden  gap-8 py-8'>
+      <section className='bg-black text-[20px] text-white flex flex-col lg:hidden  gap-8 py-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-8'>
@@ -416,7 +426,9 @@ const KnazskyUrad = () => {
             ohlasuje Božie kráľovstvo.
           </p>
 
-          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className='text-center mt-4'>
             Prvý Timotejovi 3:2-5
             <span className='italic'>
@@ -430,7 +442,7 @@ const KnazskyUrad = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-4'>
@@ -440,7 +452,9 @@ const KnazskyUrad = () => {
             zachovávať ho z lásky k Božiemu kráľovstvu a k službe ľudom.
           </p>
 
-          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className='text-center mt-4'>
             Títovi 1:5-6
             <span className='italic'>

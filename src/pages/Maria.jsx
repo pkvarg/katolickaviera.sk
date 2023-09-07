@@ -62,9 +62,9 @@ const Maria = () => {
         </div>
       </section>
       {/*    Maria table lg */}
-      <section className='hidden lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-center mt-4'>
+      <section className='hidden text-[20px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+        <div className='w-[50%]  border flex flex-col items-center mx-4 pb-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
@@ -80,9 +80,11 @@ const Maria = () => {
             </p>
           </div>
         </div>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold  text-center mt-4'>Biblia hovorí:</h2>
-          <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
+        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+            Biblia hovorí:
+          </h2>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Zjavenie Jána 15:4
               <span className='italic'>
@@ -127,16 +129,18 @@ const Maria = () => {
         </div>
       </section>
       {/* Maria table mobile only */}
-      <section className='flex flex-col text-[22.5px] lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px] lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 2677 Keď žiadame Pannu Máriu, aby za nás prosila, uznávame, že sme
             úbohí hriešnici a obraciame sa na „Matku milosrdenstva“, na tú,
             ktorá <span className='font-bold'> je celá svätá. </span>
           </p>
 
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Zjavenie Jána 15:4
             <span className='italic'>
@@ -156,7 +160,9 @@ const Maria = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
 
           <p className='text-center mt-4'>
             § 2030 Od Cirkvi sa (veriaci) učí príkladu svätosti, ktorej vzor a
@@ -164,7 +170,7 @@ const Maria = () => {
             <span className='font-bold'> presvätej Panne Márii. </span>
           </p>
 
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
 
           <p className=' text-center mt-4'>
             Prvá Samuelova 2:2
@@ -243,12 +249,12 @@ const Maria = () => {
       </section>
       {/* Je Mária prostredníkom?
  black table lg */}
-      <section className='hidden text-[22.5px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[20px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold  text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4  flex flex-col gap-4 mt-8'>
+          <div className='mx-4 flex flex-col gap-4 mt-8'>
             <p>
               § 969 Preto sa Preblahoslavená Panna vzýva v Cirkvi pod titulmi
               Orodovnica, Ochrankyňa, Pomocnica, Prostrednica.
@@ -262,7 +268,9 @@ const Maria = () => {
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <div className='mx-4  text-justify flex flex-col gap-4 mt-8'>
             <p>
               Prvý Timotejovi 2:5
@@ -302,15 +310,17 @@ const Maria = () => {
         </div>
       </section>
       {/*  Maria table mobile only */}
-      <section className='flex flex-col bg-black text-white text-[22.5px] lg:hidden pt-8 gap-8 pb-8'>
+      <section className='flex flex-col bg-black text-white text-[20px] lg:hidden pt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className='text-center mt-4'>
             § 969 Preto sa Preblahoslavená Panna vzýva v Cirkvi pod titulmi
             Orodovnica, Ochrankyňa, Pomocnica, Prostrednica.
           </p>
 
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className='text-center mt-4'>
             Prvý Timotejovi 2:5
             <span className='italic'>
@@ -335,13 +345,15 @@ const Maria = () => {
               Pán je mojím pomocníkom, nebudem sa báť; veď čo mi urobí človek?
             </span>
           </p>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className='text-center mt-4'>
             § 2674 Ježiš, jediný Prostredník, je cesta našej modlitby; Mária,
             jeho a naša Matka, ho necháva úplne presvitať: ona „ukazuje cestu“ a
             podľa tradičnej východnej i západnej ikonografie je jej „znakom“.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p>
             Ján 14:6 Ja som cesta i pravda i život. Nik neprichádza k Otcovi, ak
             len nie skrze mňa.
@@ -396,9 +408,9 @@ const Maria = () => {
         </div>
       </section>
       {/* Bola Mária počatá bez poškvrny dedičného hriechu? table lg */}
-      <section className='hidden lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-center  mt-4'>
+      <section className='hidden text-[20px]  lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+        <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
@@ -417,9 +429,11 @@ const Maria = () => {
             </p>
           </div>
         </div>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold  text-center mt-4'>Biblia hovorí:</h2>
-          <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
+        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+            Biblia hovorí:
+          </h2>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Ján 1:14
               <span className='italic'>
@@ -469,14 +483,16 @@ const Maria = () => {
       {/* 
 Bola Mária počatá bez poškvrny dedičného hriechu?
   table mobile only */}
-      <section className='flex flex-col text-[22.5px] lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px] lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 491 Cirkev si v priebehu storočí uvedomila, že Mária, ktorú Boh
             naplnil milosťou, bola vykúpená už od svojho počatia.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className='text-center mt-4'>
             Ján 1:14
             <span className='italic'>
@@ -501,7 +517,9 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
             </span>
           </p>
 
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 508 Boh si z Evinho potomstva vyvolil Pannu Máriu, aby bola Matkou
             jeho Syna. Ako „plná milosti“ je „vynikajúce ovocie vykúpenia“: od
@@ -509,7 +527,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
             hriechu a cez celý svoj život zostala čistá aj od akéhokoľvek
             osobného hriechu.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className='text-center mt-4'>
             Efezským 1:22-23
             <span className='italic'>
@@ -578,12 +596,12 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Máriina úloha v spasení?
  black table lg */}
-      <section className='hidden text-[22.5px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[20px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold  text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4  flex flex-col gap-4 mt-8'>
+          <div className='mx-4 flex flex-col gap-4 mt-8'>
             <p>
               § 494 Ona, ako hovorí svätý Irenej, poslušnosťou sa stala príčinou
               spásy pre seba a pre celé ľudské pokolenie.
@@ -617,8 +635,10 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
-          <div className='mx-4  text-justify flex flex-col gap-4 mt-8'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               Skutky apoštolov 4:12
               <span className='italic'>
@@ -681,9 +701,11 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
         </div>
       </section>
       {/* Máriina úloha v spasení? table mobile only */}
-      <section className='flex flex-col bg-black text-white text-[22.5px] lg:hidden pt-8 gap-8 pb-8'>
+      <section className='flex flex-col bg-black text-white text-[20px] lg:hidden pt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className='text-center mt-4'>
             § 494 Ona, ako hovorí svätý Irenej, poslušnosťou sa stala príčinou
             spásy pre seba a pre celé ľudské pokolenie.
@@ -693,7 +715,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
             ľudskej spáse“.
           </p>
 
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className='text-center mt-4'>
             Skutky apoštolov 4:12
             <span className='italic'>
@@ -711,7 +733,9 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
             </span>
           </p>
 
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className='text-center mt-4'>
             § 968 Ona „poslušnosťou, vierou, nádejou a vrúcnou láskou celkom
             mimoriadnym spôsobom spolupracovala na Spasiteľovom diele pre obnovu
@@ -725,7 +749,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
             vzýva v Cirkvi pod titulmi Orodovnica, Ochrankyňa, Pomocnica,
             Prostrednica.“
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p>
             Kolosenským 1:20
             <span className='italic'>
@@ -744,7 +768,9 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
               tých, čo sú na nebi aj na zemi, aj pod zemou.
             </span>
           </p>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className='text-center mt-4'>
             § 964 Toto spojenie Matky so Synom na diele spásy sa prejavuje od
             chvíle panenského počatia Krista až po jeho smrť. Preblahoslavená
@@ -755,7 +781,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
             porodila.
           </p>
 
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
 
           <p className='text-center mt-4'>
             Židom 1:3
@@ -842,9 +868,9 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
         </div>
       </section>
       {/*    Je Mária kráľovnou nebies? table lg */}
-      <section className='hidden lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-center mt-4'>
+      <section className='hidden text-[20px]  lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+        <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
@@ -862,8 +888,10 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
             </p>
           </div>
         </div>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold  text-center mt-4'>Biblia hovorí:</h2>
+        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+            Biblia hovorí:
+          </h2>
           <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Skutky apoštolov 1:11
@@ -902,9 +930,11 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
         </div>
       </section>
       {/* Je Mária kráľovnou nebies? table mobile only */}
-      <section className='flex flex-col text-[22.5px] lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px] lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 966 Napokon bola Nepoškvrnená Panna – uchránená nedotknutá od
             akejkoľvek škvrny dedičného hriechu – po skončení pozemského života
@@ -912,7 +942,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
             vesmíru.
           </p>
 
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Skutky apoštolov 1:11
             <span className='italic'>
@@ -929,7 +959,9 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
             </span>
           </p>
 
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
 
           <p className='text-center mt-4'>
             § 974 Preblahoslavená Panna Mária po skončení svojho pozemského
@@ -938,7 +970,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
             všetkých údov jeho tela.
           </p>
 
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
 
           <p className=' text-center mt-4'>
             Izaiáš 45:22
@@ -997,9 +1029,9 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Bola Mária bezhriešna?
  black table lg */}
-      <section className='hidden text-[22.5px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[20px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold  text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4  flex flex-col gap-4 mt-8'>
@@ -1020,7 +1052,9 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <div className='mx-4  text-justify flex flex-col gap-4 mt-8'>
             <p>
               Rimanom 3:23
@@ -1069,9 +1103,11 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
         </div>
       </section>
       {/*  Bola Mária bezhriešna? table mobile only */}
-      <section className='flex flex-col bg-black text-white text-[22.5px] lg:hidden pt-8 gap-8 pb-8'>
+      <section className='flex flex-col bg-black text-white text-[20px] lg:hidden pt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className='text-center mt-4'>
             § 493 Z Božej milosti Mária počas celého svojho života zostala čistá
             od akéhokoľvek osobného hriechu.
@@ -1081,7 +1117,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
             akejkoľvek škvrny dedičného hriechu.
           </p>
 
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className='text-center mt-4'>
             Rimanom 3:23
             <span className='italic'>
@@ -1106,14 +1142,16 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
             </span>
           </p>
 
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className='text-center mt-4'>
             § 491 Preblahoslavená Panna Mária bola v prvej chvíli svojho počatia
             osobitnou milosťou a výsadou všemohúceho Boha, vzhľadom na zásluhy
             Ježiša Krista, Spasiteľa ľudského pokolenia, uchránená nedotknutá od
             akejkoľvek škvrny dedičného hriechu.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className='text-center mt-4'>
             Rimanom 5:12
             <span className='italic'>

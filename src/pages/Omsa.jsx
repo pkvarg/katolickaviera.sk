@@ -53,12 +53,12 @@ const Omsa = () => {
         </p>
       </section>
       {/* table lg */}
-      <section className='hidden lg:flex justify-center mx-4 mt-8 gap-8 pb-16'>
+      <section className='hidden text-[20px]  lg:flex justify-center mx-4 mt-8 gap-8 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
           <h2 className='font-semibold text-center text-[22.5px] mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 text-[22.5px] font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 1357 chlieb a víno, ktoré sa Kristovými slovami a mocou Ducha
               Svätého stali Kristovým telom a krvou; takto sa Kristus stáva
@@ -92,7 +92,7 @@ const Omsa = () => {
           <h2 className='font-semibold  text-center text-[22.5px] mt-4'>
             Biblia hovorí:
           </h2>
-          <div className='mx-4 text-[22.5px] text-justify font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-[20px] text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Židom 10:10-14
               <span className='italic'>
@@ -143,18 +143,18 @@ const Omsa = () => {
         </div>
       </section>
       {/* table mobile only */}
-      <section className='flex flex-col lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px]  lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold text-[22.5px] mt-4'>
             Katechizmus hovorí:
           </h2>
-          <p className='text-[22.5px] text-center mt-4'>
+          <p className='text-center mt-4'>
             § 1357 chlieb a víno, ktoré sa Kristovými slovami a mocou Ducha
             Svätého stali Kristovým telom a krvou; takto sa Kristus stáva
             skutočne a tajomne prítomným.
           </p>
           <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
-          <p className='text-[22.5px] text-center mt-4'>
+          <p className='text-center mt-4'>
             Židom 10:10-14
             <span className='italic'>
               {' '}
@@ -170,14 +170,14 @@ const Omsa = () => {
           <h2 className='font-semibold text-[22.5px] mt-4'>
             Katechizmus hovorí:
           </h2>
-          <p className='text-[22.5px] text-center mt-4'>
+          <p className='text-center mt-4'>
             {' '}
             § 1357 chlieb a víno, ktoré sa Kristovými slovami a mocou Ducha
             Svätého stali Kristovým telom a krvou; takto sa Kristus stáva
             skutočne a tajomne prítomným.
           </p>
           <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
-          <p className='text-[22.5px] text-center mt-4'>
+          <p className='text-center mt-4'>
             Matúš 24:27
             <span className='italic'>
               {' '}
@@ -188,7 +188,7 @@ const Omsa = () => {
           <h2 className='font-semibold text-[22.5px] mt-4'>
             Katechizmus hovorí:
           </h2>
-          <p className='text-[22.5px] text-center mt-4'>
+          <p className='text-center mt-4'>
             {' '}
             § 1376 Konsekráciou chleba a vína sa uskutočňuje premena celej
             podstaty chleba na podstatu tela Krista, nášho Pána, a celej
@@ -197,7 +197,7 @@ const Omsa = () => {
             [prepodstatnenie].“
           </p>
           <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
-          <p className='text-[22.5px] text-center mt-4'>
+          <p className='text-center mt-4'>
             Skutky apoštolov 1:9-11
             <span className='italic'>
               {' '}
@@ -215,14 +215,14 @@ const Omsa = () => {
           <h2 className='font-semibold text-[22.5px] mt-4'>
             Katechizmus hovorí:
           </h2>
-          <p className='text-[22.5px] text-center mt-4'>
+          <p className='text-center mt-4'>
             § 1380 Je veľmi vhodné, že Kristus chcel zostať prítomný vo svojej
             Cirkvi takýmto jedinečným spôsobom. Keďže čoskoro mal opustiť
             svojich vo svojej viditeľnej podobe, chcel nám darovať svoju
             sviatostnú prítomnosť.
           </p>
           <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
-          <p className='text-[22.5px] text-center mt-4'>
+          <p className='text-center mt-4'>
             Ján 14:16-18
             <span className='italic'>
               {' '}
@@ -303,12 +303,12 @@ const Omsa = () => {
         </div>
       </section>
       {/* black table lg */}
-      <section className='hidden bg-black text-white lg:flex justify-center gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[20px]  bg-black text-white lg:flex justify-center gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
           <h2 className='font-semibold  text-center text-[22.5px] mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 text-[22.5px]  flex flex-col gap-4 mt-8'>
+          <div className='mx-4 flex flex-col gap-4 mt-8'>
             <p>
               § 1378 V omšovej liturgii vyjadrujeme svoju vieru v skutočnú
               Kristovu prítomnosť pod spôsobmi chleba a vína okrem iného aj
@@ -337,7 +337,7 @@ const Omsa = () => {
           <h2 className='font-semibold text-center text-[22.5px] mt-4'>
             Biblia hovorí:
           </h2>
-          <div className='mx-4 text-[22.5px] text-justify flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               Deuteronomium 4:13,15-16
               <span className='italic'>
@@ -371,9 +371,11 @@ const Omsa = () => {
         </div>
       </section>
       {/* table mobile only */}
-      <section className='flex flex-col bg-black text-white lg:hidden pt-8 gap-8 pb-8'>
-        <div className='flex flex-col  text-[25px] items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+      <section className='flex flex-col text-[20px]  bg-black text-white lg:hidden pt-8 gap-8 pb-8'>
+        <div className='flex flex-col items-center justify-center mx-4'>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 1378 V omšovej liturgii vyjadrujeme svoju vieru v skutočnú
             Kristovu prítomnosť pod spôsobmi chleba a vína okrem iného aj
@@ -384,8 +386,8 @@ const Omsa = () => {
             ich, aby ich veriaci slávnostne uctievali, a nosí ich v procesii na
             radosť ľudu zhromaždeného vo veľkom počte.“
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
+          <p className='text-center mt-4'>
             Deuteronomium 4:13,15-16
             <span className='italic'>
               {' '}
@@ -396,12 +398,14 @@ const Omsa = () => {
               neurobili si nejakú modlu, podobu muža alebo ženy.
             </span>
           </p>
-          <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             {' '}
             § 1380 Cirkev a svet veľmi potrebujú eucharistický kult.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Izaiáš 42:8
             <span className='italic'>
@@ -410,7 +414,9 @@ const Omsa = () => {
               svoju chválu modlám .{' '}
             </span>
           </p>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className='text-center mt-4'>
             {' '}
             § 1379 Prehĺbením viery v Kristovu skutočnú prítomnosť v Eucharistii
@@ -420,7 +426,7 @@ const Omsa = () => {
             zdôrazňoval a znázorňoval pravdu, že Kristus je v Najsvätejšej
             sviatosti skutočne prítomný.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className='text-center mt-4'>
             Ján 4:23-24
             <span className='italic'>
@@ -523,9 +529,9 @@ const Omsa = () => {
         </p>
       </section>
       {/* table lg */}
-      <section className='hidden lg:flex justify-center mx-4 gap-8 pt-8 pb-16'>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center mx-4'>
-          <h2 className='font-semibold  text-center  mt-4'>
+      <section className='hidden text-[20px] lg:flex justify-center mx-4 gap-8 pt-8 pb-16'>
+        <div className='w-[50%] border flex flex-col items-center mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className=' font-semibold flex flex-col gap-4 mt-8 mx-4'>
@@ -575,9 +581,11 @@ const Omsa = () => {
             </p>
           </div>
         </div>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold  text-center mt-4'>Biblia hovorí:</h2>
-          <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
+        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+            Biblia hovorí:
+          </h2>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Ján 19:30
               <span className='italic'>
@@ -636,9 +644,9 @@ const Omsa = () => {
         </div>
       </section>
       {/* table mobile only */}
-      <section className='flex flex-col lg:hidden  gap-8 pb-8'>
-        <div className='flex flex-col  text-[22.5px] items-center justify-center mx-4'>
-          <h2 className='font-semibold text-center mt-4'>
+      <section className='flex flex-col text-[20px]  lg:hidden  gap-8 pb-8'>
+        <div className='flex flex-col items-center justify-center mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-4'>
@@ -646,7 +654,9 @@ const Omsa = () => {
             obetovaný náš veľkonočný Baránok, Kristus”, (1Kor 5,7) uskutočňuje
             sa dielo nášho vykúpenia.
           </p>
-          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className='text-center mt-4'>
             Ján 19:30
             <span className='italic'>
@@ -655,10 +665,10 @@ const Omsa = () => {
               odovzdal Ducha (Bohu).
             </span>
           </p>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 1366 Eucharistia je teda obeta, lebo sprítomňuje (robí prítomnou)
             obetu kríža, je jej pamiatkou a aplikuje jej ovocie: Kristus, „náš
             Boh a Pán… raz navždy [obetoval] seba samého Bohu Otcovi smrťou na
@@ -671,8 +681,10 @@ const Omsa = () => {
             pamiatka zostala až do konca sveta a aby sa jej spásna sila
             aplikovala na odpustenie hriechov, ktorých sa každodenne dopúšťame.“
           </p>
-          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
+          <p className='text-center mt-4'>
             Židom 10:10-18
             <span className='italic'>
               {' '}
@@ -690,7 +702,7 @@ const Omsa = () => {
               obetí za hriechy.
             </span>
           </p>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className='text-center mt-4'>
@@ -702,7 +714,9 @@ const Omsa = () => {
             Kristus, ktorý na oltári kríža ,raz navždy obetoval seba samého
             krvavým spôsobom…‘, táto obeta [je] skutočne zmierna.“
           </p>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             {' '}
             Levitikus 17:11
@@ -713,7 +727,7 @@ const Omsa = () => {
               zmierenie.{' '}
             </span>
           </p>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-4'>
@@ -722,7 +736,9 @@ const Omsa = () => {
             nesmrteľnosti a protijedom, aby sme nezomreli, ale navždy žili v
             Ježišovi Kristovi“.
           </p>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className='text-center mt-4'>
             Židom 9:22
             <span className='italic'>
@@ -731,15 +747,17 @@ const Omsa = () => {
               niet odpustenia.
             </span>
           </p>
-          <h2 className='font-semibold text-center mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 1414 Eucharistia ako obeta sa prináša aj na zadosťučinenie za
             hriechy živých i mŕtvych a na dosiahnutie duchovných alebo časných
             dobier od Boha.
           </p>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             Židom 9:26-28
             <span className='italic'>
@@ -797,9 +815,9 @@ const Omsa = () => {
         </div>
       </section>
       {/* table lg */}
-      <section className='bg-black text-white hidden lg:flex justify-center px-4 gap-8 pb-16'>
-        <div className='w-[50%] text-[22.5px]  border flex flex-col items-center mx-4'>
-          <h2 className='font-semibold  text-center mt-4'>
+      <section className='bg-black text-[20px] text-white hidden lg:flex justify-center px-4 gap-8 pb-16'>
+        <div className='w-[50%] border flex flex-col items-center mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='flex flex-col gap-4 mt-8 mx-4'>
@@ -851,9 +869,11 @@ const Omsa = () => {
             </p>
           </div>
         </div>
-        <div className='w-[50%] text-[22.5px]  border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
-          <div className='mx-4  text-justify flex flex-col gap-4 mt-8'>
+        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               Ján 6:52-66
               <span className='italic'>
@@ -874,8 +894,9 @@ const Omsa = () => {
                 čo, keď uvidíte Syna človeka, ako vystupuje tam, kde bol
                 predtým?
                 <span className='font-bold'>
+                  {' '}
                   Duch je, ktorý obživuje, telo nič neosoží. Reči, ktoré som vám
-                  hovoril, sú duch a život.
+                  hovoril, sú duch a život.{' '}
                 </span>
                 Ale medzi vami sú niektorí, čo neveria. Ježiš totiž od počiatku
                 vedel, ktorí sú neveriaci a kto Ho zradí. I riekol: Preto som
@@ -922,9 +943,9 @@ const Omsa = () => {
         </div>
       </section>
       {/* table mobile only */}
-      <section className='bg-black text-white flex flex-col lg:hidden  gap-8 pb-8'>
-        <div className='flex  text-[22.5px] flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>
+      <section className='bg-black text-[20px]  text-white flex flex-col lg:hidden  gap-8 pb-8'>
+        <div className='flex flex-col items-center justify-center mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-4'>
@@ -941,7 +962,9 @@ const Omsa = () => {
             svätého prijímania (communio). Prijímať znamená prijať samého
             Krista, ktorý sa obetoval za nás.
           </p>
-          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             Ján 6:52-66
             <span className='italic'>
@@ -970,14 +993,16 @@ const Omsa = () => {
               Odvtedy mnohí z Jeho učeníkov odišli a nechodili viac s Ním.
             </span>
           </p>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className='text-center mt-4'>
             § 1405 a my lámeme „jeden chlieb, ktorý je liekom nesmrteľnosti a
             protijedom, aby sme nezomreli, ale navždy žili v Ježišovi Kristovi“.
           </p>
-          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             Ján 6:63
             <span className='italic'>
@@ -986,7 +1011,7 @@ const Omsa = () => {
               hovoril, sú duch a život.
             </span>
           </p>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-4'>
@@ -994,7 +1019,7 @@ const Omsa = () => {
             obdivuhodným spôsobom uskutočňuje sväté prijímanie v našom duchovnom
             živote.
           </p>
-          <h2 className='font-semibold text-center text-[25px] mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Biblia hovorí:
           </h2>
           <p className=' text-center mt-4'>
@@ -1002,11 +1027,10 @@ const Omsa = () => {
             Levitikus 17:11
             <span className='italic'>
               {' '}
-              Levitikus 17:11 Keďže život tela je v krvi, dal som vám ju na
-              oltár na vykonanie obradu zmierenia za vaše životy, lebo krv mocou
-              života spôsobuje zmierenie. Preto som povedal Izraelcom: Nech
-              nikto z vás neje krv; ani cudzinec, ktorý sa zdržuje medzi vami,
-              nesmie jesť krv.{' '}
+              Keďže život tela je v krvi, dal som vám ju na oltár na vykonanie
+              obradu zmierenia za vaše životy, lebo krv mocou života spôsobuje
+              zmierenie. Preto som povedal Izraelcom: Nech nikto z vás neje krv;
+              ani cudzinec, ktorý sa zdržuje medzi vami, nesmie jesť krv.{' '}
             </span>
           </p>
           <p className=' text-center mt-4'>
@@ -1017,7 +1041,7 @@ const Omsa = () => {
               Len mäso s krvou, jeho dušou, nesmiete jesť.{' '}
             </span>
           </p>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-4'>
@@ -1034,7 +1058,9 @@ const Omsa = () => {
             § 1395 Eucharistia nás tou istou láskou, ktorú v nás zapaľuje,
             chráni pred budúcimi smrteľnými hriechmi.
           </p>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className='text-center mt-4'>
             Prvý Jánov 1:7
             <span className='italic'>
@@ -1099,9 +1125,10 @@ const Omsa = () => {
             transsubstanciácii (prepodstatnení). Táto doktrína popiera základnú
             požiadavku potrebnú pre spasenie a to výhradne veriť v Pána Ježiša.
             <span className='italic'>
+              {' '}
               A chlieb, ktorý ja dám, je moje telo, ktoré vydám za život sveta.
             </span>
-            <span className='text-15px'> Ján 6:51 </span>
+            <span className='text-[15px]'> Ján 6:51 </span>
             Kristus tu uvádza, že sám by svoje dobrovoľné utrpenie, svoje telo,
             ponúkol ako obeť. Dal nám svoje telo ako obeť zmierenia "pre život
             sveta" a to je pre večný život!
@@ -1117,7 +1144,7 @@ const Omsa = () => {
               Duch je, ktorý obživuje, telo nič neosoží. Reči, ktoré som vám
               hovoril, sú duch a život.
             </span>
-            <span className='text-15px'> Ján 6:63 </span>
+            <span className='text-[15px]'> Ján 6:63 </span>
           </p>
           <p>
             Na ktorom chlebe sa podieľate? Bude zotrvávať vaša večná duša na
@@ -1126,9 +1153,10 @@ const Omsa = () => {
             cirkev tvrdí, že Božia moc efektívne prúdi z prvku spoločenstva sama
             aj pre seba. Ježiš Kristus sám učí veriť v Jeho osobu -
             <span className='italic'>
+              {' '}
               Skutkom Božím je veriť v Toho, ktorého On poslal.
             </span>
-            <span className='text-15px'> Ján 6:29 </span>
+            <span className='text-[15px]'> Ján 6:29 </span>
             Veriť v Neho, ktorého Otec poslal je našou povinnosťou, avšak je to
             "prácou Boha", ktorý dáva jasne najavo, že viera je možná skrze
             milosť Božiu.

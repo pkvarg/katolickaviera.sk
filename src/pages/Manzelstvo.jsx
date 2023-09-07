@@ -51,9 +51,9 @@ const Manzelstvo = () => {
         </div>
       </header>
       {/* manzelstvo table lg */}
-      <section className='hidden lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-center  mt-4'>
+      <section className='hidden text-[20px]  lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+        <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
@@ -83,9 +83,11 @@ const Manzelstvo = () => {
             </p>
           </div>
         </div>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold  text-center mt-4'>Biblia hovorí:</h2>
-          <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
+        <div className='w-[50%]  border flex flex-col items-center pb-4 mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+            Biblia hovorí:
+          </h2>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Matúš 5:31-32
               <span className='italic'>
@@ -117,15 +119,17 @@ const Manzelstvo = () => {
         </div>
       </section>
       {/* spoved table mobile only */}
-      <section className='flex flex-col text-[22.5px] lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px] lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 2382 Medzi pokrstenými „platne uzavreté a [manželským úkonom]
             zavŕšené manželstvo nemôže byť rozviazané nijakou ľudskou mocou a z
             nijakého dôvodu, iba smrťou“.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Matúš 5:31-32
             <span className='italic'>
@@ -136,7 +140,9 @@ const Manzelstvo = () => {
               prepustenú, cudzoloží.
             </span>
           </p>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 1650 Dnes je v mnohých krajinách veľký počet katolíkov, ktorí sa
             uchyľujú k rozvodu podľa občianskych zákonov a civilne uzatvárajú
@@ -150,7 +156,7 @@ const Manzelstvo = () => {
             nemôžu prijímať Eucharistiu. Majú viesť svoj kresťanský život najmä
             tým, že vychovávajú svoje deti vo viere.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Matúš 19:9
             <span className='italic'>
@@ -159,12 +165,14 @@ const Manzelstvo = () => {
               a vzal by si inú, cudzoloží a kto si prepustenú vezme, cudzoloží.
             </span>
           </p>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 1129 Cirkev tvrdí, že sviatosti Novej zmluvy sú pre veriacich
             nevyhnutne potrebné na spásu.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Rimanom 10:9
             <span className='italic'>
@@ -218,9 +226,9 @@ const Manzelstvo = () => {
         </div>
       </section>
       {/* manzelstvo black table lg */}
-      <section className='hidden text-[22.5px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[20px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold  text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4  flex flex-col gap-4 mt-8'>
@@ -245,8 +253,10 @@ const Manzelstvo = () => {
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
-          <div className='mx-4  text-justify flex flex-col gap-4 mt-8'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               Matúš 19:6
               <span className='italic'>
@@ -274,9 +284,9 @@ const Manzelstvo = () => {
         </div>
       </section>
       {/* manzelstvo black table mobile only */}
-      <section className='bg-black text-[22.5px] text-white flex flex-col lg:hidden  gap-8 py-8'>
+      <section className='bg-black text-[20px] text-white flex flex-col lg:hidden  gap-8 py-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-8'>
@@ -287,7 +297,9 @@ const Manzelstvo = () => {
             spojenia.
           </p>
 
-          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             Matúš 19:6
             <span className='italic'>
@@ -297,7 +309,7 @@ const Manzelstvo = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-4'>
@@ -306,7 +318,9 @@ const Manzelstvo = () => {
             prijímaniu Eucharistie, kým táto situácia trvá.
           </p>
 
-          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             Prvý Korintským 11:28
             <span className='italic'>
@@ -315,15 +329,17 @@ const Manzelstvo = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 1129 Cirkev tvrdí, že sviatosti Novej zmluvy sú pre veriacich
             nevyhnutne potrebné na spásu.
           </p>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
+          <p className='text-center mt-4'>
             {' '}
             Efezským 2:8-9
             <span className='italic'>
@@ -406,9 +422,9 @@ const Manzelstvo = () => {
       </section>
 
       {/* zivot v odluceni table lg */}
-      <section className='hidden lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-center  mt-4'>
+      <section className='hidden text-[20px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+        <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
@@ -432,9 +448,11 @@ const Manzelstvo = () => {
             </p>
           </div>
         </div>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold  text-center mt-4'>Biblia hovorí:</h2>
-          <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
+        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+            Biblia hovorí:
+          </h2>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Prvý Korintským 7:10-14
               <span className='italic'>
@@ -454,9 +472,11 @@ const Manzelstvo = () => {
         </div>
       </section>
       {/* zivot v odluceni table mobile only */}
-      <section className='flex flex-col text-[22.5px] lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px] lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 2383 Odluka manželov, pri ktorej však pretrváva manželský zväzok,
             môže byť oprávnená v niektorých prípadoch predvídaných kánonickým
@@ -473,7 +493,7 @@ const Manzelstvo = () => {
             situáciu verní svojmu manželskému zväzku, ktorý ostáva
             nerozlučiteľný.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Prvý Korintským 7:10-14
             <span className='italic'>

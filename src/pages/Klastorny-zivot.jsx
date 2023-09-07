@@ -61,8 +61,8 @@ const KlastornyZivot = () => {
       </section>
       {/*     KlastornyZivot  table lg */}
       <section className='hidden lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-center mt-4'>
+        <div className='w-[50%] text-[20px] border flex flex-col items-center mx-4 pb-4'>
+          <h2 className='font-semibold text-center text-[22.5px] mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
@@ -98,8 +98,10 @@ const KlastornyZivot = () => {
             </p>
           </div>
         </div>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold  text-center mt-4'>Biblia hovorí:</h2>
+        <div className='w-[50%] text-[20px] border flex flex-col items-center pb-4 mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+            Biblia hovorí:
+          </h2>
           <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Genesis 2:24
@@ -169,9 +171,11 @@ const KlastornyZivot = () => {
         </div>
       </section>
       {/*  KlastornyZivot   table mobile only */}
-      <section className='flex flex-col text-[22.5px] lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px] lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px]   mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 917 V Cirkvi „akoby na strome, ktorý sa obdivuhodne a bohato
             rozvetvil na Pánovom poli zo semena zasiateho Bohom, vyrástli
@@ -180,7 +184,7 @@ const KlastornyZivot = () => {
             celého Kristovho tela“.
           </p>
 
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Genesis 2:24
             <span className='italic'>
@@ -199,7 +203,9 @@ const KlastornyZivot = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
 
           <p className=' text-center mt-4'>
             § 927 Misionárske zakladanie a šírenie Cirkvi si vyžaduje prítomnosť
@@ -211,7 +217,7 @@ const KlastornyZivot = () => {
             členovia týchto inštitútov „majú účasť na evanjelizačnej úlohe
             Cirkvi.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Matúš 7:15-16
             <span className='italic'>
@@ -221,14 +227,16 @@ const KlastornyZivot = () => {
               oberajú z tŕnia hrozno alebo z bodľačia figy?{' '}
             </span>
           </p>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 1563 Udeľuje sa tou osobitnou sviatosťou, ktorou sú kňazi
             pomazaním Ducha Svätého označení osobitným charakterom [znakom], a
             sú natoľko pripodobnení Kristovi Kňazovi, že môžu konať v osobe
             Krista Hlavy.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Ján 17:15
             <span className='italic'>
@@ -238,7 +246,7 @@ const KlastornyZivot = () => {
             </span>{' '}
           </p>
 
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Skutky apoštolov 1:8
             <span className='italic'>
               {' '}
@@ -248,23 +256,25 @@ const KlastornyZivot = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
 
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 915 Dokonalosť lásky, ku ktorej sú povolaní všetci veriaci,
             prináša so sebou pre tých, čo slobodne prijmú povolanie na zasvätený
             život, povinnosť zachovávať čistotu v celibáte (v slobodnom stave)
             pre Božie kráľovstvo, chudobu a poslušnosť.
           </p>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 922 Už od apoštolských čias boli kresťanské panny a vdovy, ktoré
             Pán povolal, aby sa k nemu nerozdelené pripútali s väčšou slobodou
             srdca, tela a ducha, a ktoré sa so schválením Cirkvi rozhodli žiť v
             stave trvalého panenstva alebo trvalej čistoty „pre nebeské
             kráľovstvo“ (Mt 19,12).
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
+          <p className='text-center mt-4'>
             Prvý Timotejovi 5:14
             <span className='italic'>
               {' '}
@@ -273,7 +283,7 @@ const KlastornyZivot = () => {
             </span>
           </p>
 
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Prvý Korintským 7:8
             <span className='italic'>
               {' '}
@@ -283,7 +293,7 @@ const KlastornyZivot = () => {
             </span>
           </p>
 
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Títovi 2:4-5
             <span className='italic'>
               {' '}
@@ -348,9 +358,9 @@ const KlastornyZivot = () => {
         </div>
       </section>
       {/* Kristova nevesta black table lg */}
-      <section className='hidden text-[22.5px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[20px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold  text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px]  text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4  flex flex-col gap-4 mt-8'>
@@ -366,7 +376,9 @@ const KlastornyZivot = () => {
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-center text-[22.5px] mt-4'>
+            Biblia hovorí:
+          </h2>
           <div className='mx-4  text-justify flex flex-col gap-4 mt-8'>
             <p>
               Prvý Timotejovi 4:1-3
@@ -385,9 +397,11 @@ const KlastornyZivot = () => {
       </section>
 
       {/*  Kristova nevesta   table mobile only */}
-      <section className='flex flex-col bg-black text-white text-[22.5px] lg:hidden pt-8 gap-8 pb-8'>
+      <section className='flex flex-col bg-black text-white text-[20px] lg:hidden pt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className='text-center mt-4'>
             § 923 Keď panny „vyslovia sväté predsavzatie zbližša nasledovať
             Krista, diecézny biskup ich podľa schváleného liturgického obradu
@@ -398,7 +412,7 @@ const KlastornyZivot = () => {
             budúceho života“.
           </p>
 
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Prvý Timotejovi 4:1-3
             <span className='italic'>

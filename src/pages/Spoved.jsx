@@ -63,9 +63,9 @@ const Spoved = () => {
         </div>
       </header>
       {/* spoved table lg */}
-      <section className='hidden lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>
+      <section className='hidden text-[20px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+        <div className='w-[50%] border flex flex-col items-center mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
@@ -107,8 +107,10 @@ const Spoved = () => {
             </p>
           </div>
         </div>
-        <div className='w-[50%] text-[22.5px] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold  text-center mt-4'>Biblia hovorí:</h2>
+        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
+          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+            Biblia hovorí:
+          </h2>
           <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Matúš 23:8
@@ -167,9 +169,11 @@ const Spoved = () => {
         </div>
       </section>
       {/* spoved table mobile only */}
-      <section className='flex flex-col text-[22.5px] lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px] lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 1424 Volá sa sviatosť svätej spovede, lebo spoveď, vyznanie
             hriechov pred kňazom je podstatnou zložkou tejto sviatosti. V
@@ -183,7 +187,7 @@ const Spoved = () => {
             kňazovi všetky ťažké hriechy, z ktorých sa ešte nespovedal a na
             ktoré sa rozpamätá po starostlivom spytovaní svedomia.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Matúš 23:8
             <span className='italic'>
@@ -208,7 +212,9 @@ const Spoved = () => {
               Jeden, Boh?
             </span>
           </p>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 1457 Podľa prikázania Cirkvi „každý veriaci, keď dosiahol vek
             usudzovania, je povinný úprimne sa vyspovedať zo svojich ťažkých
@@ -219,7 +225,7 @@ const Spoved = () => {
             vyspovedať sa. Deti majú pristúpiť k sviatosti pokánia skôr, ako
             pristúpia k prvému svätému prijímaniu.
           </p>
-          <h2 className='font-semibold  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Rimanom 5:8
             <span className='italic'>
@@ -232,7 +238,9 @@ const Spoved = () => {
               zmierení?!
             </span>
           </p>
-          <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] mt-4'>
+            Katechizmus hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             § 1456 Vyznanie hriechov kňazovi tvorí podstatnú časť sviatosti
             pokánia. Treba, „aby kajúcnici pri spovedi vyznali všetky smrteľné
@@ -252,7 +260,7 @@ const Spoved = () => {
               odpustil hriechy a očistil nás od všetkej neprávosti.
             </span>
           </p>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Žalmy 32:5
             <span className='italic'>
               {' '}
@@ -308,9 +316,9 @@ const Spoved = () => {
         </div>
       </section>
       {/* pokanie black table lg */}
-      <section className='hidden text-[22.5px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[20px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
-          <h2 className='font-semibold  text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4  flex flex-col gap-4 mt-8'>
@@ -349,8 +357,10 @@ const Spoved = () => {
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
-          <div className='mx-4  text-justify flex flex-col gap-4 mt-8'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               Skutky apoštolov 5:29-31
               <span className='italic'>
@@ -419,22 +429,24 @@ const Spoved = () => {
         </div>
       </section>
       {/* pokanie black table mobile only */}
-      <section className='bg-black text-[22.5px] text-white flex flex-col lg:hidden  gap-8 py-8'>
+      <section className='bg-black text-[20px] text-white flex flex-col lg:hidden  gap-8 py-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <p className=' text-center mt-8'>
+          <p className='text-center mt-8'>
             § 1459 Musí teda urobiť niečo viac, aby odčinil svoje hriechy: musí
             primeraným spôsobom „zadosťučiniť“ za svoje hriechy alebo ich
             „odpykať“. Toto zadosťučinenie sa volá aj „pokánie“.
           </p>
-          <p className=' text-center mt-8'>
+          <p className='text-center mt-8'>
             § 1460 Môže to byť modlitba, milodar, skutky milosrdenstva, služba
             blížnemu, dobrovoľné odriekania.
           </p>
 
-          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             Skutky apoštolov 5:29-31
             <span className='italic'>
@@ -456,7 +468,7 @@ const Spoved = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-4'>
@@ -471,7 +483,9 @@ const Spoved = () => {
             mať Kristov učeník.
           </p>
 
-          <h2 className='font-semibold  text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             Židom 1:3
             <span className='italic'>
@@ -497,17 +511,19 @@ const Spoved = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 980 Pokrstený sa teda môže zmieriť s Bohom a s Cirkvou sviatosťou
             pokánia: „Cirkevní Otcovia právom nazvali pokánie ,akýmsi namáhavým
             krstom‘, Táto sviatosť pokánia je však taká potrebná na spásu pre
             tých, čo po krste padli, ako je potrebný sám krst pre tých, čo ešte
             nie sú znovuzrodení.“
           </p>
-          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+            Biblia hovorí:
+          </h2>
           <p className=' text-center mt-4'>
             {' '}
             Rimanom 5:9-10
