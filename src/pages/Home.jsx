@@ -6,7 +6,7 @@ const Home = () => {
     <>
       <main className='hero-bg relative'>
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-2'>
-          Nespoliehaj sa na cirkevné tradície, ale sám poď do Božieho Slova!
+          Nespoliehaj sa na cirkevné tradície! Riaď sa Božím Slovom!
         </h1>
         <div className='text-[#000000] flex flex-col items-center mt-[30%] lg:mt-[10%]'>
           <span className='italic text-center'>
@@ -63,7 +63,7 @@ const Home = () => {
         </h2> */}
 
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4'>
-          Ako sa Božie Slovo pozerá na prihováranie človeka k svätcom?
+          Ako sa Božie Slovo pozerá na prihováranie veriaceho k svätcom?
         </h1>
         <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
@@ -95,7 +95,8 @@ const Home = () => {
         </h2>
 
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
-          Kam Božie Slovo zaraďuje modlitby človeka k niekomu inému ako k Bohu?
+          Kam zaraďuje Božie Slovo modlitby veriaceho k niekomu inému ako k
+          Bohu?
         </h1>
         <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
@@ -113,8 +114,7 @@ const Home = () => {
         </h2>
 
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
-          Vyčleňuje Božie Slovo Máriu ako bezhriešnu tak ako to uvádza o
-          Ježišovi Kristovi?
+          Dokazuje Božie Slovo Máriu ako bezhriešnu?
         </h1>
         <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
@@ -139,7 +139,7 @@ const Home = () => {
 
       <section className='bg-white text-black  px-8 pt-8'>
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
-          Podporuje Božie Slovo orodovanie u Márii?
+          Učí Božie Slovo orodovať u Márii?
         </h1>
         <h2 className='text-[25px] text-justify lg:text-left'>
           <span className='italic'>
@@ -176,7 +176,7 @@ const Home = () => {
         </h2>
 
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
-          Je Božie Slovo dostačujúce pre spasenie hriešnika?
+          Je potrebné niečo pridávať k Božiemu Slovu?
         </h1>
         <h2 className='text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
@@ -194,7 +194,8 @@ const Home = () => {
         </h2>
 
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
-          Čo Božie Slovo hovorí o tradíciách, ktoré s ním nie sú v súlade?
+          Čo hovorí Božie Slovo o cirkevných tradíciách, ktoré sa od neho
+          odchyľujú?
         </h1>
         <h2 className='text-black text-[22.5px] text-justify lg:text-left'>
           <span className='italic'>
