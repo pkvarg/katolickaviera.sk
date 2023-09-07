@@ -6,6 +6,7 @@ import Manzelstvo from './pages/Manzelstvo'
 import PapezskyUrad from './pages/PapezskyUrad'
 import KnazskyUrad from './pages/KnazskyUrad'
 import KlastornyZivot from './pages/Klastorny-zivot'
+import Maria from './pages/Maria'
 import ScrollToTop from './components/ScrollToTop'
 import Footer from './components/Footer'
 
@@ -21,6 +22,7 @@ function App() {
           <Route path='/papezsky-urad' element={<PapezskyUrad />} />
           <Route path='/knazsky-urad' element={<KnazskyUrad />} />
           <Route path='/klastorny-zivot' element={<KlastornyZivot />} />
+          <Route path='/maria' element={<Maria />} />
         </Routes>
         <ScrollToTop />
       </BrowserRouter>
