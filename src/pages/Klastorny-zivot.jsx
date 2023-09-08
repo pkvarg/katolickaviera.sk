@@ -330,11 +330,15 @@ const KlastornyZivot = () => {
             U mladých žien v zavádzajúcej horlivosti slúžiť bližšie Bohu mnoho z
             nich verí, že zdržiavaním sa manželstva a sexuálneho vzťahu, môžu
             byť bližšie k Bohu. Celý koncept kláštorného života je úplne opakom
-            života, pre ktorý Boh stvoril ženu. I povedal Hospodin Boh: Potom
-            riekol Hospodin Boh: Nie je dobré človeku byť osamote. Dám mu pomoc,
-            ktorá mu bude roveň. Genesis 2:18 Je tak smutné, že rímskokatolícka
-            cirkev využíva túto mladickú horlivosť za účelom plniť svoje voľné
-            pracovné miesta.
+            života, pre ktorý Boh stvoril ženu. I povedal Hospodin Boh:
+            <span className='italic'>
+              {' '}
+              Potom riekol Hospodin Boh: Nie je dobré človeku byť osamote. Dám
+              mu pomoc, ktorá mu bude roveň.
+            </span>
+            <span className='text-[15px]'> Genesis 2:18 </span>
+            Je tak smutné, že rímskokatolícka cirkev využíva túto mladickú
+            horlivosť za účelom plniť svoje voľné pracovné miesta.
           </p>
         </div>
       </section>
@@ -476,7 +480,11 @@ const KlastornyZivot = () => {
               svadobný hod Baránkov! A doložil: Toto sú pravé slová Božie.{' '}
             </span>
             <span className='text-[15px]'> Zjavenie Jána 19:7-9 </span>
-            Poď, ukážem ti nevestu, manželku Baránkovu! Zjavenie Jána 21:9
+            <span className='italic'>
+              {' '}
+              Poď, ukážem ti nevestu, manželku Baránkovu!{' '}
+            </span>
+            <span className='text-[15px]'> Zjavenie Jána 21:9 </span>
           </p>
           <p>
             Skúmajme každý stav svojej duše. Boli ste obmytý a očistený Božím

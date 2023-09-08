@@ -201,12 +201,17 @@ const Maria = () => {
         <div className='text-justify text-[22.5px] flex flex-col gap-2  mx-8 lg:mx-16'>
           <p>
             Katolícke vyučovanie, že Mária je "celá svätá" je veľmi závažné
-            tvrdenie. Božie Slovo vyhlasuje: Svätý, svätý, svätý je Hospodin
-            mocností, plná je všetka zem Jeho slávy. Izaiáš 6:3. Preto nazývať
-            Máriu ako celú svätú a ako zdroj svätosti je rúhanie a úplne proti
-            Písmu. Toto neúctivé vyučovanie je pokusom o krádež základnej
-            božskej slávy. Dôvod, prečo potrebujeme byť spasení pred Bohom je
-            ten, že On je Svätý.
+            tvrdenie. Božie Slovo vyhlasuje:
+            <span className='italic'>
+              {' '}
+              Svätý, svätý, svätý je Hospodin mocností, plná je všetka zem Jeho
+              slávy.
+            </span>
+            <span className='text-[15px]'> Izaiáš 6:3. </span>
+            Preto nazývať Máriu ako celú svätú a ako zdroj svätosti je rúhanie a
+            úplne proti Písmu. Toto neúctivé vyučovanie je pokusom o krádež
+            základnej božskej slávy. Dôvod, prečo potrebujeme byť spasení pred
+            Bohom je ten, že On je Svätý.
           </p>
           <p>
             Ako u mnohých ďalších katolíkov, dnes to môže byť prvýkrát, čo ste
@@ -1009,7 +1014,6 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
           </p>
         </div>
       </section>
-
       {/*Bola Mária bezhriešna?
  black lg and mob OK */}
       <section className='bg-black text-white'>
@@ -1192,12 +1196,22 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
           <p>
             Máriina pozícia je tiež viditeľná v nasledujúcich Písmach. Po prvé,
             Mária sama seba uznávala za zachránenú hriešnicu. Vtedy Mária
-            povedala: Vtedy povedala Mária: Velebí moja duša Pána a môj duch sa
-            rozveselil v Bohu, v mojom Spasiteľovi. Lukáš 1:46-47 Potom Jozef a
-            Mária spoločne obetovali za hriech podľa toho ako vyžadoval Boží
-            Zákon. A aby priniesli obeť podľa slov zákona Pánovho: dve hrdličky
-            alebo dve holúbätá. Lukáš 2:24 Ak bola Mária bezhriešna, nebolo by
-            potrebné obetovať pár vtáctva ako obeť Pánovi.
+            povedala:
+            <span className='italic'>
+              {' '}
+              Vtedy povedala Mária: Velebí moja duša Pána a môj duch sa
+              rozveselil v Bohu, v mojom Spasiteľovi.
+            </span>
+            <span className='text-[15px]'> Lukáš 1:46-47 </span>
+            Potom Jozef a Mária spoločne obetovali za hriech podľa toho ako
+            vyžadoval Boží Zákon.
+            <span className='italic'>
+              {' '}
+              A aby priniesli obeť podľa slov zákona Pánovho: dve hrdličky alebo
+              dve holúbätá.{' '}
+            </span>
+            <span className='text-[15px]'> Lukáš 2:24 </span> Ak bola Mária
+            bezhriešna, nebolo by potrebné obetovať pár vtáctva ako obeť Pánovi.
           </p>
           <p>
             Môžeme všetci ďakovať Pánovi, že Mária bola a je naozaj "požehnaná
@@ -1214,10 +1228,10 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       <span className='font-bold'></span>
       <span className='font-bold'></span>
-      <span className='italic'></span>
-      <span className='text-[15px]'></span>
-      <span className='italic'></span>
-      <span className='text-[15px]'></span>
+      <span className='italic'> </span>
+      <span className='text-[15px]'> </span> <span className='italic'> </span>
+      <span className='text-[15px]'> </span> <span className='italic'> </span>
+      <span className='text-[15px]'> </span>
     </>
   )
 }

@@ -72,7 +72,7 @@ const PapezskyUrad = () => {
               Každý, kto je vykúpený krvou Ježiša Krista patrí do Božej rodiny -
               cirkvi. Pán Ježiš je hlavou a všetci, ktorí sú vykúpení sú Jeho
               telom.
-              <span className='italic'>Lebo sme údmi Jeho tela.</span>
+              <span className='italic'> Lebo sme údmi Jeho tela.</span>
               <span className='text-[15px]'> Efezským 5:30 </span>
             </p>
           </div>
@@ -461,7 +461,7 @@ const PapezskyUrad = () => {
               <span className='italic'>
                 {' '}
                 Posväť ich v pravde -
-                <span className='font-bold'>Tvoje slovo </span>
+                <span className='font-bold'> Tvoje slovo </span>
                 je pravda.{' '}
               </span>
             </p>
@@ -576,7 +576,7 @@ const PapezskyUrad = () => {
             <span className='italic'>
               {' '}
               Posväť ich v pravde -
-              <span className='font-bold'>Tvoje slovo </span>
+              <span className='font-bold'> Tvoje slovo </span>
               je pravda.
             </span>
           </p>

@@ -386,9 +386,14 @@ const Manzelstvo = () => {
           </p>
           <p className='pt-8'>
             Je možné vytvoriť manželstvo príkazom Ríma? V Písme je manželstvo
-            upravené podľa vôle a zámeru Boha. Pán Ježiš povedal: Preto opustí
-            človek otca i matku a pripojí sa k manželke, i budú dvaja jedno
-            telo. Matúš 19:5 Toto samotné je a stáva sa platným pred Bohom.
+            upravené podľa vôle a zámeru Boha. Pán Ježiš povedal:
+            <span className='italic'>
+              {' '}
+              Preto opustí človek otca i matku a pripojí sa k manželke, i budú
+              dvaja jedno telo.
+            </span>
+            <span className='text-[15px]'> Matúš 19:5 </span>
+            Toto samotné je a stáva sa platným pred Bohom.
           </p>
         </div>
       </section>
