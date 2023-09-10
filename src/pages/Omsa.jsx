@@ -766,7 +766,7 @@ const Omsa = () => {
       </section>
       {/* prijimanie black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2 pt-16 pb-16 mx-4 lg:mx-8'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pt-16 pb-16 mx-4 lg:mx-8'>
           <h1 className='text-title text-center text-[30px] pb-4'>
             Prijímanie
           </h1>
