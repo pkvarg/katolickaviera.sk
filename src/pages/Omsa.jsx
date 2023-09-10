@@ -9,7 +9,7 @@ const Omsa = () => {
         <div className='omsa-pic hidden lg:flex w-[50%]'></div>
         <div className='flex flex-col align-center lg:mx-16 mt-8'>
           <h1 className='text-title text-[35px]'>Omša</h1>
-          <div className='text-justify text-[22.5px] flex flex-col gap-2 mt-16'>
+          <div className='text-justify text-[20px]  flex flex-col gap-2 mt-16'>
             <p>
               "Svätá obeť omše" je centrom a najsvätejším aktom uctievania pre
               katolíkov. Katechizmus učí, že počas omše kňaz premieňa svojou
@@ -44,7 +44,7 @@ const Omsa = () => {
       {/* eucharistia */}
       <section className='flex flex-col items-center mt-16 mx-8 pb-16'>
         <h1 className='text-title text-[30px] m-8'>Eucharistia</h1>
-        <p className='text-[22.5px] text-justify'>
+        <p className='text-[20px] text-justify'>
           V katechizme katolíckej cirkvi je uvádzané, že skutočné telo, krv a
           božstvo Ježiša Krista je zoslané z neba a zázračne prepodstatnené v
           eucharistických oblátkach. Oproti tomu stojí Svätá Biblia a tá je
@@ -53,9 +53,9 @@ const Omsa = () => {
         </p>
       </section>
       {/* table lg */}
-      <section className='hidden text-[20px]  lg:flex justify-center mx-4 mt-8 gap-8 pb-16'>
+      <section className='hidden text-[18px]  lg:flex justify-center mx-4 mt-8 gap-8 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
-          <h2 className='font-semibold text-center text-[22.5px] mt-4'>
+          <h2 className='font-semibold text-center text-[20px] mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
@@ -89,7 +89,7 @@ const Omsa = () => {
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold  text-center text-[22.5px] mt-4'>
+          <h2 className='font-semibold  text-center text-[20px] mt-4'>
             Biblia hovorí:
           </h2>
           <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
@@ -236,7 +236,7 @@ const Omsa = () => {
       </section>
       {/* lg and mob OK */}
       <section className=''>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2 mt-4 mx-8'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mt-4 mx-8'>
           <p>
             Podľa Biblie Ježiš Kristus sa obetoval za hriechy ľudí. Po Jeho
             smrti a zmŕtvychvstaní bol vzatý do mrakov a zasadol večne po
@@ -284,7 +284,7 @@ const Omsa = () => {
       </section>
       {/* idolatria black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2 mt-16 mx-8'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-8'>
           <h2 className='text-title text-center text-[30px] my-16'>
             Uctievanie hostie (Idolatria)
           </h2>
@@ -303,9 +303,9 @@ const Omsa = () => {
         </div>
       </section>
       {/* black table lg */}
-      <section className='hidden text-[20px]  bg-black text-white lg:flex justify-center gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[18px]  bg-black text-white lg:flex justify-center gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
-          <h2 className='font-semibold  text-center text-[22.5px] mt-4'>
+          <h2 className='font-semibold  text-center text-[20px] mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 text-justify flex flex-col gap-4 mt-8 pb-4'>
@@ -334,7 +334,7 @@ const Omsa = () => {
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-center text-[22.5px] mt-4'>
+          <h2 className='font-semibold text-center text-[20px] mt-4'>
             Biblia hovorí:
           </h2>
           <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
@@ -441,7 +441,7 @@ const Omsa = () => {
       </section>
       {/* black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2 pt-4 pb-16 mx-8'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pt-4 pb-16 mx-8'>
           <p>
             Písmo zreteľne identifikuje, že Boh je svätý a On Sám je hoden nášho
             uctievania.
@@ -509,11 +509,11 @@ const Omsa = () => {
         </div>
       </section>
       {/* obetovanie omse */}
-      <section className='flex flex-col mt-8 mx-8 pb-4'>
+      <section className='flex flex-col text-[20px]  mt-8 mx-8 pb-4'>
         <h1 className='text-title text-center text-[30px] my-8'>
           Obetovanie omše
         </h1>
-        <p className='text-[22.5px] text-justify'>
+        <p className='text-justify'>
           Rímskokatolícka cirkev učí, že Ježiš Kristus je novo obetovaný v omši.
           Jeho obeť, ktorá sa znovu obnovuje pri každej omši, môže byť
           pripočítaná k spaseniu človeka. Ak veríme tomu, čo je napísané v
@@ -523,15 +523,15 @@ const Omsa = () => {
           dokončený, keď Kristus zomrel na golgotskom kríži. Vaše porozumenie
           obete Ježiša Krista na kríži je rozhodujúce pre váš večný život.
         </p>
-        <p className='text-[22.5px] text-justify my-4'>
+        <p className='text-justify my-4'>
           Zotrvávate v dokončenej práci Ježiša Krista na kríži alebo v
           pokračujúcej práci kňazov na oltároch rímskokatolíckej cirkvi?
         </p>
       </section>
       {/* table lg */}
-      <section className='hidden text-[20px] lg:flex justify-center mx-4 gap-8 pt-8 pb-16'>
+      <section className='hidden text-[18px] lg:flex justify-center mx-4 gap-8 pt-8 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
-          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+          <h2 className='font-semibold text-[20px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='text-justify font-semibold flex flex-col gap-4 mt-8 mx-4 pb-4'>
@@ -582,7 +582,7 @@ const Omsa = () => {
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+          <h2 className='font-semibold text-[20px] text-center mt-4'>
             Biblia hovorí:
           </h2>
           <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
@@ -772,7 +772,7 @@ const Omsa = () => {
       </section>
       {/* lg and mob OK */}
       <section className=''>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2 mt-4 mx-8 pb-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mt-4 mx-8 pb-16'>
           <p>
             Podľa rímskokatolíckej cirkvi veriaci musia prijať ustavičné
             reinkarnovanie a nekrvavú obeť Ježiša Krista pre odpustenie
@@ -815,9 +815,9 @@ const Omsa = () => {
         </div>
       </section>
       {/* table lg */}
-      <section className='bg-black text-[20px] text-white hidden lg:flex justify-center px-4 gap-8 pb-16'>
+      <section className='bg-black text-[18px] text-white hidden lg:flex justify-center px-4 gap-8 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
-          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+          <h2 className='font-semibold text-[20px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='flex flex-col text-justify gap-4 mt-8 mx-4'>
@@ -870,7 +870,7 @@ const Omsa = () => {
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+          <h2 className='font-semibold text-[20px] text-center  mt-4'>
             Biblia hovorí:
           </h2>
           <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
@@ -1074,7 +1074,7 @@ const Omsa = () => {
       </section>
       {/* lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2 pt-4 mx-8 pb-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pt-4 mx-8 pb-16'>
           <p>
             <span className='italic'>
               {' '}
@@ -1117,7 +1117,7 @@ const Omsa = () => {
       </section>
       {/* white lg and mob OK */}
       <section className=''>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2 pt-16 mx-8 pb-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pt-16 mx-8 pb-16'>
           <p>
             Rímskokatolícka cirkev, práve tak ako židovský ľud, neporozumela
             Kristovej správe. Vykladá ju ako telesné jedenie Kristovho tela.
