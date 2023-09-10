@@ -5,7 +5,7 @@ const Spoved = () => {
   return (
     <>
       <Header />
-      <header className=''>
+      <header>
         <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>
           <h1 className='text-title text-center text-[35px]'>Spoveď</h1>
           <div className='text-justify flex flex-col gap-2 mt-8'>
@@ -167,7 +167,7 @@ const Spoved = () => {
         </div>
       </section>
       {/* spoved table mobile only */}
-      <section className='flex flex-col  lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
