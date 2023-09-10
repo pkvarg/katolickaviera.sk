@@ -248,7 +248,7 @@ const Maria = () => {
       </section>
       {/* Je Mária prostredníkom?
  black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -583,7 +583,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Máriina úloha v spasení?
  black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -1001,7 +1001,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Bola Mária bezhriešna?
  black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:

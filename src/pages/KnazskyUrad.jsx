@@ -345,7 +345,7 @@ const KnazskyUrad = () => {
         </div>
       </section>
       {/* Celibát black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-12'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center gap-8 pt-16 pb-16 px-12'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
