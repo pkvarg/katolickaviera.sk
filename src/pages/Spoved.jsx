@@ -265,7 +265,7 @@ const Spoved = () => {
       </section>
       {/* spoved lg and mob OK */}
       <section className='text-[20px]'>
-        <div className='text-justify  flex flex-col gap-2  mx-4 lg:mx-16'>
+        <div className='text-justify  flex flex-col gap-2 mx-4 lg:mx-16'>
           <p>
             Katolícky katechizmus vyžaduje od členov vyznávanie hriechov
             človeku, ale Biblia odhaľuje, že ten, kto sa narodil do Božej rodiny
@@ -308,9 +308,9 @@ const Spoved = () => {
         </div>
       </section>
       {/* pokanie black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
-          <h2 className='font-semibold  text-center  mt-4'>
+          <h2 className='font-semibold  text-center mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>

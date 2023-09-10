@@ -177,7 +177,7 @@ const Manzelstvo = () => {
       </section>
       {/* manzelstvo lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
           <p>
             Podľa Písma je rozvod možný za dvoch podmienok. Prvá sa týka nevery
             druhého partnera (Matúš 5:32, 19:9). Druhý je možný ak neveriaci
@@ -199,7 +199,7 @@ const Manzelstvo = () => {
       </section>
       {/* manzelstvo black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-16'>
           <h2 className='text-title text-center text-[30px] my-16'>
             Anulovanie manželstva
           </h2>
@@ -218,7 +218,7 @@ const Manzelstvo = () => {
         </div>
       </section>
       {/* manzelstvo black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -337,7 +337,7 @@ const Manzelstvo = () => {
 
       {/* manzelstvo black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-16'>
           <p>
             Pán Ježiš Kristus oznámil štyri pravidlá týkajúce sa rozvodu v
             Biblii. Dve z týchto uvažovaných tvrdení sú proti rozvodu a dve
@@ -384,7 +384,7 @@ const Manzelstvo = () => {
 
       {/* manzelstvo zivot v odluceni white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
           <h2 className='text-title text-center text-[30px] mt-4 mb-8'>
             Život v odlúčení (separácii){' '}
           </h2>
@@ -497,7 +497,7 @@ const Manzelstvo = () => {
       </section>
       {/* zivot v odluceni outro white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
           <p>
             Čo sa týka manželstva rímskokatolícka cirkev odmieta biblickú
             autoritu. Jedine sám Boh je ten, kto je autorom manželstva a má

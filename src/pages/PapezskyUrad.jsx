@@ -293,7 +293,7 @@ const PapezskyUrad = () => {
       </section>
       {/* nasledovnik lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
           <p>
             Termíny "biskup" alebo "starší" neboli nikdy použité v Novom Zákone
             v zmysle a určení osôb lepších, než by boli ostatní. Sú to obyčajní
@@ -338,7 +338,7 @@ const PapezskyUrad = () => {
       </section>
       {/* Neomylnosť black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-16'>
           <h2 className='text-title text-center text-[30px] my-16'>
             Neomylnosť
           </h2>
@@ -365,9 +365,9 @@ const PapezskyUrad = () => {
         </div>
       </section>
       {/* neomylnost black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
@@ -581,7 +581,7 @@ const PapezskyUrad = () => {
 
       {/* neomylnost black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-16'>
           <p>
             Pápežské vyhlásenie "neomylnosti učiteľskej autority" je v podstate
             vyhlásenie o božstve. Len Pán Boh je bez chyby
@@ -637,7 +637,7 @@ const PapezskyUrad = () => {
 
       {/* Námestník Krista white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
           <h2 className='text-title text-center text-[30px] mt-4 mb-8'>
             Námestník Krista{' '}
           </h2>
@@ -854,7 +854,7 @@ const PapezskyUrad = () => {
       </section>
       {/* Námestník Krista outro white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
           <p>
             Duch Svätý, ako Námestník Krista, je najvyšší sľub a kľúč vzťahu
             každého pravého veriaceho k Pánovi Ježišovi Kristovi. Táto nádherná
