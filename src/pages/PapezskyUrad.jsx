@@ -8,7 +8,7 @@ const PapezskyUrad = () => {
       <header className=''>
         <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>
           <h1 className='text-title text-center text-[35px]'>Pápežský úrad</h1>
-          <div className='text-justify text-[22.5px] flex flex-col gap-2 mt-8'>
+          <div className='text-justify text-[20px] flex flex-col gap-2 mt-8'>
             <p>
               Podľa oficiálneho učenia rímskokatolíckej cirkvi, Pán Ježiš
               ustanovil svätého Petra ako viditeľný základ svojej cirkvi. Zveril
@@ -79,11 +79,11 @@ const PapezskyUrad = () => {
         </div>
       </header>
       {/* Nasledovník svätého Petra */}
-      <section className='flex flex-col justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px]  justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
         <h1 className='text-title text-center text-[35px]'>
           Nasledovník svätého Petra
         </h1>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2 mt-8'>
+        <div className='text-justify flex flex-col gap-2 mt-8'>
           <p>
             V čase, keď Ježiš pôsobil na zemi, osobne vybral dvanásť apoštolov
             bez žiadneho naznačenia budúcej následnosti. Apoštol Pavol bol Pánom
@@ -119,9 +119,9 @@ const PapezskyUrad = () => {
         </div>
       </section>
       {/* nasledovnik table lg */}
-      <section className='hidden text-[20px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+      <section className='hidden text-[18px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
+          <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
@@ -150,9 +150,7 @@ const PapezskyUrad = () => {
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
-            Biblia hovorí:
-          </h2>
+          <h2 className='font-semibold text-center mt-4'>Biblia hovorí:</h2>
           <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Prvý Petrov 2:6-8
@@ -209,18 +207,16 @@ const PapezskyUrad = () => {
         </div>
       </section>
       {/* nasledovnik table mobile only */}
-      <section className='flex flex-col text-[20px] lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold text-[22.5px] mt-4'>
-            Katechizmus hovorí:
-          </h2>
+          <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
             § 936 Pán urobil z Petra viditeľný základ svojej Cirkvi a odovzdal
             mu od nej kľúče. Biskup rímskej cirkvi, Petrov nástupca, je „hlava
             kolégia biskupov, Kristov zástupca a pastier celej Cirkvi tu na
             zemi“.
           </p>
-          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Prvý Petrov 2:6-8
             <span className='italic'>
@@ -237,9 +233,7 @@ const PapezskyUrad = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold text-[22.5px] mt-4'>
-            Katechizmus hovorí:
-          </h2>
+          <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
 
           <p className=' text-center mt-4'>
             § 77 „Aby sa však evanjelium zachovalo v Cirkvi stále neporušené a
@@ -248,7 +242,7 @@ const PapezskyUrad = () => {
             ktoré je osobitným spôsobom zaznačené v inšpirovaných knihách, malo
             sa nepretržitým nástupníctvom zachovať až do konca čias“.
           </p>
-          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Títovi 1:5-9
             <span className='italic'>
@@ -267,9 +261,7 @@ const PapezskyUrad = () => {
               podvracať tých, ktorí odporujú.{' '}
             </span>
           </p>
-          <h2 className='font-semibold text-[22.5px] mt-4'>
-            Katechizmus hovorí:
-          </h2>
+          <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
             § 1594 Biskup dostáva plnosť sviatosti posvätného stavu, ktorá ho
             začleňuje do biskupského kolégia a robí ho viditeľnou hlavou
@@ -278,7 +270,7 @@ const PapezskyUrad = () => {
             zodpovednosti za celú Cirkev a na poslaní celej Cirkvi pod autoritou
             rímskeho pápeža, nástupcu svätého Petra.
           </p>
-          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Prvý Timotejovi 3:1-5
             <span className='italic'>
@@ -301,7 +293,7 @@ const PapezskyUrad = () => {
       </section>
       {/* nasledovnik lg and mob OK */}
       <section>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2  mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8 lg:mx-16'>
           <p>
             Termíny "biskup" alebo "starší" neboli nikdy použité v Novom Zákone
             v zmysle a určení osôb lepších, než by boli ostatní. Sú to obyčajní
@@ -346,7 +338,7 @@ const PapezskyUrad = () => {
       </section>
       {/* Neomylnosť black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2 mt-16 mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8 lg:mx-16'>
           <h2 className='text-title text-center text-[30px] my-16'>
             Neomylnosť
           </h2>
@@ -373,9 +365,9 @@ const PapezskyUrad = () => {
         </div>
       </section>
       {/* neomylnost black table lg */}
-      <section className='hidden text-[20px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-8 gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+          <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
@@ -404,9 +396,7 @@ const PapezskyUrad = () => {
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
-            Biblia hovorí:
-          </h2>
+          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
           <div className='mx-4  text-justify flex flex-col gap-4 mt-8'>
             <p>
               Exodus 20:2-3
@@ -481,9 +471,9 @@ const PapezskyUrad = () => {
         </div>
       </section>
       {/* neomylnost black table mobile only */}
-      <section className='bg-black text-[20px] text-white flex flex-col lg:hidden  gap-8 py-8'>
+      <section className='bg-black text-white flex flex-col lg:hidden  gap-8 py-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+          <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-8'>
@@ -495,9 +485,7 @@ const PapezskyUrad = () => {
             Božieho zjavenia.
           </p>
 
-          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
-            Biblia hovorí:
-          </h2>
+          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
           <p className='text-center mt-4'>
             Exodus 20:2-3
             <span className='italic'>
@@ -522,7 +510,7 @@ const PapezskyUrad = () => {
               Naozaj, nebude úsvitu pre slovo, ktoré hovorím.
             </span>
           </p>
-          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+          <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-4'>
@@ -532,9 +520,7 @@ const PapezskyUrad = () => {
             charizmou neomylnosti vo veciach viery a mravov.
           </p>
 
-          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
-            Biblia hovorí:
-          </h2>
+          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
           <p className='text-center mt-4'>
             Ján 8:31
             <span className='italic'>
@@ -552,7 +538,7 @@ const PapezskyUrad = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+          <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <p className=' text-center mt-4'>
@@ -560,9 +546,7 @@ const PapezskyUrad = () => {
             na všetky prvky učenia vrátane morálneho učenia, bez ktorých nemožno
             zachovať a vykladať spasiteľné pravdy viery alebo podľa nich žiť.
           </p>
-          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
-            Biblia hovorí:
-          </h2>
+          <h2 className='font-semibold text-center  mt-4'>Biblia hovorí:</h2>
           <p className='text-center mt-4'>
             Rimanom 3:23
             <span className='italic'>
@@ -597,7 +581,7 @@ const PapezskyUrad = () => {
 
       {/* neomylnost black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2 pb-16 mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-8 lg:mx-16'>
           <p>
             Pápežské vyhlásenie "neomylnosti učiteľskej autority" je v podstate
             vyhlásenie o božstve. Len Pán Boh je bez chyby
@@ -653,7 +637,7 @@ const PapezskyUrad = () => {
 
       {/* Námestník Krista white lg and mob OK */}
       <section>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2 py-8 mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8 lg:mx-16'>
           <h2 className='text-title text-center text-[30px] mt-4 mb-8'>
             Námestník Krista{' '}
           </h2>
@@ -689,9 +673,9 @@ const PapezskyUrad = () => {
       </section>
 
       {/* Námestník Krista table lg */}
-      <section className='hidden text-[20px]  lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+      <section className='hidden text-[18px]  lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
+          <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
@@ -723,9 +707,7 @@ const PapezskyUrad = () => {
           </div>
         </div>
         <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
-          <h2 className='font-semibold text-[22.5px] text-center mt-4'>
-            Biblia hovorí:
-          </h2>
+          <h2 className='font-semibold text-center mt-4'>Biblia hovorí:</h2>
           <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Kolosenským 1:18
@@ -785,11 +767,9 @@ const PapezskyUrad = () => {
         </div>
       </section>
       {/* Námestník Krista  table mobile only */}
-      <section className='flex flex-col text-[20px] lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col lg:hidden mt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold text-[22.5px] mt-4'>
-            Katechizmus hovorí:
-          </h2>
+          <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
             § 882 Pápež, rímsky biskup a nástupca svätého Petra, „je stálym a
             viditeľným princípom a základom jednoty biskupov, ako aj množstva
@@ -797,7 +777,7 @@ const PapezskyUrad = () => {
             zástupcu a pastiera celej Cirkvi plnú, najvyššiu a univerzálnu moc
             nad Cirkvou, ktorú môže vždy slobodne vykonávať.“
           </p>
-          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Kolosenským 1:18
             <span className='italic'>
@@ -810,9 +790,7 @@ const PapezskyUrad = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold text-[22.5px] mt-4'>
-            Katechizmus hovorí:
-          </h2>
+          <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
             § 936 Pán urobil z
             <span className='font-bold'> Petra viditeľný základ </span>
@@ -820,7 +798,7 @@ const PapezskyUrad = () => {
             Petrov nástupca, je „hlava kolégia biskupov, Kristov zástupca a
             pastier celej Cirkvi tu na zemi“.
           </p>
-          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Prvý Korintským 3:11
             <span className='italic'>
@@ -839,9 +817,7 @@ const PapezskyUrad = () => {
             </span>
           </p>
 
-          <h2 className='font-semibold text-[22.5px] mt-4'>
-            Katechizmus hovorí:
-          </h2>
+          <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
             § 2034 Rímsky pápež a biskupi ako „autentickí, čiže Kristovou
             autoritou obdarení učitelia,… hlásajú sebe zverenému ľudu vieru,
@@ -850,7 +826,7 @@ const PapezskyUrad = () => {
             v spoločenstve, učí veriacich pravdu, ktorú treba veriť, lásku,
             ktorú treba praktizovať, a blaženosť, v ktorú treba dúfať.
           </p>
-          <h2 className='font-semibold text-[22.5px] mt-4'>Biblia hovorí:</h2>
+          <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
           <p className=' text-center mt-4'>
             Ján 14:26
             <span className='italic'>
@@ -878,7 +854,7 @@ const PapezskyUrad = () => {
       </section>
       {/* Námestník Krista outro white lg and mob OK */}
       <section>
-        <div className='text-justify text-[22.5px] flex flex-col gap-2 py-8 mx-8 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8 lg:mx-16'>
           <p>
             Duch Svätý, ako Námestník Krista, je najvyšší sľub a kľúč vzťahu
             každého pravého veriaceho k Pánovi Ježišovi Kristovi. Táto nádherná
