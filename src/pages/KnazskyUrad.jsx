@@ -78,12 +78,12 @@ const KnazskyUrad = () => {
         </div>
       </section>
       {/*    Iný Kristus  table lg */}
-      <section className='hidden lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
-        <div className='w-[50%] text-[20px] border flex flex-col items-center mx-4 pb-4'>
+      <section className='hidden text-[20px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+        <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 1548 Lebo on (služobník) vďaka kňazskej vysviacke, ktorú prijal,
               je pripodobnený Veľkňazovi a má moc konať mocou a v osobe samého
@@ -358,7 +358,7 @@ const KnazskyUrad = () => {
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4  flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               § 1579 Všetci vysvätení služobníci Latinskej cirkvi, okrem
               trvalých diakonov, sa normálne vyberajú spomedzi veriacich mužov,

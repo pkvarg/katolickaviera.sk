@@ -61,13 +61,13 @@ const Maria = () => {
           </p>
         </div>
       </section>
-      {/*    Maria table lg */}
+      {/* Maria table lg */}
       <section className='hidden text-[20px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
-        <div className='w-[50%]  border flex flex-col items-center mx-4 pb-4'>
+        <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 2677 Keď žiadame Pannu Máriu, aby za nás prosila, uznávame, že
               sme úbohí hriešnici a obraciame sa na „Matku milosrdenstva“, na
@@ -259,7 +259,7 @@ const Maria = () => {
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               § 969 Preto sa Preblahoslavená Panna vzýva v Cirkvi pod titulmi
               Orodovnica, Ochrankyňa, Pomocnica, Prostrednica.
@@ -418,7 +418,7 @@ const Maria = () => {
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 491 Cirkev si v priebehu storočí uvedomila, že Mária, ktorú Boh
               naplnil milosťou, bola vykúpená už od svojho počatia.
@@ -606,7 +606,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               § 494 Ona, ako hovorí svätý Irenej, poslušnosťou sa stala príčinou
               spásy pre seba a pre celé ľudské pokolenie.
@@ -878,7 +878,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
           <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 966 Napokon bola Nepoškvrnená Panna – uchránená nedotknutá od
               akejkoľvek škvrny dedičného hriechu – po skončení pozemského
@@ -1038,7 +1038,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4  flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               § 493 Z Božej milosti Mária počas celého svojho života zostala
               čistá od akéhokoľvek osobného hriechu.

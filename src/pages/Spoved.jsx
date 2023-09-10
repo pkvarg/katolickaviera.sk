@@ -68,7 +68,7 @@ const Spoved = () => {
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8 pb-4'>
             <p>
               § 1424 Volá sa sviatosť svätej spovede, lebo spoveď, vyznanie
               hriechov pred kňazom je podstatnou zložkou tejto sviatosti. V
@@ -321,7 +321,7 @@ const Spoved = () => {
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4  flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               § 1459 Musí teda urobiť niečo viac, aby odčinil svoje hriechy:
               musí primeraným spôsobom „zadosťučiniť“ za svoje hriechy alebo ich

@@ -58,7 +58,7 @@ const Omsa = () => {
           <h2 className='font-semibold text-center text-[22.5px] mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 1357 chlieb a víno, ktoré sa Kristovými slovami a mocou Ducha
               Svätého stali Kristovým telom a krvou; takto sa Kristus stáva
@@ -92,7 +92,7 @@ const Omsa = () => {
           <h2 className='font-semibold  text-center text-[22.5px] mt-4'>
             Biblia hovorí:
           </h2>
-          <div className='mx-4 text-[20px] text-justify font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               Židom 10:10-14
               <span className='italic'>
@@ -308,7 +308,7 @@ const Omsa = () => {
           <h2 className='font-semibold  text-center text-[22.5px] mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8 pb-4'>
             <p>
               § 1378 V omšovej liturgii vyjadrujeme svoju vieru v skutočnú
               Kristovu prítomnosť pod spôsobmi chleba a vína okrem iného aj
@@ -534,7 +534,7 @@ const Omsa = () => {
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className=' font-semibold flex flex-col gap-4 mt-8 mx-4'>
+          <div className='text-justify font-semibold flex flex-col gap-4 mt-8 mx-4 pb-4'>
             <p>
               § 1364 Vždy, keď sa na oltári slávi obeta kríža, v ktorej “bol
               obetovaný náš veľkonočný Baránok, Kristus”, (1Kor 5,7) uskutočňuje
@@ -820,7 +820,7 @@ const Omsa = () => {
           <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='flex flex-col gap-4 mt-8 mx-4'>
+          <div className='flex flex-col text-justify gap-4 mt-8 mx-4'>
             <p>
               § 1384 Pán sa na nás obracia s naliehavou výzvou, aby sme ho
               prijímali vo sviatosti Eucharistie: „Veru, veru, hovorím vám: Ak

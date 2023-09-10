@@ -124,7 +124,7 @@ const PapezskyUrad = () => {
           <h2 className='font-semibold text-[22.5px] text-center mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 936 Pán urobil z Petra viditeľný základ svojej Cirkvi a odovzdal
               mu od nej kľúče. Biskup rímskej cirkvi, Petrov nástupca, je „hlava
@@ -378,7 +378,7 @@ const PapezskyUrad = () => {
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               § 891 Túto „neomylnosť má na základe svojho úradu rímsky pápež,
               hlava kolégia biskupov, keď ako najvyšší pastier a učiteľ všetkých
@@ -694,7 +694,7 @@ const PapezskyUrad = () => {
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 882 Pápež, rímsky biskup a nástupca svätého Petra, „je stálym a
               viditeľným princípom a základom jednoty biskupov, ako aj množstva

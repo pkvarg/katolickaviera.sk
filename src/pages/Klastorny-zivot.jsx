@@ -59,13 +59,13 @@ const KlastornyZivot = () => {
           </p>
         </div>
       </section>
-      {/*     KlastornyZivot  table lg */}
-      <section className='hidden lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
-        <div className='w-[50%] text-[20px] border flex flex-col items-center mx-4 pb-4'>
+      {/* KlastornyZivot  table lg */}
+      <section className='hidden text-[20px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+        <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center text-[22.5px] mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 917 V Cirkvi „akoby na strome, ktorý sa obdivuhodne a bohato
               rozvetvil na Pánovom poli zo semena zasiateho Bohom, vyrástli
@@ -367,7 +367,7 @@ const KlastornyZivot = () => {
           <h2 className='font-semibold text-[22.5px]  text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4  flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               § 923 Keď panny „vyslovia sväté predsavzatie zbližša nasledovať
               Krista, diecézny biskup ich podľa schváleného liturgického obradu

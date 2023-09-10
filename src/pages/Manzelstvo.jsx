@@ -56,7 +56,7 @@ const Manzelstvo = () => {
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 2382 Medzi pokrstenými „platne uzavreté a [manželským úkonom]
               zavŕšené manželstvo nemôže byť rozviazané nijakou ľudskou mocou a
@@ -231,7 +231,7 @@ const Manzelstvo = () => {
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4  flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
             <p>
               § 1629 Po preskúmaní prípadu kompetentným cirkevným súdom vyhlásiť
               „nulitu manželstva“, to značí vyhlásiť, že manželstvo nikdy
@@ -432,7 +432,7 @@ const Manzelstvo = () => {
           <h2 className='font-semibold text-[22.5px] text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <div className='mx-4 font-semibold flex flex-col gap-4 mt-8'>
+          <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 2383 Odluka manželov, pri ktorej však pretrváva manželský
               zväzok, môže byť oprávnená v niektorých prípadoch predvídaných
