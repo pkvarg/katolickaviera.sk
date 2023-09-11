@@ -9,6 +9,7 @@ import KlastornyZivot from './pages/Klastorny-zivot'
 import Maria from './pages/Maria'
 import Hriech from './pages/Hriech'
 import Spasenie from './pages/Spasenie'
+import Biblia from './pages/Biblia'
 
 import ScrollToTop from './components/ScrollToTop'
 import Footer from './components/Footer'
@@ -28,6 +29,7 @@ function App() {
           <Route path='/maria' element={<Maria />} />
           <Route path='/hriech' element={<Hriech />} />
           <Route path='/spasenie' element={<Spasenie />} />
+          <Route path='/biblia' element={<Biblia />} />
         </Routes>
         <ScrollToTop />
       </BrowserRouter>
