@@ -24,7 +24,7 @@ function App() {
           <Route path='/knazsky-urad' element={<KnazskyUrad />} />
           <Route path='/klastorny-zivot' element={<KlastornyZivot />} />
           <Route path='/maria' element={<Maria />} />
-          {/* <Route path='/hriech' element={<Hriech />} /> */}
+          <Route path='/hriech' element={<Hriech />} />
         </Routes>
         <ScrollToTop />
       </BrowserRouter>
