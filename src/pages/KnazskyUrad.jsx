@@ -17,6 +17,9 @@ const KnazskyUrad = () => {
               žijúcim obrazom Boha Otca. Obaja, ako kňaz, tak aj biskup, ako je
               vyhlásené, zdieľajú identické kňazstvo a úrad Krista.
             </p>
+            <div className='knaz-pic hidden lg:flex h-[400px] my-4'></div>
+            <div className='knaz-pic flex lg:hidden w-[100%] h-[30vh] my-4'></div>
+
             <p>
               Naproti tomu Písmo učí, že žiadny človek nemôže zaujať Kristovo
               miesto ako kňaz. V skutočnosti nás Biblia varuje:

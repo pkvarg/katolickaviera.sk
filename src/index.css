@@ -56,6 +56,51 @@ section h2 {
   width: 100%;
 }
 
+.manzelstvo-pic {
+  background-image: linear-gradient(to top, #f5f5f200, #f8f8f800, #ffffff00),
+    url('/manzelstvo.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 200%;
+}
+
+.papez-pic {
+  background-image: linear-gradient(to top, #f5f5f200, #f8f8f800, #ffffff00),
+    url('/papez.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 200%;
+}
+
+.knaz-pic {
+  background-image: linear-gradient(to top, #f5f5f200, #f8f8f800, #ffffff00),
+    url('/knaz.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.klastor-pic {
+  background-image: linear-gradient(to top, #f5f5f200, #f8f8f800, #ffffff00),
+    url('/klastor.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 40%;
+}
+
+.maria-pic {
+  background-image: linear-gradient(to top, #f5f5f200, #f8f8f800, #ffffff00),
+    url('/maria.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 200%;
+}
+
 /* react-scroll */
 
 .top-to-btm {
@@ -93,7 +138,14 @@ section h2 {
     font-size: 20px;
   }
 
-  .spoved-pic {
+  .spoved-pic,
+  .manzelstvo-pic,
+  .papez-pic,
+  .maria-pic {
     width: auto;
+  }
+
+  .klastor-pic {
+    width: 50%;
   }
 }

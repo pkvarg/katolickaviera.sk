@@ -7,35 +7,44 @@ const KlastornyZivot = () => {
       <Header />
       <header>
         <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 my-8'>
-          <h1 className='text-title text-center text-[35px]'>
-            Kláštorný život
-          </h1>
-          <div className='text-justify flex flex-col gap-2 mt-8'>
-            <p>
-              Kláštorné komunity v rímskokatolíckej cirkvi sa skladajú zo žien,
-              ktoré zdieľajú rovnaké nádeje a túžby. Tieto ženy sú nazývané
-              "mníšky, rehoľníčky či rádové sestry". Mníšky žijú v kláštoroch,
-              kde hľadajú Boha skrze život modlitby a práce. V rímskokatolíckych
-              kláštoroch po celom svete je cez 800 tisíc žien.
-            </p>
-            <p>
-              Cirkev aktívne regrutuje dievčatá do týchto kláštorov. Kvôli tomu
-              by si mali katolícke rodiny starostlivo prezrieť, aký život sa vo
-              vnútri kláštorov katolíckej cirkvi pred ich dcérou rozprestiera.
-              Mnoho rádových sestier totiž okrem hľadania Boha vstupuje do
-              kláštorov po rozbitom vzťahu či už v domove, alebo s chlapcom.
-            </p>
-            <p>
-              Ak vy alebo váš milovaný človek považuje tento životný štýl za
-              najlepší, obraciam sa na vás, aby ste vždy skúmali to, čo sa
-              skrýva pod povrchom. Hľadajte múdrosť a pýtajte sa Pána, aby vám
-              ukázal, či Písmo sväté má čokoľvek čo povedať k tejto veci. Ja by
-              som vás chcel vyzvať na štúdium toho, čo hovorí ako katechizmus,
-              tak aj Biblia. Prosím pýtajte sa aj sami seba, či je správne sa
-              odstrániť z obyčajnej existencie a žiť v domácnostiach iba so
-              ženami za účelom slúžiť a páčiť sa Bohu. Môže byť dievča tou
-              nevestou Ježiša Krista?
-            </p>
+          <div className='flex flex-row gap-8'>
+            <div className='klastor-pic hidden lg:flex w-[50%]'></div>
+
+            <div className='text-justify flex flex-col gap-2 w-[100%] lg:w-[50%]'>
+              <h1 className='text-title text-center text-[35px] mb-4'>
+                Kláštorný život
+              </h1>
+
+              <p>
+                Kláštorné komunity v rímskokatolíckej cirkvi sa skladajú zo
+                žien, ktoré zdieľajú rovnaké nádeje a túžby. Tieto ženy sú
+                nazývané "mníšky, rehoľníčky či rádové sestry". Mníšky žijú v
+                kláštoroch, kde hľadajú Boha skrze život modlitby a práce. V
+                rímskokatolíckych kláštoroch po celom svete je cez 800 tisíc
+                žien.
+              </p>
+              <div className='klastor-pic flex ml-[25%] mr-[25%] lg:hidden w-[100%] h-[30vh] my-4'></div>
+
+              <p>
+                Cirkev aktívne regrutuje dievčatá do týchto kláštorov. Kvôli
+                tomu by si mali katolícke rodiny starostlivo prezrieť, aký život
+                sa vo vnútri kláštorov katolíckej cirkvi pred ich dcérou
+                rozprestiera. Mnoho rádových sestier totiž okrem hľadania Boha
+                vstupuje do kláštorov po rozbitom vzťahu či už v domove, alebo s
+                chlapcom.
+              </p>
+              <p>
+                Ak vy alebo váš milovaný človek považuje tento životný štýl za
+                najlepší, obraciam sa na vás, aby ste vždy skúmali to, čo sa
+                skrýva pod povrchom. Hľadajte múdrosť a pýtajte sa Pána, aby vám
+                ukázal, či Písmo sväté má čokoľvek čo povedať k tejto veci. Ja
+                by som vás chcel vyzvať na štúdium toho, čo hovorí ako
+                katechizmus, tak aj Biblia. Prosím pýtajte sa aj sami seba, či
+                je správne sa odstrániť z obyčajnej existencie a žiť v
+                domácnostiach iba so ženami za účelom slúžiť a páčiť sa Bohu.
+                Môže byť dievča tou nevestou Ježiša Krista?
+              </p>
+            </div>
           </div>
         </div>
       </header>

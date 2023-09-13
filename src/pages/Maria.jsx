@@ -7,36 +7,43 @@ const Maria = () => {
       <Header />
       <header>
         <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>
-          <h1 className='text-title text-center text-[35px]'>Mária</h1>
-          <div className='text-justify text-[20px] flex flex-col gap-2 mt-8'>
-            <p>
-              Katolícka cirkev konštruuje paralelu Márie k Ježišovi Kristovi.
-              Učí, že práve tak, ako Kristus bol bez hriechu, tak to bolo aj s
-              Máriou. Učí tiež, že aj keď milosť prichádza od Krista, Mária je
-              matkou milosti. Práve tak, ako Pán zachraňuje svoj ľud od
-              hriechov, tiež sa vyučuje, že aj Mária môže spôsobiť túto
-              záchranu. Hoci Biblia zreteľne uvádza, že je len jediný
-              prostredník medzi Bohom a človekom, prekvapivo katechizmus
-              katolíckej cirkvi vyučuje, že Mária je prostredníkom. Práve tak,
-              ako Ježiš Kristus vstúpil do neba a je Kráľom kráľov, cirkev učí,
-              že Mária tiež vstúpila na nebesia telom i dušou a je Kráľovnou
-              nebies. Katolícka cirkev ide ešte ďalej v tvrdení, že Mária bola
-              počatá bez poškvrnenia dedičného hriechu práve tak, ako bol počatý
-              Ježiš Kristus. V tejto časti uvidíte, ako tu katechizmus
-              predstavuje paralelnú stratégiu a ako jasne toto Biblia vyvráti a
-              rezervuje tieto úlohy len pre Ježiša Krista samotného.
-            </p>
+          <h1 className='text-title text-center text-[35px] mb-8'>Mária</h1>
+          <div className='flex flex-row gap-8 align-center'>
+            <div className='maria-pic hidden lg:flex w-[50%]'></div>
 
-            <p>
-              Všetko, čo je zdokumentované v katechizme katolíckej cirkvi
-              týkajúce sa Márie je úplne v rozpore k Svätému Písmu a výsade
-              jediného Spasiteľa, Pána Ježiša Krista. Dávanie vašej dôvery Márii
-              pre svoje spasenie je tá najnebezpečnejšia a preukázateľná bariéra
-              k večnému životu. Obráťte sa preto k Pánovi Ježišovi Kristovi
-              samotnou vierou k spaseniu, založenou na Jeho smrti a
-              zmŕtvychvstania. On sám dáva vo všetkých veciach usvedčenie Svojho
-              Svätého Ducha. Verte len Jemu samotnému.
-            </p>
+            <div className='text-justify text-[20px] flex flex-col gap-2'>
+              <p>
+                Katolícka cirkev konštruuje paralelu Márie k Ježišovi Kristovi.
+                Učí, že práve tak, ako Kristus bol bez hriechu, tak to bolo aj s
+                Máriou. Učí tiež, že aj keď milosť prichádza od Krista, Mária je
+                matkou milosti. Práve tak, ako Pán zachraňuje svoj ľud od
+                hriechov, tiež sa vyučuje, že aj Mária môže spôsobiť túto
+                záchranu. Hoci Biblia zreteľne uvádza, že je len jediný
+                prostredník medzi Bohom a človekom, prekvapivo katechizmus
+                katolíckej cirkvi vyučuje, že Mária je prostredníkom. Práve tak,
+                ako Ježiš Kristus vstúpil do neba a je Kráľom kráľov, cirkev
+                učí, že Mária tiež vstúpila na nebesia telom i dušou a je
+                Kráľovnou nebies. Katolícka cirkev ide ešte ďalej v tvrdení, že
+                Mária bola počatá bez poškvrnenia dedičného hriechu práve tak,
+                ako bol počatý Ježiš Kristus. V tejto časti uvidíte, ako tu
+                katechizmus predstavuje paralelnú stratégiu a ako jasne toto
+                Biblia vyvráti a rezervuje tieto úlohy len pre Ježiša Krista
+                samotného.
+              </p>
+
+              <div className='maria-pic flex lg:hidden w-[100%] h-[30vh] my-4'></div>
+
+              <p>
+                Všetko, čo je zdokumentované v katechizme katolíckej cirkvi
+                týkajúce sa Márie je úplne v rozpore k Svätému Písmu a výsade
+                jediného Spasiteľa, Pána Ježiša Krista. Dávanie vašej dôvery
+                Márii pre svoje spasenie je tá najnebezpečnejšia a preukázateľná
+                bariéra k večnému životu. Obráťte sa preto k Pánovi Ježišovi
+                Kristovi samotnou vierou k spaseniu, založenou na Jeho smrti a
+                zmŕtvychvstania. On sám dáva vo všetkých veciach usvedčenie
+                Svojho Svätého Ducha. Verte len Jemu samotnému.
+              </p>
+            </div>
           </div>
         </div>
       </header>

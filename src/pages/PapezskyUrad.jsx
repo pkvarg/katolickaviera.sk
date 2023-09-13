@@ -9,51 +9,65 @@ const PapezskyUrad = () => {
         <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>
           <h1 className='text-title text-center text-[35px]'>Pápežský úrad</h1>
           <div className='text-justify text-[20px] flex flex-col gap-2 mt-8'>
-            <p>
-              Podľa oficiálneho učenia rímskokatolíckej cirkvi, Pán Ježiš
-              ustanovil svätého Petra ako viditeľný základ svojej cirkvi. Zveril
-              mu kľúče a biskup rímskej cirkvi, nasledovník svätého Petra, je
-              „hlava jednoty biskupov, námestník Krista a pastier univerzálnej
-              cirkvi na zemi" (kanonický kódex práva #331). Pápež, rímsky biskup
-              a nástupca svätého Petra, „je stálym a viditeľným princípom a
-              základom jednoty biskupov, ako aj množstva veriacich“. „Lebo
-              rímsky pápež má na základe svojho úradu Kristovho zástupcu a
-              pastiera celej Cirkvi plnú, najvyššiu a univerzálnu moc nad
-              Cirkvou, ktorú môže vždy slobodne vykonávať.“ (katechizmus § 882)
-            </p>
-            <p>
-              Pre väčšinu katolíkov, úrad a autorita pápeža spočíva vo viere, že
-              apoštol Peter ustanovil následníkov. Proti vyučovaniu Písma,
-              pápežstvo deklaruje, že cirkev bola založená na apoštolovi Petrovi
-              samotnom hovoriac, že on bol prvým biskupom Ríma a tak všetka jeho
-              autorita prechádza na nasledujúceho pápeža a biskupov. Tento
-              predpoklad tvorí základný kameň rímskeho katolicizmu. V základnom
-              chápaní katolíka je, že pápež je duchovnou hlavou cirkvi spolu s
-              ďalšími atribútmi prideľovanými tomuto mužovi. Cirkev sa odkazuje
-              na pápežský úrad, ako na úrad Námestníka Krista (Vicarius Filii
-              Dei) a tiež tvrdí, že je neomylnou vieroučnou autoritu. Prosím,
-              starostlivo skúmajte oficiálnu pozíciu katolíckej cirkvi vo svetle
-              Božieho Slova, ktoré jasne vyhlasuje, kto je hlavou Božej cirkvi.
-            </p>
-            <p>
-              <span className='italic'>
-                Vedzte teda vy všetci, aj všetok ľud izraelský, že tento človek
-                stojí pred vami zdravý v mene Ježiša Krista Nazaretského,
-                ktorého ste vy ukrižovali, ale Boh Ho vzkriesil z mŕtvych. Toto
-                je ten kameň, ktorý ste vy, stavitelia, zavrhli, ale ktorý sa
-                stal uholným kameňom. A nieto spasenia v nikom inom, lebo nebolo
-                dané pre ľudí iné meno pod nebom, v ktorom by sme mali dôjsť
-                spasenia.{' '}
-              </span>
-              <span className='text-[15px]'> Skutky apoštolov 4:10-12 </span>
-              <span className='italic'>
-                {' '}
-                On je hlavou tela, cirkvi, On počiatok, prvorodený z mŕtvych,
-                aby Jeho bolo prvenstvo vo všetkom. Lebo Boh za dobré uznal, aby
-                v Ňom prebývala všetka plnosť.{' '}
-              </span>
-              <span className='text-[15px]'> Kolosanom 1:18-19 </span>
-            </p>
+            <div className='flex flex-row gap-8'>
+              <div>
+                <p>
+                  Podľa oficiálneho učenia rímskokatolíckej cirkvi, Pán Ježiš
+                  ustanovil svätého Petra ako viditeľný základ svojej cirkvi.
+                  Zveril mu kľúče a biskup rímskej cirkvi, nasledovník svätého
+                  Petra, je „hlava jednoty biskupov, námestník Krista a pastier
+                  univerzálnej cirkvi na zemi" (kanonický kódex práva #331).
+                  Pápež, rímsky biskup a nástupca svätého Petra, „je stálym a
+                  viditeľným princípom a základom jednoty biskupov, ako aj
+                  množstva veriacich“. „Lebo rímsky pápež má na základe svojho
+                  úradu Kristovho zástupcu a pastiera celej Cirkvi plnú,
+                  najvyššiu a univerzálnu moc nad Cirkvou, ktorú môže vždy
+                  slobodne vykonávať.“ (katechizmus § 882)
+                </p>
+                <div className='papez-pic flex lg:hidden w-[100%] h-[60vh] my-4'></div>
+
+                <p>
+                  Pre väčšinu katolíkov, úrad a autorita pápeža spočíva vo
+                  viere, že apoštol Peter ustanovil následníkov. Proti
+                  vyučovaniu Písma, pápežstvo deklaruje, že cirkev bola založená
+                  na apoštolovi Petrovi samotnom hovoriac, že on bol prvým
+                  biskupom Ríma a tak všetka jeho autorita prechádza na
+                  nasledujúceho pápeža a biskupov. Tento predpoklad tvorí
+                  základný kameň rímskeho katolicizmu. V základnom chápaní
+                  katolíka je, že pápež je duchovnou hlavou cirkvi spolu s
+                  ďalšími atribútmi prideľovanými tomuto mužovi. Cirkev sa
+                  odkazuje na pápežský úrad, ako na úrad Námestníka Krista
+                  (Vicarius Filii Dei) a tiež tvrdí, že je neomylnou vieroučnou
+                  autoritu. Prosím, starostlivo skúmajte oficiálnu pozíciu
+                  katolíckej cirkvi vo svetle Božieho Slova, ktoré jasne
+                  vyhlasuje, kto je hlavou Božej cirkvi.
+                </p>
+                <p>
+                  <span className='italic'>
+                    Vedzte teda vy všetci, aj všetok ľud izraelský, že tento
+                    človek stojí pred vami zdravý v mene Ježiša Krista
+                    Nazaretského, ktorého ste vy ukrižovali, ale Boh Ho
+                    vzkriesil z mŕtvych. Toto je ten kameň, ktorý ste vy,
+                    stavitelia, zavrhli, ale ktorý sa stal uholným kameňom. A
+                    nieto spasenia v nikom inom, lebo nebolo dané pre ľudí iné
+                    meno pod nebom, v ktorom by sme mali dôjsť spasenia.{' '}
+                  </span>
+                  <span className='text-[15px]'>
+                    {' '}
+                    Skutky apoštolov 4:10-12{' '}
+                  </span>
+                  <span className='italic'>
+                    {' '}
+                    On je hlavou tela, cirkvi, On počiatok, prvorodený z
+                    mŕtvych, aby Jeho bolo prvenstvo vo všetkom. Lebo Boh za
+                    dobré uznal, aby v Ňom prebývala všetka plnosť.{' '}
+                  </span>
+                  <span className='text-[15px]'> Kolosanom 1:18-19 </span>
+                </p>
+              </div>
+              <div className='papez-pic hidden lg:flex'></div>
+            </div>
+
             <p className='mt-8'>
               V Novom Zákone, každé miestne zhromaždenie je nazývané cirkvou a v
               tomto zmysle je tam mnoho cirkví. Charakteristický rys pravej

@@ -5,40 +5,50 @@ const Manzelstvo = () => {
   return (
     <>
       <Header />
-      <header className=''>
+      <header>
         <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>
           <h1 className='text-title text-center text-[35px]'>Manželstvo</h1>
-          <div className='text-justify flex flex-col gap-2 mt-8'>
-            <p>
-              Svätosť a dôstojnosť manželstva je veriacimi v rímskokatolíckej
-              cirkvi rešpektovaná práve rovnako tak, ako u každého biblického
-              kresťana. Avšak nastáva mnoho problémov, ktoré vyvstávajú podľa
-              učenia katolíckej cirkvi v téme manželstva. Problémy nastávajú,
-              keď cirkev vyhlasuje, že má absolútnu autoritu nad manželstvom.
-              Rímska cirkev sa pokúšala aj v histórii zmocniť civilnej moci nad
-              aktom manželstva, chtiac prevýšiť civilné právo. Ustanovila teda
-              manželstvo ako sviatosť, ktorá môže byť spravovaná iba
-              rímskokatolíckou cirkvou.
-            </p>
-            <p>
-              Život veriaceho je v základe vtkaný do sviatostného systému. Podľa
-              katechizmu duchovná vitalita a večný osud závisí od schopnosti
-              aktívnej a pravidelnej účasti na týchto sviatostiach. Inak
-              povedané: veriaci sa musia zúčastňovať sviatostí, aby mohol získať
-              spásu. Tento sviatostný systém je ako padajúce domino. Keď prvá
-              kocka spadne, odštartuje reťazovú reakciu, ktorá vedie do večného
-              zatratenia, ak sa veriaci celkom nepodrobí učeniu katechizmu.
-            </p>
-            <p>
-              Je to veľmi smutné, keď človek vidí, aká skaza je pôsobená v
-              životoch tých, ktorí patria katolíckej cirkvi a ako veľa bolesti a
-              ťažkostí to prináša na tých, ktorí skúšajú prežiť svoje manželstvo
-              pod súdnou právomocou rímskej cirkvi. Prosím, príďte k Písmu
-              Svätému a uvidíte, čo Pán Ježiš povedal, aby vaša unavená duša
-              mohla nájsť odpočinok.
-            </p>
+          <div className='flex flex-row gap-8'>
+            <div className='manzelstvo-pic hidden lg:flex'></div>
+
+            <div className='text-justify flex flex-col gap-2 mt-8'>
+              <p>
+                Svätosť a dôstojnosť manželstva je veriacimi v rímskokatolíckej
+                cirkvi rešpektovaná práve rovnako tak, ako u každého biblického
+                kresťana. Avšak nastáva mnoho problémov, ktoré vyvstávajú podľa
+                učenia katolíckej cirkvi v téme manželstva. Problémy nastávajú,
+                keď cirkev vyhlasuje, že má absolútnu autoritu nad manželstvom.
+                Rímska cirkev sa pokúšala aj v histórii zmocniť civilnej moci
+                nad aktom manželstva, chtiac prevýšiť civilné právo. Ustanovila
+                teda manželstvo ako sviatosť, ktorá môže byť spravovaná iba
+                rímskokatolíckou cirkvou.
+              </p>
+              <p>
+                Život veriaceho je v základe vtkaný do sviatostného systému.
+                Podľa katechizmu duchovná vitalita a večný osud závisí od
+                schopnosti aktívnej a pravidelnej účasti na týchto sviatostiach.
+                Inak povedané: veriaci sa musia zúčastňovať sviatostí, aby mohol
+                získať spásu. Tento sviatostný systém je ako padajúce domino.
+                Keď prvá kocka spadne, odštartuje reťazovú reakciu, ktorá vedie
+                do večného zatratenia, ak sa veriaci celkom nepodrobí učeniu
+                katechizmu.
+              </p>
+              <p>
+                Je to veľmi smutné, keď človek vidí, aká skaza je pôsobená v
+                životoch tých, ktorí patria katolíckej cirkvi a ako veľa bolesti
+                a ťažkostí to prináša na tých, ktorí skúšajú prežiť svoje
+                manželstvo pod súdnou právomocou rímskej cirkvi. Prosím, príďte
+                k Písmu Svätému a uvidíte, čo Pán Ježiš povedal, aby vaša
+                unavená duša mohla nájsť odpočinok.
+              </p>
+            </div>
+          </div>
+
+          <div className='manzelstvo-pic flex lg:hidden w-[100%] h-[60vh] mt-16'></div>
+
+          <div className='flex flex-col align-center my-8'>
             <h2 className='text-title text-center text-[30px] mt-4'>Rozvod</h2>
-            <p className='mt-8'>
+            <p className='mt-8 text-justify'>
               Katolícka cirkev zaujíma veľmi prísne stanovisko, rovnako tak
               dobre ako aj Písmo zabraňuje rozvodu. Problémy však nastávajú, keď
               by veriaci povedal, že jedine Boh má nad tým všetkým zvrchovanosť.

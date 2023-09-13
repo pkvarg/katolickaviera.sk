@@ -5,8 +5,8 @@ const Spoved = () => {
   return (
     <>
       <Header />
-      <header className='text-black mx-4 lg:mx-8'>
-        <div className='flex flex-col align-center lg:mx-16 mt-8'>
+      <header className='text-black'>
+        <div className='flex flex-col align-center mx-4 lg:mx-16 mt-8'>
           <h1 className='text-title text-center text-[35px]'>Spoveď</h1>
 
           <div className='text-justify flex flex-col gap-2 mt-16'>
