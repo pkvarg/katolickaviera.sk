@@ -10,6 +10,7 @@ import Maria from './pages/Maria'
 import Hriech from './pages/Hriech'
 import Spasenie from './pages/Spasenie'
 import Biblia from './pages/Biblia'
+import Counter from './pages/Counter'
 
 import ScrollToTop from './components/ScrollToTop'
 import Footer from './components/Footer'
@@ -30,6 +31,7 @@ function App() {
           <Route path='/hriech' element={<Hriech />} />
           <Route path='/spasenie' element={<Spasenie />} />
           <Route path='/biblia' element={<Biblia />} />
+          <Route path='/counter' element={<Counter />} />
         </Routes>
         <ScrollToTop />
       </BrowserRouter>

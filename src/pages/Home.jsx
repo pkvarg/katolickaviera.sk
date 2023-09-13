@@ -1,7 +1,25 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Header from '../components/Header'
+import CookieConsent from 'react-cookie-consent'
+import axios from 'axios'
 
 const Home = () => {
+  const [cookieAccept, setCookieAccept] = useState(false)
+
+  const config = {
+    headers: {
+      'Content-Type': 'application/json',
+    },
+  }
+
+  const increaseVisitorsCount = async () => {
+    const { data } = await axios.put(
+      // `https://pictusweb.online/api/visitors/katolicka/increase`,
+      `http://localhost:2000/api/visitors/katolicka/increase`,
+      config
+    )
+  }
+
   return (
     <>
       <main className='hero-bg relative'>
@@ -228,6 +246,28 @@ const Home = () => {
           sa raz mohol čistý postaviť pred Boha ako Jeho verný služobník.
         </h2>
       </section>
+      {/* <CookieConsent
+        location='bottom'
+        style={{
+          background: '#3b2f26',
+          color: '#d39f69',
+          fontSize: '22.5px',
+          textAlign: 'justify',
+        }}
+        buttonStyle={{
+          background: '#222320',
+          color: '#d39f69',
+          fontSize: '22.5px',
+        }}
+        buttonText='Pokračovať'
+        expires={365}
+        onAccept={() => {
+          setCookieAccept(true)
+          increaseVisitorsCount()
+        }}
+      >
+        Táto stránka nezhromažďuje žiadne údaje
+      </CookieConsent> */}
     </>
   )
 }
