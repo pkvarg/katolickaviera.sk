@@ -7,14 +7,13 @@ const KlastornyZivot = () => {
       <Header />
       <header>
         <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 my-8'>
+          <h1 className='text-title text-center text-[35px] mb-8'>
+            Kláštorný život
+          </h1>
           <div className='flex flex-row gap-8'>
-            <div className='klastor-pic hidden lg:flex w-[50%]'></div>
+            <div className='klastor-pic hidden lg:flex'></div>
 
-            <div className='text-justify flex flex-col gap-2 w-[100%] lg:w-[50%]'>
-              <h1 className='text-title text-center text-[35px] mb-4'>
-                Kláštorný život
-              </h1>
-
+            <div className='text-justify flex flex-col gap-2'>
               <p>
                 Kláštorné komunity v rímskokatolíckej cirkvi sa skladajú zo
                 žien, ktoré zdieľajú rovnaké nádeje a túžby. Tieto ženy sú

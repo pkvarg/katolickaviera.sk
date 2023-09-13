@@ -66,7 +66,7 @@ const Spoved = () => {
           </div>
         </div>
 
-        <div className='spoved-pic flex lg:hidden w-[100%] h-[60vh] mt-16'></div>
+        <div className='spoved-pic flex lg:hidden w-[100%] h-[60vh] mt-16 mx-4'></div>
       </header>
       {/* <header>
         <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>

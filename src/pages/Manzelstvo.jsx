@@ -7,11 +7,13 @@ const Manzelstvo = () => {
       <Header />
       <header>
         <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>
-          <h1 className='text-title text-center text-[35px]'>Manželstvo</h1>
+          <h1 className='text-title text-center text-[35px] mb-8'>
+            Manželstvo
+          </h1>
           <div className='flex flex-row gap-8'>
             <div className='manzelstvo-pic hidden lg:flex'></div>
 
-            <div className='text-justify flex flex-col gap-2 mt-8'>
+            <div className='text-justify flex flex-col gap-2'>
               <p>
                 Svätosť a dôstojnosť manželstva je veriacimi v rímskokatolíckej
                 cirkvi rešpektovaná práve rovnako tak, ako u každého biblického
