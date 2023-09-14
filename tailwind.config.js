@@ -5,6 +5,9 @@ export default {
     extend: {},
     colors: {
       title: '#d39f69',
+      title2: '#946f4a',
+      title3: '#be8f5f',
+      title4: '#3f301f',
       black: '#222320',
       white: '#e6e6e6',
       mobmenu: '#ffffff7b',

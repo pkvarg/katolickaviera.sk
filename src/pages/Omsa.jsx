@@ -5,12 +5,10 @@ const Omsa = () => {
   return (
     <>
       <Header />
-      <div className='omsa-pic hidden lg:flex h-[400px] -mt-[10%]'></div>
+      <div className='omsa-pic lg:flex h-[400px] -mt-[25%] lg:-mt-[10%]'></div>
       <main className='text-black flex flex-col lg:flex-row mx-4 lg:mx-8'>
         <div className='flex flex-col align-center mx-4 mt-8'>
-          <h1 className='text-title text-center text-[35px] mt-0 lg:-mt-[15%]'>
-            Omša
-          </h1>
+          <h1 className='text-title text-center text-[35px] -mt-[15%]'>Omša</h1>
           <div className='text-justify flex flex-col gap-2 mt-16'>
             <p>
               "Svätá obeť omše" je centrom a najsvätejším aktom uctievania pre
@@ -41,7 +39,7 @@ const Omsa = () => {
             </p>
           </div>
         </div>
-        <div className='omsa-pic flex lg:hidden w-[100%] h-[60vh] mt-16'></div>
+        {/* <div className='omsa-pic flex lg:hidden w-[100%] h-[60vh] mt-16'></div> */}
       </main>
       {/* eucharistia */}
       <section className='flex flex-col items-center mt-16 mx-4 lg:mx-8 pb-16'>

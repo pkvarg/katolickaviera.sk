@@ -39,8 +39,8 @@ section h2 {
 }
 
 .omsa-pic {
-  background-image: linear-gradient(to bottom, #f5f5f21e, #f8f8f8b5, #ffffff),
-    url('/omsa2.webp');
+  background-image: linear-gradient(to bottom, #f5f5f280, #f8f8f8b5, #ffffff),
+    url('/omsa.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -57,25 +57,25 @@ section h2 {
 }
 
 .manzelstvo-pic {
-  background-image: linear-gradient(to right, #f5f5f283, #f8f8f878, #ffffff),
+  background-image: linear-gradient(to bottom, #f5f5f2bb, #f8f8f8ad, #ffffff),
     url('/manzelstvo.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 200%;
+  width: 100%;
 }
 
 .papez-pic {
-  background-image: linear-gradient(to top, #f5f5f200, #f8f8f800, #ffffff00),
+  background-image: linear-gradient(to bottom, #000000, #f8f8f865, #ffffff),
     url('/papez.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 200%;
+  width: 100%;
 }
 
 .knaz-pic {
-  background-image: linear-gradient(to top, #f5f5f200, #f8f8f800, #ffffff00),
+  background-image: linear-gradient(to bottom, #1f1f1e, #f8f8f883, #ffffff),
     url('/knaz.webp');
   background-repeat: no-repeat;
   background-position: center center;
@@ -84,12 +84,12 @@ section h2 {
 }
 
 .klastor-pic {
-  background-image: linear-gradient(to top, #f5f5f200, #f8f8f800, #ffffff00),
+  background-image: linear-gradient(to bottom, #0a0505, #3e3c3ca7, #ffffff),
     url('/klastor.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  width: 50%;
+  width: 100%;
 }
 
 .maria-pic {
@@ -138,20 +138,15 @@ section h2 {
     font-size: 20px;
   }
 
-  .omsa-pic {
+  /* .omsa-pic {
     background-image: linear-gradient(to top, #f5f5f21e, #f8f8f8b5, #ffffffdb),
       url('/omsa.webp');
-  }
+  } */
 
-  .omsa-pic,
   .spoved-pic,
   .manzelstvo-pic,
   .papez-pic,
   .maria-pic {
     width: auto;
-  }
-
-  .klastor-pic {
-    width: 50%;
   }
 }

@@ -1,18 +1,18 @@
 import React from 'react'
-import Header from '../components/Header'
+import HeaderTransparent from '../components/HeaderTransparent'
 
 const KlastornyZivot = () => {
   return (
     <>
-      <Header />
+      <HeaderTransparent />
       <header>
-        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 my-8'>
+        <div className='klastor-pic flex h-[650px] -mt-[25%] lg:-mt-[15%]'></div>
+
+        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 -mt-[20%]'>
           <h1 className='text-title text-center text-[35px] mb-8'>
             Kláštorný život
           </h1>
           <div className='flex flex-row gap-8'>
-            <div className='klastor-pic hidden lg:flex'></div>
-
             <div className='text-justify flex flex-col gap-2'>
               <p>
                 Kláštorné komunity v rímskokatolíckej cirkvi sa skladajú zo
@@ -22,7 +22,7 @@ const KlastornyZivot = () => {
                 rímskokatolíckych kláštoroch po celom svete je cez 800 tisíc
                 žien.
               </p>
-              <div className='klastor-pic flex ml-[25%] mr-[25%] lg:hidden w-[100%] h-[30vh] my-4'></div>
+              {/* <div className='klastor-pic flex ml-[25%] mr-[25%] lg:hidden w-[100%] h-[30vh] my-4'></div> */}
 
               <p>
                 Cirkev aktívne regrutuje dievčatá do týchto kláštorov. Kvôli

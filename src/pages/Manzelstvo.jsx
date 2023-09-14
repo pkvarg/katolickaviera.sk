@@ -5,14 +5,14 @@ const Manzelstvo = () => {
   return (
     <>
       <Header />
-      <header>
-        <div className='flex flex-col align-center mx-4 lg:mr-16 my-8'>
-          <h1 className='text-title text-center text-[35px] mb-8'>
+      <main>
+        <div className='manzelstvo-pic flex h-[450px] -mt-[25%] lg:-mt-[8%]'></div>
+
+        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 '>
+          <h1 className='text-title2 text-center text-[35px] -mt-[20%] mb-8'>
             Manželstvo
           </h1>
           <div className='flex flex-row'>
-            <div className='manzelstvo-pic hidden lg:flex'></div>
-
             <div className='text-justify flex flex-col gap-2'>
               <p>
                 Svätosť a dôstojnosť manželstva je veriacimi v rímskokatolíckej
@@ -46,7 +46,7 @@ const Manzelstvo = () => {
             </div>
           </div>
 
-          <div className='manzelstvo-pic flex lg:hidden w-[100%] h-[60vh] mt-16'></div>
+          {/* <div className='manzelstvo-pic flex lg:hidden w-[100%] h-[60vh] mt-16'></div> */}
 
           <div className='flex flex-col align-center my-8'>
             <h2 className='text-title text-center text-[30px] mt-4'>Rozvod</h2>
@@ -61,7 +61,7 @@ const Manzelstvo = () => {
             </p>
           </div>
         </div>
-      </header>
+      </main>
       {/* manzelstvo table lg */}
       <section className='hidden text-[18px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>

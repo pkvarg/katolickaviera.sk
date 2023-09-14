@@ -1,13 +1,16 @@
 import React from 'react'
-import Header from '../components/Header'
+import HeaderTransparent from '../components/HeaderTransparent'
 
 const KnazskyUrad = () => {
   return (
     <>
-      <Header />
+      <HeaderTransparent />
+      <div className='knaz-pic flex h-[400px] -mt-[25%] lg:-mt-[8%]'></div>
       <header>
         <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 my-8'>
-          <h1 className='text-title text-center text-[35px]'>Kňazský úrad</h1>
+          <h1 className='text-title2 text-center text-[35px]  -mt-[20%] lg:-mt-[15%]'>
+            Kňazský úrad
+          </h1>
           <div className='text-justify flex flex-col gap-2 mt-8'>
             <p>
               Rímskokatolícka cirkev vyhlasuje svojich biskupov a kňazov za
@@ -17,8 +20,8 @@ const KnazskyUrad = () => {
               žijúcim obrazom Boha Otca. Obaja, ako kňaz, tak aj biskup, ako je
               vyhlásené, zdieľajú identické kňazstvo a úrad Krista.
             </p>
-            <div className='knaz-pic hidden lg:flex h-[400px] my-4'></div>
-            <div className='knaz-pic flex lg:hidden w-[100%] h-[30vh] my-4'></div>
+
+            {/* <div className='knaz-pic flex lg:hidden w-[100%] h-[30vh] my-4'></div> */}
 
             <p>
               Naproti tomu Písmo učí, že žiadny človek nemôže zaujať Kristovo

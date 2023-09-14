@@ -6,7 +6,7 @@ const Spoved = () => {
     <>
       <HeaderTransparent />
       <main className='text-black'>
-        <div className='spoved-pic hidden lg:flex h-[350px] mt-4 lg:-mt-[10%]'></div>
+        <div className='spoved-pic lg:flex h-[350px] -mt-[25%] lg:-mt-[10%]'></div>
         <div className='flex flex-col align-center mx-4 lg:mx-16 mt-8 lg:-mt-[10%]'>
           <h1 className='text-title text-center text-[35px]'>Spoveď</h1>
 
@@ -65,7 +65,7 @@ const Spoved = () => {
           </div>
         </div>
 
-        <div className='spoved-pic flex lg:hidden w-[100%] h-[60vh] mt-16 mx-4'></div>
+        {/* <div className='spoved-pic flex lg:hidden w-[100%] h-[60vh] mt-16 mx-4'></div> */}
       </main>
       {/* <header>
         <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>

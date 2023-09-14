@@ -5,12 +5,12 @@ const HeaderTransparent = () => {
   const [navbar, setNavbar] = useState(false)
 
   return (
-    <header className='bg-transparent'>
+    <header className='bg-[#272727]'>
       <nav className='w-full text-white nav-font'>
         <div className='justify-between px-4 mx-auto md:items-center md:flex md:px-8'>
           <div className='mb-0 lg:mb-2'>
             <div className='flex items-center justify-between py-3 md:py-5 md:block'>
-              <a className='text-[2.05rem] text-title font-semibold' href='/'>
+              <a className='text-[2.05rem] text-title3 font-semibold' href='/'>
                 Katolícka viera
               </a>
               <div className='md:hidden'>
@@ -53,7 +53,7 @@ const HeaderTransparent = () => {
           </div>
           <div>
             <div
-              className={`flex-1 justify-self-center pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
+              className={`flex-1 justify-self-center h-[90vh] lg:h-auto pb-3 mt-8 md:block md:pb-0 md:mt-0 ${
                 navbar ? 'block' : 'hidden'
               }`}
             >
