@@ -1,42 +1,49 @@
 import React from 'react'
-import Header from '../components/Header'
+import HeaderTransparent from '../components/HeaderTransparent'
 
 const Hriech = () => {
   return (
     <>
-      <Header />
+      <HeaderTransparent />
       {/* Hriech*/}
-      <header className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
-        <h1 className='text-title text-center text-[35px]'>Hriech</h1>
-        <div className='text-justify flex flex-col gap-2 mt-8'>
-          <p>
-            Rímskokatolícka cirkev rozdeľuje hriechy do dvoch skupín a robí
-            rozdiel medzi "smrteľným" hriechom a "ľahkým". Smrteľný hriech je
-            popísaný ako vážny, ktorý musí byť vyznaný kňazovi, aby bol hriešnik
-            zmierený s Bohom a cirkvou. Na druhej strane ľahké hriechy sú malé,
-            ľahké prehrešky voči Bohu alebo nášmu susedovi. Medzi kňazmi
-            neexistuje žiadna presná dohoda, ktoré hriechy sú smrteľné a ktoré
-            sú ľahké. Medzi duchovenstvom a laikmi také rozlíšenie však
-            existuje. Čo je pre jedného hriech ľahký, pre druhého už môže byť
-            smrteľný.
-          </p>
-          <p>
-            Písané Slovo Božie nám ukazuje, že my všetci sme hriešni. Biblia je
-            v tomto učiteľom, ktorý nás vedie k dokonalému ospravedlneniu skrze
-            Ježiša Krista. Bez zapísaného záznamu Božích prikázaní by sme sa
-            uchýlili k vlastnému svedomiu a diktátu tých, ktorí definujú, čo je
-            správne a zlé. Je naliehavé, aby ste rozumeli, čo je hriech a čo je
-            po vás vyžadované. Ak ste vyučovaní, že sú rôzne stupne hriechu a
-            odlišný spôsob, ako odstrániť toto bremeno hriechu, musíte sa sami
-            uistiť, že tá autorita, ktorej sa podrobujete je správna.
-          </p>
-          <p>
-            Tvrdenie, že nejaké hriechy sú väčšie ako iné, predbieha tá
-            najdôležitejšia sporná otázka, ako je táto: Je tu čokoľvek, čo
-            môžete urobiť za svoj hriech?
-          </p>
+
+      <main>
+        <div className='hriech-pic flex h-[850px] -mt-[25%] lg:-mt-[8%]'></div>
+        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16 -mt-[75%] lg:-mt-[40%] gap-8 pb-8'>
+          <h1 className='text-title4 lg:text-title text-center text-[35px]'>
+            Hriech
+          </h1>
+          <div className='text-justify flex flex-col gap-2 mt-8'>
+            <p>
+              Rímskokatolícka cirkev rozdeľuje hriechy do dvoch skupín a robí
+              rozdiel medzi "smrteľným" hriechom a "ľahkým". Smrteľný hriech je
+              popísaný ako vážny, ktorý musí byť vyznaný kňazovi, aby bol
+              hriešnik zmierený s Bohom a cirkvou. Na druhej strane ľahké
+              hriechy sú malé, ľahké prehrešky voči Bohu alebo nášmu susedovi.
+              Medzi kňazmi neexistuje žiadna presná dohoda, ktoré hriechy sú
+              smrteľné a ktoré sú ľahké. Medzi duchovenstvom a laikmi také
+              rozlíšenie však existuje. Čo je pre jedného hriech ľahký, pre
+              druhého už môže byť smrteľný.
+            </p>
+            <p>
+              Písané Slovo Božie nám ukazuje, že my všetci sme hriešni. Biblia
+              je v tomto učiteľom, ktorý nás vedie k dokonalému ospravedlneniu
+              skrze Ježiša Krista. Bez zapísaného záznamu Božích prikázaní by
+              sme sa uchýlili k vlastnému svedomiu a diktátu tých, ktorí
+              definujú, čo je správne a zlé. Je naliehavé, aby ste rozumeli, čo
+              je hriech a čo je po vás vyžadované. Ak ste vyučovaní, že sú rôzne
+              stupne hriechu a odlišný spôsob, ako odstrániť toto bremeno
+              hriechu, musíte sa sami uistiť, že tá autorita, ktorej sa
+              podrobujete je správna.
+            </p>
+            <p>
+              Tvrdenie, že nejaké hriechy sú väčšie ako iné, predbieha tá
+              najdôležitejšia sporná otázka, ako je táto: Je tu čokoľvek, čo
+              môžete urobiť za svoj hriech?
+            </p>
+          </div>
         </div>
-      </header>
+      </main>
       {/* Ľahký hriech */}
       <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
         <h1 className='text-title text-center text-[35px]'>Ľahký hriech</h1>

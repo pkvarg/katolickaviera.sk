@@ -1,16 +1,16 @@
 import React from 'react'
-import Header from '../components/Header'
+import HeaderTransparent from '../components/HeaderTransparent'
 
 const Maria = () => {
   return (
     <>
-      <Header />
+      <HeaderTransparent />
       <header>
-        <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>
+        <div className='maria-pic flex h-[850px] -mt-[25%] lg:-mt-[8%]'></div>
+
+        <div className='flex flex-col align-center mx-4 lg:mx-16 -mt-[85%] lg:-mt-[45%]'>
           <h1 className='text-title text-center text-[35px] mb-8'>Mária</h1>
           <div className='flex flex-row gap-8 align-center'>
-            <div className='maria-pic hidden lg:flex w-[50%]'></div>
-
             <div className='text-justify text-[20px] flex flex-col gap-2'>
               <p>
                 Katolícka cirkev konštruuje paralelu Márie k Ježišovi Kristovi.
@@ -31,7 +31,7 @@ const Maria = () => {
                 samotného.
               </p>
 
-              <div className='maria-pic flex lg:hidden w-[100%] h-[30vh] my-4'></div>
+              {/* <div className='maria-pic flex lg:hidden w-[100%] h-[30vh] my-4'></div> */}
 
               <p>
                 Všetko, čo je zdokumentované v katechizme katolíckej cirkvi
