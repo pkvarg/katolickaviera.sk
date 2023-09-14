@@ -14,9 +14,9 @@ const Counter = () => {
 
   const getVisitors = async () => {
     const { data } = await axios.get(
-      // `https://pictusweb.online/api/visitors/katolicka/counter`,
+      `https://pictusweb.online/api/visitors/katolicka/counter`,
 
-      `http://localhost:2000/api/visitors/katolicka/counter`,
+      // `http://localhost:2000/api/visitors/katolicka/counter`,
 
       config
     )

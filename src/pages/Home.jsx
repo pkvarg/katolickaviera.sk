@@ -14,8 +14,8 @@ const Home = () => {
 
   const increaseVisitorsCount = async () => {
     const { data } = await axios.put(
-      // `https://pictusweb.online/api/visitors/katolicka/increase`,
-      `http://localhost:2000/api/visitors/katolicka/increase`,
+      `https://pictusweb.online/api/visitors/katolicka/increase`,
+      // `http://localhost:2000/api/visitors/katolicka/increase`,
       config
     )
   }
@@ -24,7 +24,7 @@ const Home = () => {
     <>
       <main className='hero-bg relative'>
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-2'>
-          Nespoliehaj sa na cirkevné tradície! Riaď sa Božím Slovom!
+          Nespoliehaj sa na cirkevné tradície! <br /> Riaď sa Božím Slovom!
         </h1>
         <div className='text-[#000000] flex flex-col items-center mt-[30%] lg:mt-[10%]'>
           <span className='italic text-center'>
@@ -239,6 +239,19 @@ const Home = () => {
             niet v ňom pravdy.
           </span>
           <span className='text-[15px]'> Prvý Jánov 2:4</span>
+          <span>
+            {' '}
+            Prevádzkuješ nemanželský vzťah? Žiadostivo hľadíš na ženy? Bežne
+            berieš Meno Božie nadarmo? Neži vo falošnej istote spasenia! Ak
+            zotrvávaš vedome v hriechu, tvoja viera je mŕtva, zapieraš tým
+            Ježiša a On ťa má za klamára.
+            <span className='italic'>
+              {' '}
+              Nie každý, kto mi hovorí: Pane, Pane! vojde do kráľovstva
+              nebeského, ale ten, kto činí vôľu môjho Otca nebeského.{' '}
+            </span>
+            <span className='text-[15px]'>Matúš 7:21</span>
+          </span>
         </h2>
 
         <h2 className='text-[22.5px] py-10 text-justify lg:text-left'>
@@ -246,7 +259,7 @@ const Home = () => {
           sa raz mohol čistý postaviť pred Boha ako Jeho verný služobník.
         </h2>
       </section>
-      {/* <CookieConsent
+      <CookieConsent
         location='bottom'
         style={{
           background: '#3b2f26',
@@ -255,8 +268,8 @@ const Home = () => {
           textAlign: 'justify',
         }}
         buttonStyle={{
-          background: '#222320',
-          color: '#d39f69',
+          background: '#c8bca4',
+          color: '#3b2f26',
           fontSize: '22.5px',
         }}
         buttonText='Pokračovať'
@@ -267,7 +280,7 @@ const Home = () => {
         }}
       >
         Táto stránka nezhromažďuje žiadne údaje
-      </CookieConsent> */}
+      </CookieConsent>
     </>
   )
 }

@@ -39,8 +39,8 @@ section h2 {
 }
 
 .omsa-pic {
-  background-image: linear-gradient(to top, #f5f5f268, #f8f8f8c8, #ffffff),
-    url('/omsa.webp');
+  background-image: linear-gradient(to bottom, #f5f5f21e, #f8f8f8b5, #ffffff),
+    url('/omsa2.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -48,7 +48,7 @@ section h2 {
 }
 
 .spoved-pic {
-  background-image: linear-gradient(to top, #f5f5f200, #f8f8f800, #ffffff00),
+  background-image: linear-gradient(to bottom, #000000, #f8f8f8b1, #ffffff),
     url('/spoved.webp');
   background-repeat: no-repeat;
   background-position: center center;
@@ -57,7 +57,7 @@ section h2 {
 }
 
 .manzelstvo-pic {
-  background-image: linear-gradient(to top, #f5f5f200, #f8f8f800, #ffffff00),
+  background-image: linear-gradient(to right, #f5f5f283, #f8f8f878, #ffffff),
     url('/manzelstvo.webp');
   background-repeat: no-repeat;
   background-position: center center;
@@ -138,6 +138,12 @@ section h2 {
     font-size: 20px;
   }
 
+  .omsa-pic {
+    background-image: linear-gradient(to top, #f5f5f21e, #f8f8f8b5, #ffffffdb),
+      url('/omsa.webp');
+  }
+
+  .omsa-pic,
   .spoved-pic,
   .manzelstvo-pic,
   .papez-pic,
