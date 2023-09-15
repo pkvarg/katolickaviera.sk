@@ -5,38 +5,41 @@ const Omsa = () => {
   return (
     <>
       <Header />
-      <div className='omsa-pic lg:flex h-[700px] -mt-[25%] lg:-mt-[100px]'></div>
-      <main className='text-black flex flex-col lg:flex-row mx-4 lg:mx-8'>
-        <div className='flex flex-col align-center mx-4 -mt-[225px]'>
-          <h1 className='text-title text-center text-[35px] '>Omša</h1>
-          <div className='text-justify flex flex-col gap-2 mt-16 text-[20px]'>
-            <p>
-              "Svätá obeť omše" je centrom a najsvätejším aktom uctievania pre
-              katolíkov. Katechizmus učí, že počas omše kňaz premieňa svojou
-              mocou oblátku a víno prednesené na oltár vo fyzické telo, krv a
-              božstvo Ježiša Krista. Takto novo vtelený Kristus je poukázaný ako
-              Eucharistia. Tento proces je nazvaný transsubstanciáciou.
-            </p>
-            <p>
-              U tejto Eucharistie, novo povedané - pravej fyzickej prítomnosti
-              Ježiša Krista, je požadované, aby sa jej dostalo rovnakého
-              uctievania, ako uctievanie očakávaného Boha. Táto Eucharistia je
-              potom lámaná a ponúkaná kňazmi, ako nekrvavá obeť Bohu za hriechy
-              živých i mŕtvych. Po tomto obetovaní za hriechy je Eucharistia
-              tiež ponúknutá ako pokrm prítomným veriacim, aby zotrvali v dobrom
-              postavení v učení katolíckej cirkvi a sviatostiach. Je tiež
-              poukazovaná ako nebeský pokrm, ktorý im pomôže zaslúžiť si večný
-              život.
-            </p>
-            <p>
-              Teraz sa pýtam Teba, znie to v Tvojom srdci pravdivo? Veríš, že
-              Ježiš Kristus je v súčasnosti premenený vo fyzickú podobu chleba a
-              vína? Môžeš v skutočnosti uctievať tento chlieb - boha? Môžeš v
-              skutočnosti veriť, že tento chlieb, ktorý je vyrobený ľudskou
-              rukou, môže byť obetovaný za Tvoje hriechy a že je Ti udelené
-              odpustenie od Boha za takú obeť? Veríš, že jedením tohto nebeského
-              pokrmu môžeš získať večný život? Poďme do Božieho Slova.
-            </p>
+      <main>
+        <div className='omsa-pic lg:flex h-[700px] -mt-[25%] lg:-mt-[100px]'></div>
+        <div className='text-black flex flex-col lg:flex-row mx-4 lg:mx-8'>
+          <div className='flex flex-col align-center mx-4 -mt-[225px]'>
+            <h1 className='text-title text-center text-[35px] '>Omša</h1>
+            <div className='text-justify flex flex-col gap-2 mt-16 text-[20px]'>
+              <p>
+                "Svätá obeť omše" je centrom a najsvätejším aktom uctievania pre
+                katolíkov. Katechizmus učí, že počas omše kňaz premieňa svojou
+                mocou oblátku a víno prednesené na oltár vo fyzické telo, krv a
+                božstvo Ježiša Krista. Takto novo vtelený Kristus je poukázaný
+                ako Eucharistia. Tento proces je nazvaný transsubstanciáciou.
+              </p>
+              <p>
+                U tejto Eucharistie, novo povedané - pravej fyzickej prítomnosti
+                Ježiša Krista, je požadované, aby sa jej dostalo rovnakého
+                uctievania, ako uctievanie očakávaného Boha. Táto Eucharistia je
+                potom lámaná a ponúkaná kňazmi, ako nekrvavá obeť Bohu za
+                hriechy živých i mŕtvych. Po tomto obetovaní za hriechy je
+                Eucharistia tiež ponúknutá ako pokrm prítomným veriacim, aby
+                zotrvali v dobrom postavení v učení katolíckej cirkvi a
+                sviatostiach. Je tiež poukazovaná ako nebeský pokrm, ktorý im
+                pomôže zaslúžiť si večný život.
+              </p>
+              <p>
+                Teraz sa pýtam Teba, znie to v Tvojom srdci pravdivo? Veríš, že
+                Ježiš Kristus je v súčasnosti premenený vo fyzickú podobu chleba
+                a vína? Môžeš v skutočnosti uctievať tento chlieb - boha? Môžeš
+                v skutočnosti veriť, že tento chlieb, ktorý je vyrobený ľudskou
+                rukou, môže byť obetovaný za Tvoje hriechy a že je Ti udelené
+                odpustenie od Boha za takú obeť? Veríš, že jedením tohto
+                nebeského pokrmu môžeš získať večný život? Poďme do Božieho
+                Slova.
+              </p>
+            </div>
           </div>
         </div>
         {/* <div className='omsa-pic flex lg:hidden w-[100%] h-[60vh] mt-16'></div> */}

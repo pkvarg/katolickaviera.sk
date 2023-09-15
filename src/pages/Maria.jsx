@@ -5,7 +5,7 @@ const Maria = () => {
   return (
     <>
       <HeaderTransparent />
-      <header>
+      <main>
         <div className='maria-pic flex h-[550px] lg:h-[1250px] -mt-[125px] lg:-mt-[125px]'></div>
 
         <div className='flex flex-col align-center mx-4 lg:mx-16 -mt-[100px] lg:-mt-[800px]'>
@@ -46,7 +46,7 @@ const Maria = () => {
             </div>
           </div>
         </div>
-      </header>
+      </main>
       {/* Mária */}
       <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
         <h1 className='text-title2 text-center text-[35px]'>

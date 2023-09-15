@@ -6,7 +6,7 @@ const KnazskyUrad = () => {
     <>
       <HeaderTransparent />
       <div className='knaz-pic flex h-[400px] -mt-[22.5%] lg:-mt-[100px]'></div>
-      <header>
+      <main>
         <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 my-8'>
           <h1 className='text-title text-center text-[35px]  -mt-[20%] lg:-mt-16'>
             Kňazský úrad
@@ -66,7 +66,7 @@ const KnazskyUrad = () => {
             </p>
           </div>
         </div>
-      </header>
+      </main>
       {/* Iný Kristus */}
       <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
         <h1 className='text-title text-center text-[35px]'>Iný Kristus</h1>

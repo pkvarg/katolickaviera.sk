@@ -5,7 +5,7 @@ const PapezskyUrad = () => {
   return (
     <>
       <HeaderTransparent />
-      <header>
+      <main>
         <div className='papez-pic lg:flex h-[450px] -mt-[25%] lg:-mt-[8%]'></div>
         <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>
           <h1 className='text-title text-center text-[35px] -mt-16'>
@@ -92,7 +92,7 @@ const PapezskyUrad = () => {
             </p>
           </div>
         </div>
-      </header>
+      </main>
       {/* Nasledovník svätého Petra */}
       <section className='flex flex-col text-[20px]  justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
         <h1 className='text-title text-center text-[35px]'>
