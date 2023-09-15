@@ -159,8 +159,12 @@ section h2 {
 
   .spoved-pic,
   .manzelstvo-pic,
-  .papez-pic,
-  .maria-pic {
+  .papez-pic {
     width: auto;
+  }
+
+  .maria-pic {
+    width: 100vw;
+    /* height: 550px; */
   }
 }

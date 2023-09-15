@@ -6,10 +6,10 @@ const KlastornyZivot = () => {
     <>
       <HeaderTransparent />
       <header>
-        <div className='klastor-pic flex h-[650px] -mt-[25%] lg:-mt-[15%]'></div>
+        <div className='klastor-pic flex h-[650px] -mt-[25%] lg:-mt-[100px]'></div>
 
-        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 -mt-[20%]'>
-          <h1 className='text-title text-center text-[35px] mb-8'>
+        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 -mt-[150px]'>
+          <h1 className='text-title2 text-center text-[35px] mb-8'>
             Kláštorný život
           </h1>
           <div className='flex flex-row gap-8'>

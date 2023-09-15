@@ -8,9 +8,9 @@ const Hriech = () => {
       {/* Hriech*/}
 
       <main>
-        <div className='hriech-pic flex h-[850px] -mt-[25%] lg:-mt-[8%]'></div>
-        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16 -mt-[75%] lg:-mt-[40%] gap-8 pb-8'>
-          <h1 className='text-title4 lg:text-title text-center text-[35px]'>
+        <div className='hriech-pic flex h-[450px] lg:h-[850px] -mt-[25%] lg:-mt-[155px]'></div>
+        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16 -mt-[125px] lg:-mt-[425px] gap-8 pb-8'>
+          <h1 className='text-title1 lg:text-title1 text-center text-[35px]'>
             Hriech
           </h1>
           <div className='text-justify flex flex-col gap-2 mt-8'>

@@ -8,7 +8,7 @@ const PapezskyUrad = () => {
       <header>
         <div className='papez-pic lg:flex h-[450px] -mt-[25%] lg:-mt-[8%]'></div>
         <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>
-          <h1 className='text-title2 text-center text-[35px] -mt-[20%]'>
+          <h1 className='text-title2 text-center text-[35px] -mt-16'>
             Pápežský úrad
           </h1>
           <div className='text-justify text-[20px] flex flex-col gap-2 mt-8'>

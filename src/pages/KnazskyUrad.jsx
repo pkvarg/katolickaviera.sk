@@ -5,10 +5,10 @@ const KnazskyUrad = () => {
   return (
     <>
       <HeaderTransparent />
-      <div className='knaz-pic flex h-[400px] -mt-[25%] lg:-mt-[8%]'></div>
+      <div className='knaz-pic flex h-[400px] -mt-[22.5%] lg:-mt-[100px]'></div>
       <header>
         <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 my-8'>
-          <h1 className='text-title2 text-center text-[35px]  -mt-[20%] lg:-mt-[15%]'>
+          <h1 className='text-title text-center text-[35px]  -mt-[20%] lg:-mt-16'>
             Kňazský úrad
           </h1>
           <div className='text-justify flex flex-col gap-2 mt-8'>
