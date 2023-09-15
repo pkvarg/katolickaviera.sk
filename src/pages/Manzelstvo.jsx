@@ -9,7 +9,7 @@ const Manzelstvo = () => {
         <div className='manzelstvo-pic flex h-[450px] -mt-[25%] lg:-mt-[8%]'></div>
 
         <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 '>
-          <h1 className='text-title2 text-center text-[35px] mb-8 -mt-16'>
+          <h1 className='text-title text-center text-[35px] mb-8 -mt-16'>
             Manželstvo
           </h1>
           <div className='flex flex-row'>

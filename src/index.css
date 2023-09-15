@@ -115,6 +115,24 @@ section h2 {
   width: 100%;
 }
 
+.spasenie-pic {
+  background-image: linear-gradient(to bottom, #000000, #beb3b317, #ffffff),
+    url('/spasenie.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.biblia-pic {
+  background-image: linear-gradient(to bottom, #000000, #beb3b317, #fffffff3),
+    url('/biblia.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
 /* react-scroll */
 
 .top-to-btm {

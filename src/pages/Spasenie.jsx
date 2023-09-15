@@ -1,44 +1,48 @@
 import React from 'react'
-import Header from '../components/Header'
+import HeaderTransparent from '../components/HeaderTransparent'
 
 const Spasenie = () => {
   return (
     <>
-      <Header />
+      <HeaderTransparent />
       {/* Spasenie*/}
-      <header className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
-        <h1 className='text-title text-center text-[35px]'>Spasenie</h1>
-        <div className='text-justify flex flex-col gap-2 mt-8'>
-          <p>
-            Podľa rímskokatolíckej cirkvi záchranou pre vašu dušu je dlhá cesta
-            cez jej sviatostný systém. Na tejto ceste rímska cirkev stojí ako
-            koordinačný orgán, dokonca seba definuje ako plnosť vášho spasenia.
-            V podstate hovorí, že ak existuje vaše spasenie, môže byť udelené
-            cez rímskokatolícku cirkev.
-          </p>
-          <p>
-            Sviatosti katolíckej cirkvi sú vyučované vo svetle nevyhnutnosti pre
-            vaše spasenie spolu s "posväcujúcou milosťou", ktorá prebýva vo
-            veriacom a udeľuje sa mu účasťou na každej sviatosti. Ako katolíkovi
-            vaše úsilie slúži na to, aby sa zväčšila miera „posväcujúcej
-            milosti“ vo vás a urobila vás natoľko dobrým, aby ste, keď umriete,
-            mohli byť vyslobodení od súdu pekla a prinajhoršom sa ocitol na
-            nejaký čas v očistci, než pôjdete do neba.
-          </p>
-          <p>
-            Pod učením rímskej cirkvi istota spasenia nie je nikdy daná, dokonca
-            ani tým najviac oddaným. Preto dohoda o vašom spasení a úprimné
-            jednanie s pravdivým Autorom spasenia by nemala byť braná na ľahkú
-            váhu. Nemôžete byť opýtaní vážnejšou otázkou ako je táto: "Ak ešte
-            dnes zomriete, kde budete tráviť večnosť?“ Kde nájdete správnu
-            odpoveď? Pýtam sa vás, pretože to je krajne závažná otázka. Prosím,
-            nezmýšľajte naivne, že sa niekedy dostanete pomocou cirkvi do neba.
-            Čo naozaj potrebujete vedieť je, ako budete stáť pred Svätým Bohom.
-            Vinný alebo nevinný? Vezmite prosím do úvahy všetko, čo je v
-            kontraste so Svätým Božím Slovom.
-          </p>
+      <main>
+        <div className='spasenie-pic flex h-[250px] lg:h-[450px] -mt-[25%] lg:-mt-[155px]'></div>
+        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16 gap-8 pb-8'>
+          <h1 className='text-title text-center text-[35px]'>Spasenie</h1>
+          <div className='text-justify flex flex-col gap-2 mt-8'>
+            <p>
+              Podľa rímskokatolíckej cirkvi záchranou pre vašu dušu je dlhá
+              cesta cez jej sviatostný systém. Na tejto ceste rímska cirkev
+              stojí ako koordinačný orgán, dokonca seba definuje ako plnosť
+              vášho spasenia. V podstate hovorí, že ak existuje vaše spasenie,
+              môže byť udelené cez rímskokatolícku cirkev.
+            </p>
+            <p>
+              Sviatosti katolíckej cirkvi sú vyučované vo svetle nevyhnutnosti
+              pre vaše spasenie spolu s "posväcujúcou milosťou", ktorá prebýva
+              vo veriacom a udeľuje sa mu účasťou na každej sviatosti. Ako
+              katolíkovi vaše úsilie slúži na to, aby sa zväčšila miera
+              „posväcujúcej milosti“ vo vás a urobila vás natoľko dobrým, aby
+              ste, keď umriete, mohli byť vyslobodení od súdu pekla a
+              prinajhoršom sa ocitol na nejaký čas v očistci, než pôjdete do
+              neba.
+            </p>
+            <p>
+              Pod učením rímskej cirkvi istota spasenia nie je nikdy daná,
+              dokonca ani tým najviac oddaným. Preto dohoda o vašom spasení a
+              úprimné jednanie s pravdivým Autorom spasenia by nemala byť braná
+              na ľahkú váhu. Nemôžete byť opýtaní vážnejšou otázkou ako je táto:
+              "Ak ešte dnes zomriete, kde budete tráviť večnosť?“ Kde nájdete
+              správnu odpoveď? Pýtam sa vás, pretože to je krajne závažná
+              otázka. Prosím, nezmýšľajte naivne, že sa niekedy dostanete
+              pomocou cirkvi do neba. Čo naozaj potrebujete vedieť je, ako
+              budete stáť pred Svätým Bohom. Vinný alebo nevinný? Vezmite prosím
+              do úvahy všetko, čo je v kontraste so Svätým Božím Slovom.
+            </p>
+          </div>
         </div>
-      </header>
+      </main>
       {/* Spasenie len skrze Ježiša Krista
        */}
       <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>

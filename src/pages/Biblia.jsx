@@ -1,51 +1,55 @@
 import React from 'react'
-import Header from '../components/Header'
+import HeaderTransparent from '../components/HeaderTransparent'
 
 const Biblia = () => {
   return (
     <>
-      <Header />
+      <HeaderTransparent />
       {/* Biblia */}
-      <header className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
-        <h1 className='text-title text-center text-[35px]'>Biblia</h1>
-        <div className='text-justify flex flex-col gap-2 mt-8'>
-          <p>
-            Biblia, tiež nazývaná ako Sväté Písmo alebo Božie Slovo, je
-            najdôležitejšia k nášmu porozumeniu tomu, čo je Bohom požadované od
-            človeka. Rímsky katolicizmus bol vždy v rozpore so Svätým Bohom v
-            otázke zdroja pravdy. Sám Pán Ježiš Kristus identifikoval pravdu s
-            písaným Slovom. Povedal:
-            <span className='italic'>
-              {' '}
-              Posväť ich v pravde - Tvoje slovo je pravda.{' '}
-            </span>
-            <span className='text-[15px]'> Ján 17:17 </span>
-            Nie je iný zdroj, než písané Písmo Sväté, na čo vyššie citovaný verš
-            poukazuje. Sám tento zdroj - Biblia, je pre veriaceho štandardnou
-            pravdou a autoritou. Preto všetci pravdivo veriaci dôverujú Bohu
-            samému a len Jeho Slovu. Biblia je absolútny zdroj všetky pravdy,
-            rovnako ako Pán deklaroval:
-            <span className='italic'> Písmo nemôže byť zrušené! </span>
-            <span className='text-[15px]'> Ján 10:35 </span>
-          </p>
-          <p>
-            Na rozdiel od toho katolícka cirkev deklaruje, že oboje „Posvätná
-            Tradícia a Sväté písmo teda navzájom úzko súvisia a sú spojené.” (§
-            80) “Preto treba obidve prijímať a vážiť si ich s rovnakou láskou a
-            úctou." (§ 82)
-          </p>
-          <p>
-            Biblia bola daná ako milosrdná a stála podpora proti všetkým
-            duchovným zmätkom, temnotám a neistotám zahŕňajúcim nielen
-            rímskokatolícku cirkev. Naozaj chválim Boha za tento poklad a
-            dôveru, ktorú máme v Biblii. Kiež by si aj Ty čoskoro spoznal
-            objatie Jeho Svätého Slova ako svojej jedinej autority.
-          </p>
+      <main>
+        <div className='biblia-pic flex h-[250px] lg:h-[650px] -mt-[25%] lg:-mt-[155px]'></div>
+
+        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16 lg:-mt-[200px] gap-8 pb-8'>
+          <h1 className='text-title3 text-center text-[35px]'>Biblia</h1>
+          <div className='text-justify flex flex-col gap-2 mt-8'>
+            <p>
+              Biblia, tiež nazývaná ako Sväté Písmo alebo Božie Slovo, je
+              najdôležitejšia k nášmu porozumeniu tomu, čo je Bohom požadované
+              od človeka. Rímsky katolicizmus bol vždy v rozpore so Svätým Bohom
+              v otázke zdroja pravdy. Sám Pán Ježiš Kristus identifikoval pravdu
+              s písaným Slovom. Povedal:
+              <span className='italic'>
+                {' '}
+                Posväť ich v pravde - Tvoje slovo je pravda.{' '}
+              </span>
+              <span className='text-[15px]'> Ján 17:17 </span>
+              Nie je iný zdroj, než písané Písmo Sväté, na čo vyššie citovaný
+              verš poukazuje. Sám tento zdroj - Biblia, je pre veriaceho
+              štandardnou pravdou a autoritou. Preto všetci pravdivo veriaci
+              dôverujú Bohu samému a len Jeho Slovu. Biblia je absolútny zdroj
+              všetky pravdy, rovnako ako Pán deklaroval:
+              <span className='italic'> Písmo nemôže byť zrušené! </span>
+              <span className='text-[15px]'> Ján 10:35 </span>
+            </p>
+            <p>
+              Na rozdiel od toho katolícka cirkev deklaruje, že oboje „Posvätná
+              Tradícia a Sväté písmo teda navzájom úzko súvisia a sú spojené.”
+              (§ 80) “Preto treba obidve prijímať a vážiť si ich s rovnakou
+              láskou a úctou." (§ 82)
+            </p>
+            <p>
+              Biblia bola daná ako milosrdná a stála podpora proti všetkým
+              duchovným zmätkom, temnotám a neistotám zahŕňajúcim nielen
+              rímskokatolícku cirkev. Naozaj chválim Boha za tento poklad a
+              dôveru, ktorú máme v Biblii. Kiež by si aj Ty čoskoro spoznal
+              objatie Jeho Svätého Slova ako svojej jedinej autority.
+            </p>
+          </div>
         </div>
-      </header>
+      </main>
       {/* Biblia alebo tradícia? */}
       <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
-        <h1 className='text-title text-center text-[35px]'>
+        <h1 className='text-title3 text-center text-[35px]'>
           Biblia alebo tradícia?
         </h1>
         <div className='text-justify flex flex-col gap-2 mt-8'>
@@ -287,7 +291,7 @@ lg and mob OK */}
       {/* Apokryfné (deuterokanonické) zväzky black lg and mob OK */}
       <section className='bg-black text-white'>
         <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-16'>
-          <h2 className='text-title text-center text-[30px] my-16'>
+          <h2 className='text-title3 text-center text-[30px] my-16'>
             Apokryfné (deuterokanonické) zväzky
           </h2>
           <p>
@@ -456,7 +460,7 @@ lg and mob OK */}
       {/* Biblia je Slovo Božie white lg and mob OK */}
       <section>
         <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
-          <h2 className='text-title text-center text-[30px] mt-4 mb-8'>
+          <h2 className='text-title3 text-center text-[30px] mt-4 mb-8'>
             Biblia je Slovo Božie{' '}
           </h2>
 

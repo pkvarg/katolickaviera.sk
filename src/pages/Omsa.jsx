@@ -9,7 +9,7 @@ const Omsa = () => {
       <main className='text-black flex flex-col lg:flex-row mx-4 lg:mx-8'>
         <div className='flex flex-col align-center mx-4 -mt-[225px]'>
           <h1 className='text-title text-center text-[35px] '>Omša</h1>
-          <div className='text-justify flex flex-col gap-2 mt-16'>
+          <div className='text-justify flex flex-col gap-2 mt-16 text-[20px]'>
             <p>
               "Svätá obeť omše" je centrom a najsvätejším aktom uctievania pre
               katolíkov. Katechizmus učí, že počas omše kňaz premieňa svojou
