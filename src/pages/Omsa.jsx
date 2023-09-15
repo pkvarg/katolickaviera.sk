@@ -9,7 +9,7 @@ const Omsa = () => {
         <div className='omsa-pic lg:flex h-[1000px] -mt-[50%] md:-mt-[75%] lg:-mt-[38%] xl:-mt-[16%] 2xl:-mt-[8%]'></div>
         <div className='text-black flex flex-col lg:flex-row mx-4 lg:mx-8'>
           <div className='flex flex-col align-center mx-4'>
-            <h1 className='text-title text-center text-[35px] -mt-[65%] md:-mt-[45%] lg:-mt-[10%]xl:-mt-[10%] 2xl:-mt-[40%]'>
+            <h1 className='text-title text-center text-[35px] -mt-[155%] md:-mt-[45%] lg:-mt-[10%] xl:-mt-[10%] 2xl:-mt-[40%]'>
               Omša
             </h1>
             <div className='text-justify flex flex-col gap-2 mt-16 text-[20px]'>
