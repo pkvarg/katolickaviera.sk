@@ -6,7 +6,7 @@ const KlastornyZivot = () => {
     <>
       <HeaderTransparent />
       <main>
-        <div className='klastor-pic flex h-[650px] -mt-[25%] lg:-mt-[100px]'></div>
+        <div className='klastor-pic flex h-[650px] -mt-[30%] md:-mt-[80%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
 
         <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 -mt-[150px]'>
           <h1 className='text-title2 text-center text-[35px] mb-8'>

@@ -6,9 +6,11 @@ const Spoved = () => {
     <>
       <HeaderTransparent />
       <main className='text-black'>
-        <div className='spoved-pic lg:flex h-[350px] -mt-[135px] lg:-mt-[125px]'></div>
-        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 mt-8 lg:-mt-4'>
-          <h1 className='text-title text-center text-[35px]'>Spoveď</h1>
+        <div className='spoved-pic lg:flex h-[850px] -mt-[50%] md:-mt-[75%] lg:-mt-[38%] xl:-mt-[16%] 2xl:-mt-[8%]'></div>
+        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16'>
+          <h1 className='text-title2 text-center text-[35px] -mt-[65%] md:-mt-[45%] lg:-mt-[10%] xl:-mt-[35%] 2xl:-mt-[30%]'>
+            Spoveď
+          </h1>
 
           <div className='text-justify flex flex-col gap-2 mt-16'>
             <p>
@@ -67,63 +69,7 @@ const Spoved = () => {
 
         {/* <div className='spoved-pic flex lg:hidden w-[100%] h-[60vh] mt-16 mx-4'></div> */}
       </main>
-      {/* <header>
-        <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>
-          <h1 className='text-title text-center text-[35px]'>Spoveď</h1>
-          <div className='text-justify flex flex-col gap-2 mt-8'>
-            <p>
-              Vyznávanie našich priestupkov je základom v živote kresťana.
-              Rozpoznanie našej hriešnosti je nevyhnutné v každodennom živote s
-              Pánom. Podľa katechizmu je však sviatosť spovede nutnosťou na
-              spasenie. Oproti tomu stojí Písmo, ktoré hovorí:
-              <span className='italic'>
-                {' '}
-                Ak ústami vyznávaš Pána Ježiša a v srdci veríš, že Ho Boh
-                vzkriesil z mŕtvych, budeš spasený; lebo srdcom veríme na
-                spravodlivosť a ústami vyznávame na spasenie.
-              </span>
-              <span className='text-[15px]'> Rimanom 10:9-10 </span>Vyznávanie
-              tu spomínané odkazuje na vieru, že Ježiš Kristus zomrel na
-              golgotskom kríži za naše hriechy. Jeho smrťou zástupne za nás sme
-              uchránení od trestu za naše hriechy.
-            </p>
-            <p>
-              Úpenlivo vás pozývam, nebuďte otrokmi náboženského systému, ktorý
-              drží silu odpustenia nad vami.
-              <span className='italic'>
-                {' '}
-                Kristus nás oslobodil k slobode. Stojte teda a nedajte sa
-                zapriahnuť zase do jarma otroctva!
-              </span>
-              <span className='text-[15px]'> Galatským 5:1</span>
-            </p>
-            <p>
-              Je vyznávanie vašich hriechov kňazovi nevyhnutné? Môže vaše
-              utrpenie, ktoré potom žiadate, akýmkoľvek spôsobom pridať k tomu,
-              čo smrť Ježiša Krista dokonala na Kalvárii?
-            </p>
-            <h2 className='text-title text-center text-[30px] mt-4'>
-              Spoveď kňazovi
-            </h2>
-            <p className='mt-8'>
-              V rímskokatolíckej cirkvi sa vyžaduje po jednotlivcovi
-              vyspovedanie sa zo smrteľných hriechov minimálne raz za rok. V
-              prípade, že katolík spáchal smrteľný hriech, nie je mu povolené
-              prísť k svätému prijímaniu až do doby, kým sú hriechy vyznané
-              kňazovi. Podľa Katechizmu, spoveď je nevyhnutná na účel získania
-              spásy. Tento proces sa môže stať ťaživým až do stavu duchovného
-              otroctva. V Novom Zákone apoštoli vymenovali starších a diakonov,
-              nie mnoho kňazov.
-            </p>
-            <p>
-              Preto vás vyzývam, aby ste naozaj prichádzali k štúdiu Písma
-              starostlivo. Je nevyhnutné na odpustenie hriechu vyznať svoje
-              hriechy kňazovi? A má kňaz tú autoritu a moc odpustiť vám vaše
-              hriechy?
-            </p>
-          </div>
-        </div>
-      </header> */}
+
       {/* spoved table lg */}
       <section className='hidden text-[18px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>

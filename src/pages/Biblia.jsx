@@ -7,7 +7,7 @@ const Biblia = () => {
       <HeaderTransparent />
       {/* Biblia */}
       <main>
-        <div className='biblia-pic flex h-[250px] lg:h-[650px] -mt-[25%] lg:-mt-[155px]'></div>
+        <div className='biblia-pic flex h-[250px] lg:h-[650px] -mt-[20%] md:-mt-[70%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
 
         <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16 lg:-mt-[200px] gap-8 pb-8'>
           <h1 className='text-title3 text-center text-[35px]'>Biblia</h1>

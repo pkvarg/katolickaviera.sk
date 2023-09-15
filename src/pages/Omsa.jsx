@@ -5,11 +5,13 @@ const Omsa = () => {
   return (
     <>
       <Header />
-      <main>
-        <div className='omsa-pic lg:flex h-[700px] -mt-[25%] lg:-mt-[100px]'></div>
+      <main className='2xl:-mb-[15%]'>
+        <div className='omsa-pic lg:flex h-[1000px] -mt-[50%] md:-mt-[75%] lg:-mt-[38%] xl:-mt-[16%] 2xl:-mt-[8%]'></div>
         <div className='text-black flex flex-col lg:flex-row mx-4 lg:mx-8'>
-          <div className='flex flex-col align-center mx-4 -mt-[225px]'>
-            <h1 className='text-title text-center text-[35px] '>Omša</h1>
+          <div className='flex flex-col align-center mx-4'>
+            <h1 className='text-title text-center text-[35px] -mt-[65%] md:-mt-[45%] lg:-mt-[10%]xl:-mt-[10%] 2xl:-mt-[40%]'>
+              Omša
+            </h1>
             <div className='text-justify flex flex-col gap-2 mt-16 text-[20px]'>
               <p>
                 "Svätá obeť omše" je centrom a najsvätejším aktom uctievania pre
@@ -45,9 +47,9 @@ const Omsa = () => {
         {/* <div className='omsa-pic flex lg:hidden w-[100%] h-[60vh] mt-16'></div> */}
       </main>
       {/* eucharistia */}
-      <section className='flex flex-col items-center mt-16 mx-4 lg:mx-8 pb-16'>
-        <h1 className='text-title text-[30px] m-8'>Eucharistia</h1>
-        <p className='text-[20px] text-justify'>
+      <section className='flex flex-col items-center mx-4 lg:mx-8 pb-16'>
+        <h1 className='text-title text-[30px]'>Eucharistia</h1>
+        <p className='text-[20px] text-justify mt-8'>
           V katechizme katolíckej cirkvi je uvádzané, že skutočné telo, krv a
           božstvo Ježiša Krista je zoslané z neba a zázračne prepodstatnené v
           eucharistických oblátkach. Oproti tomu stojí Svätá Biblia a tá je

@@ -233,7 +233,7 @@ const Home = () => {
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Raz sa každý z nás bude zodpovedať pred Bohom sám za seba
         </h1>
-        <h2 className='text-black text-[22.5px] text-justify lg:text-left'>
+        <h2 className='text-black text-[22.5px] text-justify'>
           <span className='italic'>
             Kto hovorí: Poznám Ho, ale nezachováva Jeho prikázania, je klamár a
             niet v ňom pravdy.

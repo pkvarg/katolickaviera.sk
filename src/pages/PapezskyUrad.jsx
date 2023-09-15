@@ -6,7 +6,7 @@ const PapezskyUrad = () => {
     <>
       <HeaderTransparent />
       <main>
-        <div className='papez-pic lg:flex h-[450px] -mt-[25%] lg:-mt-[8%]'></div>
+        <div className='papez-pic lg:flex h-[450px] -mt-[30%] md:-mt-[80%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
         <div className='flex flex-col align-center mx-4 lg:mx-16 my-8'>
           <h1 className='text-title text-center text-[35px] -mt-16'>
             Pápežský úrad

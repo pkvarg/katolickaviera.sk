@@ -7,7 +7,7 @@ const Spasenie = () => {
       <HeaderTransparent />
       {/* Spasenie*/}
       <main>
-        <div className='spasenie-pic flex h-[250px] lg:h-[450px] -mt-[25%] lg:-mt-[155px]'></div>
+        <div className='spasenie-pic flex h-[250px] lg:h-[450px] -mt-[20%] md:-mt-[70%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
         <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16 gap-8 pb-8'>
           <h1 className='text-title text-center text-[35px]'>Spasenie</h1>
           <div className='text-justify flex flex-col gap-2 mt-8'>
