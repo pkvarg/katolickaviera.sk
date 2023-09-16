@@ -48,7 +48,7 @@ section h2 {
 }
 
 .spoved-pic {
-  background-image: linear-gradient(to bottom, #000000, #f8f8f8b1, #ffffff),
+  background-image: linear-gradient(to bottom, #000000, #878484b6, #ffffff),
     url('/spoved.webp');
   background-repeat: no-repeat;
   background-position: center center;
@@ -66,7 +66,7 @@ section h2 {
 }
 
 .papez-pic {
-  background-image: linear-gradient(to bottom, #000000, #f8f8f865, #ffffff),
+  background-image: linear-gradient(to bottom, #000000, #e8d6d646, #ffffff),
     url('/papez.webp');
   background-repeat: no-repeat;
   background-position: center center;
@@ -116,7 +116,7 @@ section h2 {
 }
 
 .spasenie-pic {
-  background-image: linear-gradient(to bottom, #000000, #beb3b317, #ffffff),
+  background-image: linear-gradient(to bottom, #000000, #65636385, #ffffff),
     url('/spasenie.webp');
   background-repeat: no-repeat;
   background-position: center center;
@@ -165,7 +165,7 @@ section h2 {
 
 /* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIESMEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIESMEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIESMEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES */
 
-@media (min-width: 1281px) and (max-width: 2280px) {
+/* @media (min-width: 1281px) and (max-width: 2280px) {
   .mrgTop {
     margin-top: -10%;
   }
@@ -187,7 +187,7 @@ section h2 {
   .mrgTop {
     margin-top: -20%;
   }
-}
+} */
 
 @media (min-width: 100px) and (max-width: 990px) {
   section div p {
