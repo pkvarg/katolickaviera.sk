@@ -95,11 +95,11 @@ section h2 {
 .maria-pic {
   background-image: linear-gradient(
       to bottom,
-      #000000,
-      rgba(225, 210, 210, 0.457),
+      #5f5c5cbd,
+      rgba(246, 244, 244, 0.511),
       #ffffff
     ),
-    url('/maria.webp');
+    url('/mary.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -125,8 +125,8 @@ section h2 {
 }
 
 .biblia-pic {
-  background-image: linear-gradient(to bottom, #000000, #beb3b317, #fffffff3),
-    url('/biblia.webp');
+  background-image: linear-gradient(to bottom, #f3eeee69, #9b969656, #fffffff3),
+    url('/bible.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

@@ -23,10 +23,10 @@ const Home = () => {
   return (
     <>
       <main className='hero-bg relative'>
-        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-2'>
+        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-2 pt-[30px] lg:pt-[10%]'>
           Nespoliehaj sa na cirkevné tradície! <br /> Riaď sa Božím Slovom!
         </h1>
-        <div className='text-[#FFFFFF] text-[22.5px] flex flex-col items-center mt-[30%] lg:mt-[10%]'>
+        <div className='text-[#FFFFFF] text-[22.5px] flex flex-col items-center '>
           <span className='italic text-center'>
             Ak vy zostanete v mojom slove, ste naozaj moji učeníci.
           </span>
@@ -36,53 +36,44 @@ const Home = () => {
 
           <span className='text-[12.5px]'> Ján 8:31-32</span>
         </div>
+        <div className='hidden lg:flex flex-col absolute bottom-0 lg:bottom-4 xl:bottom-4 l-0 px-8'>
+          <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4 '>
+            Ako sa Božie Slovo pozerá na prihováranie veriaceho k svätcom?
+          </h1>
+          <h2 className='text-white text-[22.5px] text-justify'>
+            <span className='italic'>
+              Ak sa niekto obráti k duchom mŕtvych a k jasnovidcom a smilne sa
+              im zapredá, ja sám obrátim svoju tvár proti tej osobe a odstránim
+              ju z jej ľudu.
+            </span>
+            <span className='text-[15px]'> Levitikus 20:6 </span>
+            Umožňuje to apokryfná kniha Makabejských, ktorá je v rozpore s
+            Mojžišovým zákonom. (viac v sekcii <a href='/biblia'>Biblia </a> )
+          </h2>
+        </div>
       </main>
       <section className='bg-black px-8 pt-8 pb-16'>
-        {/* hidden on lg */}
-        {/* <div className='lg:hidden text-center'>
-          <h1 className='text-title  text-[30px] lg:text-[45px]  pt-8 '>
-            Raz sa každý z nás bude zodpovedať pred Bohom sám za seba
+        <div className='flex flex-col lg:hidden'>
+          <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4 '>
+            Ako sa Božie Slovo pozerá na prihováranie veriaceho k svätcom?
           </h1>
-          <h2 className='text-white text-[25px]'>
-            Kto hovorí:{' '}
+          <h2 className='text-white text-[22.5px] text-justify'>
             <span className='italic'>
-              Poznám Ho, ale nezachováva Jeho prikázania, je klamár a niet v ňom
-              pravdy.
+              Ak sa niekto obráti k duchom mŕtvych a k jasnovidcom a smilne sa
+              im zapredá, ja sám obrátim svoju tvár proti tej osobe a odstránim
+              ju z jej ľudu.
             </span>
-            <span className='text-[15px]'> Prvý Jánov 2:4</span>
+            <span className='text-[15px]'> Levitikus 20:6 </span>
+            Umožňuje to apokryfná kniha Makabejských, ktorá je v rozpore s
+            Mojžišovým zákonom. (viac v sekcii <a href='/biblia'>Biblia </a> )
           </h2>
-        </div> */}
-        {/* INTRO */}
-        {/* <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4'>
-          Nespoliehaj sa na cirkevné tradície, ale sám poď do Božieho Slova!
-        </h1> */}
-        {/* <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
-          <span className='italic'>
-            Ak vy zostanete v mojom slove, ste naozaj moji učeníci. A poznáte
-            pravdu a pravda vás vyslobodí.
-          </span>
-          <span className='text-[15px]'> Ján 8:31-32</span>
-        </h2> */}
-
-        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4'>
-          Ako sa Božie Slovo pozerá na prihováranie veriaceho k svätcom?
-        </h1>
-        <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
-          <span className='italic'>
-            Ak sa niekto obráti k duchom mŕtvych a k jasnovidcom a smilne sa im
-            zapredá, ja sám obrátim svoju tvár proti tej osobe a odstránim ju z
-            jej ľudu.
-          </span>
-          <span className='text-[15px]'> Levitikus 20:6 </span>
-          Umožňuje to apokryfná kniha Makabejských, ktorá je v rozpore s
-          Mojžišovým zákonom. (viac v sekcii <a href='/biblia'>Biblia </a> )
-        </h2>
+        </div>
 
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Kam zaraďuje Božie Slovo modlitby veriaceho k niekomu inému ako k
           Bohu?
         </h1>
-        <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
+        <h2 className='text-white text-[22.5px] text-justify'>
           <span className='italic'>
             Ale čo (pohania) obetujú, to obetujú démonom, a nie Bohu. A ja
             nechcem, aby ste boli spoločníkmi démonov. Nemôžete piť z kalicha
@@ -100,7 +91,7 @@ const Home = () => {
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Dokazuje Božie Slovo Máriu ako bezhriešnu?
         </h1>
-        <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
+        <h2 className='text-white text-[22.5px] text-justify'>
           <span className='italic'>
             Preto ako skrze jedného človeka (Adama) hriech prišiel na svet a
             skrze hriech smrť - tak smrť prišla na všetkých ľudí, pretože všetci
@@ -112,7 +103,7 @@ const Home = () => {
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Hovorí Božie Slovo, že Mária ostala pannou celý svoj život?
         </h1>
-        <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
+        <h2 className='text-white text-[22.5px] text-justify'>
           <span className='italic'>
             Keď ešte hovoril k zástupom, ajhľa, Jeho matka a bratia stáli vonku
             a žiadali si hovoriť s Ním.
@@ -123,7 +114,7 @@ const Home = () => {
         <h1 className='text-title text-center text-[25px]  lg:text-[30px] pt-8'>
           Bola Mária nanebovzatá ak to Božie Slovo neuvádza?
         </h1>
-        <h2 className='text-white text-[22.5px] text-justify lg:text-left'>
+        <h2 className='text-white text-[22.5px] text-justify'>
           <span className='italic'>
             Každá reč Božia je prečistená. Nepridávaj nič k Jeho slovám, aby ťa
             nestrestal a neoznačil za klamára.
@@ -142,7 +133,7 @@ const Home = () => {
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Učí Božie Slovo orodovať u Márii?
         </h1>
-        <h2 className='text-[25px] text-justify lg:text-left'>
+        <h2 className='text-[25px] text-justify'>
           <span className='italic'>
             Pánovi, svojmu Bohu, budeš sa klaňať a len Jemu budeš slúžiť.
           </span>
@@ -163,7 +154,7 @@ const Home = () => {
         <h1 className='text-title text-center text-[25px]  lg:text-[30px] pt-8'>
           Povoľuje Božie Slovo čo i len samotnú výrobu sôch a obrazov?
         </h1>
-        <h2 className=' text-[22.5px] text-justify lg:text-left'>
+        <h2 className=' text-[22.5px] text-justify'>
           <span className='italic'>
             Neurobíš si vyrezávanú modlu ani podobu ničoho, čo je na nebi hore,
             čo je na zemi dolu, alebo čo je vo vode pod zemou! Nebudeš sa im
@@ -176,10 +167,27 @@ const Home = () => {
           <span className='text-[15px]'> Prvý Timotejovi 2:5</span>
         </h2>
 
+        <h1 className='text-title text-center text-[25px]  lg:text-[30px] pt-8'>
+          Možno pokľaknúť pred čímkoľvek iným ako pred Bohom?
+        </h1>
+        <h2 className=' text-[22.5px] text-justify'>
+          <span className='italic'>
+            Keď som to počul a videl, padol som k nohám anjelovi, ktorý mi to
+            ukázal, a klaňal som sa mu. On mi však povedal: Pozri, nie tak! Som
+            spoluslužobníkom tvojím, tvojich bratov, prorokov a tých, ktorí
+            zachovávajú slová tejto knihy. Bohu sa klaňaj!
+          </span>
+          <span className='text-[15px]'> Zjavenie Jána 22:8-9</span>
+          <span className='italic'> Nebudeš mať iných bohov okrem mňa!</span>
+          <span className='text-[15px]'> Exodus 20:3</span>
+          <span className='italic'> Jeden je totiž Boh.</span>
+          <span className='text-[15px]'> Prvý Timotejovi 2:5</span>
+        </h2>
+
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Je potrebné niečo pridávať k Božiemu Slovu?
         </h1>
-        <h2 className='text-[22.5px] text-justify lg:text-left'>
+        <h2 className='text-[22.5px] text-justify '>
           <span className='italic'>
             I riekol Pán v noci vo videní Pavlovi: Neboj sa, len hovor a nemlč.
             I zostal tam rok a šesť mesiacov a vyučoval medzi nimi slovu
@@ -198,7 +206,7 @@ const Home = () => {
           Čo hovorí Božie Slovo o cirkevných tradíciách, ktoré sa od neho
           odchyľujú?
         </h1>
-        <h2 className='text-black text-[22.5px] text-justify lg:text-left'>
+        <h2 className='text-black text-[22.5px] text-justify'>
           <span className='italic'>
             Darmo ma však uctievajú, keď ľudským príkazom učia ako učeniam
             (Božím). Opustili ste prikázanie Božie a pridŕžate sa podania
@@ -238,7 +246,7 @@ const Home = () => {
           </span>
         </h2>
 
-        <h2 className='text-[22.5px] py-10 text-justify lg:text-left'>
+        <h2 className='text-[22.5px] py-10 text-justify'>
           Prajem ti, aby si spoznal pravdu, bol oslobodený od tradícií a tak si
           sa raz mohol čistý postaviť pred Boha ako Jeho verný služobník.
         </h2>

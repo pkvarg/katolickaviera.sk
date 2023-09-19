@@ -1,5 +1,6 @@
 import React from 'react'
 import HeaderTransparent from '../components/HeaderTransparent'
+import Header from '../components/Header'
 
 const Maria = () => {
   return (
@@ -9,7 +10,7 @@ const Maria = () => {
         <div className='maria-pic flex h-[550px] lg:h-[1250px] -mt-[30%] md:-mt-[70%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
 
         <div className='flex flex-col align-center mx-4 lg:mx-16 -mt-[100px] lg:-mt-[800px]'>
-          <h1 className='text-title2 text-center text-[35px] mb-8'>Mária</h1>
+          <h1 className='text-title text-center text-[35px] mb-8'>Mária</h1>
           <div className='flex flex-row gap-8 align-center'>
             <div className='text-justify text-[20px] flex flex-col gap-2'>
               <p>
@@ -49,7 +50,7 @@ const Maria = () => {
       </main>
       {/* Mária */}
       <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
-        <h1 className='text-title2 text-center text-[35px]'>
+        <h1 className='text-title3 text-center text-[35px]'>
           Je Mária celá svätá?
         </h1>
         <div className='text-justify flex flex-col gap-2 mt-8'>
