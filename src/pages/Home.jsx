@@ -23,7 +23,7 @@ const Home = () => {
   return (
     <>
       <main className='hero-bg relative'>
-        <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-2 pt-[30px] lg:pt-[10%]'>
+        <h1 className='text-title text-center text-[25px] lg:text-[37.5px] pt-2 pt-[30px] lg:pt-[10%]'>
           Nespoliehaj sa na cirkevné tradície! <br /> Riaď sa Božím Slovom!
         </h1>
         <div className='text-[#FFFFFF] text-[22.5px] flex flex-col items-center '>
@@ -36,7 +36,7 @@ const Home = () => {
 
           <span className='text-[12.5px]'> Ján 8:31-32</span>
         </div>
-        <div className='hidden lg:flex flex-col absolute bottom-0 lg:bottom-4 xl:bottom-4 l-0 px-8'>
+        <div className='hidden lg:flex flex-col absolute bottom-0 lg:bottom-4 xl:-bottom-8 l-0 px-8'>
           <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4 '>
             Ako sa Božie Slovo pozerá na prihováranie veriaceho k svätcom?
           </h1>
