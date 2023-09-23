@@ -99,7 +99,7 @@ section h2 {
       rgba(246, 244, 244, 0.511),
       #ffffff
     ),
-    url('/mary.webp');
+    url('/maria.webp');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -125,7 +125,7 @@ section h2 {
 }
 
 .biblia-pic {
-  background-image: linear-gradient(to bottom, #f3eeee69, #9b969656, #fffffff3),
+  background-image: linear-gradient(to bottom, #f3eeee69, #9b969656, #ffffff),
     url('/bible.webp');
   background-repeat: no-repeat;
   background-position: center center;

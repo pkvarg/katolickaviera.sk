@@ -256,13 +256,15 @@ const Home = () => {
         style={{
           background: '#3b2f26',
           color: '#d39f69',
-          fontSize: '22.5px',
-          textAlign: 'justify',
+          fontSize: '15px',
+          textAlign: 'start',
         }}
         buttonStyle={{
           background: '#c8bca4',
           color: '#3b2f26',
-          fontSize: '22.5px',
+          fontSize: '18px',
+          padding: '5px',
+          borderRadius: '25px',
         }}
         buttonText='Pokračovať'
         expires={365}
