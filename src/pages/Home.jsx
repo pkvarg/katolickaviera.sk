@@ -297,16 +297,18 @@ const Home = ({ lng, setLng }) => {
           color: '#3b2f26',
           fontSize: '18px',
           padding: '5px',
-          borderRadius: '25px',
+          // borderRadius: '25px',
         }}
-        buttonText='Pokračovať'
+        buttonText={language === 'slovak' ? 'Pokračovať' : 'Continue'}
         expires={365}
         onAccept={() => {
           setCookieAccept(true)
           increaseVisitorsCount()
         }}
       >
-        Táto stránka nezhromažďuje žiadne údaje
+        {language === 'slovak'
+          ? 'Táto stránka nezhromažďuje žiadne údaje'
+          : 'This site does not collect any information'}
       </CookieConsent>
     </>
   )
