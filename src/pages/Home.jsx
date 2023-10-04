@@ -38,7 +38,7 @@ const Home = ({ lng, setLng }) => {
         <>
           <main className='hero-bg relative'>
             <LanguageBar />
-            <h1 className='text-title text-center text-[25px] lg:text-[37.5px] pt-[15%] lg:pt-[10%]'>
+            <h1 className='text-title text-center text-[25px] lg:text-[40px] pt-[15%] lg:pt-[10%] font-bold'>
               Nespoliehaj sa na cirkevné tradície! <br /> Riaď sa Božím Slovom!
             </h1>
             <div className='text-[#FFFFFF] text-[22.5px] flex flex-col items-center '>

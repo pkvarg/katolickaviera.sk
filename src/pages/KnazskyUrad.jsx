@@ -6,7 +6,7 @@ const KnazskyUrad = () => {
     <>
       <HeaderTransparent />
       <main>
-        <div className='knaz-pic flex h-[400px] -mt-[30%] md:-mt-[80%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
+        <div className='knaz-pic flex h-[700px] -mt-[30%] md:-mt-[80%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
         <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 my-8'>
           <h1 className='text-title text-center text-[35px] -mt-[25%] md:-mt-[5%] lg:-mt-[10%] xl:-mt-[10%] 2xl:-mt-[8%]'>
             Kňazský úrad

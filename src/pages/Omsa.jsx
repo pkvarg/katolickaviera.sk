@@ -127,7 +127,7 @@ const Omsa = () => {
                 vedľa nich hovoriac: Mužovia galilejskí, čo stojíte a hľadíte do
                 neba? Tento Ježiš, ktorý vám bol vzatý do neba,
               </span>
-              <span className='font-bold'>
+              <span className='boldd text-[#99734c]'>
                 {' '}
                 príde zase tak, ako ste Ho videli odchádzať do neba.
               </span>
