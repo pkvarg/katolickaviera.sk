@@ -20,7 +20,6 @@ import { StateContext } from './context/StateContext'
 function App() {
   const [lng, setLng] = useState('slovak')
 
-  console.log('app', lng)
   return (
     <>
       <BrowserRouter>

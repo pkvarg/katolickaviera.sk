@@ -4,6 +4,7 @@ import axios from 'axios'
 import { useStateContext } from '../context/StateContext'
 import LanguageBar from '../components/LanguageBar'
 import English from './English'
+import Czech from './Czech'
 
 const Home = ({ lng, setLng }) => {
   const { language } = useStateContext()
@@ -33,7 +34,7 @@ const Home = ({ lng, setLng }) => {
 
   return (
     <>
-      {language === 'slovak' ? (
+      {language === 'slovak' && (
         <>
           <main className='hero-bg relative'>
             <LanguageBar />
@@ -280,9 +281,9 @@ const Home = ({ lng, setLng }) => {
             </h2>
           </section>
         </>
-      ) : (
-        <English />
       )}
+      {language === 'english' && <English />}
+      {language === 'czech' && <Czech />}
 
       <CookieConsent
         location='bottom'
@@ -299,16 +300,22 @@ const Home = ({ lng, setLng }) => {
           padding: '5px',
           // borderRadius: '25px',
         }}
-        buttonText={language === 'slovak' ? 'Pokračovať' : 'Continue'}
+        buttonText={
+          (language === 'slovak' && 'Pokračovať') ||
+          (language === 'english' && 'Continue') ||
+          (language == 'czech' && 'Pokračovat')
+        }
         expires={365}
         onAccept={() => {
           setCookieAccept(true)
           increaseVisitorsCount()
         }}
       >
-        {language === 'slovak'
-          ? 'Táto stránka nezhromažďuje žiadne údaje'
-          : 'This site does not collect any information'}
+        {(language === 'slovak' && 'Táto stránka nezhromažďuje žiadne údaje') ||
+          (language === 'english' &&
+            'This site does not collect any information') ||
+          (language === 'czech' &&
+            'Tato stránka neshromažďuje žádné údaje')}{' '}
       </CookieConsent>
     </>
   )
