@@ -9,7 +9,7 @@ const Maria = () => {
       <main>
         <div className='maria-pic flex h-[550px] lg:h-[1250px] -mt-[30%] md:-mt-[70%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
 
-        <div className='flex flex-col align-center mx-4 lg:mx-16 -mt-[100px] lg:-mt-[800px]'>
+        <div className='flex flex-col align-center mx-4 lg:mx-8 -mt-[100px] lg:-mt-[800px]'>
           <h1 className='text-title text-center text-[35px] mb-8'>Mária</h1>
           <div className='flex flex-row gap-8 align-center'>
             <div className='text-justify text-[20px] flex flex-col gap-2'>
@@ -49,7 +49,7 @@ const Maria = () => {
         </div>
       </main>
       {/* Mária */}
-      <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8  mt-8 gap-8 pb-8'>
         <h1 className='text-title3 text-center text-[35px]'>
           Je Mária celá svätá?
         </h1>
@@ -70,7 +70,7 @@ const Maria = () => {
         </div>
       </section>
       {/* Maria table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+      <section className='hidden text-[18px] lg:flex justify-center mx-4 mt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -197,7 +197,7 @@ const Maria = () => {
       </section>
       {/* Maria lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Katolícke vyučovanie, že Mária je "celá svätá" je veľmi závažné
             tvrdenie. Božie Slovo vyhlasuje:
@@ -232,7 +232,7 @@ const Maria = () => {
       {/*Je Mária prostredníkom?
  black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
           <h2 className='text-title text-center text-[30px] my-16'>
             Je Mária prostredníkom?
           </h2>
@@ -253,7 +253,7 @@ const Maria = () => {
       </section>
       {/* Je Mária prostredníkom?
  black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -366,7 +366,7 @@ const Maria = () => {
       </section>
       {/* Maria black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
           <p>
             Nebeský Otec poslal svojho jediného Syna, aby hriešnik mohol k Nemu
             prichádzať priamo skrze "človeka Ježiša Krista". Tvrdenie, že je
@@ -391,7 +391,7 @@ const Maria = () => {
       </section>
       {/* Bola Mária počatá bez poškvrny dedičného hriechu? white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
           <h2 className='text-title text-center text-[30px] mt-4 mb-8'>
             Bola Mária počatá bez poškvrny dedičného hriechu?{' '}
           </h2>
@@ -406,7 +406,7 @@ const Maria = () => {
         </div>
       </section>
       {/* Bola Mária počatá bez poškvrny dedičného hriechu? table lg */}
-      <section className='hidden text-[18px]  lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+      <section className='hidden text-[18px]  lg:flex justify-center mx-4 mt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -543,7 +543,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Bola Mária počatá  white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
           <p>
             Najväčším požehnaním milosti je "Slovo, ktoré sa stalo telom".
             Otcova vôľa bola, aby plnosť a milosť, prebývala v Kristovi Ježišovi
@@ -570,7 +570,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       {/*Máriina úloha v spasení?
  black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
           <h2 className='text-title text-center text-[30px] my-16'>
             Máriina úloha v spasení?
           </h2>
@@ -588,7 +588,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Máriina úloha v spasení?
  black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -794,7 +794,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Máriina úloha v spasení? black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
           <p>
             Akékoľvek obrátenie sa človeka k Márii s nádejou, že v nej nájde
             spasenie, je domýšľavou urážkou dokonalej práce Pána Ježiša Krista a
@@ -839,7 +839,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
         </div>
       </section>
       {/* Je Mária kráľovnou nebies? */}
-      <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8  mt-8 gap-8 pb-8'>
         <h1 className='text-title text-center text-[35px]'>
           Je Mária kráľovnou nebies?
         </h1>
@@ -852,7 +852,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
         </div>
       </section>
       {/*    Je Mária kráľovnou nebies? table lg */}
-      <section className='hidden text-[20px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+      <section className='hidden text-[20px] lg:flex justify-center mx-4 mt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -971,7 +971,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Je Mária kráľovnou nebies? lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2  mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2  mx-4 lg:mx-8'>
           <p>
             Vyučovanie rímskokatolíckej cirkvi týkajúcej sa "kráľovnej nebies"
             pripomína starovekých féničanov, ktorí uctievali Astartu ako
@@ -990,7 +990,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       {/*Bola Mária bezhriešna?
  black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
           <h2 className='text-title text-center text-[30px] my-16'>
             Bola Mária bezhriešna?
           </h2>
@@ -1006,7 +1006,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Bola Mária bezhriešna?
  black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -1145,7 +1145,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Bola Mária bezhriešna? black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
           <p>
             Boh je nazývaný "Spasiteľ", ktorý zachránil svoj ľud od hriechu.
             Celé ľudstvo od Adama ďalej zhrešilo a rozsudok tohto hriechu je
@@ -1159,7 +1159,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Bola Mária bezhriešna? OUTRO white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
           <p>
             Máriina pozícia je tiež viditeľná v nasledujúcich Písmach. Po prvé,
             Mária sama seba uznávala za zachránenú hriešnicu. Vtedy Mária

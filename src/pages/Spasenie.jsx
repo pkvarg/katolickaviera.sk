@@ -8,7 +8,7 @@ const Spasenie = () => {
       {/* Spasenie*/}
       <main className='bg-black text-white'>
         <div className='spasenie-pic flex h-[450px] lg:h-[650px] -mt-[20%] md:-mt-[70%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
-        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16 gap-8 pb-8'>
+        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8 gap-8 pb-8'>
           <h1 className='text-title text-center text-[35px] -mt-[20%] md:-mt-[5%] lg:-mt-[22%] xl:-mt-[12%] 2xl:-mt-[14%]'>
             Spasenie
           </h1>
@@ -47,7 +47,7 @@ const Spasenie = () => {
       </main>
       {/* Spasenie len skrze Ježiša Krista
        */}
-      <section className='bg-black text-white flex flex-col text-[20px] justify-center px-4 lg:px-16 gap-8 pb-8'>
+      <section className='bg-black text-white flex flex-col text-[20px] justify-center px-4 lg:px-8 gap-8 pb-8'>
         <h1 className='text-title text-center text-[35px]'>
           Spasenie len skrze Ježiša Krista
         </h1>
@@ -66,7 +66,7 @@ const Spasenie = () => {
       </section>
       {/* Spasenie len skrze Ježiša Krista
  table lg */}
-      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-12 pt-8 gap-8 pb-16'>
+      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-4 pt-8 gap-8 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -292,7 +292,7 @@ table mobile only */}
       {/* Spasenie len skrze Ježiša Krista
 lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16 pb-8'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8 pb-8'>
           <p>
             Podľa Biblie je záchrana nájdená v Kristovi. Nenachádza sa v žiadnej
             cirkvi, či už v katolíckej, protestantskej alebo inom náboženskom
@@ -319,7 +319,7 @@ lg and mob OK */}
 
       {/* Spasenie vlastným pričinením a dobrými skutkami black lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
           <h2 className='text-title text-center text-[30px] mt-8 mb-4'>
             Spasenie vlastným pričinením a dobrými skutkami
           </h2>
@@ -359,7 +359,7 @@ lg and mob OK */}
         </div>
       </section>
       {/* Spasenie vlastným pričinením a dobrými skutkami black table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
+      <section className='hidden text-[18px] lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -529,7 +529,7 @@ lg and mob OK */}
       {/* Spasenie vlastným pričinením a dobrými skutkami 
  black lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-8 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pb-8 mx-4 lg:mx-8'>
           <p>
             Katolícke učenie, že je "vytvorené partnerstvo" človeka s Bohom v
             Kristovej obete je neúctivé a zvrhlé. Nie je žiaden biblický základ
@@ -570,7 +570,7 @@ lg and mob OK */}
 
       {/* Spasenie pomocou sviatostí black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 px-4 lg:px-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 px-4 lg:px-8'>
           <h2 className='text-title text-center text-[30px] mt-4 mb-8'>
             Spasenie pomocou sviatostí{' '}
           </h2>
@@ -589,7 +589,7 @@ lg and mob OK */}
         </div>
       </section>
       {/* Spasenie pomocou sviatostí table lg */}
-      <section className='bg-black text-white hidden text-[18px]  lg:flex justify-center px-12 pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white hidden text-[18px]  lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -749,7 +749,7 @@ lg and mob OK */}
       </section>
       {/* Spasenie pomocou sviatostí lg and mob OK */}
       <section>
-        <div className='bg-black text-white text-justify text-[20px] flex flex-col gap-2 py-8 px-4 lg:px-16'>
+        <div className='bg-black text-white text-justify text-[20px] flex flex-col gap-2 py-8 px-4 lg:px-8'>
           <p>
             Nie je to milosť Božia, za ktorú platíte svojou účasťou na
             sviatostiach. Muži, ženy aj deti sú od mladosti vedení veriť, že
@@ -778,7 +778,7 @@ lg and mob OK */}
 
       {/* Očistec lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
           <h2 className='text-title text-center text-[30px] my-8'>Očistec</h2>
           <p>
             Ježiš ochotne zomrel za hriechy. Zomrel namiesto nás, aby zaplatil
@@ -830,7 +830,7 @@ lg and mob OK */}
         </div>
       </section>
       {/* Očistec table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
+      <section className='hidden text-[18px] lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -994,7 +994,7 @@ lg and mob OK */}
       {/* Očistec
  black lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Aký hrozný je to klam, ktorý je uvalený na veriacich. Skutočným
             dôvodom a účelom prečo sa Ježiš Kristus stal človekom a trpel
@@ -1008,7 +1008,7 @@ lg and mob OK */}
 
       {/* Očistec white OUTRO white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
           <p>
             Nielenže rímskokatolícka cirkev odmieta znalosť Kristovej dokončenej
             práce na kríži, išla ešte viac do extrému vytvorením neexistujúceho

@@ -7,7 +7,7 @@ const KnazskyUrad = () => {
       <HeaderTransparent />
       <main>
         <div className='knaz-pic flex h-[700px] -mt-[30%] md:-mt-[80%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
-        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 my-8'>
+        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-8 my-8'>
           <h1 className='text-title text-center text-[35px] -mt-[25%] md:-mt-[5%] lg:-mt-[10%] xl:-mt-[10%] 2xl:-mt-[8%]'>
             Kňazský úrad
           </h1>
@@ -68,7 +68,7 @@ const KnazskyUrad = () => {
         </div>
       </main>
       {/* Iný Kristus */}
-      <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8  mt-8 gap-8 pb-8'>
         <h1 className='text-title text-center text-[35px]'>Iný Kristus</h1>
         <div className='text-justify flex flex-col gap-2 mt-8'>
           <p>
@@ -84,7 +84,7 @@ const KnazskyUrad = () => {
         </div>
       </section>
       {/* Iný Kristus  table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+      <section className='hidden text-[18px] lg:flex justify-center mx-4 mt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -284,7 +284,7 @@ const KnazskyUrad = () => {
       </section>
       {/* Iný Kristus  lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Rozdiely medzi kňazstvom Ježiša Krista a starozákonným kňazstvom sú
             veľmi jasné. Kňazi pred Ježišom Kristom boli Židia - Leviti
@@ -329,7 +329,7 @@ const KnazskyUrad = () => {
       </section>
       {/* Celibát black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
           <h2 className='text-title text-center text-[30px] my-16'>Celibát</h2>
           <p>
             V Písme je napísané:
@@ -351,7 +351,7 @@ const KnazskyUrad = () => {
         </div>
       </section>
       {/* Celibát black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center gap-8 pt-16 pb-16 px-12'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -462,7 +462,7 @@ const KnazskyUrad = () => {
 
       {/* Celibat black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Katolícka cirkev popiera aj v tomto bode Božie Slovo a pokúša Pána
             Boha v tom, čo robí svojim mladým. Celý účel Vatikánu - pápeža,
@@ -476,7 +476,7 @@ const KnazskyUrad = () => {
 
       {/* Celibat outro lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-4 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-4 mx-4 lg:mx-8'>
           <p>
             Rímska cirkev požaduje celibát na všetkých, ktorí sú vo vedení a
             zakazuje im sexuálne naplnenie manželstva, ktoré bolo dané Bohom.

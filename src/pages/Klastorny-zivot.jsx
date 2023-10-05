@@ -8,7 +8,7 @@ const KlastornyZivot = () => {
       <main className='bg-black text-white'>
         <div className='klastor-pic flex h-[650px] -mt-[30%] md:-mt-[80%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
 
-        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 -mt-[150px]'>
+        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-8 -mt-[150px]'>
           <h1 className='text-title2 text-center text-[35px] mb-8'>
             Kláštorný život
           </h1>
@@ -48,7 +48,7 @@ const KlastornyZivot = () => {
         </div>
       </main>
       {/* KlastornyZivot */}
-      <section className='bg-black text-white flex flex-col text-[20px] justify-center px-4 lg:px-16  pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white flex flex-col text-[20px] justify-center px-4 lg:px-8  pt-8 gap-8 pb-8'>
         <h1 className='text-title text-center text-[35px]'>Prečo sestry?</h1>
         <div className='text-justify flex flex-col gap-2 mt-0 lg:mt-4'>
           <p>
@@ -68,7 +68,7 @@ const KlastornyZivot = () => {
         </div>
       </section>
       {/* KlastornyZivot table lg */}
-      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-12 pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -304,7 +304,7 @@ const KlastornyZivot = () => {
       </section>
       {/* KlastornyZivot lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16 pb-12'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8 pb-12'>
           <p>
             Zdá sa, že rímskokatolícka cirkev učí, že manželský vzťah je menej
             duchovný, než celibátny život. Katechizmus identifikoval osoby,
@@ -342,7 +342,7 @@ const KlastornyZivot = () => {
       </section>
       {/* Kristova nevesta lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16 pb-4'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8 pb-4'>
           <h2 className='text-title text-center text-[30px] mt-8'>
             Kristova nevesta
           </h2>
@@ -360,7 +360,7 @@ const KlastornyZivot = () => {
         </div>
       </section>
       {/* Kristova nevesta  lg */}
-      <section className='hidden text-[18px] lg:flex justify-center px-12 gap-8 pt-8 pb-16'>
+      <section className='hidden text-[18px] lg:flex justify-center px-4 gap-8 pt-8 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -428,7 +428,7 @@ const KlastornyZivot = () => {
 
       {/* Kristova nevesta black lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Výklad rímskokatolíckej cirkvi, že mníška je nevestou Kristovou, nie
             je založený na pravde toho, čo vyhlasuje Biblia. Písmo Sväté sa
@@ -459,7 +459,7 @@ const KlastornyZivot = () => {
 
       {/* Kristova nevesta outro white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
           <p>
             Apoštol tu porovnáva vzťah medzi manželmi s manželkami, ako Kristus
             so svojou Cirkvou. Až nastane koniec - čas vyvrcholenia posledných
@@ -487,11 +487,6 @@ const KlastornyZivot = () => {
           </p>
         </div>
       </section>
-
-      <span className='italic'></span>
-      <span className='text-[15px]'></span>
-      <span className='italic'></span>
-      <span className='text-[15px]'></span>
     </>
   )
 }

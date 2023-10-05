@@ -10,7 +10,7 @@ const Biblia = () => {
       <main>
         <div className='biblia-pic flex h-[250px] lg:h-[650px] -mt-[20%] md:-mt-[70%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
 
-        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16 lg:-mt-[200px] gap-8 pb-8'>
+        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8 lg:-mt-[200px] gap-8 pb-8'>
           <h1 className='text-title2 text-center text-[35px]'>Biblia</h1>
           <div className='text-justify flex flex-col gap-2 mt-8'>
             <p>
@@ -49,7 +49,7 @@ const Biblia = () => {
         </div>
       </main>
       {/* Biblia alebo tradícia? */}
-      <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
+      <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8  mt-8 gap-8 pb-8'>
         <h1 className='text-title3 text-center text-[35px]'>
           Biblia alebo tradícia?
         </h1>
@@ -82,7 +82,7 @@ const Biblia = () => {
         </div>
       </section>
       {/* Biblia alebo tradícia? table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+      <section className='hidden text-[18px] lg:flex justify-center mx-4 mt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -262,7 +262,7 @@ table mobile only */}
       {/* Biblia alebo tradícia?
 lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Kresťan biblicky-veriaci je usvedčovaný Duchom Svätým, prijíma,
             necháva sa viesť, verí a podriaďuje sa Biblii, pretože je autoritou
@@ -291,7 +291,7 @@ lg and mob OK */}
 
       {/* Apokryfné (deuterokanonické) zväzky black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
           <h2 className='text-title3 text-center text-[30px] my-16'>
             Apokryfné (deuterokanonické) zväzky
           </h2>
@@ -315,7 +315,7 @@ lg and mob OK */}
         </div>
       </section>
       {/* Apokryfné (deuterokanonické) zväzky black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
+      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -425,7 +425,7 @@ lg and mob OK */}
       {/* Apokryfné (deuterokanonické) zväzky 
  black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
           <p>
             Pán Ježiš Kristus a pisatelia Nového Zákona nikdy nedávali vážnosť
             ničomu z apokryfných kníh. Charakteristické "je napísané" alebo
@@ -460,7 +460,7 @@ lg and mob OK */}
 
       {/* Biblia je Slovo Božie white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
           <h2 className='text-title3 text-center text-[30px] mt-4 mb-8'>
             Biblia je Slovo Božie{' '}
           </h2>

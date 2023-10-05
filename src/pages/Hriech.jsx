@@ -9,7 +9,7 @@ const Hriech = () => {
 
       <main className='bg-black text-white'>
         <div className='hriech-pic flex h-[450px] lg:h-[850px] -mt-[30%] md:-mt-[67%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
-        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16 -mt-[125px] lg:-mt-[335px] gap-8 pb-8'>
+        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8 -mt-[125px] lg:-mt-[335px] gap-8 pb-8'>
           <h1 className='text-[#98724c] lg:text-title text-center text-[35px]'>
             Hriech
           </h1>
@@ -45,7 +45,7 @@ const Hriech = () => {
         </div>
       </main>
       {/* Ľahký hriech */}
-      <section className='bg-black text-white flex flex-col text-[20px] justify-center px-4 lg:px-16  pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white flex flex-col text-[20px] justify-center px-4 lg:px-8  pt-8 gap-8 pb-8'>
         <h1 className='text-title text-center text-[35px]'>Ľahký hriech</h1>
         <div className='text-justify flex flex-col gap-2 mt-8'>
           <p>
@@ -91,7 +91,7 @@ const Hriech = () => {
         </div>
       </section>
       {/* Ľahký hriech table lg */}
-      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-12 pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -212,7 +212,7 @@ const Hriech = () => {
       </section>
       {/*Ľahký hriech lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16 pb-8'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8 pb-8'>
           <p>
             Písmo nám bolo dané tak, aby sme mohli vedieť, čím je náš hriešny
             stav pred Svätým Bohom. Sama Biblia sa opisuje ako zrkadlo, ktoré
@@ -259,7 +259,7 @@ const Hriech = () => {
 
       {/*Interrupcia  lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
           <h2 className='text-title text-center text-[30px] my-8'>
             Interrupcia
           </h2>
@@ -287,7 +287,7 @@ const Hriech = () => {
         </div>
       </section>
       {/* Interrupcia table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
+      <section className='hidden text-[18px] lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -459,7 +459,7 @@ const Hriech = () => {
       {/* Interrupcia
   lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
           <p>
             Ako sme videli v Písme, Boh je milosrdný a plný zľutovania, dokonca
             aj k tým, ktorí sú zosobášení hanebnému hriechu. Verím, že ste
@@ -506,7 +506,7 @@ const Hriech = () => {
 
       {/* Smrteľný hriech black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
           <h2 className='text-title text-center text-[30px] mt-4 mb-8'>
             Smrteľný hriech{' '}
           </h2>
@@ -543,7 +543,7 @@ const Hriech = () => {
         </div>
       </section>
       {/* Smrteľný hriech table lg */}
-      <section className='bg-black text-white hidden text-[18px]  lg:flex justify-center px-12 pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white hidden text-[18px]  lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -769,7 +769,7 @@ const Hriech = () => {
       </section>
       {/* Smrteľný hriech lg and mob OK */}
       <section>
-        <div className='bg-black text-white text-justify text-[20px] flex flex-col gap-2 py-8 px-4 lg:px-16'>
+        <div className='bg-black text-white text-justify text-[20px] flex flex-col gap-2 py-8 px-4 lg:px-8'>
           <p>
             Koncepty smrteľného hriechu a jeho dôsledky rímskokatolíckej cirkvi
             majú schopnosť zotročiť ľútostivého hriešnika diktátu cirkvi. Keď
