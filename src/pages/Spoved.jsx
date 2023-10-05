@@ -7,7 +7,7 @@ const Spoved = () => {
       <HeaderTransparent />
       <main className='text-black bg-black text-[20px]'>
         <div className='spoved-pic lg:flex h-[850px] -mt-[50%] md:-mt-[75%] lg:-mt-[38%] xl:-mt-[16%] 2xl:-mt-[8%]'></div>
-        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16'>
+        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-8'>
           <h1 className='text-title text-center text-[35px] -mt-[65%] md:-mt-[45%] lg:-mt-[10%] xl:-mt-[25%] 2xl:-mt-[27%]'>
             Spoveď
           </h1>
@@ -71,9 +71,9 @@ const Spoved = () => {
       </main>
 
       {/* spoved table lg */}
-      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-12 pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8 pb-4'>
@@ -273,7 +273,7 @@ const Spoved = () => {
       </section>
       {/* spoved lg and mob OK */}
       <section className='bg-black text-white text-[20px] pb-8'>
-        <div className='text-justify  flex flex-col gap-2 mx-4 lg:mx-16'>
+        <div className='text-justify  flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Katolícky katechizmus vyžaduje od členov vyznávanie hriechov
             človeku, ale Biblia odhaľuje, že ten, kto sa narodil do Božej rodiny
@@ -302,8 +302,8 @@ const Spoved = () => {
       </section>
       {/* pokanie black lg and mob OK */}
       <section className='text-[20px]'>
-        <div className='text-justify flex flex-col gap-2 mt-4 mx-4 lg:mx-16'>
-          <h2 className='text-title text-center text-[30px] mb-16'>Pokánie</h2>
+        <div className='text-justify flex flex-col gap-2 mt-12 mx-4 lg:mx-8'>
+          <h2 className='text-title text-center text-[30px] mb-8'>Pokánie</h2>
           <p className='text-[20px] '>
             Milióny katolíkov po celom svete poctivo vykonávajú pokánie. Podľa
             katechizmu kňaz je ten, kto ukladá tieto úkony hriešnikovi v čase
@@ -316,7 +316,7 @@ const Spoved = () => {
         </div>
       </section>
       {/* pokanie black table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
+      <section className='hidden text-[18px] lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
           <h2 className='font-semibold  text-center mt-4'>
             Katechizmus hovorí:
@@ -539,9 +539,9 @@ const Spoved = () => {
         </div>
       </section>
 
-      {/* pokanie outro black lg and mob OK */}
-      <section className=''>
-        <div className='text-justify flex flex-col gap-2 pb-8 mx-4 lg:mx-16'>
+      {/* pokanie outro lg and mob OK */}
+      <>
+        <div className='text-justify flex flex-col gap-2 pb-8 mx-4 lg:mx-8'>
           <p className='text-[20px]'>
             Z Písma svätého vidíme, že Ježiš Kristus zaplatil na Kalvárii plnú
             cenu za naše hriechy. Viera, že dobré skutky sú nevyhnutné pre
@@ -567,11 +567,11 @@ const Spoved = () => {
             <span className='text-[15px]'> Rimanom 3:28</span>
           </p>
         </div>
-      </section>
+      </>
 
       {/* pokanie outro white lg and mob OK */}
       <section>
-        <div className='text-justify flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
+        <div className='text-justify flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
           <p className='text-[20px]'>
             Prosím uváž, čo Biblia hovorí, pokiaľ ide o úplne dostačujúcu ponuku
             Ježiša Krista na kríži, ktorou zaplatil všetok dlh hriechu. Podľa

@@ -41,7 +41,7 @@ const Home = ({ lng, setLng }) => {
             <h1 className='text-title text-center text-[25px] lg:text-[40px] pt-[15%] lg:pt-[10%] font-bold'>
               Nespoliehaj sa na cirkevné tradície! <br /> Riaď sa Božím Slovom!
             </h1>
-            <div className='text-[#FFFFFF] text-[22.5px] flex flex-col items-center '>
+            <div className='text-[#FFFFFF] text-[22.5px] flex flex-col items-center'>
               <span className='italic text-center'>
                 Ak vy zostanete v mojom slove, ste naozaj moji učeníci.
               </span>
@@ -52,7 +52,7 @@ const Home = ({ lng, setLng }) => {
               <span className='text-[12.5px]'> Ján 8:31-32</span>
             </div>
             <div className='hidden lg:flex flex-col absolute bottom-0 lg:bottom-4 xl:-bottom-8 l-0 px-8'>
-              <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4 '>
+              <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4'>
                 Ako sa Božie Slovo pozerá na prihováranie veriaceho k svätcom?
               </h1>
               <h2 className='text-white text-[22.5px] text-justify'>
@@ -70,9 +70,9 @@ const Home = ({ lng, setLng }) => {
               </h2>
             </div>
           </main>
-          <section className='bg-black px-8 pt-8 pb-16'>
+          <section className='bg-black px-4 lg:px-8 pt-8 pb-16'>
             <div className='flex flex-col lg:hidden'>
-              <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4 '>
+              <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4'>
                 Ako sa Božie Slovo pozerá na prihováranie veriaceho k svätcom?
               </h1>
               <h2 className='text-white text-[22.5px] text-justify'>
@@ -151,7 +151,7 @@ const Home = ({ lng, setLng }) => {
             </h2>
           </section>
 
-          <section className='bg-white text-black  px-8 pt-8'>
+          <section className='bg-white text-black px-4 lg:px-8 pt-8'>
             <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
               Učí Božie Slovo orodovať u Márii?
             </h1>

@@ -5,10 +5,10 @@ const Omsa = () => {
   return (
     <>
       <Header />
-      <main className=''>
+      <main>
         <div className='omsa-pic lg:flex h-[1000px] -mt-[50%] md:-mt-[75%] lg:-mt-[38%] xl:-mt-[16%] 2xl:-mt-[8%]'></div>
         <div className='text-black flex flex-col lg:flex-row mx-4 lg:mx-8'>
-          <div className='flex flex-col align-center mx-4'>
+          <div className='flex flex-col align-center'>
             <h1 className='text-title3 text-center text-[35px] -mt-[155%] md:-mt-[45%] lg:-mt-[22%] xl:-mt-[40%] 2xl:-mt-[30%]'>
               Omša
             </h1>
