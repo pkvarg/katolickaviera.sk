@@ -89,7 +89,7 @@ section h2 {
 }
 
 .klastor-pic {
-  background-image: linear-gradient(to bottom, #0a0505, #3e3c3ca7, #ffffff),
+  background-image: linear-gradient(to top, #222320, #87848479, #1c1a1a73),
     url('/klastor.webp');
   background-repeat: no-repeat;
   background-position: center center;
@@ -112,7 +112,7 @@ section h2 {
 }
 
 .hriech-pic {
-  background-image: linear-gradient(to bottom, #000000, #beb3b3d1, #ffffff),
+  background-image: linear-gradient(to top, #222320, #8784843c, #1c1a1aeb),
     url('/hriech.webp');
   background-repeat: no-repeat;
   background-position: center center;
@@ -121,7 +121,7 @@ section h2 {
 }
 
 .spasenie-pic {
-  background-image: linear-gradient(to bottom, #000000, #65636385, #ffffff),
+  background-image: linear-gradient(to top, #222320, #8784843c, #1c1a1aeb),
     url('/spasenie.webp');
   background-repeat: no-repeat;
   background-position: center center;

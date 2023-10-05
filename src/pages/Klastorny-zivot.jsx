@@ -5,7 +5,7 @@ const KlastornyZivot = () => {
   return (
     <>
       <HeaderTransparent />
-      <main>
+      <main className='bg-black text-white'>
         <div className='klastor-pic flex h-[650px] -mt-[30%] md:-mt-[80%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
 
         <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16 -mt-[150px]'>
@@ -48,9 +48,9 @@ const KlastornyZivot = () => {
         </div>
       </main>
       {/* KlastornyZivot */}
-      <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16  mt-8 gap-8 pb-8'>
+      <section className='bg-black text-white flex flex-col text-[20px] justify-center px-4 lg:px-16  pt-8 gap-8 pb-8'>
         <h1 className='text-title text-center text-[35px]'>Prečo sestry?</h1>
-        <div className='text-justify flex flex-col gap-2 mt-8'>
+        <div className='text-justify flex flex-col gap-2 mt-0 lg:mt-4'>
           <p>
             Prečo katolícka cirkev trvá na tom, aby mali ženy „kláštorný“ alebo
             „náboženský“ životný štýl? Pre udržiavanie rastu vo vnútri
@@ -68,7 +68,7 @@ const KlastornyZivot = () => {
         </div>
       </section>
       {/* KlastornyZivot table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-12 pt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -177,7 +177,7 @@ const KlastornyZivot = () => {
         </div>
       </section>
       {/*  KlastornyZivot table mobile only */}
-      <section className='flex flex-col lg:hidden mt-8 gap-8 pb-8'>
+      <section className='bg-black text-white flex flex-col lg:hidden pt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
@@ -303,8 +303,8 @@ const KlastornyZivot = () => {
         </div>
       </section>
       {/* KlastornyZivot lg and mob OK */}
-      <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
+      <section className='bg-black text-white'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16 pb-12'>
           <p>
             Zdá sa, že rímskokatolícka cirkev učí, že manželský vzťah je menej
             duchovný, než celibátny život. Katechizmus identifikoval osoby,
@@ -340,10 +340,10 @@ const KlastornyZivot = () => {
           </p>
         </div>
       </section>
-      {/* Kristova nevesta black lg and mob OK */}
-      <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-16'>
-          <h2 className='text-title text-center text-[30px] my-16'>
+      {/* Kristova nevesta lg and mob OK */}
+      <section>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16 pb-4'>
+          <h2 className='text-title text-center text-[30px] mt-8'>
             Kristova nevesta
           </h2>
           <p>
@@ -359,8 +359,8 @@ const KlastornyZivot = () => {
           </p>
         </div>
       </section>
-      {/* Kristova nevesta black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
+      {/* Kristova nevesta  lg */}
+      <section className='hidden text-[18px] lg:flex justify-center px-12 gap-8 pt-8 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -397,7 +397,7 @@ const KlastornyZivot = () => {
       </section>
 
       {/*  Kristova nevesta   table mobile only */}
-      <section className='flex flex-col bg-black text-white lg:hidden pt-8 gap-8 pb-8'>
+      <section className='flex flex-col lg:hidden pt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className='text-center mt-4'>
@@ -427,8 +427,8 @@ const KlastornyZivot = () => {
       </section>
 
       {/* Kristova nevesta black lg and mob OK */}
-      <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-16'>
+      <section>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
           <p>
             Výklad rímskokatolíckej cirkvi, že mníška je nevestou Kristovou, nie
             je založený na pravde toho, čo vyhlasuje Biblia. Písmo Sväté sa

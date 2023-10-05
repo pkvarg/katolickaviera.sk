@@ -1039,7 +1039,7 @@ const Omsa = () => {
       </section>
       {/* lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pt-4 mx-4 lg:mx-8 pb-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pt-4 mx-4 lg:mx-8'>
           <p>
             <span className='italic'>
               {' '}
@@ -1081,8 +1081,8 @@ const Omsa = () => {
         </div>
       </section>
       {/* white lg and mob OK */}
-      <section className=''>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pt-16 mx-4 lg:mx-8 pb-16'>
+      <section className='bg-black text-white'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 pt-4 mx-4 lg:mx-8 pb-16'>
           <p>
             Rímskokatolícka cirkev, práve tak ako židovský ľud, neporozumela
             Kristovej správe. Vykladá ju ako telesné jedenie Kristovho tela.

@@ -462,7 +462,7 @@ const KnazskyUrad = () => {
 
       {/* Celibat black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-16'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-16'>
           <p>
             Katolícka cirkev popiera aj v tomto bode Božie Slovo a pokúša Pána
             Boha v tom, čo robí svojim mladým. Celý účel Vatikánu - pápeža,
@@ -474,9 +474,9 @@ const KnazskyUrad = () => {
         </div>
       </section>
 
-      {/* Celibat outro white lg and mob OK */}
-      <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-16'>
+      {/* Celibat outro lg and mob OK */}
+      <section className='bg-black text-white'>
+        <div className='text-justify text-[20px] flex flex-col gap-2 py-4 mx-4 lg:mx-16'>
           <p>
             Rímska cirkev požaduje celibát na všetkých, ktorí sú vo vedení a
             zakazuje im sexuálne naplnenie manželstva, ktoré bolo dané Bohom.
