@@ -9,7 +9,7 @@ const Hriech = () => {
 
       <main className='bg-black text-white'>
         <div className='hriech-pic flex h-[450px] lg:h-[850px] -mt-[30%] md:-mt-[67%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
-        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16 -mt-[125px] lg:-mt-[395px] gap-8 pb-8'>
+        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-16 -mt-[125px] lg:-mt-[335px] gap-8 pb-8'>
           <h1 className='text-[#98724c] lg:text-title text-center text-[35px]'>
             Hriech
           </h1>
