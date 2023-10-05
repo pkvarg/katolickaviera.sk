@@ -841,14 +841,6 @@ const Hriech = () => {
           </p>
         </div>
       </section>
-
-      <span className='font-bold'></span>
-      <span className='font-bold'></span>
-
-      <span className='italic'> </span>
-      <span className='text-[15px]'> </span>
-      <span className='italic'> </span>
-      <span className='text-[15px]'> </span>
     </>
   )
 }

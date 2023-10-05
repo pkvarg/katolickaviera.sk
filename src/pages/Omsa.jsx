@@ -127,7 +127,7 @@ const Omsa = () => {
                 vedľa nich hovoriac: Mužovia galilejskí, čo stojíte a hľadíte do
                 neba? Tento Ježiš, ktorý vám bol vzatý do neba,
               </span>
-              <span className='boldd text-[#99734c]'>
+              <span className='boldd'>
                 {' '}
                 príde zase tak, ako ste Ho videli odchádzať do neba.
               </span>
@@ -204,7 +204,7 @@ const Omsa = () => {
               hovoriac: Mužovia galilejskí, čo stojíte a hľadíte do neba? Tento
               Ježiš, ktorý vám bol vzatý do neba,
             </span>
-            <span className='font-bold'>
+            <span className='boldd'>
               {' '}
               príde zase tak, ako ste Ho videli odchádzať do neba.
             </span>
@@ -866,7 +866,7 @@ const Omsa = () => {
                 Jeho učeníci reptajú na to, povedal im: Toto vás pohoršuje? A
                 čo, keď uvidíte Syna človeka, ako vystupuje tam, kde bol
                 predtým?
-                <span className='font-bold'>
+                <span className='boldd'>
                   {' '}
                   Duch je, ktorý obživuje, telo nič neosoží. Reči, ktoré som vám
                   hovoril, sú duch a život.{' '}
@@ -954,7 +954,7 @@ const Omsa = () => {
               táto reč, kto ju môže počúvať? Keďže Ježiš vedel sám od seba, že
               Jeho učeníci reptajú na to, povedal im: Toto vás pohoršuje? A čo,
               keď uvidíte Syna človeka, ako vystupuje tam, kde bol predtým?
-              <span className='font-bold'>
+              <span className='boldd'>
                 Duch je, ktorý obživuje, telo nič neosoží. Reči, ktoré som vám
                 hovoril, sú duch a život.
               </span>

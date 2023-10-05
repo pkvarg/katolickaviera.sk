@@ -5,14 +5,14 @@ const Spoved = () => {
   return (
     <>
       <HeaderTransparent />
-      <main className='text-black'>
+      <main className='text-black bg-black text-[20px]'>
         <div className='spoved-pic lg:flex h-[850px] -mt-[50%] md:-mt-[75%] lg:-mt-[38%] xl:-mt-[16%] 2xl:-mt-[8%]'></div>
         <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-16'>
-          <h1 className='text-title text-center text-[35px] -mt-[65%] md:-mt-[45%] lg:-mt-[10%] xl:-mt-[33%] 2xl:-mt-[27%]'>
+          <h1 className='text-title text-center text-[35px] -mt-[65%] md:-mt-[45%] lg:-mt-[10%] xl:-mt-[25%] 2xl:-mt-[27%]'>
             Spoveď
           </h1>
 
-          <div className='text-justify flex flex-col gap-2 mt-16'>
+          <div className='text-white text-justify flex flex-col gap-2 pt-16'>
             <p>
               Vyznávanie našich priestupkov je základom v živote kresťana.
               Rozpoznanie našej hriešnosti je nevyhnutné v každodennom živote s
@@ -71,7 +71,7 @@ const Spoved = () => {
       </main>
 
       {/* spoved table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center mx-12 mt-8 gap-8 pb-8'>
+      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-12 pt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -175,7 +175,7 @@ const Spoved = () => {
         </div>
       </section>
       {/* spoved table mobile only */}
-      <section className='flex flex-col lg:hidden mt-8 gap-8 pb-8'>
+      <section className='bg-black text-white flex flex-col lg:hidden pt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold  mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
@@ -272,7 +272,7 @@ const Spoved = () => {
         </div>
       </section>
       {/* spoved lg and mob OK */}
-      <section className='text-[20px]'>
+      <section className='bg-black text-white text-[20px] pb-8'>
         <div className='text-justify  flex flex-col gap-2 mx-4 lg:mx-16'>
           <p>
             Katolícky katechizmus vyžaduje od členov vyznávanie hriechov
@@ -301,9 +301,9 @@ const Spoved = () => {
         </div>
       </section>
       {/* pokanie black lg and mob OK */}
-      <section className='bg-black text-[20px] text-white'>
-        <div className='text-justify flex flex-col gap-2 mt-16 mx-4 lg:mx-16'>
-          <h2 className='text-title text-center text-[30px] my-16'>Pokánie</h2>
+      <section className='text-[20px]'>
+        <div className='text-justify flex flex-col gap-2 mt-4 mx-4 lg:mx-16'>
+          <h2 className='text-title text-center text-[30px] mb-16'>Pokánie</h2>
           <p className='text-[20px] '>
             Milióny katolíkov po celom svete poctivo vykonávajú pokánie. Podľa
             katechizmu kňaz je ten, kto ukladá tieto úkony hriešnikovi v čase
@@ -316,7 +316,7 @@ const Spoved = () => {
         </div>
       </section>
       {/* pokanie black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
+      <section className='hidden text-[18px] lg:flex justify-center px-12 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
           <h2 className='font-semibold  text-center mt-4'>
             Katechizmus hovorí:
@@ -427,7 +427,7 @@ const Spoved = () => {
         </div>
       </section>
       {/* pokanie black table mobile only */}
-      <section className='bg-black text-white flex flex-col lg:hidden  gap-8 py-8'>
+      <section className='flex flex-col lg:hidden  gap-8 py-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -540,7 +540,7 @@ const Spoved = () => {
       </section>
 
       {/* pokanie outro black lg and mob OK */}
-      <section className='bg-black text-white'>
+      <section className=''>
         <div className='text-justify flex flex-col gap-2 pb-8 mx-4 lg:mx-16'>
           <p className='text-[20px]'>
             Z Písma svätého vidíme, že Ježiš Kristus zaplatil na Kalvárii plnú

@@ -14,6 +14,7 @@ body {
 
 .boldd {
   font-weight: 800;
+  color: #99734c;
 }
 
 .hero-bg {
@@ -52,7 +53,7 @@ section h2 {
 }
 
 .spoved-pic {
-  background-image: linear-gradient(to bottom, #000000, #878484b6, #ffffff),
+  background-image: linear-gradient(to top, #222320, #87848479, #1c1a1a73),
     url('/spoved.webp');
   background-repeat: no-repeat;
   background-position: center center;

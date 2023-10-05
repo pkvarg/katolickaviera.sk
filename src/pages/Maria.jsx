@@ -58,14 +58,14 @@ const Maria = () => {
             Biblia zreteľne učí, že Boh sám je nekonečný, večný a nemenný vo
             svojom bytí. Boh je múdrosť, sila, svätosť, spravodlivosť, dobrota a
             pravda.
-            <span className='font-bold'> Je celý Svätý. </span>
+            <span className='boldd'> Je celý Svätý. </span>
             Jeho Svätosť je vlastnosťou, ktorá zahŕňa všetky ostatné - Jeho
             spravodlivosť je Svätá, Jeho pravda je Svätá a Jeho spravodlivosť je
             Svätá. On je každou svojou vlastnosťou a celkovou vlastnosťou
             svätosti oddelený od každého bytia. Napriek tomu katechizmus
             katolíckej cirkvi adresuje Márii vlastnosti, ktoré náležia len Bohu,
             ako sú „Matka milosrdenstva“, ktorá
-            <span className='font-bold'> je celá svätá. </span>
+            <span className='boldd'> je celá svätá. </span>
           </p>
         </div>
       </section>
@@ -79,12 +79,12 @@ const Maria = () => {
             <p>
               § 2677 Keď žiadame Pannu Máriu, aby za nás prosila, uznávame, že
               sme úbohí hriešnici a obraciame sa na „Matku milosrdenstva“, na
-              tú, ktorá <span className='font-bold'> je celá svätá. </span>
+              tú, ktorá <span className='boldd'> je celá svätá. </span>
             </p>
             <p>
               § 2030 Od Cirkvi sa (veriaci) učí príkladu svätosti, ktorej vzor a
               prameň spoznáva v
-              <span className='font-bold'> presvätej Panne Márii. </span>
+              <span className='boldd'> presvätej Panne Márii. </span>
             </p>
           </div>
         </div>
@@ -96,7 +96,7 @@ const Maria = () => {
               <span className='italic'>
                 {' '}
                 Kto by sa nebál, Pane, a neoslavoval Tvoje meno? Veď
-                <span className='font-bold'> Ty jediný si svätý, </span>a všetky
+                <span className='boldd'> Ty jediný si svätý, </span>a všetky
                 národy prídu a budú sa Ti klaňať, že sa zjavili Tvoje
                 spravodlivé súdy!
               </span>
@@ -113,7 +113,7 @@ const Maria = () => {
               Prvá Samuelova 2:2
               <span className='italic'>
                 {' '}
-                <span className='font-bold'>
+                <span className='boldd'>
                   {' '}
                   Nikto nie je svätý ako Hospodin,{' '}
                 </span>
@@ -125,7 +125,7 @@ const Maria = () => {
               <span className='italic'>
                 {' '}
                 Ja som Hospodin, to je moje meno; svoju
-                <span className='font-bold'>
+                <span className='boldd'>
                   {' '}
                   slávu inému nedám, ani svoju chválu modlám.{' '}
                 </span>
@@ -141,7 +141,7 @@ const Maria = () => {
           <p className=' text-center mt-4'>
             § 2677 Keď žiadame Pannu Máriu, aby za nás prosila, uznávame, že sme
             úbohí hriešnici a obraciame sa na „Matku milosrdenstva“, na tú,
-            ktorá <span className='font-bold'> je celá svätá. </span>
+            ktorá <span className='boldd'> je celá svätá. </span>
           </p>
 
           <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
@@ -150,7 +150,7 @@ const Maria = () => {
             <span className='italic'>
               {' '}
               Kto by sa nebál, Pane, a neoslavoval Tvoje meno? Veď
-              <span className='font-bold'> Ty jediný si svätý, </span>a všetky
+              <span className='boldd'> Ty jediný si svätý, </span>a všetky
               národy prídu a budú sa Ti klaňať, že sa zjavili Tvoje spravodlivé
               súdy!
             </span>
@@ -169,7 +169,7 @@ const Maria = () => {
           <p className='text-center mt-4'>
             § 2030 Od Cirkvi sa (veriaci) učí príkladu svätosti, ktorej vzor a
             prameň spoznáva v
-            <span className='font-bold'> presvätej Panne Márii. </span>
+            <span className='boldd'> presvätej Panne Márii. </span>
           </p>
 
           <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
@@ -178,10 +178,7 @@ const Maria = () => {
             Prvá Samuelova 2:2
             <span className='italic'>
               {' '}
-              <span className='font-bold'>
-                {' '}
-                Nikto nie je svätý ako Hospodin,{' '}
-              </span>
+              <span className='boldd'> Nikto nie je svätý ako Hospodin, </span>
               lebo niet nikoho okrem Teba, a nik nie je skalou ako náš Boh.
             </span>
           </p>
@@ -190,7 +187,7 @@ const Maria = () => {
             <span className='italic'>
               {' '}
               Ja som Hospodin, to je moje meno; svoju
-              <span className='font-bold'>
+              <span className='boldd'>
                 {' '}
                 slávu inému nedám, ani svoju chválu modlám.{' '}
               </span>
@@ -282,7 +279,7 @@ const Maria = () => {
               <span className='italic'>
                 {' '}
                 Jeden je totiž Boh,
-                <span className='font-bold'> jeden aj Prostredník </span>
+                <span className='boldd'> jeden aj Prostredník </span>
                 medzi Bohom a ľuďmi, človek Ježiš Kristus.
               </span>
             </p>
@@ -306,9 +303,9 @@ const Maria = () => {
               ak len nie skrze mňa.
               <span className='italic'>
                 {' '}
-                <span className='font-bold'> Ja som cesta </span>i pravda i
-                život. Nik neprichádza k Otcovi,
-                <span className='font-bold'> ak len nie skrze mňa. </span>
+                <span className='boldd'> Ja som cesta </span>i pravda i život.
+                Nik neprichádza k Otcovi,
+                <span className='boldd'> ak len nie skrze mňa. </span>
               </span>
             </p>
           </div>
@@ -329,7 +326,7 @@ const Maria = () => {
             <span className='italic'>
               {' '}
               Jeden je totiž Boh,
-              <span className='font-bold'> jeden aj Prostredník </span>
+              <span className='boldd'> jeden aj Prostredník </span>
               medzi Bohom a ľuďmi, človek Ježiš Kristus.
             </span>
           </p>
@@ -360,9 +357,9 @@ const Maria = () => {
             len nie skrze mňa.
             <span className='italic'>
               {' '}
-              <span className='font-bold'> Ja som cesta </span>i pravda i život.
-              Nik neprichádza k Otcovi,
-              <span className='font-bold'> ak len nie skrze mňa. </span>
+              <span className='boldd'> Ja som cesta </span>i pravda i život. Nik
+              neprichádza k Otcovi,
+              <span className='boldd'> ak len nie skrze mňa. </span>
             </span>
           </p>
         </div>
@@ -387,7 +384,7 @@ const Maria = () => {
             </span>
             <span className='text-[15px]'> Izaiáš 59:2 </span>
             <span className='italic'> Nik neprichádza k Otcovi, </span>
-            <span className='font-bold'> ak len nie skrze mňa. </span>
+            <span className='boldd'> ak len nie skrze mňa. </span>
             <span className='text-[15px]'> Ján 14:6 </span>
           </p>
         </div>
@@ -1196,12 +1193,6 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
           </p>
         </div>
       </section>
-      <span className='font-bold'></span>
-      <span className='font-bold'></span>
-      <span className='italic'> </span>
-      <span className='text-[15px]'> </span> <span className='italic'> </span>
-      <span className='text-[15px]'> </span> <span className='italic'> </span>
-      <span className='text-[15px]'> </span>
     </>
   )
 }

@@ -176,7 +176,7 @@ const PapezskyUrad = () => {
                 veriacim, je chválou, nevercom však je kameňom, ktorý zavrhli
                 stavitelia, ale ktorý sa stal uholným kameňom, kameňom úrazu a
                 skalou pohoršenia, lebo{' '}
-                <span className='font-bold'>
+                <span className='boldd'>
                   oni, slovu neposlušní, sa urážajú;
                 </span>{' '}
                 to je teda ich určenie.
@@ -189,13 +189,13 @@ const PapezskyUrad = () => {
                 Nato som ťa nechal na Kréte, aby si usporiadal, čo ešte nebolo
                 (zriadené), a po mestách ustanovil starších, ako som ti
                 prikázal: ak je niekto bez úhony,{' '}
-                <span className='font-bold'>muž jednej ženy, </span>
+                <span className='boldd'>muž jednej ženy, </span>
                 má veriace deti, ktoré nie sú obviňované z roztopašnosti a
                 neposlušnosti. Biskup totiž ako šafár Boží musí byť bez úhony,
                 nie samoľúby, ani hnevlivý, ani pijan, ani bitkár, ani nečistého
                 zisku žiadostivý, ale pohostinný, milovník dobra, mierny,
                 spravodlivý, pobožný, zdržanlivý, musí sa pridŕžať
-                <span className='font-bold'> pravého slova </span>
+                <span className='boldd'> pravého slova </span>
                 podľa učenia, aby bol schopný aj napomínať podľa zdravého učenia
                 a podvracať tých, ktorí odporujú.{' '}
               </span>
@@ -206,12 +206,12 @@ const PapezskyUrad = () => {
                 {' '}
                 Verná je to reč: Ak sa niekto snaží o biskupstvo, túži po
                 znamenitom diele. Biskup musí byť bez úhony,{' '}
-                <span className='font-bold'>muž jednej ženy,</span> striezlivý,
+                <span className='boldd'>muž jednej ženy,</span> striezlivý,
                 rozumný, slušný, pohostinný, spôsobný vyučovať, nie pijan, nie
                 bitkár ani nie žiadostivý nečistého zisku, ale mierny,
                 nehašterivý a nie lakomý. Má si dobre spravovať dom a deti
                 udržiavať v poddanosti so všetkou dôstojnosťou.
-                <span className='font-bold'>
+                <span className='boldd'>
                   {' '}
                   Veď ak niekto svoj dom nevie spravovať, ako sa bude starať o
                   cirkev Božiu?{' '}
@@ -241,7 +241,7 @@ const PapezskyUrad = () => {
               chválou, nevercom však je kameňom, ktorý zavrhli stavitelia, ale
               ktorý sa stal uholným kameňom, kameňom úrazu a skalou pohoršenia,
               lebo{' '}
-              <span className='font-bold'>
+              <span className='boldd'>
                 oni, slovu neposlušní, sa urážajú;
               </span>{' '}
               to je teda ich určenie.
@@ -265,13 +265,13 @@ const PapezskyUrad = () => {
               Nato som ťa nechal na Kréte, aby si usporiadal, čo ešte nebolo
               (zriadené), a po mestách ustanovil starších, ako som ti prikázal:
               ak je niekto bez úhony,{' '}
-              <span className='font-bold'>muž jednej ženy, </span>
+              <span className='boldd'>muž jednej ženy, </span>
               má veriace deti, ktoré nie sú obviňované z roztopašnosti a
               neposlušnosti. Biskup totiž ako šafár Boží musí byť bez úhony, nie
               samoľúby, ani hnevlivý, ani pijan, ani bitkár, ani nečistého zisku
               žiadostivý, ale pohostinný, milovník dobra, mierny, spravodlivý,
               pobožný, zdržanlivý, musí sa pridŕžať
-              <span className='font-bold'> pravého slova </span>
+              <span className='boldd'> pravého slova </span>
               podľa učenia, aby bol schopný aj napomínať podľa zdravého učenia a
               podvracať tých, ktorí odporujú.{' '}
             </span>
@@ -292,13 +292,13 @@ const PapezskyUrad = () => {
               {' '}
               Verná je to reč: Ak sa niekto snaží o biskupstvo, túži po
               znamenitom diele. Biskup musí byť bez úhony,{' '}
-              <span className='font-bold'>muž jednej ženy,</span> striezlivý,
+              <span className='boldd'>muž jednej ženy,</span> striezlivý,
               rozumný, slušný, pohostinný, spôsobný vyučovať, nie pijan, nie
               bitkár ani nie žiadostivý nečistého zisku, ale mierny, nehašterivý
               a nie lakomý. Má si dobre spravovať dom a deti udržiavať v
               poddanosti so všetkou dôstojnosťou.
             </span>
-            <span className='font-bold'>
+            <span className='boldd'>
               {' '}
               Veď ak niekto svoj dom nevie spravovať, ako sa bude starať o
               cirkev Božiu?{' '}
@@ -457,8 +457,8 @@ const PapezskyUrad = () => {
               Rimanom 3:23
               <span className='italic'>
                 {' '}
-                <span className='font-bold'>Všetci totiž zhrešili </span>a
-                nemajú slávy Božej.{' '}
+                <span className='boldd'>Všetci totiž zhrešili </span>a nemajú
+                slávy Božej.{' '}
               </span>
             </p>
             <p>
@@ -466,7 +466,7 @@ const PapezskyUrad = () => {
               <span className='italic'>
                 {' '}
                 Posväť ich v pravde -
-                <span className='font-bold'> Tvoje slovo </span>
+                <span className='boldd'> Tvoje slovo </span>
                 je pravda.{' '}
               </span>
             </p>
@@ -476,9 +476,9 @@ const PapezskyUrad = () => {
                 {' '}
                 Lebo všetko telo je ako tráva, všetka jeho sláva ako kvet trávy:
                 uschla tráva, opršal kvet, ale{' '}
-                <span className='font-bold'>slovo Pánovo </span>
+                <span className='boldd'>slovo Pánovo </span>
                 zostáva naveky. A{' '}
-                <span className='font-bold'>toto je to slovo, </span>
+                <span className='boldd'>toto je to slovo, </span>
                 ktoré sa vám zvestovalo ako evanjelium.{' '}
               </span>
             </p>
@@ -566,7 +566,7 @@ const PapezskyUrad = () => {
             Rimanom 3:23
             <span className='italic'>
               {' '}
-              <span className='font-bold'>Všetci totiž zhrešili </span>a nemajú
+              <span className='boldd'>Všetci totiž zhrešili </span>a nemajú
               slávy Božej.
             </span>
           </p>
@@ -574,8 +574,7 @@ const PapezskyUrad = () => {
             Ján 17:17
             <span className='italic'>
               {' '}
-              Posväť ich v pravde -
-              <span className='font-bold'> Tvoje slovo </span>
+              Posväť ich v pravde -<span className='boldd'> Tvoje slovo </span>
               je pravda.
             </span>
           </p>
@@ -585,9 +584,9 @@ const PapezskyUrad = () => {
               {' '}
               Lebo všetko telo je ako tráva, všetka jeho sláva ako kvet trávy:
               uschla tráva, opršal kvet, ale
-              <span className='font-bold'>slovo Pánovo </span>
+              <span className='boldd'>slovo Pánovo </span>
               zostáva naveky. A{' '}
-              <span className='font-bold'>toto je to slovo, </span>
+              <span className='boldd'>toto je to slovo, </span>
               ktoré sa vám zvestovalo ako evanjelium.
             </span>
           </p>
@@ -624,7 +623,7 @@ const PapezskyUrad = () => {
               Ktorý sa bude protiviť a povyšovať nado všetko, čo sa volá Boh,
               alebo je predmetom zbožného uctievania, takže sa posadí do Božieho
               chrámu
-              <span className='font-bold'> a bude sa vydávať za Boha.</span>
+              <span className='boldd'> a bude sa vydávať za Boha.</span>
             </span>
             <span className='text-[15px]'> Druhý Tesalonickým 2:4 </span>
           </p>
@@ -662,7 +661,7 @@ const PapezskyUrad = () => {
             znamenajúci náhradu. V online verzii malého katolíckeho slovníka
             Johna A. Hardona, S.J. definuje námestníka Krista ako: "Pápež,
             viditeľná hlava cirkvi na zemi,
-            <span className='font-bold'> v zastúpení a namiesto Krista. </span>
+            <span className='boldd'> v zastúpení a namiesto Krista. </span>
             Má najvyššiu cirkevnú autoritu v katolíckej cirkvi..."
           </p>
           <p>
@@ -705,7 +704,7 @@ const PapezskyUrad = () => {
             <p>
               {' '}
               § 936 Pán urobil z
-              <span className='font-bold'> Petra viditeľný základ </span>
+              <span className='boldd'> Petra viditeľný základ </span>
               svojej Cirkvi a odovzdal mu od nej kľúče. Biskup rímskej cirkvi,
               Petrov nástupca, je „hlava kolégia biskupov, Kristov zástupca a
               pastier celej Cirkvi tu na zemi“.
@@ -728,7 +727,7 @@ const PapezskyUrad = () => {
               Kolosenským 1:18
               <span className='italic'>
                 {' '}
-                <span className='font-bold'>
+                <span className='boldd'>
                   On (Kristus) je hlavou tela, cirkvi,{' '}
                 </span>
                 On počiatok, prvorodený z mŕtvych, aby Jeho bolo prvenstvo vo
@@ -740,10 +739,7 @@ const PapezskyUrad = () => {
               <span className='italic'>
                 {' '}
                 Lebo
-                <span className='font-bold'>
-                  {' '}
-                  nik nemôže položiť iný základ{' '}
-                </span>
+                <span className='boldd'> nik nemôže položiť iný základ </span>
                 okrem toho, čo je položený, a tým je Ježiš Kristus.
               </span>
             </p>
@@ -797,7 +793,7 @@ const PapezskyUrad = () => {
             Kolosenským 1:18
             <span className='italic'>
               {' '}
-              <span className='font-bold'>
+              <span className='boldd'>
                 On (Kristus) je hlavou tela, cirkvi,{' '}
               </span>
               On počiatok, prvorodený z mŕtvych, aby Jeho bolo prvenstvo vo
@@ -808,7 +804,7 @@ const PapezskyUrad = () => {
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
             § 936 Pán urobil z
-            <span className='font-bold'> Petra viditeľný základ </span>
+            <span className='boldd'> Petra viditeľný základ </span>
             svojej Cirkvi a odovzdal mu od nej kľúče. Biskup rímskej cirkvi,
             Petrov nástupca, je „hlava kolégia biskupov, Kristov zástupca a
             pastier celej Cirkvi tu na zemi“.
@@ -819,7 +815,7 @@ const PapezskyUrad = () => {
             <span className='italic'>
               {' '}
               Lebo
-              <span className='font-bold'> nik nemôže položiť iný základ </span>
+              <span className='boldd'> nik nemôže položiť iný základ </span>
               okrem toho, čo je položený, a tým je Ježiš Kristus.
             </span>
           </p>

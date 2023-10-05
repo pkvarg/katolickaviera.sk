@@ -265,7 +265,7 @@ const KnazskyUrad = () => {
               prídu v mojom mene a budú hovoriť: Ja som Kristus, - a mnohých
               zvedú.
             </span>
-            <span className='font-bold'>
+            <span className='boldd'>
               {' '}
               Veď ak niekto svoj dom nevie spravovať, ako sa bude starať o
               cirkev Božiu?{' '}

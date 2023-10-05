@@ -74,13 +74,13 @@ const Spasenie = () => {
           <div className='mx-4 text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
               § 824
-              <span className='font-bold'> V Cirkvi </span>
+              <span className='boldd'> V Cirkvi </span>
               sa nachádza „plnosť všetkých prostriedkov spásy“. V nej „s pomocou
               Božej milosti dosahujeme svätosť“.
             </p>
             <p>
               § 982
-              <span className='font-bold'>
+              <span className='boldd'>
                 {' '}
                 Nejestvuje hriech, aj keby bol akokoľvek ťažký, ktorý by svätá
                 Cirkev nemohla odpustiť.{' '}
@@ -91,9 +91,9 @@ const Spasenie = () => {
 
             <p>
               § 181
-              <span className='font-bold'> „Veriť“ je ekleziálny úkon. </span>
+              <span className='boldd'> „Veriť“ je ekleziálny úkon. </span>
               Viera Cirkvi predchádza, rodí, udržiava a živí našu vieru.
-              <span className='font-bold'>
+              <span className='boldd'>
                 {' '}
                 Cirkev je matka všetkých veriacich. „Nemôže mať Boha za Otca,
                 kto nemá Cirkev za matku“.{' '}
@@ -102,7 +102,7 @@ const Spasenie = () => {
             <p>
               § 169 Spása prichádza jedine od Boha. Ale pretože život viery
               dostávame
-              <span className='font-bold'>
+              <span className='boldd'>
                 {' '}
                 prostredníctvom Cirkvi, ona je našou matkou.{' '}
               </span>
@@ -119,10 +119,7 @@ const Spasenie = () => {
                 Avšak vieme, že Syn Boží prišiel a dal nám rozum, aby sme
                 poznali toho Pravého; a my sme v tom Pravom, v Jeho Synovi
                 Ježišovi Kristovi.
-                <span className='font-bold'>
-                  {' '}
-                  On je pravý Boh a večný život.{' '}
-                </span>
+                <span className='boldd'> On je pravý Boh a večný život. </span>
               </span>
             </p>
             <p>
@@ -172,7 +169,7 @@ const Spasenie = () => {
               <span className='italic'>
                 {' '}
                 A toto je svedectvo, že Boh nám dal večný život, a tento
-                <span className='font-bold'> život je v Jeho Synovi. </span>
+                <span className='boldd'> život je v Jeho Synovi. </span>
                 Kto má Syna, má život; kto nemá Syna Božieho, nemá život.
               </span>
             </p>
@@ -186,13 +183,13 @@ table mobile only */}
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className='text-center mt-4'>
             § 824
-            <span className='font-bold'> V Cirkvi </span>
+            <span className='boldd'> V Cirkvi </span>
             sa nachádza „plnosť všetkých prostriedkov spásy“. V nej „s pomocou
             Božej milosti dosahujeme svätosť“.
           </p>
           <p className='text-center mt-4'>
             § 982
-            <span className='font-bold'>
+            <span className='boldd'>
               {' '}
               Nejestvuje hriech, aj keby bol akokoľvek ťažký, ktorý by svätá
               Cirkev nemohla odpustiť.{' '}
@@ -209,10 +206,7 @@ table mobile only */}
               Avšak vieme, že Syn Boží prišiel a dal nám rozum, aby sme poznali
               toho Pravého; a my sme v tom Pravom, v Jeho Synovi Ježišovi
               Kristovi.
-              <span className='font-bold'>
-                {' '}
-                On je pravý Boh a večný život.{' '}
-              </span>
+              <span className='boldd'> On je pravý Boh a večný život. </span>
             </span>
           </p>
           <p className='text-center mt-4'>
@@ -235,9 +229,9 @@ table mobile only */}
 
           <p className='text-center mt-4'>
             § 181
-            <span className='font-bold'> „Veriť“ je ekleziálny úkon. </span>
+            <span className='boldd'> „Veriť“ je ekleziálny úkon. </span>
             Viera Cirkvi predchádza, rodí, udržiava a živí našu vieru.
-            <span className='font-bold'>
+            <span className='boldd'>
               {' '}
               Cirkev je matka všetkých veriacich. „Nemôže mať Boha za Otca, kto
               nemá Cirkev za matku“.{' '}
@@ -276,7 +270,7 @@ table mobile only */}
           <p className='text-center mt-4'>
             § 169 Spása prichádza jedine od Boha. Ale pretože život viery
             dostávame
-            <span className='font-bold'>
+            <span className='boldd'>
               {' '}
               prostredníctvom Cirkvi, ona je našou matkou.{' '}
             </span>
@@ -289,7 +283,7 @@ table mobile only */}
             <span className='italic'>
               {' '}
               A toto je svedectvo, že Boh nám dal večný život, a tento
-              <span className='font-bold'> život je v Jeho Synovi. </span>
+              <span className='boldd'> život je v Jeho Synovi. </span>
               Kto má Syna, má život; kto nemá Syna Božieho, nemá život.
             </span>
           </p>
@@ -312,7 +306,7 @@ lg and mob OK */}
               A iste aj pokladám všetko za stratu pre nekonečne vzácne poznanie
               Ježiša Krista, svojho Pána, pre ktorého som všetko stratil a
               všetko pokladám za smeti, aby som Krista získal, a aby som aj sám
-              <span className='font-bold'> bol v ňom </span>
+              <span className='boldd'> bol v ňom </span>
               ako taký, ktorý nemá vlastnej spravodlivosti zo zákona, ale z
               viery v Krista, teda spravodlivosť z Boha, (založenú) na viere.
             </span>
@@ -1030,14 +1024,6 @@ lg and mob OK */}
           </p>
         </div>
       </section>
-
-      <span className='font-bold'></span>
-      <span className='font-bold'></span>
-
-      <span className='italic'> </span>
-      <span className='text-[15px]'> </span>
-      <span className='italic'> </span>
-      <span className='text-[15px]'> </span>
     </>
   )
 }
