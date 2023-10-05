@@ -6,7 +6,7 @@ const English = () => {
     <>
       <main className='hero-bg relative'>
         <LanguageBar />
-        <h1 className='text-title text-center text-[25px] lg:text-[37.5px] pt-[15%] lg:pt-[10%]'>
+        <h1 className='text-title text-center text-[25px] lg:text-[37.5px] pt-[15%] lg:pt-[10%] font-bold'>
           Do not rely on church traditions!
           <br /> Follow God's Word!
         </h1>
