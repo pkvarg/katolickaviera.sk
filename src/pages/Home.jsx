@@ -63,10 +63,7 @@ const Home = ({ lng, setLng }) => {
                 </span>
                 <span className='text-[15px]'> Levitikus 20:6 </span>
                 Umožňuje to apokryfná kniha Makabejských, ktorá je v rozpore s
-                Mojžišovým zákonom. (viac v sekcii <a href='/biblia'>
-                  Biblia{' '}
-                </a>{' '}
-                )
+                Mojžišovým zákonom. (viac v sekcii <a href='/biblia'>Biblia)</a>
               </h2>
             </div>
           </main>
@@ -171,6 +168,11 @@ const Home = ({ lng, setLng }) => {
                 Jeden aj Prostredník medzi Bohom a ľuďmi, človek Ježiš Kristus.
               </span>
               <span className='text-[15px]'> Prvý Timotejovi 2:5</span>
+              <span className='italic'>
+                {' '}
+                Nik neprichádza k Otcovi, ak len nie skrze mňa.
+              </span>
+              <span className='text-[15px]'> Ján 14:6</span>
             </h2>
 
             <h1 className='text-title text-center text-[25px]  lg:text-[30px] pt-8'>
@@ -184,13 +186,6 @@ const Home = ({ lng, setLng }) => {
                 horliaci.
               </span>
               <span className='text-[15px]'> Exodus 20:4-5</span>
-              <span className='italic'>
-                {' '}
-                Nebudeš mať iných bohov okrem mňa!
-              </span>
-              <span className='text-[15px]'> Exodus 20:3</span>
-              {/* <span className='italic'> Jeden je totiž Boh.</span>
-          <span className='text-[15px]'> Prvý Timotejovi 2:5</span> */}
             </h2>
 
             <h1 className='text-title text-center text-[25px]  lg:text-[30px] pt-8'>
@@ -262,8 +257,8 @@ const Home = ({ lng, setLng }) => {
               <span className='text-[15px]'> Prvý Jánov 2:4</span>
               <span>
                 {' '}
-                Prevádzkuješ nemanželský vzťah? Žiadostivo hľadíš na ženy? Bežne
-                berieš Meno Božie nadarmo? Neži vo falošnej istote spasenia! Ak
+                Prevádzkuješ nemanželský vzťah? Žiadostivo hľadíš na ženy?
+                Berieš Meno Božie nadarmo? Neži vo falošnej istote spasenia! Ak
                 zotrvávaš vedome v hriechu, tvoja viera je mŕtva, zapieraš tým
                 Ježiša a On ťa má za klamára.
                 <span className='italic'>

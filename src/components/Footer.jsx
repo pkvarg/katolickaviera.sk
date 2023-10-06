@@ -51,12 +51,21 @@ const Footer = ({ language }) => {
             cestazivota.sk
           </a>
           <p className='hidden lg:flex'>|</p>
-          <a href='https://sk.bereanbeacon.org' target='_blank'>
-            sk.bereanbeacon.org
-          </a>
-          {/* <a href='https://svedkovia.sk' target='_blank'>
-            svedkovia.sk
-          </a> */}
+          {language === 'slovak' && (
+            <a href='https://sk.bereanbeacon.org' target='_blank'>
+              sk.bereanbeacon.org
+            </a>
+          )}
+          {language === 'english' && (
+            <a href='https://bereanbeacon.org' target='_blank'>
+              bereanbeacon.org
+            </a>
+          )}
+          {language === 'czech' && (
+            <a href='https://sk.bereanbeacon.org' target='_blank'>
+              sk.bereanbeacon.org
+            </a>
+          )}
         </div>
         <div className='flex justify-center text-[#484848] mt-2'>
           <a href='https://pictusweb.sk'>

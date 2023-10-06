@@ -6,10 +6,10 @@ const KlastornyZivot = () => {
     <>
       <HeaderTransparent />
       <main className='bg-black text-white'>
-        <div className='klastor-pic flex h-[650px] -mt-[30%] md:-mt-[80%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
+        <div className='klastor-pic flex h-[1350px] -mt-[30%] md:-mt-[80%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
 
-        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-8 -mt-[150px]'>
-          <h1 className='text-title2 text-center text-[35px] mb-8'>
+        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-8 -mt-[650px] lg:-mt-[750px] 2xl:-mt-[600px]'>
+          <h1 className='text-title text-center text-[35px] mb-8'>
             Kláštorný život
           </h1>
           <div className='flex flex-row gap-8'>
@@ -48,9 +48,9 @@ const KlastornyZivot = () => {
         </div>
       </main>
       {/* KlastornyZivot */}
-      <section className='bg-black text-white flex flex-col text-[20px] justify-center px-4 lg:px-8  pt-8 gap-8 pb-8'>
+      <section className='bg-black lg:bg-transparent text-white flex flex-col text-[20px] justify-center px-4 lg:px-8  pt-8 gap-8 pb-8'>
         <h1 className='text-title text-center text-[35px]'>Prečo sestry?</h1>
-        <div className='text-justify flex flex-col gap-2 mt-0 lg:mt-4'>
+        <div className='text-justify flex flex-col gap-2 mt-0 lg:pt-4'>
           <p>
             Prečo katolícka cirkev trvá na tom, aby mali ženy „kláštorný“ alebo
             „náboženský“ životný štýl? Pre udržiavanie rastu vo vnútri
