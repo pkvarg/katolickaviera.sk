@@ -8,7 +8,7 @@ const Spoved = () => {
       <main className='text-black bg-black text-[20px]'>
         <div className='spoved-pic lg:flex h-[850px] -mt-[50%] md:-mt-[75%] lg:-mt-[38%] xl:-mt-[16%] 2xl:-mt-[8%]'></div>
         <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-8'>
-          <h1 className='text-title text-center text-[35px] -mt-[65%] md:-mt-[45%] lg:-mt-[10%] xl:-mt-[25%] 2xl:-mt-[27%]'>
+          <h1 className='text-title text-center text-[35px] -mt-[65%] md:-mt-[45%] lg:-mt-[10%] xl:-mt-[12.5%] 2xl:-mt-[15%]'>
             Spoveď
           </h1>
 
