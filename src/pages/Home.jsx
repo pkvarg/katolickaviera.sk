@@ -5,6 +5,7 @@ import { useStateContext } from '../context/StateContext'
 import LanguageBar from '../components/LanguageBar'
 import English from './English'
 import Czech from './Czech'
+import YouTube from '../components/YouTube'
 
 const Home = ({ lng, setLng }) => {
   const { language } = useStateContext()
@@ -269,6 +270,9 @@ const Home = ({ lng, setLng }) => {
                 <span className='text-[15px]'>Matúš 7:21</span>
               </span>
             </h2>
+            <div className='mt-[20%] lg:mt-[5%]'>
+              <YouTube embedId='d2Y04-qcdRM' />
+            </div>
 
             <h2 className='text-[22.5px] py-10 text-justify'>
               Prajem ti, aby si spoznal pravdu, bol oslobodený od tradícií a tak

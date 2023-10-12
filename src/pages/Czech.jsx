@@ -1,5 +1,6 @@
 import React from 'react'
 import LanguageBar from '../components/LanguageBar'
+import YouTube from '../components/YouTube'
 
 const Czech = () => {
   return (
@@ -229,6 +230,10 @@ const Czech = () => {
             <span className='text-[15px]'> Matouš 7:21 </span>
           </span>
         </h2>
+
+        <div className='mt-[20%] lg:mt-[5%]'>
+          <YouTube embedId='d2Y04-qcdRM' />
+        </div>
 
         <h2 className='text-[22.5px] py-10 text-justify'>
           Přeji ti, abys poznal pravdu, byl osvobozen od tradic a tak ses jednou
