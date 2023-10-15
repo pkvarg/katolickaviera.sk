@@ -27,7 +27,7 @@ const Home = ({ lng, setLng }) => {
 
   const increaseVisitorsCount = async () => {
     const { data } = await axios.put(
-      `https://pictusweb.online/api/visitors/katolicka/increase`,
+      `https://api.pictusweb.com/api/visitors/katolicka/increase`,
       // `http://localhost:2000/api/visitors/katolicka/increase`,
       config
     )
