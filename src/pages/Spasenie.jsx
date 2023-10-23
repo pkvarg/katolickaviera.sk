@@ -303,13 +303,14 @@ lg and mob OK */}
           <p>
             Apoštol Pavol v liste Filipským 3:8-9 hovorí:
             <span className='italic'>
+              {' '}
               A iste aj pokladám všetko za stratu pre nekonečne vzácne poznanie
               Ježiša Krista, svojho Pána, pre ktorého som všetko stratil a
               všetko pokladám za smeti, aby som Krista získal, a aby som aj sám
               <span className='boldd'> bol v ňom </span>
               ako taký, ktorý nemá vlastnej spravodlivosti zo zákona, ale z
               viery v Krista, teda spravodlivosť z Boha, (založenú) na viere.
-            </span>
+            </span>{' '}
             Môžete po prečítaní týchto textov povedať, že ste v Kristovi, alebo
             ste pyšní na to, že zostávate v systéme, kde si môžete svojou
             účasťou získať spasenie?
@@ -633,7 +634,7 @@ lg and mob OK */}
               <span className='italic'>
                 {' '}
                 Toto som napísal vám, veriacim v meno Syna Božieho, aby ste
-                vedeli, že máte večný život
+                vedeli, že máte večný život.
               </span>
             </p>
             <p>
@@ -703,7 +704,7 @@ lg and mob OK */}
             <span className='italic'>
               {' '}
               Toto som napísal vám, veriacim v meno Syna Božieho, aby ste
-              vedeli, že máte večný život
+              vedeli, že máte večný život.
             </span>
           </p>
           <p className='text-center mt-4'>

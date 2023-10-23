@@ -118,7 +118,7 @@ const Czech = () => {
         <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
           Učí Boží Slovo orodovat u Marii?
         </h1>
-        <h2 className='text-[25px] text-justify'>
+        <h2 className='text-[22.5px] text-justify'>
           <span className='italic'>
             Pánu, svému Bohu, budeš se klanět a jen Jemu budeš sloužit.
           </span>
@@ -133,7 +133,7 @@ const Czech = () => {
             {' '}
             Jeden i Prostředník mezi Bohem a lidmi, člověk Ježíš Kristus.
           </span>
-          <span className='text-[15px]'> První Timoteovi 2:5.</span>
+          <span className='text-[15px]'> První Timoteovi 2:5</span>
           <span className='italic'>
             {' '}
             Nikdo nepřichází k Otci, než skrze mne.
@@ -215,7 +215,7 @@ const Czech = () => {
             Kdo říká: Znám Ho, ale nezachovává Jeho přikázání, je lhář a není v
             něm pravdy.
           </span>
-          <span className='text-[15px]'> První Janův 2:44 </span>
+          <span className='text-[15px]'> První Janův 2:4 </span>
           <span>
             {' '}
             Provozuješ nemanželský vztah? Žádostivě hledíš na ženy? Bereš Jméno

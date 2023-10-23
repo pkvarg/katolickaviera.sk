@@ -139,7 +139,7 @@ const Omsa = () => {
                 A ja budem prosiť Otca, a dá vám iného Radcu, aby bol s vami až
                 naveky - Ducha pravdy, ktorého svet nemôže prijať, pretože Ho
                 nevidí, ani nepozná. Vy Ho poznáte, pretože pri vás ostáva a
-                bude vo vás. Neopustím vás ako siroty, prídem k vám
+                bude vo vás. Neopustím vás ako siroty, prídem k vám.
               </span>
             </p>
           </div>
@@ -224,7 +224,7 @@ const Omsa = () => {
               A ja budem prosiť Otca, a dá vám iného Radcu, aby bol s vami až
               naveky - Ducha pravdy, ktorého svet nemôže prijať, pretože Ho
               nevidí, ani nepozná. Vy Ho poznáte, pretože pri vás ostáva a bude
-              vo vás. Neopustím vás ako siroty, prídem k vám
+              vo vás. Neopustím vás ako siroty, prídem k vám.
             </span>
           </p>
         </div>
@@ -875,7 +875,7 @@ const Omsa = () => {
                 vedel, ktorí sú neveriaci a kto Ho zradí. I riekol: Preto som
                 vám hovoril, že nikto nemôže prísť ku mne, len ak by mu to dal
                 Otec. Odvtedy mnohí z Jeho učeníkov odišli a nechodili viac s
-                Ním..
+                Ním.
               </span>
             </p>
             <p>
@@ -1106,6 +1106,7 @@ const Omsa = () => {
             večného života. Jedenie Jeho tela a pitie Jeho krvi znamená byť
             identifikovaný s Ním skrze vieru. Nezabudni, že
             <span className='italic'>
+              {' '}
               Duch je, ktorý obživuje, telo nič neosoží. Reči, ktoré som vám
               hovoril, sú duch a život.
             </span>

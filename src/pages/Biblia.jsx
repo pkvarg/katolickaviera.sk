@@ -574,7 +574,7 @@ lg and mob OK */}
             ako stvoril svet a ako ovláda všetky veci svojou múdrou
             prozreteľnosťou. Jeho Zákon nás odhaľuje ako hriešnych a varuje nás
             pred peklom a hnevom, ktorý príde. Vďaka Bohu, Biblia má tiež dobrú
-            správu o nádeji. Boh poslal svojho Syna, ktorý dal sám Seba, ako
+            správu o nádeji. Boh poslal Svojho Syna, ktorý dal sám Seba, ako
             výkupné za mnohých. Zvíťazil nad smrťou a teraz žije naveky. Biblia
             nás volá k pokániu a viere v Ježiša Krista pre našu spásu a prevádza
             nás svojimi príkazmi po ceste nášho života.

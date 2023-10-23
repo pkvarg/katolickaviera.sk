@@ -282,6 +282,7 @@ const Spoved = () => {
             svoj vzťah s Ním. Pravdivé odpustenia začínajú, keď osoba verí
             Pánovi Ježišovi Kristovi.
             <span className='italic'>
+              {' '}
               Vedzte teda, mužovia, bratia, že sa vám skrze Neho zvestuje
               odpustenie hriechov a že od všetkých (hriechov), od ktorých vás
               ani zákon Mojžišov nemohol ospravedlniť, je každý veriaci
@@ -293,6 +294,7 @@ const Spoved = () => {
             spoločenstvom s Bohom. Je to v Ježišovi Kristovi a Jeho živote,
             ktorý za nás obetoval.
             <span className='italic'>
+              {' '}
               V Ňom máme vykúpenie, odpustenie hriechov.
             </span>{' '}
             <span className='text-[15px]'> Kolosenským 1:14 </span>

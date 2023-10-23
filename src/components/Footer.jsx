@@ -63,7 +63,7 @@ const Footer = ({ language }) => {
           )}
           {language === 'czech' && (
             <a href='https://sk.bereanbeacon.org' target='_blank'>
-              sk.bereanbeacon.org
+              bereanbeacon.org
             </a>
           )}
         </div>

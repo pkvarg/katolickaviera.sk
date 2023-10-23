@@ -48,7 +48,7 @@ const KlastornyZivot = () => {
         </div>
       </main>
       {/* KlastornyZivot */}
-      <section className='bg-black lg:bg-transparent text-white flex flex-col text-[20px] justify-center px-4 lg:px-8  pt-8 gap-8 pb-8'>
+      <section className='bg-black lg:bg-transparent text-white flex flex-col text-[20px] justify-center px-4 lg:px-8  pt-8 gap-8 pb-0'>
         <h1 className='text-title text-center text-[35px]'>Prečo sestry?</h1>
         <div className='text-justify flex flex-col gap-2 mt-0 lg:pt-4'>
           <p>

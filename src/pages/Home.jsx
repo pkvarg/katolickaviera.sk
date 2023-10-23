@@ -89,8 +89,7 @@ const Home = ({ lng, setLng }) => {
             </div>
 
             <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-8'>
-              Kam zaraďuje Božie Slovo modlitby veriaceho k niekomu inému ako k
-              Bohu?
+              Kam zaraďuje Božie Slovo modlitby k niekomu inému ako k Bohu?
             </h1>
             <h2 className='text-white text-[22.5px] text-justify'>
               <span className='italic'>
@@ -100,7 +99,7 @@ const Home = ({ lng, setLng }) => {
                 stole Pánovom aj pri stole démonov. Či chceme azda rozhnevať
                 Pána?
               </span>
-              <span className='text-[15px]'> Prvý Korinťanom 10:14</span>
+              <span className='text-[15px]'> Prvý Korinťanom 10:20-22</span>
               <span className='italic'>
                 {' '}
                 Preto, moji milovaní, utekajte pred modloslužobníctvom!
