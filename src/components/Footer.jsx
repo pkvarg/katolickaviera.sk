@@ -50,7 +50,7 @@ const Footer = ({ language }) => {
           <a href='https://cestazivota.sk' target='_blank'>
             cestazivota.sk
           </a>
-          <p className='hidden lg:flex'>|</p>
+          {/* <p className='hidden lg:flex'>|</p>
           {language === 'slovak' && (
             <a href='https://sk.bereanbeacon.org' target='_blank'>
               sk.bereanbeacon.org
@@ -65,7 +65,7 @@ const Footer = ({ language }) => {
             <a href='https://sk.bereanbeacon.org' target='_blank'>
               bereanbeacon.org
             </a>
-          )}
+          )} */}
         </div>
         <div className='flex justify-center text-[#484848] mt-2'>
           <a href='https://pictusweb.sk'>
