@@ -50,7 +50,7 @@ const KlastornyZivot = () => {
       {/* KlastornyZivot */}
       <section className='bg-black lg:bg-transparent text-white flex flex-col text-[20px] justify-center px-4 lg:px-8  pt-8 gap-8 pb-0'>
         <h1 className='text-title text-center text-[35px]'>Prečo sestry?</h1>
-        <div className='text-justify flex flex-col gap-2 mt-0 lg:pt-4'>
+        <div className='text-justify flex flex-col gap-2'>
           <p>
             Prečo katolícka cirkev trvá na tom, aby mali ženy „kláštorný“ alebo
             „náboženský“ životný štýl? Pre udržiavanie rastu vo vnútri
@@ -68,8 +68,8 @@ const KlastornyZivot = () => {
         </div>
       </section>
       {/* KlastornyZivot table lg */}
-      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
-        <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
+      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-4 gap-8 pb-8 mt-8'>
+        <div className='w-[50%] border flex flex-col items-center mx-4 pb-4 mt-8'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
           </h2>
@@ -106,7 +106,7 @@ const KlastornyZivot = () => {
             </p>
           </div>
         </div>
-        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4'>
+        <div className='w-[50%] border flex flex-col items-center pb-4 mx-4 mt-8'>
           <h2 className='font-semibold text-center mt-4'>Biblia hovorí:</h2>
           <div className='mx-4  text-justify font-semibold flex flex-col gap-4 mt-8'>
             <p>
