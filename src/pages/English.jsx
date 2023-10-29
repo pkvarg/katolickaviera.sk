@@ -251,6 +251,17 @@ const English = () => {
           I wish you to know the truth, to be freed from traditions, so that one
           day you could stand clean before God as His faithful servant.
         </h2>
+        <p className='text-black text-[22.5px] pb-8'>
+          More about traditions you can find{' '}
+          <a
+            className='underline'
+            href='https://whateverycatholicshouldknow.com/salvation-2/'
+            target='_blank'
+          >
+            here
+          </a>
+          .
+        </p>
       </section>
     </>
   )

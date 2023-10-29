@@ -89,7 +89,7 @@ section h2 {
 }
 
 .klastor-pic {
-  background-image: linear-gradient(to top, #22231f, #87848479, #1c1a1a73),
+  background-image: linear-gradient(to top, #151715, #87848479, #1c1a1a7c),
     url('/klastor.webp');
   background-repeat: no-repeat;
   background-position: center center;
