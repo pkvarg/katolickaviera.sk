@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --title: #d39f69;
+}
+
+body {
+  font-family: 'Lora', serif;
+  overflow-x: hidden;
+}
+
+.boldd {
+  font-weight: 800;
+  color: #99734c;
+}
+
+.hero-bg {
+  background-image: linear-gradient(to bottom, #1e1c1cad, #90908b58, #22231f),
+    url('/home.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  height: 100vh;
+}
+
+ul li a {
+  font-size: 20px;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+header div {
+  font-size: 20px;
+}
+
+section h2 {
+  font-size: 20px;
+}
+
+.omsa-pic {
+  background-image: linear-gradient(to bottom, #f5f5f280, #f8f8f8b5, #ffffff),
+    url('/omsa.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.spoved-pic {
+  background-image: linear-gradient(to top, #222320, #87848479, #1c1a1a73),
+    url('/spoved.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.manzelstvo-pic {
+  background-image: linear-gradient(to bottom, #f5f5f2bb, #f8f8f8ad, #ffffff),
+    url('/manzelstvo.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.papez-pic {
+  background-image: linear-gradient(to bottom, #000000, #e8d6d646, #ffffff),
+    url('/papez.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.knaz-pic {
+  background-image: linear-gradient(to bottom, #1f1f1e, #f8f8f883, #ffffff),
+    url('/knaz.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.klastor-pic {
+  background-image: linear-gradient(to top, #151715, #87848479, #1c1a1a7c),
+    url('/klastor.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.maria-pic {
+  background-image: linear-gradient(
+      to bottom,
+      #5f5c5cbd,
+      rgba(246, 244, 244, 0.511),
+      #ffffff
+    ),
+    url('/maria.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.hriech-pic {
+  background-image: linear-gradient(to top, #222320, #8784843c, #1c1a1aeb),
+    url('/hriech.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.spasenie-pic {
+  background-image: linear-gradient(to top, #222320, #8784843c, #1c1a1aeb),
+    url('/spasenie.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+.biblia-pic {
+  background-image: linear-gradient(to bottom, #f3eeee69, #9b969656, #ffffff),
+    url('/bible.webp');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+
+/* react-scroll */
+
+.top-to-btm {
+  position: relative;
+}
+
+.icon-position {
+  position: fixed;
+  bottom: 80px;
+  right: 25px;
+  z-index: 20;
+}
+.icon-style {
+  background-color: #ffffff;
+  border: 1px solid #000000;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #000;
+  cursor: pointer;
+  animation: movebtn 3s ease-in-out infinite;
+  transition: all 0.5s ease-in-out;
+}
+.icon-style:hover {
+  animation: none;
+  background: #2b2a64;
+  color: #fff;
+  /* border: 2px solid #d57703; */
+}
+
+.video-responsive {
+  display: flex;
+  justify-content: center;
+  height: 527px;
+  width: auto;
+}
+
+.video-responsive iframe {
+  height: 90%;
+  max-width: 100%;
+}
+
+/* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIESMEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIESMEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIESMEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES */
+
+/* @media (min-width: 1281px) and (max-width: 2280px) {
+  .mrgTop {
+    margin-top: -10%;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1280px) {
+  .mrgTop {
+    margin-top: -50%;
+  }
+}
+
+@media (min-width: 770px) and (max-width: 990px) {
+  .mrgTop {
+    margin-top: -30%;
+  }
+}
+
+@media (min-width: 100px) and (max-width: 749px) {
+  .mrgTop {
+    margin-top: -20%;
+  }
+} */
+
+@media (min-width: 100px) and (max-width: 990px) {
+  section div p {
+    font-size: 20px;
+  }
+
+  /* .CookieConsent {
+    display: none !important;
+  } */
+
+  .spoved-pic,
+  .manzelstvo-pic,
+  .papez-pic {
+    width: auto;
+  }
+
+  .maria-pic {
+    width: 100vw;
+    /* height: 550px; */
+  }
+}
