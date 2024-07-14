@@ -180,6 +180,21 @@ section h2 {
   max-width: 100%;
 }
 
+h1 {
+  font-size: 30px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+div {
+  font-size: 22.5px;
+  line-height: 34px;
+}
+
+#verse-ref {
+  font-size: 15px;
+}
+
 /* MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIESMEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIESMEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIESMEDIA QUERIES MEDIA QUERIES MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES  MEDIA QUERIES */
 
 /* @media (min-width: 1281px) and (max-width: 2280px) {
@@ -224,5 +239,20 @@ section h2 {
   .maria-pic {
     width: 100vw;
     /* height: 550px; */
+  }
+
+  h1 {
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+  }
+
+  div {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  #verse-ref {
+    font-size: 12px;
   }
 }
