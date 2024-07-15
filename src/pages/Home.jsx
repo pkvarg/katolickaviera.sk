@@ -53,16 +53,16 @@ const Home = ({ lng, setLng }) => {
               <span className='text-[12.5px]'> Ján 8:31-32</span>
             </div>
             <div className='hidden lg:flex flex-col absolute bottom-0 lg:bottom-4 xl:-bottom-8 l-0 px-8'>
-              <h1 className='text-title text-center text-[25px] lg:text-[30px] pt-4'>
+              <h1 className='text-title text-center pt-4'>
                 Ako sa Božie Slovo pozerá na prihováranie veriaceho k svätcom?
               </h1>
-              <h2 className='text-white text-[22.5px] text-justify'>
+              <h2 className='text-white  text-justify'>
                 <span className='italic'>
                   Ak sa niekto obráti k duchom mŕtvych a k jasnovidcom a smilne
                   sa im zapredá, ja sám obrátim svoju tvár proti tej osobe a
                   odstránim ju z jej ľudu.
                 </span>
-                <span className='text-[15px]'> Levitikus 20:6 </span>
+                <span id='verse-ref'> Levitikus 20:6 </span>
                 Umožňuje to apokryfná kniha Makabejských, ktorá je v rozpore s
                 Mojžišovým zákonom. (viac v sekcii <a href='/biblia'>Biblia)</a>
               </h2>
@@ -91,7 +91,7 @@ const Home = ({ lng, setLng }) => {
             <h1 className='text-title text-center'>
               Kam zaraďuje Božie Slovo modlitby k niekomu inému ako k Bohu?
             </h1>
-            <div className='text-white  text-justify'>
+            <div className='text-white text-justify'>
               <span className='italic'>
                 Ale čo (pohania) obetujú, to obetujú démonom, a nie Bohu. A ja
                 nechcem, aby ste boli spoločníkmi démonov. Nemôžete piť z
