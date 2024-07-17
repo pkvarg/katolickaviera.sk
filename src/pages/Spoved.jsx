@@ -5,7 +5,7 @@ const Spoved = () => {
   return (
     <>
       <HeaderTransparent />
-      <main className='text-black bg-black text-[20px]'>
+      <main className='text-black bg-black'>
         <div className='spoved-pic lg:flex h-[850px] -mt-[50%] md:-mt-[75%] lg:-mt-[38%] xl:-mt-[16%] 2xl:-mt-[8%]'></div>
         <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-8'>
           <h1 className='text-title text-center text-[35px] -mt-[65%] md:-mt-[45%] lg:-mt-[10%] xl:-mt-[12.5%] 2xl:-mt-[15%]'>
@@ -24,10 +24,10 @@ const Spoved = () => {
                 vzkriesil z mŕtvych, budeš spasený; lebo srdcom veríme na
                 spravodlivosť a ústami vyznávame na spasenie.
               </span>
-              <span className='text-[15px]'> Rimanom 10:9-10 </span>Vyznávanie
-              tu spomínané odkazuje na vieru, že Ježiš Kristus zomrel na
-              golgotskom kríži za naše hriechy. Jeho smrťou zástupne za nás sme
-              uchránení od trestu za naše hriechy.
+              <span id='verse-ref'> Rimanom 10:9-10 </span>Vyznávanie tu
+              spomínané odkazuje na vieru, že Ježiš Kristus zomrel na golgotskom
+              kríži za naše hriechy. Jeho smrťou zástupne za nás sme uchránení
+              od trestu za naše hriechy.
             </p>
             <p>
               Úpenlivo vás pozývam, nebuďte otrokmi náboženského systému, ktorý
@@ -37,7 +37,7 @@ const Spoved = () => {
                 Kristus nás oslobodil k slobode. Stojte teda a nedajte sa
                 zapriahnuť zase do jarma otroctva!
               </span>
-              <span className='text-[15px]'> Galatským 5:1</span>
+              <span id='verse-ref'> Galatským 5:1</span>
             </p>
             <p>
               Je vyznávanie vašich hriechov kňazovi nevyhnutné? Môže vaše
@@ -45,9 +45,7 @@ const Spoved = () => {
               čo smrť Ježiša Krista dokonala na Kalvárii?
             </p>
 
-            <h2 className='text-title text-center text-[30px] mt-4'>
-              Spoveď kňazovi
-            </h2>
+            <h1 className='text-title text-center mt-4'>Spoveď kňazovi</h1>
             <p className='mt-8'>
               V rímskokatolíckej cirkvi sa vyžaduje po jednotlivcovi
               vyspovedanie sa zo smrteľných hriechov minimálne raz za rok. V
@@ -71,7 +69,7 @@ const Spoved = () => {
       </main>
 
       {/* spoved table lg */}
-      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white hidden  lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -272,7 +270,7 @@ const Spoved = () => {
         </div>
       </section>
       {/* spoved lg and mob OK */}
-      <section className='bg-black text-white text-[20px] pb-8'>
+      <section className='bg-black text-white  pb-8'>
         <div className='text-justify  flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Katolícky katechizmus vyžaduje od členov vyznávanie hriechov
@@ -288,7 +286,7 @@ const Spoved = () => {
               ani zákon Mojžišov nemohol ospravedlniť, je každý veriaci
               ospravedlnený skrze Neho.
             </span>
-            <span className='text-[15px]'> Skutky apoštolov 13:38-39 </span>
+            <span id='verse-ref'> Skutky apoštolov 13:38-39 </span>
             Vierou v dokončené dielo Pána Ježiša (Jeho smrti za naše hriechy)
             veriaci je obdarený obomi, ako odpustením hriechov, tak aj 100%
             spoločenstvom s Bohom. Je to v Ježišovi Kristovi a Jeho živote,
@@ -297,16 +295,18 @@ const Spoved = () => {
               {' '}
               V Ňom máme vykúpenie, odpustenie hriechov.
             </span>{' '}
-            <span className='text-[15px]'> Kolosenským 1:14 </span>
+            <span id='verse-ref'> Kolosenským 1:14 </span>
             Evanjelium je Božia moc na záchranu (spasenie) človeka.
           </p>
         </div>
       </section>
       {/* pokanie black lg and mob OK */}
-      <section className='text-[20px]'>
+      <section>
         <div className='text-justify flex flex-col gap-2 mt-12 mx-4 lg:mx-8'>
-          <h2 className='text-title text-center text-[30px] mb-8'>Pokánie</h2>
-          <p className='text-[20px] '>
+          <h1 className='text-title text-center  -mt-8 lg:-mt-4 mb-0 lg:mb-8'>
+            Pokánie
+          </h1>
+          <p>
             Milióny katolíkov po celom svete poctivo vykonávajú pokánie. Podľa
             katechizmu kňaz je ten, kto ukladá tieto úkony hriešnikovi v čase
             spovede. Tieto úkony pokánia sú tu preto, aby sa odčinili
@@ -317,8 +317,8 @@ const Spoved = () => {
           </p>
         </div>
       </section>
-      {/* pokanie black table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
+      {/* pokanie white table lg */}
+      <section className='hidden  lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
           <h2 className='font-semibold  text-center mt-4'>
             Katechizmus hovorí:
@@ -428,7 +428,7 @@ const Spoved = () => {
           </div>
         </div>
       </section>
-      {/* pokanie black table mobile only */}
+      {/* pokanie white table mobile only */}
       <section className='flex flex-col lg:hidden  gap-8 py-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold text-center  mt-4'>
@@ -469,7 +469,7 @@ const Spoved = () => {
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 1491 Úkony kajúcnika sú: ľútosť, spoveď čiže vyznanie hriechov
             kňazovi a predsavzatie vykonať zadosť učinenie a skutky
             zadostúčinenia.
@@ -544,7 +544,7 @@ const Spoved = () => {
       {/* pokanie outro lg and mob OK */}
       <>
         <div className='text-justify flex flex-col gap-2 pb-8 mx-4 lg:mx-8'>
-          <p className='text-[20px]'>
+          <p>
             Z Písma svätého vidíme, že Ježiš Kristus zaplatil na Kalvárii plnú
             cenu za naše hriechy. Viera, že dobré skutky sú nevyhnutné pre
             obnovu "plného duchovného zdravia" a že spolu s pokáním sú
@@ -555,7 +555,7 @@ const Spoved = () => {
               A na ich hriechy a na ich neprávosti viacej nepomyslím. Kde sú
               však hriechy odpustené, niet už viac obetí za hriechy.{' '}
             </span>
-            <span className='text-[15px]'>Židom 10:17-18 </span>
+            <span id='verse-ref'>Židom 10:17-18 </span>
             Boh sľúbil, že nikdy nespomenie na hriechy pravých kresťanov a
             deklaruje, že tie hriechy sú odpustené raz a navždy skrze vieru v
             Krista, preto už nie je viac potreba obetí za hriechy. Keď to
@@ -566,7 +566,7 @@ const Spoved = () => {
               Lebo tak myslíme, že človek ospravedlnený býva vierou bez skutkov
               zákona.{' '}
             </span>
-            <span className='text-[15px]'> Rimanom 3:28</span>
+            <span id='verse-ref'> Rimanom 3:28</span>
           </p>
         </div>
       </>
@@ -574,7 +574,7 @@ const Spoved = () => {
       {/* pokanie outro white lg and mob OK */}
       <section>
         <div className='text-justify flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
-          <p className='text-[20px]'>
+          <p>
             Prosím uváž, čo Biblia hovorí, pokiaľ ide o úplne dostačujúcu ponuku
             Ježiša Krista na kríži, ktorou zaplatil všetok dlh hriechu. Podľa
             Písem{' '}
@@ -583,7 +583,7 @@ const Spoved = () => {
               všetci sme boli podobní nečistému a všetka naša spravodlivosť bola
               ako poškvrnené rúcho.{' '}
             </span>
-            <span className='text-[15px]'>Izaiáš 64:5 </span>
+            <span id='verse-ref'>Izaiáš 64:5 </span>
             Nie je nič, čo by si mohol urobiť preto, aby si si zaslúžil Božiu
             priazeň, len veriť že On urobil všetko pre Teba.
             <span className='italic'>
@@ -591,7 +591,7 @@ const Spoved = () => {
               Ale Boh dokazuje svoju lásku k nám tým, že Kristus umrel za nás,
               keď sme boli ešte hriešni.{' '}
             </span>
-            <span className='text-[15px]'> Rimanom 5:8</span>
+            <span id='verse-ref'> Rimanom 5:8</span>
           </p>
         </div>
       </section>

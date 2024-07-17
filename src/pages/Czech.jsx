@@ -11,7 +11,7 @@ const Czech = () => {
           Nespoléhej se na církevní tradice!
           <br /> Řiď se Božím Slovem!
         </h1>
-        <div className='text-[#FFFFFF] text-[22.5px] flex flex-col items-center leading-[30px] lg:leading-[30px]'>
+        <div className='text-[#FFFFFF] text-[22.5px] flex flex-col items-center leading-[30px] lg:leading-[30px] px-4'>
           <span className='italic text-center'>
             Pokud vy zůstanete v mém slově, jste opravdu moji učedníci.
           </span>

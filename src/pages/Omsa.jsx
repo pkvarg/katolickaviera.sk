@@ -12,7 +12,7 @@ const Omsa = () => {
             <h1 className='text-title3 text-center text-[35px] -mt-[155%] md:-mt-[45%] lg:-mt-[22%] xl:-mt-[40%] 2xl:-mt-[30%]'>
               Omša
             </h1>
-            <div className='text-justify flex flex-col gap-2 mt-16 text-[20px]'>
+            <div className='text-justify flex flex-col gap-2 mt-16'>
               <p>
                 "Svätá obeť omše" je centrom a najsvätejším aktom uctievania pre
                 katolíkov. Katechizmus učí, že počas omše kňaz premieňa svojou
@@ -48,8 +48,8 @@ const Omsa = () => {
       </main>
       {/* eucharistia */}
       <section className='flex flex-col items-center mx-4 lg:mx-8 pb-16'>
-        <h1 className='text-title text-[30px]'>Eucharistia</h1>
-        <p className='text-[20px] text-justify mt-8'>
+        <h1 className='text-title'>Eucharistia</h1>
+        <p className='text-justify mt-8'>
           V katechizme katolíckej cirkvi je uvádzané, že skutočné telo, krv a
           božstvo Ježiša Krista je zoslané z neba a zázračne prepodstatnené v
           eucharistických oblátkach. Oproti tomu stojí Svätá Biblia a tá je
@@ -146,7 +146,7 @@ const Omsa = () => {
         </div>
       </section>
       {/* table mobile only */}
-      <section className='flex flex-col lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col lg:hidden gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className='text-center mt-4'>
@@ -231,7 +231,7 @@ const Omsa = () => {
       </section>
       {/* lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mt-4 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 mt-4 mx-4 lg:mx-8'>
           <p>
             Podľa Biblie Ježiš Kristus sa obetoval za hriechy ľudí. Po Jeho
             smrti a zmŕtvychvstaní bol vzatý do mrakov a zasadol večne po
@@ -254,14 +254,14 @@ const Omsa = () => {
               Duch je pravda. Lebo traja sú, ktorí vydávajú svedectvo na nebi:
               Otec, Slovo a Duch Svätý, a títo traja jedno sú.
             </span>
-            <span className='text-[15px]'> Prvý Jánov 5:6-7 </span>
+            <span id='verse-ref'> Prvý Jánov 5:6-7 </span>
             <span className='italic'>
               A ja budem prosiť Otca, a dá vám iného Radcu, aby bol s vami až
               naveky - Ducha pravdy, ktorého svet nemôže prijať, pretože Ho
               nevidí, ani nepozná. Vy Ho poznáte, pretože pri vás ostáva a bude
               vo vás.
             </span>
-            <span className='text-[15px]'> Ján 14:16-17</span>
+            <span id='verse-ref'> Ján 14:16-17</span>
           </p>
           <p>
             Je nevyhnutnosťou poznať Pána Ježiša Krista duchovne a to skrze
@@ -272,7 +272,7 @@ const Omsa = () => {
               falošní proroci a budú robiť znamenia a zázraky, aby zviedli, ak
               možno, vyvolených.
             </span>
-            <span className='text-[15px]'> Marek 13:21-22 </span>
+            <span id='verse-ref'> Marek 13:21-22 </span>
             Spoznal si Ježiša duchovne? Veríš Mu len skrze vieru?
           </p>
         </div>
@@ -280,9 +280,9 @@ const Omsa = () => {
       {/* idolatria black lg and mob OK */}
       <section className='bg-black text-[20px] text-white'>
         <div className='text-justify flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
-          <h2 className='text-title text-center text-[30px] my-16'>
+          <h1 className='text-title text-center my-8 lg:my-16'>
             Uctievanie hostie (Idolatria)
-          </h2>
+          </h1>
           <p>
             Katechizmus katolíckej cirkvi predpokladá, že človekom vyrobený
             chlieb sa stal božským. Toto je prípad, keď katolícka cirkev učí, že
@@ -298,7 +298,7 @@ const Omsa = () => {
         </div>
       </section>
       {/* black table lg */}
-      <section className='hidden text-[18px]  bg-black text-white lg:flex justify-center gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden bg-black text-white lg:flex justify-center gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -364,7 +364,7 @@ const Omsa = () => {
         </div>
       </section>
       {/* table mobile only */}
-      <section className='flex flex-col text-[20px]  bg-black text-white lg:hidden pt-8 gap-8 pb-8'>
+      <section className='flex flex-col bg-black text-white lg:hidden pt-8 gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
@@ -428,7 +428,7 @@ const Omsa = () => {
       </section>
       {/* black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pt-4 pb-16 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 pt-4 pb-16 mx-4 lg:mx-8'>
           <p>
             Písmo zreteľne identifikuje, že Boh je svätý a On Sám je hoden nášho
             uctievania.
@@ -436,7 +436,7 @@ const Omsa = () => {
               Kto by sa nebál, Pane, a neoslavoval Tvoje meno? Veď Ty jediný si
               svätý, a všetky národy prídu a budú sa Ti klaňať.
             </span>
-            <span className='text-[15px]'> Zjavenie Jána 15:4</span>
+            <span id='verse-ref'> Zjavenie Jána 15:4</span>
           </p>
           <p>
             Doslovná interpretácia Písma v katechizme vedie k modlárstvu. Podľa
@@ -449,8 +449,8 @@ const Omsa = () => {
               Keď ľud videl, že Mojžiš dlho neschádza z hory, zhromaždil sa k
               Áronovi a povedal mu: Nože, urob nám bohov, ktorí pôjdu pred nami.
             </span>
-            <span className='text-[15px]'> Exodus 32:1 </span> Áron potom urobil
-            zlaté teľa, ako prostredníka, skrze ktorého uctievali Boha.
+            <span id='verse-ref'> Exodus 32:1 </span> Áron potom urobil zlaté
+            teľa, ako prostredníka, skrze ktorého uctievali Boha.
             <span className='italic'>
               On to prijal z ich rúk, sformoval to rydlom a urobil z toho uliate
               teľa. Oni povedali: Izrael, toto sú tvoji bohovia, ktorí ťa
@@ -459,7 +459,7 @@ const Omsa = () => {
               obetovali spaľované obete a priniesli obete spoločenstva. Potom sa
               ľud posadil, jedol a pil; nato vstali a zabávali sa.
             </span>
-            <span className='text-[15px]'> Exodus 32:4-6 </span>
+            <span id='verse-ref'> Exodus 32:4-6 </span>
           </p>
           <p>
             Ako Áron, tak aj Izraeliti nehľadeli na prikázania, ktoré im
@@ -478,7 +478,7 @@ const Omsa = () => {
               ktorý však nenecháva bez trestu, ale trestá vinu otcov na synoch a
               na synoch synov až do tretieho a štvrtého pokolenia.
             </span>
-            <span className='text-[15px]'> Exodus 34:7 </span>
+            <span id='verse-ref'> Exodus 34:7 </span>
             Spomeňme si na jednoduché Slovo nášho Pána v Marekovi 13:21:
             <span className='italic'>
               {' '}
@@ -491,13 +491,13 @@ const Omsa = () => {
               {' '}
               Preto, moji milovaní, utekajte pred modloslužobníctvom!
             </span>
-            <span className='text-[15px]'> Prvý Korintským 10:14</span>
+            <span id='verse-ref'> Prvý Korintským 10:14</span>
           </p>
         </div>
       </section>
       {/* obetovanie omse */}
-      <section className='flex flex-col text-[20px] mt-8 mx-4 lg:mx-8 pb-4'>
-        <h1 className='text-title text-center text-[30px] my-8'>
+      <section className='flex flex-col mt-8 mx-4 lg:mx-8 pb-4'>
+        <h1 className='text-title text-center  mb-8 lg:mt-8'>
           Obetovanie omše
         </h1>
         <p className='text-justify'>
@@ -516,7 +516,7 @@ const Omsa = () => {
         </p>
       </section>
       {/* table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center mx-4 gap-8 pt-8 pb-16'>
+      <section className='hidden lg:flex justify-center mx-4 gap-8 pt-8 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -747,7 +747,7 @@ const Omsa = () => {
       </section>
       {/* lg and mob OK */}
       <section className=''>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mt-4 mx-4 lg:mx-8 pb-16'>
+        <div className='text-justify flex flex-col gap-2 mt-4 mx-4 lg:mx-8 pb-16'>
           <p>
             Podľa rímskokatolíckej cirkvi veriaci musia prijať ustavičné
             reinkarnovanie a nekrvavú obeť Ježiša Krista pre odpustenie
@@ -771,10 +771,8 @@ const Omsa = () => {
       </section>
       {/* prijimanie black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pt-16 pb-16 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center text-[30px] pb-4'>
-            Prijímanie
-          </h1>
+        <div className='text-justify flex flex-col gap-2 pt-16 pb-16 mx-4 lg:mx-8'>
+          <h1 className='text-title text-center -mt-4 mb-8'>Prijímanie</h1>
           <p>
             Vyvrcholenie omše prichádza, keď katolík prijíma posvätenú hostiu
             alebo Eucharistiu ústne. Tento fyzický akt prijímania
@@ -790,7 +788,7 @@ const Omsa = () => {
         </div>
       </section>
       {/* table lg */}
-      <section className='bg-black text-[18px] text-white hidden lg:flex justify-center px-4 gap-8 pb-16'>
+      <section className='bg-black text-white hidden lg:flex justify-center px-4 gap-8 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -916,12 +914,10 @@ const Omsa = () => {
         </div>
       </section>
       {/* table mobile only */}
-      <section className='bg-black text-white flex flex-col lg:hidden  gap-8 pb-8'>
+      <section className='bg-black text-white flex flex-col lg:hidden gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold text-center  mt-4'>
-            Katechizmus hovorí:
-          </h2>
-          <p className=' text-center mt-4'>
+          <h2 className='font-semibold text-center'>Katechizmus hovorí:</h2>
+          <p className='text-center mt-4'>
             § 1384 Pán sa na nás obracia s naliehavou výzvou, aby sme ho
             prijímali vo sviatosti Eucharistie: „Veru, veru, hovorím vám: Ak
             nebudete jesť telo Syna človeka a piť jeho krv, nebudete mať v sebe
@@ -1045,23 +1041,23 @@ const Omsa = () => {
               {' '}
               Na počiatku bolo Slovo a Slovo bolo u Boha a Boh bol to Slovo.
             </span>
-            <span className='text-[15px]'> Ján 1:1 </span>
+            <span id='verse-ref'> Ján 1:1 </span>
             <span className='italic'>
               A to Slovo stalo sa telom, prebývalo medzi nami.
             </span>
-            <span className='text-[15px]'> Ján 1:14 </span>
+            <span id='verse-ref'> Ján 1:14 </span>
             Biblia nám tu ukazuje vzťah medzi písaným Slovom a samotným Ježišom
             Kristom. Základom je riadny výklad Písma Svätého. Skrz celé Písma
             sväté nachádzame, že Pán hovoril v podobenstvách.{' '}
             <span className='italic'>
               Ja som prišiel, aby mali život, a to v hojnej miere!
             </span>
-            <span className='text-[15px]'> Ján 10:10 </span>
+            <span id='verse-ref'> Ján 10:10 </span>
             <span className='italic'>
               {' '}
               Reči, ktoré som vám hovoril, sú duch a život.
             </span>
-            <span className='text-[15px]'> Ján 6:63 </span>
+            <span id='verse-ref'> Ján 6:63 </span>
             Tieto podobenstvá boli obrazným jazykom, ktorý pravdu o Kristovi mal
             urobiť viac rozoznateľnú. Ježiš vedel, že podobenstvo by bolo ťažko
             zrozumiteľné bez výkladu, ale dal vždy výklad tomu, koho sa to
@@ -1093,7 +1089,7 @@ const Omsa = () => {
               {' '}
               A chlieb, ktorý ja dám, je moje telo, ktoré vydám za život sveta.
             </span>
-            <span className='text-[15px]'> Ján 6:51 </span>
+            <span id='verse-ref'> Ján 6:51 </span>
             Kristus tu uvádza, že sám by svoje dobrovoľné utrpenie, svoje telo,
             ponúkol ako obeť. Dal nám svoje telo ako obeť zmierenia "pre život
             sveta" a to je pre večný život!
@@ -1110,7 +1106,7 @@ const Omsa = () => {
               Duch je, ktorý obživuje, telo nič neosoží. Reči, ktoré som vám
               hovoril, sú duch a život.
             </span>
-            <span className='text-[15px]'> Ján 6:63 </span>
+            <span id='verse-ref'> Ján 6:63 </span>
           </p>
           <p>
             Na ktorom chlebe sa podieľate? Bude zotrvávať vaša večná duša na
@@ -1122,7 +1118,7 @@ const Omsa = () => {
               {' '}
               Skutkom Božím je veriť v Toho, ktorého On poslal.
             </span>
-            <span className='text-[15px]'> Ján 6:29 </span>
+            <span id='verse-ref'> Ján 6:29 </span>
             Veriť v Neho, ktorého Otec poslal je našou povinnosťou, avšak je to
             "prácou Boha", ktorý dáva jasne najavo, že viera je možná skrze
             milosť Božiu.

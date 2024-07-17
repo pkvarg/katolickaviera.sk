@@ -5,7 +5,7 @@ const Footer = ({ language }) => {
     <footer className='bg-black'>
       {language === 'slovak' && (
         <section className='mx-4 pt-8'>
-          <ul className='text-title text-[25px] flex flex-col lg:flex-row justify-center items-center gap-4'>
+          <ul className='text-title text-[18px] lg:text-[25px] flex flex-col lg:flex-row justify-center items-center gap-4'>
             <li>
               <a href='/omsa'>Omša</a>
             </li>
