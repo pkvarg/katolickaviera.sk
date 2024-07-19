@@ -31,7 +31,7 @@ const KnazskyUrad = () => {
                 Hľaďte, aby vás niekto nezviedol. Mnohí prídu v mojom mene a
                 budú hovoriť: Ja som (Kristus); zvedú mnohých.
               </span>
-              <span className='text-[15px]'> Marek 13:6 </span>
+              <span id='verse-ref'> Marek 13:6 </span>
             </p>
             <p>
               Nekončiace kňazstvo Ježiša Krista nemôže byť prevedené na inú
@@ -41,7 +41,7 @@ const KnazskyUrad = () => {
                 On však, pretože zostáva naveky, zastáva kňazský úrad, ktorý
                 neprechádza na iného.{' '}
               </span>
-              <span className='text-[15px]'> Židom 7:24 </span>
+              <span id='verse-ref'> Židom 7:24 </span>
               Teda rímska sviatosť "svätenia", ktorá si uplatňuje nárok na
               Kristovo obetné kňazstvo "kňazským vysvätením", je tradícia ľudí,
               ktorí popierajú zjavenú biblickú pravdu.
@@ -62,14 +62,14 @@ const KnazskyUrad = () => {
                 Ale vy ste vyvoleným rodom, kráľovským kňazstvom, svätým
                 národom, ľudom Jemu vlastným.
               </span>
-              <span className='text-[15px]'> Prvý Petrov 2:9 </span>
+              <span id='verse-ref'> Prvý Petrov 2:9 </span>
             </p>
           </div>
         </div>
       </main>
       {/* Iný Kristus */}
       <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8  mt-8 gap-8 pb-8'>
-        <h1 className='text-title text-center text-[35px]'>Iný Kristus</h1>
+        <h1 className='text-title text-center -mb-8 lg:mb-0'>Iný Kristus</h1>
         <div className='text-justify flex flex-col gap-2 mt-8'>
           <p>
             Katolícky veriaci je vyučovaný, že medzi kňazom a Kristom je
@@ -84,7 +84,7 @@ const KnazskyUrad = () => {
         </div>
       </section>
       {/* Iný Kristus  table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center mx-4 mt-8 gap-8 pb-8'>
+      <section className='hidden lg:flex justify-center mx-4 mt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -182,7 +182,7 @@ const KnazskyUrad = () => {
         </div>
       </section>
       {/*  Iný Kristus  table mobile only */}
-      <section className='flex flex-col lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col lg:hidden gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className='text-center mt-4'>
@@ -212,7 +212,7 @@ const KnazskyUrad = () => {
             </span>
           </p>
 
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Prvý Timotejovi 2:5
             <span className='italic'>
               {' '}
@@ -221,7 +221,7 @@ const KnazskyUrad = () => {
             </span>
           </p>
 
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Matúš 23:8
             <span className='italic'>
               {' '}
@@ -232,7 +232,7 @@ const KnazskyUrad = () => {
 
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
 
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 1551 Sviatosť posvätného stavu udeľuje „posvätnú moc“, ktorá je v
             skutočnosti Kristovou mocou. Vykonávanie tejto moci sa preto má
             riadiť príkladom Krista, ktorý sa z lásky stal posledným a
@@ -240,7 +240,7 @@ const KnazskyUrad = () => {
             [jeho] stádo je dôkazom lásky k nemu.“
           </p>
           <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Matúš 7:15-16
             <span className='italic'>
               {' '}
@@ -250,14 +250,14 @@ const KnazskyUrad = () => {
             </span>
           </p>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 1563 Udeľuje sa tou osobitnou sviatosťou, ktorou sú kňazi
             pomazaním Ducha Svätého označení osobitným charakterom [znakom], a
             sú natoľko pripodobnení Kristovi Kňazovi, že môžu konať v osobe
             Krista Hlavy.
           </p>
           <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Matúš 24:4-5
             <span className='italic'>
               {' '}
@@ -265,14 +265,14 @@ const KnazskyUrad = () => {
               prídu v mojom mene a budú hovoriť: Ja som Kristus, - a mnohých
               zvedú.
             </span>
-            <span className='boldd'>
+            <span className='bold'>
               {' '}
               Veď ak niekto svoj dom nevie spravovať, ako sa bude starať o
               cirkev Božiu?{' '}
             </span>{' '}
           </p>
 
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Matúš 24:24
             <span className='italic'>
               {' '}
@@ -282,9 +282,9 @@ const KnazskyUrad = () => {
           </p>
         </div>
       </section>
-      {/* Iný Kristus  lg and mob OK */}
+      {/* Iný Kristus lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Rozdiely medzi kňazstvom Ježiša Krista a starozákonným kňazstvom sú
             veľmi jasné. Kňazi pred Ježišom Kristom boli Židia - Leviti
@@ -297,7 +297,7 @@ const KnazskyUrad = () => {
               On však, pretože zostáva naveky, zastáva kňazský úrad, ktorý
               neprechádza na iného.
             </span>
-            <span className='text-[15px]'> Židom 7:24 </span>
+            <span id='verse-ref'> Židom 7:24 </span>
           </p>
           <p>
             Kristus Ježiš odstránil starozákonných kňazov a ich obetné kňazstvo,
@@ -307,7 +307,7 @@ const KnazskyUrad = () => {
               A hľa, chrámová opona roztrhla sa na dvoje, od vrchu až do spodku,
               zem sa triasla, skaly sa pukali.
             </span>
-            <span className='text-[15px]'> Matúš 27:51 </span>
+            <span id='verse-ref'> Matúš 27:51 </span>
             Táto udalosť odstránila prekážku kňazského sprostredkovania medzi
             Bohom a človekom. Úrad mnohých kňazov Starého Zákona bol odstránený,
             pretože jediný Kňaz - Ježiš, pokračuje navždy a obetnú prácu
@@ -323,14 +323,16 @@ const KnazskyUrad = () => {
               Jeden je totiž Boh, jeden aj Prostredník medzi Bohom a ľuďmi,
               človek Ježiš Kristus.
             </span>
-            <span className='text-[15px]'> Prvý Timotejovi 2:5</span>
+            <span id='verse-ref'> Prvý Timotejovi 2:5</span>
           </p>
         </div>
       </section>
       {/* Celibát black lg and mob OK */}
       <section className='bg-black text-white'>
         <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
-          <h2 className='text-title text-center text-[30px] my-16'>Celibát</h2>
+          <h1 className='text-title text-center mt-12 mb-8 lg:mt-16 lg:mb-16 '>
+            Celibát
+          </h1>
           <p>
             V Písme je napísané:
             <span className='italic'>
@@ -338,7 +340,7 @@ const KnazskyUrad = () => {
               Manželstvo všetci majte v úcte a manželské lôžko nepoškvrnené,
               lebo smilníkov a cudzoložníkov bude súdiť Boh.
             </span>
-            <span className='text-[15px]'> Židom 13:4 </span>
+            <span id='verse-ref'> Židom 13:4 </span>
             Biblická kvalifikácia pastora alebo biskupa je, že má byť mužom
             jednej manželky a najprv vedieť, ako zvládať svoj vlastný domov a
             potom Božiu cirkev. Pán Ježiš Kristus hovorí o dare slobodného stavu
@@ -351,7 +353,7 @@ const KnazskyUrad = () => {
         </div>
       </section>
       {/* Celibát black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center gap-8 pt-16 pb-16 px-4'>
+      <section className='hidden bg-black text-white lg:flex justify-center gap-8 pt-16 pb-16 px-4'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -411,7 +413,7 @@ const KnazskyUrad = () => {
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <p className=' text-center mt-8'>
+          <p className='text-center mt-8'>
             § 1579 Všetci vysvätení služobníci Latinskej cirkvi, okrem trvalých
             diakonov, sa normálne vyberajú spomedzi veriacich mužov, ktorí sú
             slobodní a chcú zachovávať celibát „pre nebeské kráľovstvo“ (Mt
@@ -439,7 +441,7 @@ const KnazskyUrad = () => {
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
           </h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 1599 V Latinskej cirkvi sa sviatosť posvätného stavu v stupni
             kňazov (presbyterát) udeľuje spravidla len kandidátom, ktorí sú
             ochotní slobodne prijať celibát a verejne osvedčia svoju vôľu
@@ -462,7 +464,7 @@ const KnazskyUrad = () => {
 
       {/* Celibat black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Katolícka cirkev popiera aj v tomto bode Božie Slovo a pokúša Pána
             Boha v tom, čo robí svojim mladým. Celý účel Vatikánu - pápeža,
@@ -476,7 +478,7 @@ const KnazskyUrad = () => {
 
       {/* Celibat outro lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-4 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 py-4 mx-4 lg:mx-8'>
           <p>
             Rímska cirkev požaduje celibát na všetkých, ktorí sú vo vedení a
             zakazuje im sexuálne naplnenie manželstva, ktoré bolo dané Bohom.
@@ -497,15 +499,10 @@ const KnazskyUrad = () => {
               stvoril, aby ich s ďakovaním požívali veriaci a tí, čo poznali
               pravdu.
             </span>
-            <span className='text-[15px]'> Prvý Timotejovi 4:1-3 </span>
+            <span id='verse-ref'> Prvý Timotejovi 4:1-3 </span>
           </p>
         </div>
       </section>
-
-      <span className='italic'></span>
-      <span className='text-[15px]'></span>
-      <span className='italic'></span>
-      <span className='text-[15px]'></span>
     </>
   )
 }

@@ -11,7 +11,7 @@ const PapezskyUrad = () => {
           <h1 className='text-title text-center text-[35px] -mt-16'>
             Pápežský úrad
           </h1>
-          <div className='text-justify text-[20px] flex flex-col gap-2 mt-8'>
+          <div className='text-justify  flex flex-col gap-2 mt-8'>
             <div className='flex flex-row gap-8'>
               <div>
                 <p>
@@ -54,17 +54,14 @@ const PapezskyUrad = () => {
                     nieto spasenia v nikom inom, lebo nebolo dané pre ľudí iné
                     meno pod nebom, v ktorom by sme mali dôjsť spasenia.{' '}
                   </span>
-                  <span className='text-[15px]'>
-                    {' '}
-                    Skutky apoštolov 4:10-12{' '}
-                  </span>
+                  <span id='verse-ref'> Skutky apoštolov 4:10-12 </span>
                   <span className='italic'>
                     {' '}
                     On je hlavou tela, cirkvi, On počiatok, prvorodený z
                     mŕtvych, aby Jeho bolo prvenstvo vo všetkom. Lebo Boh za
                     dobré uznal, aby v Ňom prebývala všetka plnosť.{' '}
                   </span>
-                  <span className='text-[15px]'> Kolosanom 1:18-19 </span>
+                  <span id='verse-ref'> Kolosanom 1:18-19 </span>
                 </p>
               </div>
             </div>
@@ -78,24 +75,24 @@ const PapezskyUrad = () => {
                 {' '}
                 Ak vy zostanete v mojom slove, ste naozaj moji učeníci.
               </span>
-              <span className='text-[15px]'> Ján 8:31 </span>
+              <span id='verse-ref'> Ján 8:31 </span>
               <span className='italic'>
                 Podľa toho poznajú všetci, že ste moji učeníci, keď sa budete
                 vzájomne milovať.
               </span>
-              <span className='text-[15px]'> Ján 13:35 </span>
+              <span id='verse-ref'> Ján 13:35 </span>
               Každý, kto je vykúpený krvou Ježiša Krista patrí do Božej rodiny -
               cirkvi. Pán Ježiš je hlavou a všetci, ktorí sú vykúpení sú Jeho
               telom.
               <span className='italic'> Lebo sme údmi Jeho tela.</span>
-              <span className='text-[15px]'> Efezským 5:30 </span>
+              <span id='verse-ref'> Efezským 5:30 </span>
             </p>
           </div>
         </div>
       </main>
       {/* Nasledovník svätého Petra */}
       <section className='flex flex-col text-[20px]  justify-center mx-4 lg:mx-8 mt-8 gap-8 pb-8'>
-        <h1 className='text-title text-center text-[35px]'>
+        <h1 className='text-title text-center -mb-8 lg:mb-0 lg:mt-4'>
           Nasledovník svätého Petra
         </h1>
         <div className='text-justify flex flex-col gap-2 mt-8'>
@@ -110,7 +107,7 @@ const PapezskyUrad = () => {
               vybudovaní na základe apoštolov a prorokov, pričom uholným kameňom
               je sám Ježiš Kristus.
             </span>
-            <span className='text-[15px]'> Efezským 2:20 </span>
+            <span id='verse-ref'> Efezským 2:20 </span>
           </p>
           <p>
             Táto pozícia „Apoštol“ mala jedinečný význam. Dokonca aj potom, čo
@@ -121,7 +118,7 @@ const PapezskyUrad = () => {
               Hradné múry mesta mali dvanásť základných kameňov a na nich
               dvanásť mien dvanástich Baránkových apoštolov.
             </span>
-            <span className='text-[15px]'> Zjavenie Jána 21:14 </span>
+            <span id='verse-ref'> Zjavenie Jána 21:14 </span>
           </p>
           <p>
             Cez novozákonné Písma, budúcnosť cirkvi spočívala v dosadzovaní
@@ -222,7 +219,7 @@ const PapezskyUrad = () => {
         </div>
       </section>
       {/* nasledovnik table mobile only */}
-      <section className='flex flex-col lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col lg:hidden gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
@@ -308,7 +305,7 @@ const PapezskyUrad = () => {
       </section>
       {/* nasledovnik lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
+        <div className='text-justify  flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Termíny "biskup" alebo "starší" neboli nikdy použité v Novom Zákone
             v zmysle a určení osôb lepších, než by boli ostatní. Sú to obyčajní
@@ -347,16 +344,16 @@ const PapezskyUrad = () => {
               pravdu. Veď všetko, čo Boh stvoril, je dobré, a nič nie je na
               zavrhnutie, čo ľudia prijímajú s ďakovaním.
             </span>
-            <span className='text-[15px]'> Prvý Timotejovi 4:1 </span>
+            <span id='verse-ref'> Prvý Timotejovi 4:1 </span>
           </p>
         </div>
       </section>
       {/* Neomylnosť black lg and mob OK */}
       <section className='bg-black text-white'>
         <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
-          <h2 className='text-title text-center text-[30px] my-16'>
+          <h1 className='text-title text-center mt-8 lg:mt-16 mb-8'>
             Neomylnosť
-          </h2>
+          </h1>
           <p>
             Rímskokatolícka cirkev učí, že pápež nie je schopný povedať čokoľvek
             chybné, týkajúce sa jeho výučby vo veciach viery a mravov. Biblia na
@@ -375,12 +372,12 @@ const PapezskyUrad = () => {
             ktoré nemôžu byť zverené alebo postúpené stvoreniu. Všetky stvorenia
             chybujú, takže Biblia slávnostne deklaruje:
             <span className='italic'> Nieto spravodlivého ani jedného. </span>
-            <span className='text-[15px]'> Rimanom 3:10 </span>
+            <span id='verse-ref'> Rimanom 3:10 </span>
           </p>
         </div>
       </section>
       {/* neomylnost black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
+      <section className='hidden  bg-black text-white lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -595,7 +592,7 @@ const PapezskyUrad = () => {
 
       {/* neomylnost black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
           <p>
             Pápežské vyhlásenie "neomylnosti učiteľskej autority" je v podstate
             vyhlásenie o božstve. Len Pán Boh je bez chyby
@@ -603,7 +600,7 @@ const PapezskyUrad = () => {
               {' '}
               u ktorého nieto premeny ani zatienenia (pre) odvrátenie sa.
             </span>
-            <span className='text-[15px]'> Jakub 1:17 </span>
+            <span id='verse-ref'> Jakub 1:17 </span>
             Vatikánska doktrína stavia na obdiv tvrdenie, že pápež je "Svätý
             Otec". Nie je viac prekvapivej a viditeľnej arogancie pápežstva, než
             toto desivé tvrdenie, že je neomylný. Biblia hovorí:
@@ -611,7 +608,7 @@ const PapezskyUrad = () => {
               {' '}
               Však som ja Boh, a nie človek, Svätý uprostred teba.
             </span>
-            <span className='text-[15px]'> Ozeáš 11:9 </span>
+            <span id='verse-ref'> Ozeáš 11:9 </span>
           </p>
           <p className='pt-8'>
             Pápež keď ustanovil seba ako najvyššieho, poprel absolútnu autoritu
@@ -625,7 +622,7 @@ const PapezskyUrad = () => {
               chrámu
               <span className='boldd'> a bude sa vydávať za Boha.</span>
             </span>
-            <span className='text-[15px]'> Druhý Tesalonickým 2:4 </span>
+            <span id='verse-ref'> Druhý Tesalonickým 2:4 </span>
           </p>
           <p className='pt-8'>
             Pre kresťanov je Biblia objektívnym základom, na ktorom s nádejou
@@ -636,7 +633,7 @@ const PapezskyUrad = () => {
               {' '}
               A my sme uverili a poznali, že Ty si (Kristus), ten Svätý Boží.{' '}
             </span>
-            <span className='text-[15px]'> Ján 6:69 </span>
+            <span id='verse-ref'> Ján 6:69 </span>
             Kvôli tomuto trvalému spojeniu medzi Písmom svätým a pravdivou
             vierou, musí byť Božie Slovo študované s ohľadom na jeho plnú
             pravdivosť. Pripomeňme si tie prekrásne slová apoštola Pavla:
@@ -644,17 +641,17 @@ const PapezskyUrad = () => {
               {' '}
               Neraduje sa z neprávosti, ale teší sa s pravdou.
             </span>
-            <span className='text-[15px]'> Prvý Korintským 13:6 </span>
+            <span id='verse-ref'> Prvý Korintským 13:6 </span>
           </p>
         </div>
       </section>
 
       {/* Námestník Krista white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
-          <h2 className='text-title text-center text-[30px] mt-4 mb-8'>
+        <div className='text-justify flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
+          <h1 className='text-title text-center mt-4 mb-8'>
             Námestník Krista{' '}
-          </h2>
+          </h1>
 
           <p>
             Pojem "Kristov námestník" pochádza z latinského slova "vicarius"
@@ -676,18 +673,18 @@ const PapezskyUrad = () => {
               Ja vám však pravdu hovorím: Vám prospeje, aby som odišiel; lebo ak
               neodídem, Radca nepríde k vám; ale keď odídem, pošlem Ho k vám.
             </span>
-            <span className='text-[15px]'> Ján 16:7 </span>
+            <span id='verse-ref'> Ján 16:7 </span>
             <span className='italic'>
               {' '}
               Ale Radca, ten Duch Svätý, ktorého pošle Otec v mojom mene.
             </span>
-            <span className='text-[15px]'> Ján 14:26 </span>
+            <span id='verse-ref'> Ján 14:26 </span>
           </p>
         </div>
       </section>
 
       {/* Námestník Krista table lg */}
-      <section className='hidden text-[18px]  lg:flex justify-center mx-4 mt-8 gap-8 pb-8'>
+      <section className='hidden  lg:flex justify-center mx-4 mt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -865,7 +862,7 @@ const PapezskyUrad = () => {
       </section>
       {/* Námestník Krista outro white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
           <p>
             Duch Svätý, ako Námestník Krista, je najvyšší sľub a kľúč vzťahu
             každého pravého veriaceho k Pánovi Ježišovi Kristovi. Táto nádherná
@@ -877,7 +874,7 @@ const PapezskyUrad = () => {
               Lebo kráľovstvo Božie nie je jedenie a pitie, ale spravodlivosť,
               pokoj a radosť v Duchu Svätom.
             </span>
-            <span className='text-[15px]'> Rimanom 14:17 </span>
+            <span id='verse-ref'> Rimanom 14:17 </span>
           </p>
           <p>
             Pán neprišiel ustanoviť svetové cirkevné impérium vlády, ale prišiel
