@@ -8,7 +8,7 @@ const Spasenie = () => {
       {/* Spasenie*/}
       <main className='bg-black text-white'>
         <div className='spasenie-pic flex h-[450px] lg:h-[650px] -mt-[20%] md:-mt-[70%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
-        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8 gap-8 pb-8'>
+        <div className='flex flex-col justify-center mx-4 lg:mx-8 gap-8 pb-8'>
           <h1 className='text-title text-center text-[35px] -mt-[10%] md:-mt-[5%] lg:-mt-[12%] xl:-mt-[8%] 2xl:-mt-[5%]'>
             Spasenie
           </h1>
@@ -47,8 +47,8 @@ const Spasenie = () => {
       </main>
       {/* Spasenie len skrze Ježiša Krista
        */}
-      <section className='bg-black text-white flex flex-col text-[20px] justify-center px-4 lg:px-8 gap-8 pb-8'>
-        <h1 className='text-title text-center text-[35px]'>
+      <section className='bg-black text-white flex flex-col justify-center px-4 lg:px-8 gap-8 pb-8'>
+        <h1 className='text-title text-center'>
           Spasenie len skrze Ježiša Krista
         </h1>
         <div className='text-justify flex flex-col gap-2'>
@@ -66,7 +66,7 @@ const Spasenie = () => {
       </section>
       {/* Spasenie len skrze Ježiša Krista
  table lg */}
-      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-4 pt-8 gap-8 pb-16'>
+      <section className='bg-black text-white hidden lg:flex justify-center px-4 pt-8 gap-8 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -178,7 +178,7 @@ const Spasenie = () => {
       </section>
       {/* Spasenie len skrze Ježiša Krista
 table mobile only */}
-      <section className='bg-black text-white flex flex-col lg:hidden pt-8 gap-8 pb-16'>
+      <section className='bg-black text-white flex flex-col lg:hidden gap-8 pb-16'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className='text-center mt-4'>
@@ -292,7 +292,7 @@ table mobile only */}
       {/* Spasenie len skrze Ježiša Krista
 lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8 pb-8'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 pb-8 lg:pb-16'>
           <p>
             Podľa Biblie je záchrana nájdená v Kristovi. Nenachádza sa v žiadnej
             cirkvi, či už v katolíckej, protestantskej alebo inom náboženskom
@@ -320,10 +320,10 @@ lg and mob OK */}
 
       {/* Spasenie vlastným pričinením a dobrými skutkami black lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
-          <h2 className='text-title text-center text-[30px] mt-8 mb-4'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
+          <h1 className='text-title text-center mt-8 mb-4 leading-[30px]'>
             Spasenie vlastným pričinením a dobrými skutkami
-          </h2>
+          </h1>
           <p>
             Vo vyučovaní rímskokatolíckej cirkvi sa vyvinula myšlienka o
             spolupráci medzi Bohom a človekom. Podľa tohto názoru Boh a človek
@@ -355,12 +355,12 @@ lg and mob OK */}
               Nepohŕdam milosťou Božou. Lebo ak je spravodlivosť zo zákona, tak
               Kristus nadarmo umrel.{' '}
             </span>
-            <span className='text-[15px]'> Galatským 2:21 </span>
+            <span id='verse-ref'> Galatským 2:21 </span>
           </p>
         </div>
       </section>
       {/* Spasenie vlastným pričinením a dobrými skutkami black table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
+      <section className='hidden lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -530,7 +530,7 @@ lg and mob OK */}
       {/* Spasenie vlastným pričinením a dobrými skutkami 
  black lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-8 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 pb-8 mx-4 lg:mx-8'>
           <p>
             Katolícke učenie, že je "vytvorené partnerstvo" človeka s Bohom v
             Kristovej obete je neúctivé a zvrhlé. Nie je žiaden biblický základ
@@ -541,15 +541,15 @@ lg and mob OK */}
             niečoho viac je tá najväčšia lož, pretože popiera opakované tvrdenia
             Božej pravdy nájdené v Biblii. Práca vykúpenia je
             <span className='italic'> skrze Syna </span>
-            <span className='text-[15px]'> Židom 1:3 </span>
+            <span id='verse-ref'> Židom 1:3 </span>
             <span className='italic'> bez skutkov zákona. </span>
-            <span className='text-[15px]'> Rimanom 3:28 </span>
+            <span id='verse-ref'> Rimanom 3:28 </span>
             <span className='italic'>
               {' '}
               Lebo milosťou ste spasení skrze vieru. A to nie sami zo seba; je
               to dar Boží; nie zo skutkov, aby sa nikto nechválil.{' '}
             </span>
-            <span className='text-[15px]'> Efezským 2:8-9 </span>
+            <span id='verse-ref'> Efezským 2:8-9 </span>
           </p>
           <p>
             Boh sľúbil, že bude Otcom pravým veriacim, takže oni sú Jeho synmi a
@@ -562,7 +562,7 @@ lg and mob OK */}
               Všetko, čo mi dáva Otec, príde ku mne, a kto prichádza ku mne,
               nevyhodím ho.{' '}
             </span>
-            <span className='text-[15px]'> Ján 6:37 </span>
+            <span id='verse-ref'> Ján 6:37 </span>
             Ver len Jemu samému. Boh neklame.
           </p>
           <p></p>
@@ -571,10 +571,10 @@ lg and mob OK */}
 
       {/* Spasenie pomocou sviatostí black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 px-4 lg:px-8'>
-          <h2 className='text-title text-center text-[30px] mt-4 mb-8'>
+        <div className='text-justify flex flex-col gap-2 py-8 px-4 lg:px-8'>
+          <h1 className='text-title text-center mb-4'>
             Spasenie pomocou sviatostí{' '}
-          </h2>
+          </h1>
 
           <p>
             Katechizmus katolíckej cirkvi vyhlasuje, že sviatosti sú efektívnymi
@@ -590,7 +590,7 @@ lg and mob OK */}
         </div>
       </section>
       {/* Spasenie pomocou sviatostí table lg */}
-      <section className='bg-black text-white hidden text-[18px]  lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white hidden   lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -672,7 +672,7 @@ lg and mob OK */}
         </div>
       </section>
       {/* Spasenie pomocou sviatostí table mobile only */}
-      <section className='bg-black text-white flex flex-col lg:hidden pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white flex flex-col lg:hidden gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
@@ -750,7 +750,7 @@ lg and mob OK */}
       </section>
       {/* Spasenie pomocou sviatostí lg and mob OK */}
       <section>
-        <div className='bg-black text-white text-justify text-[20px] flex flex-col gap-2 py-8 px-4 lg:px-8'>
+        <div className='bg-black text-white text-justify flex flex-col gap-2 pt-8 pb-12 lg:pb-16 px-4 lg:px-8'>
           <p>
             Nie je to milosť Božia, za ktorú platíte svojou účasťou na
             sviatostiach. Muži, ženy aj deti sú od mladosti vedení veriť, že
@@ -764,7 +764,7 @@ lg and mob OK */}
               Budú sa tváriť po bož ne, ale silu (pobožnosti) budú popierať. Aj
               od tých sa odvracaj.{' '}
             </span>
-            <span className='text-[15px]'> Druhý Timotejovi 3:5 </span>
+            <span id='verse-ref'> Druhý Timotejovi 3:5 </span>
             Rímskokatolícky systém zaslúženej milosti je natoľko spletitý, že
             Pánovo prikázanie jednoducho veriť musí byť opäť slávnostne
             zopakované:
@@ -772,15 +772,15 @@ lg and mob OK */}
               {' '}
               Skutkom Božím je veriť v Toho, ktorého On poslal.{' '}
             </span>
-            <span className='text-[15px]'> Ján 6:29 </span>
+            <span id='verse-ref'> Ján 6:29 </span>
           </p>
         </div>
       </section>
 
       {/* Očistec lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
-          <h2 className='text-title text-center text-[30px] my-8'>Očistec</h2>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
+          <h1 className='text-title text-center mt-8 mb-4 lg:mb-8'>Očistec</h1>
           <p>
             Ježiš ochotne zomrel za hriechy. Zomrel namiesto nás, aby zaplatil
             dlh, ktorý by sme sami nemohli nikdy zaplatiť.
@@ -789,7 +789,7 @@ lg and mob OK */}
               Na vlastnom tele vyniesol naše hriechy na drevo, aby sme odumreli
               hriechom a žili spravodlivosti; Jeho krvavé rany vás uzdravili.{' '}
             </span>
-            <span className='text-[15px]'> Prvý Petrov 2:24 </span>
+            <span id='verse-ref'> Prvý Petrov 2:24 </span>
             Ako zničujúce je, keď katolíci veria v miesto, ktoré nie je nikde v
             Písme spomenuté, a ktoré nazývajú Očistec. Sú vyučovaní, aby verili,
             že nejakým spôsobom môžu byť očistení skrze utrpenie, aby dosiahli
@@ -803,13 +803,13 @@ lg and mob OK */}
               Veď inak by musel trpieť znovu a znovu od stvorenia sveta. A On sa
               zjavil raz pri skončení vekov, aby svojou obeťou zahladil hriech.{' '}
             </span>
-            <span className='text-[15px]'> Židom 9:26 </span>
+            <span id='verse-ref'> Židom 9:26 </span>
             <span className='italic'>
               {' '}
               Ktorého Boh dal ako prostriedok zmierenia skrze vieru, v Jeho
               krvi.{' '}
             </span>
-            <span className='text-[15px]'> Rimanom 3:25 </span>
+            <span id='verse-ref'> Rimanom 3:25 </span>
           </p>
           <p>
             Písmo Sväté objasňuje:
@@ -818,7 +818,7 @@ lg and mob OK */}
               Lebo odmena za hriech je smrť, ale Božím darom milosti je večný
               život v Kristovi Ježišovi, Pánovi našom.{' '}
             </span>
-            <span className='text-[15px]'> Rimanom 6:23 </span>
+            <span id='verse-ref'> Rimanom 6:23 </span>
             Tí, ktorí neprijali večný život, stoja tvárou v tvár rozsudku a
             peklu. Nie je žiadny biblický termín "medzistav", ktorý platí pre
             dušu.
@@ -826,12 +826,12 @@ lg and mob OK */}
               {' '}
               A ako je ľuďom uložené raz umrieť a potom príde súd.{' '}
             </span>
-            <span className='text-[15px]'> Židom 9:27 </span>
+            <span id='verse-ref'> Židom 9:27 </span>
           </p>
         </div>
       </section>
       {/* Očistec table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
+      <section className='hidden lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -995,7 +995,7 @@ lg and mob OK */}
       {/* Očistec
  black lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Aký hrozný je to klam, ktorý je uvalený na veriacich. Skutočným
             dôvodom a účelom prečo sa Ježiš Kristus stal človekom a trpel
@@ -1009,7 +1009,7 @@ lg and mob OK */}
 
       {/* Očistec white OUTRO white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
           <p>
             Nielenže rímskokatolícka cirkev odmieta znalosť Kristovej dokončenej
             práce na kríži, išla ešte viac do extrému vytvorením neexistujúceho
@@ -1021,7 +1021,7 @@ lg and mob OK */}
               prvé, aby ustanovil druhé. Podľa tejto vôle sme posvätení tým, že
               Ježiš Kristus raz navždy obetoval svoje telo.
             </span>
-            <span className='text-[15px]'> Židom 10:9-10 </span>
+            <span id='verse-ref'> Židom 10:9-10 </span>
           </p>
         </div>
       </section>

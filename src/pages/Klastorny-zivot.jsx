@@ -8,7 +8,7 @@ const KlastornyZivot = () => {
       <main className='bg-black text-white'>
         <div className='klastor-pic flex h-[1250px] lg:h-[1390px] -mt-[30%] md:-mt-[80%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
 
-        <div className='flex flex-col text-[20px] align-center mx-4 lg:mx-8 -mt-[650px] lg:-mt-[850px] 2xl:-mt-[665px]'>
+        <div className='flex flex-col  align-center mx-4 lg:mx-8 -mt-[650px] lg:-mt-[850px] 2xl:-mt-[665px]'>
           <h1 className='text-title text-center text-[35px] mb-8'>
             Kláštorný život
           </h1>
@@ -22,7 +22,6 @@ const KlastornyZivot = () => {
                 rímskokatolíckych kláštoroch po celom svete je cez 800 tisíc
                 žien.
               </p>
-              {/* <div className='klastor-pic flex ml-[25%] mr-[25%] lg:hidden w-[100%] h-[30vh] my-4'></div> */}
 
               <p>
                 Cirkev aktívne regrutuje dievčatá do týchto kláštorov. Kvôli
@@ -32,7 +31,7 @@ const KlastornyZivot = () => {
                 vstupuje do kláštorov po rozbitom vzťahu či už v domove, alebo s
                 chlapcom.
               </p>
-              <p>
+              <p className='mb-4 lg:mb-0'>
                 Ak vy alebo váš milovaný človek považuje tento životný štýl za
                 najlepší, obraciam sa na vás, aby ste vždy skúmali to, čo sa
                 skrýva pod povrchom. Hľadajte múdrosť a pýtajte sa Pána, aby vám
@@ -47,11 +46,9 @@ const KlastornyZivot = () => {
           </div>
         </div>
       </main>
-      {/* KlastornyZivot */}
-      <section className='bg-black lg:bg-transparent text-white flex flex-col text-[20px] justify-center px-4 lg:px-8  pt-4 gap-0 pb-8'>
-        <h1 className='text-title text-center text-[35px] mb-4'>
-          Prečo sestry?
-        </h1>
+      {/* Prečo sestry */}
+      <section className='bg-black lg:bg-transparent text-white flex flex-col justify-center px-4 lg:px-8  pt-4 gap-0 pb-8'>
+        <h1 className='text-title text-center mb-4'>Prečo sestry?</h1>
         <div className='text-justify flex flex-col gap-2'>
           <p>
             Prečo katolícka cirkev trvá na tom, aby mali ženy „kláštorný“ alebo
@@ -69,7 +66,7 @@ const KlastornyZivot = () => {
           </p>
         </div>
       </section>
-      {/* KlastornyZivot table lg */}
+      {/* Prečo sestry table lg */}
       <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-4 gap-8 pb-8 pt-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4 mt-8'>
           <h2 className='font-semibold text-center mt-4'>
@@ -178,11 +175,11 @@ const KlastornyZivot = () => {
           </div>
         </div>
       </section>
-      {/*  KlastornyZivot table mobile only */}
-      <section className='bg-black text-white flex flex-col lg:hidden pt-8 gap-8 pb-8'>
+      {/*  Prečo sestry table mobile only */}
+      <section className='bg-black text-white flex flex-col lg:hidden gap-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 917 V Cirkvi „akoby na strome, ktorý sa obdivuhodne a bohato
             rozvetvil na Pánovom poli zo semena zasiateho Bohom, vyrástli
             rozličné formy samotárskeho alebo spoločného života a rozmanité
@@ -191,7 +188,7 @@ const KlastornyZivot = () => {
           </p>
 
           <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Genesis 2:24
             <span className='italic'>
               {' '}
@@ -200,7 +197,7 @@ const KlastornyZivot = () => {
             </span>
           </p>
 
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Kazateľ 7:29
             <span className='italic'>
               {' '}
@@ -211,18 +208,18 @@ const KlastornyZivot = () => {
 
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
 
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 927 Misionárske zakladanie a šírenie Cirkvi si vyžaduje prítomnosť
             rehoľného života vo všetkých jeho formách už od začiatku
             evanjelizácie.
           </p>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 929 „Životom dokonale a úplne zasväteným [tomuto] posväcovaniu“,
             členovia týchto inštitútov „majú účasť na evanjelizačnej úlohe
             Cirkvi.
           </p>
           <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Matúš 7:15-16
             <span className='italic'>
               {' '}
@@ -232,14 +229,14 @@ const KlastornyZivot = () => {
             </span>
           </p>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             § 1563 Udeľuje sa tou osobitnou sviatosťou, ktorou sú kňazi
             pomazaním Ducha Svätého označení osobitným charakterom [znakom], a
             sú natoľko pripodobnení Kristovi Kňazovi, že môžu konať v osobe
             Krista Hlavy.
           </p>
           <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Ján 17:15
             <span className='italic'>
               {' '}
@@ -304,9 +301,9 @@ const KlastornyZivot = () => {
           </p>
         </div>
       </section>
-      {/* KlastornyZivot lg and mob OK */}
+      {/* Prečo sestry lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8 pb-12'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 pb-12'>
           <p>
             Zdá sa, že rímskokatolícka cirkev učí, že manželský vzťah je menej
             duchovný, než celibátny život. Katechizmus identifikoval osoby,
@@ -336,7 +333,7 @@ const KlastornyZivot = () => {
               Potom riekol Hospodin Boh: Nie je dobré človeku byť osamote. Dám
               mu pomoc, ktorá mu bude roveň.
             </span>
-            <span className='text-[15px]'> Genesis 2:18 </span>
+            <span id='verse-ref'> Genesis 2:18 </span>
             Je tak smutné, že rímskokatolícka cirkev využíva túto mladickú
             horlivosť za účelom plniť svoje voľné pracovné miesta.
           </p>
@@ -344,10 +341,10 @@ const KlastornyZivot = () => {
       </section>
       {/* Kristova nevesta lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8 pb-4'>
-          <h2 className='text-title text-center text-[30px] mt-8'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 pb-4'>
+          <h1 className='text-title text-center mt-8  lg:mt-8 mb-4'>
             Kristova nevesta
-          </h2>
+          </h1>
           <p>
             Katechizmus katolíckej cirkvi učí, že všetky mníšky sú mysticky
             zasnúbené s Ježišom Kristom. V tomto aktuálnom manželskom obrade je
@@ -362,9 +359,9 @@ const KlastornyZivot = () => {
         </div>
       </section>
       {/* Kristova nevesta  lg */}
-      <section className='hidden text-[18px] lg:flex justify-center px-4 gap-8 pt-8 pb-16'>
+      <section className='hidden lg:flex justify-center px-4 gap-8 pt-8 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
-          <h2 className='font-semibold text-center  mt-4'>
+          <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
           </h2>
           <div className='mx-4 text-justify flex flex-col gap-4 mt-8'>
@@ -399,7 +396,7 @@ const KlastornyZivot = () => {
       </section>
 
       {/*  Kristova nevesta   table mobile only */}
-      <section className='flex flex-col lg:hidden pt-8 gap-8 pb-8'>
+      <section className='flex flex-col lg:hidden gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className='text-center mt-4'>
@@ -413,7 +410,7 @@ const KlastornyZivot = () => {
           </p>
 
           <h2 className='font-semibold mt-4'>Biblia hovorí:</h2>
-          <p className=' text-center mt-4'>
+          <p className='text-center mt-4'>
             Prvý Timotejovi 4:1-3
             <span className='italic'>
               {' '}
@@ -430,7 +427,7 @@ const KlastornyZivot = () => {
 
       {/* Kristova nevesta black lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
           <p>
             Výklad rímskokatolíckej cirkvi, že mníška je nevestou Kristovou, nie
             je založený na pravde toho, čo vyhlasuje Biblia. Písmo Sväté sa
@@ -454,14 +451,14 @@ const KlastornyZivot = () => {
               skrze slovo, a postavil si cirkev slávnu, bez poškvrny, bez vrásky
               a bez čohokoľvek podobného, ale aby bola svätá a bez úhony.
             </span>
-            <span className='text-[15px]'> Efezským 5:25-27 </span>
+            <span id='verse-ref'> Efezským 5:25-27 </span>
           </p>
         </div>
       </section>
 
       {/* Kristova nevesta outro white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
           <p>
             Apoštol tu porovnáva vzťah medzi manželmi s manželkami, ako Kristus
             so svojou Cirkvou. Až nastane koniec - čas vyvrcholenia posledných
@@ -475,12 +472,12 @@ const KlastornyZivot = () => {
               svätých. Povedal mi: Napíš: Blahoslavení, ktorí sú povolaní na
               svadobný hod Baránkov! A doložil: Toto sú pravé slová Božie.{' '}
             </span>
-            <span className='text-[15px]'> Zjavenie Jána 19:7-9 </span>
+            <span id='verse-ref'> Zjavenie Jána 19:7-9 </span>
             <span className='italic'>
               {' '}
               Poď, ukážem ti nevestu, manželku Baránkovu!{' '}
             </span>
-            <span className='text-[15px]'> Zjavenie Jána 21:9 </span>
+            <span id='verse-ref'> Zjavenie Jána 21:9 </span>
           </p>
           <p>
             Skúmajme každý stav svojej duše. Boli ste obmytý a očistený Božím

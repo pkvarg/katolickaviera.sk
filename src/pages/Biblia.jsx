@@ -10,7 +10,7 @@ const Biblia = () => {
       <main>
         <div className='biblia-pic flex h-[250px] lg:h-[650px] -mt-[20%] md:-mt-[70%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
 
-        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8 lg:-mt-[100px] gap-8 pb-8'>
+        <div className='flex flex-col justify-center mx-4 lg:mx-8 lg:-mt-[100px] gap-8 pb-8'>
           <h1 className='text-title text-center text-[35px]'>Biblia</h1>
           <div className='text-justify flex flex-col gap-2 mt-8'>
             <p>
@@ -23,14 +23,14 @@ const Biblia = () => {
                 {' '}
                 Posväť ich v pravde - Tvoje slovo je pravda.{' '}
               </span>
-              <span className='text-[15px]'> Ján 17:17 </span>
+              <span id='verse-ref'> Ján 17:17 </span>
               Nie je iný zdroj, než písané Písmo Sväté, na čo vyššie citovaný
               verš poukazuje. Sám tento zdroj - Biblia, je pre veriaceho
               štandardnou pravdou a autoritou. Preto všetci pravdivo veriaci
               dôverujú Bohu samému a len Jeho Slovu. Biblia je absolútny zdroj
               všetky pravdy, rovnako ako Pán deklaroval:
               <span className='italic'> Písmo nemôže byť zrušené! </span>
-              <span className='text-[15px]'> Ján 10:35 </span>
+              <span id='verse-ref'> Ján 10:35 </span>
             </p>
             <p>
               Na rozdiel od toho katolícka cirkev deklaruje, že oboje „Posvätná
@@ -49,11 +49,9 @@ const Biblia = () => {
         </div>
       </main>
       {/* Biblia alebo tradícia? */}
-      <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8  mt-8 gap-8 pb-8'>
-        <h1 className='text-title3 text-center text-[35px]'>
-          Biblia alebo tradícia?
-        </h1>
-        <div className='text-justify flex flex-col gap-2 mt-8'>
+      <section className='flex flex-col justify-center mx-4 lg:mx-8  gap-8 pb-8'>
+        <h1 className='text-title3 text-center'>Biblia alebo tradícia?</h1>
+        <div className='text-justify flex flex-col gap-2 lg:mt-4'>
           <p>
             V Novom Zákone je písané Slovo Božie ako jediné, na ktoré sa Pán
             Ježiš a Jeho apoštoli odkazujú ako na konečnú autoritu. Pán Ježiš
@@ -63,14 +61,14 @@ const Biblia = () => {
               Posväť ich v pravde - Tvoje slovo je pravda.{' '}
             </span>
             Apoštol Pavol deklaroval plnú dostatočnosť Písma, kedy povedal:
-            <span className='text-[15px]'> Ján 17:17 </span>
+            <span id='verse-ref'> Ján 17:17 </span>
             <span className='italic'>
               {' '}
               Každé písmo, vdýchnuté od Boha, (je) aj užitočné učiť, karhať,
               napravovať a vychovávať v spravodlivosti, aby bol človek Boží
               dokonalý a spôsobný na všetko dobré.{' '}
             </span>
-            <span className='text-[15px]'> Druhý Timotejovi 3:16-17 </span>
+            <span id='verse-ref'> Druhý Timotejovi 3:16-17 </span>
           </p>
           <p>
             Avšak katolícka cirkev otvorene tvrdí, že pravda nespočíva v
@@ -82,7 +80,7 @@ const Biblia = () => {
         </div>
       </section>
       {/* Biblia alebo tradícia? table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center mx-4 mt-8 gap-8 pb-8'>
+      <section className='hidden lg:flex justify-center mx-4 mt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -172,7 +170,7 @@ const Biblia = () => {
       </section>
       {/* Biblia alebo tradícia?
 table mobile only */}
-      <section className='flex flex-col lg:hidden mt-8 gap-8 pb-8'>
+      <section className='flex flex-col lg:hidden gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className='text-center mt-4'>
@@ -262,7 +260,7 @@ table mobile only */}
       {/* Biblia alebo tradícia?
 lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 -mb-8 -lg:mb-0'>
           <p>
             Kresťan biblicky-veriaci je usvedčovaný Duchom Svätým, prijíma,
             necháva sa viesť, verí a podriaďuje sa Biblii, pretože je autoritou
@@ -277,24 +275,24 @@ lg and mob OK */}
               Beda vám, zákonníkom, že ste vzali kľúč poznania; sami ste
               nevošli, a ktorí chceli vojsť, tým ste prekážali.{' '}
             </span>
-            <span className='text-[15px]'> Lukáš 11:52 </span>
+            <span id='verse-ref'> Lukáš 11:52 </span>
             <span className='italic'>
               {' '}
               Apoštol Pavol nalieha na veriacich: Moja reč a moja kázeň nebola v
               presvedčivých slovách múdrosti, ale v dokazovaní Ducha a moci, aby
               sa vaša viera nezakladala na ľudskej múdrosti, ale na Božej moci.{' '}
             </span>
-            <span className='text-[15px]'> Prvý Korintským 2:4-5 </span>
+            <span id='verse-ref'> Prvý Korintským 2:4-5 </span>
           </p>
         </div>
       </section>
 
       {/* Apokryfné (deuterokanonické) zväzky black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
-          <h2 className='text-title3 text-center text-[30px] my-16'>
+        <div className='text-justify flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
+          <h1 className='text-title3 text-center mt-8 mb-4'>
             Apokryfné (deuterokanonické) zväzky
-          </h2>
+          </h1>
           <p>
             Názov "Apokryf" je používaný pre zvláštne biblické spisy, ktoré sú
             obsiahnuté v katolíckej Biblii. Sú to knihy Tobiáš, Judit,
@@ -315,7 +313,7 @@ lg and mob OK */}
         </div>
       </section>
       {/* Apokryfné (deuterokanonické) zväzky black table lg */}
-      <section className='hidden text-[18px] bg-black text-white lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
+      <section className='hidden bg-black text-white lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -425,7 +423,7 @@ lg and mob OK */}
       {/* Apokryfné (deuterokanonické) zväzky 
  black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 pb-8 lg:pb-16 mx-4 lg:mx-8'>
           <p>
             Pán Ježiš Kristus a pisatelia Nového Zákona nikdy nedávali vážnosť
             ničomu z apokryfných kníh. Charakteristické "je napísané" alebo
@@ -453,17 +451,17 @@ lg and mob OK */}
               Ja dosvedčujem každému, kto počuje prorocké slová tejto knihy: Ak
               k nim niekto pridá, tomu Boh pridá pliagy opísané v tejto knihe.{' '}
             </span>
-            <span className='text-[15px]'> Zjavenie Jána 22:18 </span>
+            <span id='verse-ref'> Zjavenie Jána 22:18 </span>
           </p>
         </div>
       </section>
 
       {/* Biblia je Slovo Božie white lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
-          <h2 className='text-title3 text-center text-[30px] mt-4 mb-8'>
+        <div className='text-justify flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
+          <h1 className='text-title3 text-center lg:mt-4 mb-4 lg:mb-8'>
             Biblia je Slovo Božie{' '}
-          </h2>
+          </h1>
 
           <p>
             Kde Biblia hovorí, že naša viera by mala byť založená iba na učení
@@ -489,7 +487,7 @@ lg and mob OK */}
               utiekajú. Nepridávaj nič k Jeho slovám, aby ťa nestrestal a
               neoznačil za klamára.{' '}
             </span>
-            <span className='text-[15px]'> Príslovia 30:5 </span>
+            <span id='verse-ref'> Príslovia 30:5 </span>
           </p>
           <p>
             Môžeme pridať nové zjavenia? Nie, pretože Božie zjavenie je
@@ -507,7 +505,7 @@ lg and mob OK */}
               spasení, nútený som vám napísať a napomenúť vás, aby ste bojovali
               za vieru, odovzdanú raz navždy svätým.{' '}
             </span>
-            <span className='text-[15px]'> Júda 1:3 </span>
+            <span id='verse-ref'> Júda 1:3 </span>
             Je preto mylné hľadať nové zjavenia vidiac, že Biblia deklaruje, že
             kresťanská viera je nám v plnosti doručená.
           </p>
@@ -532,7 +530,7 @@ lg and mob OK */}
               ľudského. Potom im povedal: Pekne-krásne rušíte prikázanie Božie,
               aby ste zachovávali svoje podanie.{' '}
             </span>
-            <span className='text-[15px]'> Marek 7:7-9 </span>
+            <span id='verse-ref'> Marek 7:7-9 </span>
             Je smutné, že história sama seba opakuje. Kresťania by mali byť
             podriadení Slovu Božiemu, uchovanému v dokončených Písmach Svätých,
             ale často idú ďalej za to, čo je napísané. Kvôli tradícii má
@@ -554,11 +552,11 @@ lg and mob OK */}
               Usiluj sa postaviť pred Boha ako osvedčený, ako pracovník, ktorý
               sa nepotrebuje hanbiť a správne podáva slovo pravdy.{' '}
             </span>
-            <span className='text-[15px]'> Druhý Timotejovi 2:15 </span>
+            <span id='verse-ref'> Druhý Timotejovi 2:15 </span>
             Tým ostatní veriaci nie sú oslobodení od osobného štúdia Božieho
             Slova:
             <span className='italic'> Všetko skúmajte, dobrého sa držte! </span>
-            <span className='text-[15px]'> Prvý Tesalonickým 5:21 </span>
+            <span id='verse-ref'> Prvý Tesalonickým 5:21 </span>
           </p>
           <p>
             Jednoducho, Biblia je Slovo Božie a nie je autority, ktorá by mu

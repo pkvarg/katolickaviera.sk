@@ -9,7 +9,7 @@ const Hriech = () => {
 
       <main className='bg-black text-white'>
         <div className='hriech-pic flex h-[450px] lg:h-[850px] -mt-[30%] md:-mt-[67%] lg:-mt-[17%] xl:-mt-[12%] 2xl:-mt-[8%]'></div>
-        <div className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8 -mt-[125px] lg:-mt-[335px] gap-8 pb-8'>
+        <div className='flex flex-col justify-center mx-4 lg:mx-8 -mt-[125px] lg:-mt-[335px] gap-8 pb-8'>
           <h1 className='text-[#98724c] lg:text-title text-center text-[35px]'>
             Hriech
           </h1>
@@ -45,9 +45,9 @@ const Hriech = () => {
         </div>
       </main>
       {/* Ľahký hriech */}
-      <section className='bg-black text-white flex flex-col text-[20px] justify-center px-4 lg:px-8  pt-8 gap-8 pb-8'>
-        <h1 className='text-title text-center text-[35px]'>Ľahký hriech</h1>
-        <div className='text-justify flex flex-col gap-2 mt-8'>
+      <section className='bg-black text-white flex flex-col justify-center px-4 lg:px-8   py-0 lg:py-8 gap-8'>
+        <h1 className='text-title text-center'>Ľahký hriech</h1>
+        <div className='text-justify flex flex-col gap-2 mt-0 lg:mt-4'>
           <p>
             Podľa katechizmu katolíckej cirkvi sú ľahké hriechy považované za
             menší priestupok voči Bohu ako hriechy smrteľné. Ľahké hriechy sú
@@ -71,18 +71,18 @@ const Hriech = () => {
               {' '}
               A tak: kto vie dobre robiť, a nerobí, má hriech.{' '}
             </span>
-            <span className='text-[15px]'> Jakubov 4:17 </span>
+            <span id='verse-ref'> Jakubov 4:17 </span>
             <span className='italic'>
               {' '}
               Všetci totiž zhrešili a nemajú slávy Božej.{' '}
             </span>
-            <span className='text-[15px]'> Rimanom 3:23 </span>
+            <span id='verse-ref'> Rimanom 3:23 </span>
             <span className='italic'>
               {' '}
               Lebo odmena za hriech je smrť, ale Božím darom milosti je večný
               život v Kristovi Ježišovi, Pánovi našom.
             </span>
-            <span className='text-[15px]'> Rimanom 6:23 </span>
+            <span id='verse-ref'> Rimanom 6:23 </span>
           </p>
           <p>
             Poďme sa teda spoločne pozrieť, čo Písmo Sväté hovorí ohľadom
@@ -91,7 +91,7 @@ const Hriech = () => {
         </div>
       </section>
       {/* Ľahký hriech table lg */}
-      <section className='bg-black text-white hidden text-[18px] lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white hidden  lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -212,7 +212,7 @@ const Hriech = () => {
       </section>
       {/*Ľahký hriech lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8 pb-8'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 pb-12 lg:pb-16'>
           <p>
             Písmo nám bolo dané tak, aby sme mohli vedieť, čím je náš hriešny
             stav pred Svätým Bohom. Sama Biblia sa opisuje ako zrkadlo, ktoré
@@ -223,7 +223,7 @@ const Hriech = () => {
               dvojsečný meč a preniká až do rozdelenia duše a ducha, kĺbov a
               špikov a je schopné posudzovať hnutie a zmýšľanie srdca.{' '}
             </span>
-            <span className='text-[15px]'> Židom 4:12 </span>
+            <span id='verse-ref'> Židom 4:12 </span>
           </p>
           <p>
             Ježiš počas svojej pozemskej služby zvýšil ešte požiadavky Zákona
@@ -244,7 +244,7 @@ const Hriech = () => {
               že sme nezhrešili, Jeho robíme klamárom, a Jeho slovo v nás
               neprebýva.{' '}
             </span>
-            <span className='text-[15px]'> 1. Jána 1:8-10 </span>
+            <span id='verse-ref'> 1. Jána 1:8-10 </span>
           </p>
           <p>
             <span className='italic'>
@@ -252,17 +252,15 @@ const Hriech = () => {
               Preto kajajte sa a obráťte, aby vám boli zahladené hriechy, prišli
               vám časy duchovného osvieženia od Pána.{' '}
             </span>
-            <span className='text-[15px]'> Skutky apoštolov 3:19-20 </span>
+            <span id='verse-ref'> Skutky apoštolov 3:19-20 </span>
           </p>
         </div>
       </section>
 
       {/*Interrupcia  lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
-          <h2 className='text-title text-center text-[30px] my-8'>
-            Interrupcia
-          </h2>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
+          <h1 className='text-title text-center mt-8 mb-4'>Interrupcia</h1>
           <p>
             Pretože je v dnešnej dobe interrupcia bežná, je takmer isté, že
             mnoho katolíkov sa tohto zúčastnilo. Hoci Písmo Sväté nenazýva tento
@@ -287,7 +285,7 @@ const Hriech = () => {
         </div>
       </section>
       {/* Interrupcia table lg */}
-      <section className='hidden text-[18px] lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
+      <section className='hidden lg:flex justify-center px-4 gap-8 pt-16 pb-16'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -459,7 +457,7 @@ const Hriech = () => {
       {/* Interrupcia
   lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 pb-8 lg:pb-16 mx-4 lg:mx-8'>
           <p>
             Ako sme videli v Písme, Boh je milosrdný a plný zľutovania, dokonca
             aj k tým, ktorí sú zosobášení hanebnému hriechu. Verím, že ste
@@ -492,24 +490,24 @@ const Hriech = () => {
               moci k Bohu a tak dosiahli odpustenie hriechov a podiel s tými, čo
               sú posvätení vierou vo mňa.
             </span>
-            <span className='text-[15px]'> Skutky apoštolov 26:18 </span>
+            <span id='verse-ref'> Skutky apoštolov 26:18 </span>
             <span className='italic'>
               {' '}
               I Riekol Ježiš Židom, ktorí uverili: Ak vy zostanete v mojom
               slove, ste naozaj moji učeníci. A poznáte pravdu a pravda vás
               vyslobodí.{' '}
             </span>
-            <span className='text-[15px]'> Ján 8:31-32 </span>
+            <span id='verse-ref'> Ján 8:31-32 </span>
           </p>
         </div>
       </section>
 
       {/* Smrteľný hriech black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
-          <h2 className='text-title text-center text-[30px] mt-4 mb-8'>
+        <div className='text-justify flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
+          <h1 className='text-title text-center mt-0 lg:mt-4 mb-4 lg:mb-8'>
             Smrteľný hriech{' '}
-          </h2>
+          </h1>
 
           <p>
             Katechizmus katolíckej cirkvi vážne pojednáva so smrteľným alebo
@@ -543,7 +541,7 @@ const Hriech = () => {
         </div>
       </section>
       {/* Smrteľný hriech table lg */}
-      <section className='bg-black text-white hidden text-[18px]  lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white hidden lg:flex justify-center px-4 pt-8 gap-8 pb-8'>
         <div className='w-[50%] border flex flex-col items-center mx-4 pb-4'>
           <h2 className='font-semibold text-center  mt-4'>
             Katechizmus hovorí:
@@ -658,7 +656,7 @@ const Hriech = () => {
         </div>
       </section>
       {/* Smrteľný hriech table mobile only */}
-      <section className=' bg-black text-white flex flex-col lg:hidden pt-8 gap-8 pb-8'>
+      <section className='bg-black text-white flex flex-col lg:hidden gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
           <p className=' text-center mt-4'>
@@ -769,7 +767,7 @@ const Hriech = () => {
       </section>
       {/* Smrteľný hriech lg and mob OK */}
       <section>
-        <div className='bg-black text-white text-justify text-[20px] flex flex-col gap-2 py-8 px-4 lg:px-8'>
+        <div className='bg-black text-white text-justify flex flex-col gap-2 py-8 px-4 lg:px-8'>
           <p>
             Koncepty smrteľného hriechu a jeho dôsledky rímskokatolíckej cirkvi
             majú schopnosť zotročiť ľútostivého hriešnika diktátu cirkvi. Keď
@@ -780,18 +778,18 @@ const Hriech = () => {
           <p>
             Biblia jednoducho hovorí:
             <span className='italic'> Lebo odmena za hriech je smrť.</span>
-            <span className='text-[15px]'> Rimanom 6:23 </span>V tomto verši
-            apoštol Pavol nehovorí o zvláštnom druhu hriechu, ale všetkom
-            hriechu. Prorok Ezechiel hovorí:
+            <span id='verse-ref'> Rimanom 6:23 </span>V tomto verši apoštol
+            Pavol nehovorí o zvláštnom druhu hriechu, ale všetkom hriechu.
+            Prorok Ezechiel hovorí:
             <span className='italic'> Osoba, ktorá hreší, zomrie! </span>
-            <span className='text-[15px]'> Ezechiel 18:4 </span>
+            <span id='verse-ref'> Ezechiel 18:4 </span>
             Keď Jakub povedal,
             <span className='italic'>
               {' '}
               Lebo keby niekto celý zákon zachoval, ale previnil by sa v jednom
               (prikázaní), previnil sa proti všetkým.{' '}
             </span>
-            <span className='text-[15px]'> Jakub 2:10, </span>
+            <span id='verse-ref'> Jakub 2:10, </span>
             nemyslel tým, že osoba, ktorá sa dopustí jediného hriechu je vinná
             všetkými ďalšími druhmi hriechu, ale že aj jediný hriech zavrie
             cestu do neba. Brána do neba bola uzavretá kvôli nášmu hriechu.
@@ -800,7 +798,7 @@ const Hriech = () => {
               {' '}
               Všetci totiž zhrešili a nemajú slávy Božej.{' '}
             </span>
-            <span className='text-[15px]'> Rimanom 3:23 </span>
+            <span id='verse-ref'> Rimanom 3:23 </span>
             Od pádu Adama bolo ľudstvo odcudzené Bohu a všetci zúfalo
             potrebovali Spasiteľa. My všetci sme vinní smrteľným hriechom, ktorý
             nás oddelil od Boha, a sme vo svojich možnostiach beznádejní. Nie je
@@ -813,7 +811,7 @@ const Hriech = () => {
               Toho, ktorý nepoznal hriech, urobil hriechom za nás, aby sme my
               boli v Ňom spravodlivosťou pred Bohom.{' '}
             </span>
-            <span className='text-[15px]'> 2. Korintským 5:21 </span>
+            <span id='verse-ref'> 2. Korintským 5:21 </span>
           </p>
           <p>
             Keď spoznáte, že ste smrteľne hriešny človek, je to práca Ducha
@@ -826,7 +824,7 @@ const Hriech = () => {
               {' '}
               Každý človek totiž, ktorý by vzýval meno Pánovo, bude spasený.{' '}
             </span>
-            <span className='text-[15px]'> Rímskym 10:13 </span>
+            <span id='verse-ref'> Rímskym 10:13 </span>
             Záchrana duše je daná priamo a milosťou.
           </p>
           <p>
@@ -837,7 +835,7 @@ const Hriech = () => {
               nepáčil by sa Ti. Bohu milou obeťou je duch skrúšený; Ty, Bože,
               nepohŕdaš srdcom skrúšeným a zdrveným.{' '}
             </span>
-            <span className='text-[15px]'> Žalmy 51:17-19 </span>
+            <span id='verse-ref'> Žalmy 51:17-19 </span>
           </p>
         </div>
       </section>
