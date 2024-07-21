@@ -95,7 +95,7 @@ const PapezskyUrad = () => {
         <h1 className='text-title text-center -mb-8 lg:mb-0 lg:mt-4'>
           Nasledovník svätého Petra
         </h1>
-        <div className='text-justify flex flex-col gap-2 mt-8'>
+        <div className='text-justify flex flex-col gap-2 mt-8 lg:mt-4'>
           <p>
             V čase, keď Ježiš pôsobil na zemi, osobne vybral dvanásť apoštolov
             bez žiadneho naznačenia budúcej následnosti. Apoštol Pavol bol Pánom
@@ -305,7 +305,7 @@ const PapezskyUrad = () => {
       </section>
       {/* nasledovnik lg and mob OK */}
       <section>
-        <div className='text-justify  flex flex-col gap-2 mx-4 lg:mx-8'>
+        <div className='text-justify  flex flex-col gap-2 mx-4 lg:mx-8 -mb-8 lg:-mb-4'>
           <p>
             Termíny "biskup" alebo "starší" neboli nikdy použité v Novom Zákone
             v zmysle a určení osôb lepších, než by boli ostatní. Sú to obyčajní
@@ -351,7 +351,7 @@ const PapezskyUrad = () => {
       {/* Neomylnosť black lg and mob OK */}
       <section className='bg-black text-white'>
         <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center mt-8 lg:mt-16 mb-8'>
+          <h1 className='text-title text-center mt-6 lg:mt-12 mb-3 lg:mb-8'>
             Neomylnosť
           </h1>
           <p>
@@ -592,7 +592,7 @@ const PapezskyUrad = () => {
 
       {/* neomylnost black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 pb-12 lg:pb-16 mx-4 lg:mx-8'>
           <p>
             Pápežské vyhlásenie "neomylnosti učiteľskej autority" je v podstate
             vyhlásenie o božstve. Len Pán Boh je bez chyby
@@ -649,7 +649,7 @@ const PapezskyUrad = () => {
       {/* Námestník Krista white lg and mob OK */}
       <section>
         <div className='text-justify flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center mt-4 mb-8'>
+          <h1 className='text-title text-center lg:mt-4 mb-4 lg:mb-8'>
             Námestník Krista{' '}
           </h1>
 

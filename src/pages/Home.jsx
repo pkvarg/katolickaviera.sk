@@ -68,7 +68,7 @@ const Home = ({ lng, setLng }) => {
               </h2>
             </div>
           </main>
-          <section className='bg-black px-4 lg:px-8 pt-8 pb-16 '>
+          <section className='bg-black px-4 lg:px-8 pt-8 pb-8 lg:pb-16'>
             <div className='flex flex-col lg:hidden'>
               <h1 className='text-title text-center'>
                 Ako sa Božie Slovo pozerá na prihováranie veriaceho k svätcom?
@@ -148,7 +148,7 @@ const Home = ({ lng, setLng }) => {
             </div>
           </section>
 
-          <section className='bg-white text-black px-4 lg:px-8 pt-8'>
+          <section className='bg-white text-black px-4 lg:px-8 lg:pt-8'>
             <h1 className='text-title text-center pt-8'>
               Učí Božie Slovo orodovať u Márii?
             </h1>
@@ -269,11 +269,11 @@ const Home = ({ lng, setLng }) => {
                 <span id='verse-ref'>Matúš 7:21</span>
               </span>
             </div>
-            <div className='mt-[20%] lg:mt-[5%]'>
+            <div className='mt-[10%] lg:mt-[5%]'>
               <YouTube embedId='d2Y04-qcdRM' />
             </div>
 
-            <div className='py-10 text-justify'>
+            <div className='lg:pt-10 pb-10 text-justify'>
               Prajem ti, aby si spoznal pravdu, bol oslobodený od tradícií a tak
               si sa raz mohol čistý postaviť pred Boha ako Jeho verný služobník.
             </div>

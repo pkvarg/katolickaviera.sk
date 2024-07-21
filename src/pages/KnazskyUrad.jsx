@@ -68,9 +68,9 @@ const KnazskyUrad = () => {
         </div>
       </main>
       {/* Iný Kristus */}
-      <section className='flex flex-col text-[20px] justify-center mx-4 lg:mx-8  mt-8 gap-8 pb-8'>
+      <section className='flex flex-col justify-center mx-4 lg:mx-8 -mt-4 lg:mt-8 gap-8 pb-8'>
         <h1 className='text-title text-center -mb-8 lg:mb-0'>Iný Kristus</h1>
-        <div className='text-justify flex flex-col gap-2 mt-8'>
+        <div className='text-justify flex flex-col gap-2 mt-8 lg:mt-4'>
           <p>
             Katolícky veriaci je vyučovaný, že medzi kňazom a Kristom je
             špecifická identifikácia. Toto nevedie do žiadnych pochybností, keď
@@ -284,7 +284,7 @@ const KnazskyUrad = () => {
       </section>
       {/* Iný Kristus lg and mob OK */}
       <section>
-        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 -mb-6 lg:-mb-0'>
           <p>
             Rozdiely medzi kňazstvom Ježiša Krista a starozákonným kňazstvom sú
             veľmi jasné. Kňazi pred Ježišom Kristom boli Židia - Leviti
@@ -329,8 +329,8 @@ const KnazskyUrad = () => {
       </section>
       {/* Celibát black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center mt-12 mb-8 lg:mt-16 lg:mb-16 '>
+        <div className='text-justify flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
+          <h1 className='text-title text-center mt-8 mb-4 lg:mt-16 lg:mb-8'>
             Celibát
           </h1>
           <p>

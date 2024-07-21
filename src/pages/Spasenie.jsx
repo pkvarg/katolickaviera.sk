@@ -48,7 +48,7 @@ const Spasenie = () => {
       {/* Spasenie len skrze Ježiša Krista
        */}
       <section className='bg-black text-white flex flex-col justify-center px-4 lg:px-8 gap-8 pb-8'>
-        <h1 className='text-title text-center'>
+        <h1 className='text-title text-center leading-[30px]'>
           Spasenie len skrze Ježiša Krista
         </h1>
         <div className='text-justify flex flex-col gap-2'>
@@ -321,7 +321,7 @@ lg and mob OK */}
       {/* Spasenie vlastným pričinením a dobrými skutkami black lg and mob OK */}
       <section>
         <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center mt-8 mb-4 leading-[30px]'>
+          <h1 className='text-title text-center mt-4 lg:mt-10 lg:mb-4 leading-[30px]'>
             Spasenie vlastným pričinením a dobrými skutkami
           </h1>
           <p>
@@ -780,7 +780,9 @@ lg and mob OK */}
       {/* Očistec lg and mob OK */}
       <section>
         <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center mt-8 mb-4 lg:mb-8'>Očistec</h1>
+          <h1 className='text-title text-center mt-8  lg:mt-12 mb-4 lg:mb-8'>
+            Očistec
+          </h1>
           <p>
             Ježiš ochotne zomrel za hriechy. Zomrel namiesto nás, aby zaplatil
             dlh, ktorý by sme sami nemohli nikdy zaplatiť.

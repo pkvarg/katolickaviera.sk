@@ -47,8 +47,10 @@ const KlastornyZivot = () => {
         </div>
       </main>
       {/* Prečo sestry */}
-      <section className='bg-black lg:bg-transparent text-white flex flex-col justify-center px-4 lg:px-8  pt-4 gap-0 pb-8'>
-        <h1 className='text-title text-center mb-4'>Prečo sestry?</h1>
+      <section className='bg-black lg:bg-transparent text-white flex flex-col justify-center px-4 lg:px-8 pt-4 gap-0 pb-8'>
+        <h1 className='text-title text-center lg:mt-4 mb-6 lg:mb-6'>
+          Prečo sestry?
+        </h1>
         <div className='text-justify flex flex-col gap-2'>
           <p>
             Prečo katolícka cirkev trvá na tom, aby mali ženy „kláštorný“ alebo

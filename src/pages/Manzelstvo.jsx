@@ -191,7 +191,7 @@ const Manzelstvo = () => {
       </section>
       {/* manzelstvo lg and mob OK */}
       <section>
-        <div className='text-justify text-[20px] flex flex-col gap-2 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 -mb-4'>
           <p>
             Podľa Písma je rozvod možný za dvoch podmienok. Prvá sa týka nevery
             druhého partnera (Matúš 5:32, 19:9). Druhý je možný ak neveriaci
@@ -214,7 +214,7 @@ const Manzelstvo = () => {
       {/* manzelstvo black lg and mob OK */}
       <section className='bg-black text-white'>
         <div className='text-justify flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center my-8 lg:my-16'>
+          <h1 className='text-title text-center mb-4 lg:mb-8 mt-8 lg:mt-12'>
             Anulovanie manželstva
           </h1>
           <p>
@@ -351,7 +351,7 @@ const Manzelstvo = () => {
 
       {/* manzelstvo black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 pb-12 lg:pb-16 mx-4 lg:mx-8'>
           <p>
             Pán Ježiš Kristus oznámil štyri pravidlá týkajúce sa rozvodu v
             Biblii. Dve z týchto uvažovaných tvrdení sú proti rozvodu a dve

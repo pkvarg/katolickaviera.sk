@@ -260,7 +260,9 @@ const Hriech = () => {
       {/*Interrupcia  lg and mob OK */}
       <section>
         <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center mt-8 mb-4'>Interrupcia</h1>
+          <h1 className='text-title text-center mt-8 lg:mt-12 mb-4 lg:mb-6'>
+            Interrupcia
+          </h1>
           <p>
             Pretože je v dnešnej dobe interrupcia bežná, je takmer isté, že
             mnoho katolíkov sa tohto zúčastnilo. Hoci Písmo Sväté nenazýva tento
@@ -505,7 +507,7 @@ const Hriech = () => {
       {/* Smrteľný hriech black lg and mob OK */}
       <section className='bg-black text-white'>
         <div className='text-justify flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center mt-0 lg:mt-4 mb-4 lg:mb-8'>
+          <h1 className='text-title text-center -mt-2 lg:mt-6 mb-3 lg:mb-8'>
             Smrteľný hriech{' '}
           </h1>
 

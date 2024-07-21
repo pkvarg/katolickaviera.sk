@@ -48,7 +48,7 @@ const Omsa = () => {
       </main>
       {/* eucharistia */}
       <section className='flex flex-col items-center mx-4 lg:mx-8 pb-16'>
-        <h1 className='text-title'>Eucharistia</h1>
+        <h1 className='text-title mt-4 lg:-mt-8'>Eucharistia</h1>
         <p className='text-justify mt-8'>
           V katechizme katolíckej cirkvi je uvádzané, že skutočné telo, krv a
           božstvo Ježiša Krista je zoslané z neba a zázračne prepodstatnené v
@@ -148,7 +148,7 @@ const Omsa = () => {
       {/* table mobile only */}
       <section className='flex flex-col lg:hidden gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
-          <h2 className='font-semibold mt-4'>Katechizmus hovorí:</h2>
+          <h2 className='font-semibold'>Katechizmus hovorí:</h2>
           <p className='text-center mt-4'>
             § 1357 chlieb a víno, ktoré sa Kristovými slovami a mocou Ducha
             Svätého stali Kristovým telom a krvou; takto sa Kristus stáva
@@ -231,7 +231,7 @@ const Omsa = () => {
       </section>
       {/* lg and mob OK */}
       <section>
-        <div className='text-justify flex flex-col gap-2 mt-4 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 mt-4 mx-4 lg:mx-8 -mb-4 lg:mb-0'>
           <p>
             Podľa Biblie Ježiš Kristus sa obetoval za hriechy ľudí. Po Jeho
             smrti a zmŕtvychvstaní bol vzatý do mrakov a zasadol večne po
@@ -278,9 +278,9 @@ const Omsa = () => {
         </div>
       </section>
       {/* idolatria black lg and mob OK */}
-      <section className='bg-black text-[20px] text-white'>
+      <section className='bg-black text-white'>
         <div className='text-justify flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center my-8 lg:my-16'>
+          <h1 className='text-title text-center mt-8 mb-4 lg:mt-16 lg:mb-8'>
             Uctievanie hostie (Idolatria)
           </h1>
           <p>
@@ -497,7 +497,7 @@ const Omsa = () => {
       </section>
       {/* obetovanie omse */}
       <section className='flex flex-col mt-8 mx-4 lg:mx-8 pb-4'>
-        <h1 className='text-title text-center  mb-8 lg:mt-8'>
+        <h1 className='text-title text-center mb-4 lg:mb-8 lg:mt-4'>
           Obetovanie omše
         </h1>
         <p className='text-justify'>
@@ -629,7 +629,7 @@ const Omsa = () => {
         </div>
       </section>
       {/* table mobile only */}
-      <section className='flex flex-col lg:hidden  gap-8 pb-8'>
+      <section className='flex flex-col lg:hidden gap-8 pb-8'>
         <div className='flex flex-col items-center justify-center mx-4'>
           <h2 className='font-semibold text-center mt-4'>
             Katechizmus hovorí:
@@ -747,7 +747,7 @@ const Omsa = () => {
       </section>
       {/* lg and mob OK */}
       <section className=''>
-        <div className='text-justify flex flex-col gap-2 mt-4 mx-4 lg:mx-8 pb-16'>
+        <div className='text-justify flex flex-col gap-2 mt-4 mx-4 lg:mx-8 pb-12 lg:pb-16'>
           <p>
             Podľa rímskokatolíckej cirkvi veriaci musia prijať ustavičné
             reinkarnovanie a nekrvavú obeť Ježiša Krista pre odpustenie
@@ -771,8 +771,10 @@ const Omsa = () => {
       </section>
       {/* prijimanie black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify flex flex-col gap-2 pt-16 pb-16 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center -mt-4 mb-8'>Prijímanie</h1>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
+          <h1 className='text-title text-center pt-12 lg:pt-20 pb-8 lg:pb-12'>
+            Prijímanie
+          </h1>
           <p>
             Vyvrcholenie omše prichádza, keď katolík prijíma posvätenú hostiu
             alebo Eucharistiu ústne. Tento fyzický akt prijímania

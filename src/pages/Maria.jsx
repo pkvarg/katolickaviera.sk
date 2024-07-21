@@ -193,7 +193,7 @@ const Maria = () => {
       </section>
       {/* Maria lg and mob OK */}
       <section>
-        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 -mb-4 lg:mb-0'>
           <p>
             Katolícke vyučovanie, že Mária je "celá svätá" je veľmi závažné
             tvrdenie. Božie Slovo vyhlasuje:
@@ -362,7 +362,7 @@ const Maria = () => {
       </section>
       {/* Maria black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 pb-12 lg:pb-16 mx-4 lg:mx-8'>
           <p>
             Nebeský Otec poslal svojho jediného Syna, aby hriešnik mohol k Nemu
             prichádzať priamo skrze "človeka Ježiša Krista". Tvrdenie, že je
@@ -388,7 +388,7 @@ const Maria = () => {
       {/* Bola Mária počatá bez poškvrny dedičného hriechu? white lg and mob OK */}
       <section>
         <div className='text-justify flex flex-col gap-2 py-8 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center mt-4 mb-8 leading-[30px]'>
+          <h1 className='text-title text-center lg:mt-4 lg:mb-8 leading-[30px]'>
             Bola Mária počatá bez poškvrny dedičného hriechu?{' '}
           </h1>
 
@@ -539,7 +539,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Bola Mária počatá  white lg and mob OK */}
       <section>
-        <div className='text-justify flex flex-col gap-2 pt-8 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 pt-8 mx-4 lg:mx-8 -mb-4 lg:mb-0'>
           <p>
             Najväčším požehnaním milosti je "Slovo, ktoré sa stalo telom".
             Otcova vôľa bola, aby plnosť a milosť, prebývala v Kristovi Ježišovi
@@ -790,7 +790,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Máriina úloha v spasení? black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify flex flex-col gap-2 pb-16 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 pb-12 lg:pb-16 mx-4 lg:mx-8'>
           <p>
             Akékoľvek obrátenie sa človeka k Márii s nádejou, že v nej nájde
             spasenie, je domýšľavou urážkou dokonalej práce Pána Ježiša Krista a
@@ -835,8 +835,8 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
         </div>
       </section>
       {/* Je Mária kráľovnou nebies? */}
-      <section className='flex flex-col justify-center mx-4 lg:mx-8  mt-8 gap-8 pb-4 lg:pb-8'>
-        <h1 className='text-title text-center mt-4'>
+      <section className='flex flex-col justify-center mx-4 lg:mx-8 mt-4 lg:mt-8 gap-8 pb-4 lg:pb-8'>
+        <h1 className='text-title text-center mt-4 -mb-2 lg:mb-0'>
           Je Mária kráľovnou nebies?
         </h1>
         <div className='text-justify flex flex-col gap-2 lg:mt-4'>
@@ -967,7 +967,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Je Mária kráľovnou nebies? lg and mob OK */}
       <section>
-        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 -mb-2 lg:mb-0'>
           <p>
             Vyučovanie rímskokatolíckej cirkvi týkajúcej sa "kráľovnej nebies"
             pripomína starovekých féničanov, ktorí uctievali Astartu ako

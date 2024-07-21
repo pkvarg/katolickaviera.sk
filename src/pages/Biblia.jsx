@@ -260,7 +260,7 @@ table mobile only */}
       {/* Biblia alebo tradícia?
 lg and mob OK */}
       <section>
-        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 -mb-8 -lg:mb-0'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 -mb-6 -lg:mb-0'>
           <p>
             Kresťan biblicky-veriaci je usvedčovaný Duchom Svätým, prijíma,
             necháva sa viesť, verí a podriaďuje sa Biblii, pretože je autoritou
@@ -423,7 +423,7 @@ lg and mob OK */}
       {/* Apokryfné (deuterokanonické) zväzky 
  black lg and mob OK */}
       <section className='bg-black text-white'>
-        <div className='text-justify flex flex-col gap-2 pb-8 lg:pb-16 mx-4 lg:mx-8'>
+        <div className='text-justify flex flex-col gap-2 pb-12 lg:pb-16 mx-4 lg:mx-8'>
           <p>
             Pán Ježiš Kristus a pisatelia Nového Zákona nikdy nedávali vážnosť
             ničomu z apokryfných kníh. Charakteristické "je napísané" alebo

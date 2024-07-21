@@ -45,7 +45,9 @@ const Spoved = () => {
               čo smrť Ježiša Krista dokonala na Kalvárii?
             </p>
 
-            <h1 className='text-title text-center mt-4'>Spoveď kňazovi</h1>
+            <h1 className='text-title text-center mt-8 lg:mt-4'>
+              Spoveď kňazovi
+            </h1>
             <p className='mt-8'>
               V rímskokatolíckej cirkvi sa vyžaduje po jednotlivcovi
               vyspovedanie sa zo smrteľných hriechov minimálne raz za rok. V
