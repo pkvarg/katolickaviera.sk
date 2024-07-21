@@ -967,7 +967,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
       </section>
       {/* Je Mária kráľovnou nebies? lg and mob OK */}
       <section>
-        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 -mb-2 lg:mb-0'>
+        <div className='text-justify flex flex-col gap-2 mx-4 lg:mx-8 -mb-6 lg:mb-0'>
           <p>
             Vyučovanie rímskokatolíckej cirkvi týkajúcej sa "kráľovnej nebies"
             pripomína starovekých féničanov, ktorí uctievali Astartu ako
@@ -987,7 +987,7 @@ Bola Mária počatá bez poškvrny dedičného hriechu?
  black lg and mob OK */}
       <section className='bg-black text-white'>
         <div className='text-justify flex flex-col gap-2 mt-16 mx-4 lg:mx-8'>
-          <h1 className='text-title text-center mt-12 lg:mt-16 mb-4 lg:mb-8'>
+          <h1 className='text-title text-center mt-8 lg:mt-16 mb-4 lg:mb-8'>
             Bola Mária bezhriešna?
           </h1>
           <p>

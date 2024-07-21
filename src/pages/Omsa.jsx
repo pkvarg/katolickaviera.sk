@@ -48,7 +48,7 @@ const Omsa = () => {
       </main>
       {/* eucharistia */}
       <section className='flex flex-col items-center mx-4 lg:mx-8 pb-16'>
-        <h1 className='text-title mt-4 lg:-mt-8'>Eucharistia</h1>
+        <h1 className='text-title mt-8 lg:-mt-8'>Eucharistia</h1>
         <p className='text-justify mt-8'>
           V katechizme katolíckej cirkvi je uvádzané, že skutočné telo, krv a
           božstvo Ježiša Krista je zoslané z neba a zázračne prepodstatnené v
