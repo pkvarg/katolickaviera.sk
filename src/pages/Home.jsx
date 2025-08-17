@@ -1,23 +1,30 @@
 import React, { useEffect, useState } from 'react'
-import CookieConsent from 'react-cookie-consent'
 import axios from 'axios'
 import { useStateContext } from '../context/StateContext'
 import LanguageBar from '../components/LanguageBar'
 import English from './English'
 import Czech from './Czech'
 import YouTube from '../components/YouTube'
+import ConsentBanner from '../components/ConsentBanner'
+import { loadUmamiScript, removeUmamiScript, getConsentStatus } from '../utils/analytics'
 
 const Home = ({ lng, setLng }) => {
   const { language } = useStateContext()
 
   console.log(language)
-  const [cookieAccept, setCookieAccept] = useState(false)
 
   useEffect(() => {
     if (language !== undefined) {
       setLng(language)
     }
   }, [language])
+
+  useEffect(() => {
+    const consent = getConsentStatus()
+    if (consent === 'accepted') {
+      loadUmamiScript()
+    }
+  }, [])
 
   const config = {
     headers: {
@@ -34,6 +41,16 @@ const Home = ({ lng, setLng }) => {
     } catch (error) {
       console.error('Error tracking declined visitors:', error)
     }
+  }
+
+  const handleConsentAccept = () => {
+    loadUmamiScript()
+    increaseVisitors()
+  }
+
+  const handleConsentDecline = () => {
+    removeUmamiScript()
+    increaseVisitors()
   }
 
   // const increaseVisitorsCount = async () => {
@@ -271,36 +288,11 @@ const Home = ({ lng, setLng }) => {
       {language === 'english' && <English />}
       {language === 'czech' && <Czech />}
 
-      <CookieConsent
-        location="bottom"
-        style={{
-          background: '#3b2f26',
-          color: '#d39f69',
-          fontSize: '15px',
-          textAlign: 'start',
-        }}
-        buttonStyle={{
-          background: '#c8bca4',
-          color: '#3b2f26',
-          fontSize: '18px',
-          padding: '5px',
-          // borderRadius: '25px',
-        }}
-        buttonText={
-          (language === 'slovak' && 'Pokračovať') ||
-          (language === 'english' && 'Continue') ||
-          (language == 'czech' && 'Pokračovat')
-        }
-        expires={365}
-        onAccept={() => {
-          setCookieAccept(true)
-          increaseVisitors()
-        }}
-      >
-        {(language === 'slovak' && 'Táto stránka nezhromažďuje žiadne údaje') ||
-          (language === 'english' && 'This site does not collect any information') ||
-          (language === 'czech' && 'Tato stránka neshromažďuje žádné údaje')}{' '}
-      </CookieConsent>
+      <ConsentBanner 
+        language={language}
+        onAccept={handleConsentAccept}
+        onDecline={handleConsentDecline}
+      />
     </>
   )
 }
